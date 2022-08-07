@@ -1,0 +1,92 @@
+# this file is included from init scripts
+# change values here
+
+# can help in case /tmp has not enough space
+#TMPDIR=/opt/zapret/tmp
+
+# override firewall type : iptables,nftables,ipfw
+FWTYPE=nftables
+
+# options for ipsets
+# maximum number of elements in sets. also used for nft sets
+SET_MAXELEM=522288
+# too low hashsize can cause memory allocation errors on low RAM systems , even if RAM is enough
+# too large hashsize will waste lots of RAM
+IPSET_OPT="hashsize 262144 maxelem $SET_MAXELEM"
+# dynamically generate additional ip. $1 = ipset/nfset/table name
+#IPSET_HOOK="/etc/zapret.ipset.hook"
+
+# options for ip2net. "-4" or "-6" auto added by ipset create script
+IP2NET_OPT4="--prefix-length=22-30 --v4-threshold=3/4"
+IP2NET_OPT6="--prefix-length=56-64 --v6-threshold=5"
+
+# number of parallel threads for domain list resolves
+MDIG_THREADS=30
+
+# ipset/*.sh can compress large lists
+GZIP_LISTS=1
+# command to reload ip/host lists after update
+# comment or leave empty for auto backend selection : ipset or ipfw if present
+# on BSD systems with PF no auto reloading happens. you must provide your own command
+# set to "-" to disable reload
+#LISTS_RELOAD="pfctl -f /etc/pf.conf"
+
+# CHOOSE OPERATION MODE
+# MODE : nfqws,tpws,tpws-socks,filter,custom
+# nfqws : nfqws for dpi desync
+# tpws : tpws transparent mode
+# tpws-socks : tpws socks mode
+# filter : no daemon, just create ipset or download hostlist
+# custom : custom mode. should modify custom init script and add your own code
+MODE=nfqws
+# apply fooling to http
+MODE_HTTP=1
+# for nfqws only. support http keep alives. enable only if DPI checks for http request in any outgoing packet
+MODE_HTTP_KEEPALIVE=0
+# apply fooling to https
+MODE_HTTPS=1
+# none,ipset,hostlist
+MODE_FILTER=none
+
+# CHOOSE NFQWS DAEMON OPTIONS for DPI desync mode. run "nfq/nfqws --help" for option list
+DESYNC_MARK=0x40000000
+NFQWS_OPT_DESYNC="--dpi-desync=split2 --hostcase"
+#NFQWS_OPT_DESYNC_HTTP="--dpi-desync=split2 --hostcase"
+#NFQWS_OPT_DESYNC_HTTPS="--dpi-desync=split2"
+NFQWS_OPT_DESYNC_HTTP6="--dpi-desync=split --hostcase --dpi-desync-split-pos=1"
+NFQWS_OPT_DESYNC_HTTPS6="--dpi-desync=split2"
+
+# CHOOSE TPWS DAEMON OPTIONS. run "tpws/tpws --help" for option list
+TPWS_OPT="--split-pos=1 --hostcase"
+
+# openwrt only : donttouch,none,software,hardware
+FLOWOFFLOAD=none
+
+# openwrt: specify networks to be treated as LAN. default is "lan"
+#OPENWRT_LAN="lan lan2 lan3"
+
+# for routers based on desktop linux and macos. has no effect in openwrt.
+# CHOOSE LAN and optinally WAN NETWORK INTERFACES
+# or leave them commented if its not router
+# it's possible to specify multiple interfaces like this : IFACE_LAN="eth0 eth1 eth2"
+#IFACE_LAN=eth0
+#IFACE_WAN=
+
+# should start/stop command of init scripts apply firewall rules ?
+# not applicable to openwrt with firewall3+iptables
+INIT_APPLY_FW=1
+# firewall apply hooks
+#INIT_FW_PRE_UP_HOOK="/etc/firewall.zapret.hook.pre_up"
+#INIT_FW_POST_UP_HOOK="/etc/firewall.zapret.hook.post_up"
+#INIT_FW_PRE_DOWN_HOOK="/etc/firewall.zapret.hook.pre_down"
+#INIT_FW_POST_DOWN_HOOK="/etc/firewall.zapret.hook.post_down"
+
+# do not work with ipv4
+#DISABLE_IPV4=1
+# do not work with ipv6
+DISABLE_IPV6=0
+
+# select which init script will be used to get ip or host list
+# possible values : get_user.sh get_antizapret.sh get_combined.sh get_reestr.sh get_hostlist.sh
+# comment if not required
+#GETLIST=

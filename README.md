@@ -199,7 +199,7 @@ nameserver <hostname dns>
 2.Masukin [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
 
 ## Aplikasi-Aplikasi untuk menghilangkan DPI
-Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep packet inspection,tapi DPI bisa dihilangkan dengan mudah dengan aplikasi² ini, jangan lupa untuk mengganti DNS terlebih dahulu dengan [aplikasi untuk menggunakan DNS](#aplikasi-aplikasi-dns) apabila ISP juga menggunakan DNS untuk pemblokiran
+Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep packet inspection,tapi DPI bisa dihilangkan dengan mudah dengan aplikasi² ini, jangan lupa untuk mengganti DNS terlebih dahulu dengan [aplikasi untuk menggunakan DNS](#aplikasi-aplikasi-dns) apabila ISP juga menggunakan DNS untuk pemblokiran, kami juga menyediakan config untuk aplikasi & ISP di folder [dpi-circumvention-config](/dpi-circumvention-config) pada repo ini
 
 1.[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]
 > Aplikasi CLI untuk hilangkan DPI
