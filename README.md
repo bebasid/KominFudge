@@ -109,7 +109,7 @@ Aplikasi² DNS ini bisa buat memakai DNS lebih senang
 >Aplikasi untuk mengganti DNS dan mengatur dnscrypt dengan mudah
 
 3.[DNSCrypt](https://dnscrypt.info) [Windows,macOS,Linux]
->DNS untuk selfhost sendiri
+>DNS untuk selfhost yang dapat melakukan forwarding ke server DNSCrypt & DNS over HTTPS
 
 4.[SimpleDNSCrypt](https://simplednscrypt.org) [Windows]
 >Untuk yang males,ini aplikasi penginstalan DNSCrypt dengan senang
@@ -128,6 +128,10 @@ Aplikasi² DNS ini bisa buat memakai DNS lebih senang
 
 9.[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) [Windows, macOS, Linux]
 >DNS untuk selfhost dengan adblock, encrypted upstream dan downstream .
+
+10.[stubby](https://github.com/getdnsapi/stubby) [Windows, macOS, Linux]
+>DNS untuk selfhost yang dapat melakukan forwarding ke server DNS over TLS
+
 
 ## Cara mengganti DNS
 Nah,tu udah ada List DNS,gimana makenya?
