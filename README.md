@@ -85,17 +85,18 @@ Nih,coba liat VPN yang kamu suka di list ini
 ## Memilih DNS yang tepat
 Nih,list DNS yang bisa dipakai
 
-| Nama | IPv4 | IPv4 2 | IPv6 | IPv6 2 | DoH | DoT |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Cloudflare DNS | `1.1.1.1` | `1.0.0.1` | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query`  | `1dot1dot1dot1.cloudflare-dns.com` |
-| Google DNS | `8.8.8.8` | `8.8.4.4` | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |
-| Quad9 | `9.9.9.9` | `149.112.112.112` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` |
-| [AhaDNS](https://blitz-setup.ahadns.com) | ? | ? | ? | ? | `blitz.ahadns.com` | ? |
-| BlahDNS | `45.91.92.121`  | X | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` |
-| [RethinkDNS](https://rethinkdns.com/configure) | ? | ? | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` |
-| NextDNS | `45.90.28.233` | `45.90.30.233` | `2a07:a8c0::` | `2a07:a8c0::` | `dns.nextdns.io` | `dns.nextdns.io` |
-| LibreDNS | `116.202.176.26` | X | X | X | `doh.libredns.gr/dns-query`  | `dot.libredns.gr` |
-| [ControlD](https://controld.com/free-dns) | `76.76.2.2` | `76.76.10.2` | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com` |
+| Nama | IPv4 | IPv4 2 | IPv6 | IPv6 2 | DoH | DoT | Catatan |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: |
+| Cloudflare DNS | `1.1.1.1` | `1.0.0.1` | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query`  | `1dot1dot1dot1.cloudflare-dns.com` | - |
+| Google DNS | `8.8.8.8` | `8.8.4.4` | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |  - |
+| Quad9 | `9.9.9.9` | `149.112.112.112` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` | Memblokir malware |
+| [AhaDNS](https://blitz-setup.ahadns.com) | ? | ? | ? | ? | `blitz.ahadns.com` | ? | - |
+| BlahDNS | `45.91.92.121`  | X | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` | - |
+| [RethinkDNS](https://rethinkdns.com/configure) | ? | ? | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` | - |
+| NextDNS | `45.90.28.233` | `45.90.30.233` | `2a07:a8c0::` | `2a07:a8c0::` | `dns.nextdns.io` | `dns.nextdns.io` | - |
+| LibreDNS | `116.202.176.26` | X | X | X | `doh.libredns.gr/dns-query`  | `dot.libredns.gr` | - |
+| [ControlD](https://controld.com/free-dns) | `76.76.2.2` | `76.76.10.2` | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com`| - |
+| [AdGuard DNS](https://adguard-dns.io/) | `94.140.14.14` | `94.140.15.15` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` | Memblokir iklan & malware |
 
 List lebih lengkap bisa dilihat di [KB Adguard](https://adguard-dns.io/kb/general/dns-providers/) dan [Curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). Bisa juga bikin sendiri dengan [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) atau [server sendiri dengan PHP](https://github.com/NotMikeDEV/DoH)
 
