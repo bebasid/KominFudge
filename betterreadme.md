@@ -3,7 +3,7 @@
 <p align="center"><sup>DISCLAIMER: kominfudge tidak bertanggung jawab atas kerusakan perangkat anda,ambil dengan risiko anda sendiri</sup></p>
 
 ### Navigasi
-- [Pilihan Tertinggi](#pilihan-tertinggi-)
+- [Pilihan Tertinggi](#pilihan-tertinggi)
 - [Memilih ISP yang tidak ketat](#memilih-isp-yang-tidak-ketat)
 - [Memilih VPN yang aman](#memilih-vpn-yang-aman)
 - [Memilih DNS yang tepat](#memilih-dns-yang-tepat)
@@ -16,7 +16,7 @@
 - [Aplikasi² Tor](#aplikasi-aplikasi-tor)
 - [Kredit & Refrence Link](/kredit.md)
 
-### Pilihan Tertinggi [🔝](#navigasi)
+### Pilihan Tertinggi[🔝](#navigasi)
 
 DNS: [1.1.1.1](https://1.1.1.1)  
 DNS yang Intuitif dan senang untuk dipakai  
@@ -30,7 +30,7 @@ Mempunyai hostfile yang banyak isinya
 VPN: [ProtonVPN](https://protonvpn.com)  
 Gratis dan Aman
 
-## Memilih ISP yang tidak KETAT
+## Memilih ISP yang tidak KETAT[🔝](#navigasi)
 ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP² Indonesia memblokir[;](/sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.md)
 
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
@@ -57,3 +57,123 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | Citranet | Ya | Tidak |
 
 <sup>Ambil ini dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
+
+## Memilih VPN yang aman[🔝](#navigasi)
+Ah VPN,cara yang tersenang untuk melewati blok,*Tapi* jangan pergi ke Playstore dan download VPN yang gak aman!  
+Nih,coba liat VPN aman yang lebih baik dipake daripada vpn playstore di list ini
+
+| Nama | Positif | Negatif | Server |
+| :---: | :---: | :---: | :---: |
+| [Mullvad](https://mullvad.net/) | VPN Berbayar yang aman | Berbayar | 867 |
+| [ProtonVPN](https://protonvpn.com) | VPN "gratis" yang "aman" | Tidak ada Split-tunneling di sub gratis | 100 |
+| [Windscribe](https://windscribe.com) | Ada Split-tunneling & banyak fitur lainnya | 15GB per bulan dan [ini](https://arstechnica.com/gadgets/2021/07/vpn-servers-seized-by-ukrainian-authorities-werent-encrypted) | 15 |
+| [OpenVPN](https://openvpn.net) | Open source | Disediakan oleh individu | ? |
+| [ExpressVPN](https://expressvpn.com) | Cepat | Tidak begitu aman dan berbayar | 148 |
+| [Wireguard](https://wireguard.com) | Seperti OpenVPN | Disediakan oleh individu | ? |
+| [Softether](https://www.vpngate.net/en/download.aspx) | Seperti OpenVPN(?) | Disediakan oleh individu | ? |
+| [Psiphon](https://psiphon.ca) | Open Source | ? | ? |
+
+## Memilih DNS yang tepat[🔝](#navigasi)
+DNS,cara paling simpel untuk kominfo ngeblokir,tapi DNS bisa [diganti](#cara-mengganti-dns)!  
+Nih,list server DNS untuk menggantikan server blokir punya Kominfo
+
+| Nama | IPv4 | IPv4 2 | IPv6 | IPv6 2 | DoH | DoT | Catatan |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: |
+| Cloudflare DNS | `1.1.1.1` | `1.0.0.1` | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query`  | `1dot1dot1dot1.cloudflare-dns.com` | - |
+| Google DNS | `8.8.8.8` | `8.8.4.4` | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |  - |
+| Quad9 | `9.9.9.9` | `149.112.112.112` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` | Memblokir malware |
+| [AhaDNS](https://blitz-setup.ahadns.com) | ? | ? | ? | ? | `blitz.ahadns.com` | ? | - |
+| BlahDNS | `45.91.92.121`  | X | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` | - |
+| [RethinkDNS](https://rethinkdns.com/configure) | ? | ? | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` | - |
+| NextDNS | `45.90.28.233` | `45.90.30.233` | `2a07:a8c0::` | `2a07:a8c0::` | `dns.nextdns.io` | `dns.nextdns.io` | - |
+| LibreDNS | `116.202.176.26` | X | X | X | `doh.libredns.gr/dns-query`  | `dot.libredns.gr` | - |
+| [ControlD](https://controld.com/free-dns) | `76.76.2.2` | `76.76.10.2` | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com`| - |
+| AdGuard DNS | `94.140.14.14` | `94.140.15.15` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` | Memblokir iklan & malware |
+
+<sup>List lebih lengkap bisa dilihat di [KB Adguard](https://adguard-dns.io/kb/general/dns-providers/) dan [Curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). Bisa juga bikin sendiri dengan [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) atau [server sendiri dengan PHP](https://github.com/NotMikeDEV/DoH)</sup>
+
+## Aplikasi-Aplikasi DNS[🔝](#navigasi)
+Aplikasi² DNS ini bisa buat memakai DNS lebih senang
+
+1.[Nebulo](https://nebulo.app) [Android]  
+Aplikasi untuk mengganti DNS dengan mudah  
+
+2.[DNSCloak](https://apps.apple.com/app/id1452162351) [iOS]  
+Aplikasi untuk mengganti DNS dan mengatur dnscrypt dengan mudah  
+
+3.[DNSCrypt](https://dnscrypt.info) [Windows,macOS,Linux]  
+DNS untuk selfhost yang dapat melakukan forwarding ke server DNSCrypt & DNS over HTTPS  
+
+4.[SimpleDNSCrypt](https://simplednscrypt.org) [Windows]  
+Untuk yang males,ini aplikasi penginstalan DNSCrypt dengan senang  
+
+5.[DNS Profile Creator](https://dns.notjakob.com/tool.html) [Browser]  
+Cara membuat mobileconfig Apple dengan senang  
+
+6.[YogaDNS](https://yogadns.com) [Windows]  
+Client DNS untuk Windows  
+
+7.[RethinkDNS](https://rethinkdns.com) [Android]  
+Aplikasi untuk mengganti DNS dengan mudah...lagi  
+
+8.[Intra](https://getintra.org) [Android]  
+dan lagi.........  
+
+9.[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) [Windows, macOS, Linux]  
+DNS untuk selfhost dengan adblock, encrypted upstream dan downstream  
+
+10.[Stubby](https://github.com/getdnsapi/stubby) [Windows, macOS, Linux]  
+DNS untuk selfhost yang dapat melakukan forwarding ke server DNS over TLS
+
+## Cara mengganti DNS[🔝](#navigasi)
+Nah,tu udah ada List DNS,gimana makenya?
+
+### Di Android
+1.Settings>Other Wireless Connections>Private DNS  
+2.Masukkan [hostname dns](#memilih-dns-yang-tepat) dan pencet Save
+
+### Di iOS
+
+1.Settings>Wi-Fi>*wifi*  
+2.Ketuk ikon (i)  
+3.Ganti IP Adress jadi Static dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
+
+### Di Windows
+#### Windows 10 dan kebawah
+1. Control Panel>Network and Internet>Network and Sharing Center>Connections>Properties  
+2. Pencet Internet Protocol Version 4 (TCP/IPv4) 2 kali  
+3. Ganti "Obtain DNS server address automatically" ke "Use the following DNS server addresses"  
+4. Masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS dan pencet Ok
+
+#### Windows 11
+1. Buka Settings di Windows 11, Pergi ke Network & Internet dan pilih Properties    
+2. Dibagian DNS server assignment, klik tombol Edit  
+3. Ganti Automatic menjadi Manual  
+4. di Preferred DNS, masukan 1.1.1.1 dan di Alternate masukan 8.8.8.8  
+5. di Preferred dan Alternate DNS Encryption, pilih opsi Encrypted only (DNS-over-HTTPS)  
+6. Klik Save
+
+### Di macOS
+1. System Preferences>Network>Wi-Fi>Advanced>DNS  
+2. Pencet tombol “+” dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS,pencet Ok dan Apply
+
+### Di Linux
+1. Buka Terminal  
+2. Jalankan perintah `nano /etc/resolv.conf` untuk mengedit file `/etc/resolv.conf`  
+3.Ubah isi file menjadi seperti berikut (ganti `<hostname dns>` menjadi salah satu hostname dns [disini](#memilih-dns-yang-tepat))
+```
+nameserver <hostname dns>
+nameserver <hostname dns>
+```
+
+### Di browser berbasis Chromium
+1.Settings>Privacy and Security  
+2.Masukin [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
+
+### Di Firefox
+1.Settings>Network Settings  
+2.Masukin [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
+
+#### *Gimana cara tau DNSnya berhasil*  
+Pergi ke situs [DNSLeakTest](https://dnsleaktest.com) atau [BrowserLeaks](https://browserleaks.com/dns) untuk ngetes  
+Jika DNS ISP muncul daripada DNS yang diset, silahkan download [DNSCrypt](https://dnscrypt.info) atau [SimpleDNSCrypt](https://simplednscrypt.org)
