@@ -14,9 +14,11 @@
 - [List Filehost](#list-host-file)
   - [Cara unblok memakai Filehost](#cara-unblok-memakai-filehost)
 - [Aplikasi² Tor](#aplikasi-aplikasi-tor)
-- [Kredit & Refrence Link](/kredit.md)
 
-### Pilihan Tertinggi[🔝](#navigasi)
+Projek ini tidak akan ada tanpa kontribusi [kalian](/kredit.md)  
+*Oh ya,kalau mau kontribusi,liat [ini](/CONTRIBUTING.md)*
+
+## Pilihan Tertinggi[🔝](#navigasi)
 
 DNS: [1.1.1.1](https://1.1.1.1)  
 DNS yang Intuitif dan senang untuk dipakai  
@@ -177,3 +179,104 @@ nameserver <hostname dns>
 #### *Gimana cara tau DNSnya berhasil*  
 Pergi ke situs [DNSLeakTest](https://dnsleaktest.com) atau [BrowserLeaks](https://browserleaks.com/dns) untuk ngetes  
 Jika DNS ISP muncul daripada DNS yang diset, silahkan download [DNSCrypt](https://dnscrypt.info) atau [SimpleDNSCrypt](https://simplednscrypt.org)
+
+## Aplikasi-Aplikasi untuk menghilangkan DPI[🔝](#navigasi)
+Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep packet inspection,tapi DPI bisa dihilangkan dengan mudah dengan aplikasi² ini
+
+1.[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
+Aplikasi CLI untuk hilangkan DPI
+
+2.[GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [Windows,macOS,Linux]  
+Aplikasi yang ada GUI untuk hilangkan DPI
+
+3.[PowerTunnel](https://github.com/krlvm/PowerTunnel) [Windows,macOS,Linux,[Android](https://github.com/krlvm/PowerTunnel-Android)]  
+Aplikasi yang ada GUI untuk hilangkan DPI (2)
+
+4.[SNI-Mask](https://github.com/macronut/SNI-Mask) [Windows]  
+proxy untuk menghilangkan DPI
+
+5.[Accesser](https://github.com/URenko/Accesser) [Windows,macOS,Linux]  
+solving SNI RST
+
+6.[GhosTCP](https://github.com/macronut/ghostcp) [Windows]  
+Mengamankan koneksi TCP
+
+7.[sniffjoke](https://github.com/vecna/sniffjoke) [Linux]  
+Mengamankan wiretap/sniff/IDS
+
+8.[SpoofDPI](https://github.com/xvzc/SpoofDPI) [macOS,Linux]  
+DPI Spoofer
+
+9.[Zapret](https://github.com/bol-van/zapret/blob/master/docs/readme.eng.md) [Linux, FreeBSD]  
+DPI Circumvention Tool
+
+10.[DPITunnel](https://github.com/zhenyolka/DPITunnel-cli) [Linux,[Android](https://github.com/zhenyolka/DPITunnel-android)]  
+CLI untuk Linux
+
+11.[Geneva](https://github.com/kkevsterrr/geneva) [Linux]  
+DPI Circumvention Tool berbasis AI  
+
+*Jangan lupa untuk mengganti [DNS](#aplikasi-aplikasi-dns) terlebih dahulu apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran,Kami juga menyediakan config untuk aplikasi & ISP di folder [ini](/dpi-circumvention-config)*
+
+### Trik untuk bypass DPI tanpa aplikasi[🔝](#navigasi)
+
+#### Di Linux
+*Drop TCP RST*
+Jalankan perintah `sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP` di terminal\
+Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server
+
+## List Host file[🔝](#navigasi)
+Nah,Hostfile (atau Filehost)....agak payah nge-eksplanasi xD  
+Nih List hostfile untuk yang big brain
+
+| List | Alternatif |
+| :---: | :---: |
+| [bebasid](https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts) |
+| [mul14](https://gist.githubusercontent.com/mul14/eb05e88fcec5bb195cbb/raw/611c0693c460fc5bd7037c6d9d43fa6c0ce4fd7c/hosts) |
+| [tumblr](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=2556197#gistcomment-2556197) |
+| [Netflix](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3235083#gistcomment-3235083) | [2](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3324456#gistcomment-3324456) |
+| [nhentai](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3324461#gistcomment-3324461) |
+| [Binance](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3727848#gistcomment-3727848) |
+| [Reddit](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3878656#gistcomment-3878656) |
+| [Steam](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=4250815#gistcomment-4250815) |
+
+## Cara unblok memakai Filehost[🔝](#navigasi)
+Nah,filenya ada...sekarang apa?
+
+### Di Windows
+1.Salin text didalam hostfile yang kamu pilih  
+2.Buka File Explorer dan pergi ke `C:\Windows\System32\drivers\etc`  
+3.Paste text ke file "host"
+
+### Di Android
+
+#### ROOT:
+1.Salin text didalam hostfile yang kamu pilih  
+2.Buka File Explorer dan pergi ke `/system/etc`  
+3.Paste text ke file "host"
+
+#### NON-ROOT:
+1.Salin text didalam hostfile yang kamu pilih  
+2.Buat file dan paste textnya didalam file itu  
+3.Install [Virtual Hosts](https://github.com/x-falcon/Virtual-Hosts) atau [Host Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change)  
+4.Pencet "Select Host File"/"Import HOSTS file" dan pencet file yang kamu buat
+
+## Aplikasi-Aplikasi Tor[🔝](#navigasi)
+Nah,ini bagian extrim,memakai Tor
+
+1.[Tor Browser](https://www.torproject.org) [Windows,macOS,Linux,Android]  
+Browser officialnya tor  
+
+2.[Orbot](https://guardianproject.info/apps/org.torproject.android) [Android]  
+Proxy dengan Tor  
+
+3.[Onion Browser](https://onionbrowser.com) [iOS]  
+browser tor di iOS
+
+<p align="center">Share projek ini</p>
+<div id="sosial">
+ <p align="center">
+  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/MeFinity/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/MeFinity/KominFudge"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white"/></a>
+ </p>
+</div>
