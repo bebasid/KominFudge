@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/MeFinity/KominFudge/blob/main/assets/kominfudge.png" width="500px" align="center"></p>
+<p align="center"><img src="./assets/kominfudge.png" width="500px" align="center"></p>
 <p align="center">Karena Kominfo ngeblok,Ayo kita unblok</p>
 <p align="center"><sup>DISCLAIMER: kominfudge tidak bertanggung jawab atas kerusakan perangkat anda,ambil dengan risiko anda sendiri</sup></p>
 
@@ -162,7 +162,7 @@ Nah,tu udah ada List DNS,gimana makenya?
 ### Di Linux
 1. Buka Terminal  
 2. Jalankan perintah `nano /etc/resolv.conf` untuk mengedit file `/etc/resolv.conf`  
-3.Ubah isi file menjadi seperti berikut (ganti `<hostname dns>` menjadi salah satu hostname dns [disini](#memilih-dns-yang-tepat))
+3. Ubah isi file menjadi seperti berikut (ganti `<hostname dns>` menjadi salah satu hostname dns [disini](#memilih-dns-yang-tepat))
 ```
 nameserver <hostname dns>
 nameserver <hostname dns>
@@ -182,6 +182,9 @@ Jika DNS ISP muncul daripada DNS yang diset, silahkan download [DNSCrypt](https:
 
 ## Aplikasi-Aplikasi untuk menghilangkan DPI[🔝](#navigasi)
 Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep packet inspection,tapi DPI bisa dihilangkan dengan mudah dengan aplikasi² ini
+
+> **⚠ Perhatian**
+> Jangan lupa untuk mengganti [DNS](#aplikasi-aplikasi-dns) terlebih dahulu atau menggunakan [Hosts file](#list-host-file) apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran,Kami juga menyediakan config untuk aplikasi & ISP di folder [ini](/dpi-circumvention-config)
 
 1.[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
 Aplikasi CLI untuk hilangkan DPI
@@ -215,8 +218,6 @@ CLI untuk Linux
 
 11.[Geneva](https://github.com/kkevsterrr/geneva) [Linux]  
 DPI Circumvention Tool berbasis AI  
-
-*Jangan lupa untuk mengganti [DNS](#aplikasi-aplikasi-dns) terlebih dahulu apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran,Kami juga menyediakan config untuk aplikasi & ISP di folder [ini](/dpi-circumvention-config)*
 
 ### Trik untuk bypass DPI tanpa aplikasi[🔝](#navigasi)
 
