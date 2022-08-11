@@ -33,7 +33,7 @@ VPN: [ProtonVPN](https://protonvpn.com)
 Gratis dan Aman
 
 ## Memilih ISP yang tidak KETAT[🔝](#navigasi)
-ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP² Indonesia memblokir[;](/sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss.md)
+ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP² Indonesia memblokir[;](/sssssssssssssssssssssssssssssssssss.md)
 
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
 | :---: | :---: | :---: |
@@ -183,7 +183,7 @@ Jika DNS ISP muncul daripada DNS yang diset, silahkan download [DNSCrypt](https:
 ## Aplikasi-Aplikasi untuk menghilangkan DPI[🔝](#navigasi)
 Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep packet inspection,tapi DPI bisa dihilangkan dengan mudah dengan aplikasi² ini
 
-> **⚠ Perhatian**
+> ⚠ **PERHATIAN** ⚠  
 > Jangan lupa untuk mengganti [DNS](#aplikasi-aplikasi-dns) terlebih dahulu atau menggunakan [Hosts file](#list-host-file) apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran,Kami juga menyediakan config untuk aplikasi & ISP di folder [ini](/dpi-circumvention-config)
 
 1.[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
