@@ -97,6 +97,9 @@ Nih,list server DNS untuk menggantikan server blokir punya Kominfo
 ## Aplikasi-Aplikasi DNS[🔝](#navigasi)
 Aplikasi² DNS ini bisa buat memakai DNS lebih senang
 
+> ⚠ **PERHATIAN** ⚠  
+> Apabila ISP juga melakukan pemblokiran menggunakan DPI gunakan juga [Aplikasi-aplikasi untuk menghilangkan DPI](#aplikasi-aplikasi-untuk-menghilangkan-dpi)
+
 1.[Nebulo](https://nebulo.app) [Android]  
 Aplikasi untuk mengganti DNS dengan mudah  
 
@@ -184,7 +187,11 @@ Jika DNS ISP muncul daripada DNS yang diset, silahkan download [DNSCrypt](https:
 Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep packet inspection,tapi DPI bisa dihilangkan dengan mudah dengan aplikasi² ini
 
 > ⚠ **PERHATIAN** ⚠  
-> Jangan lupa untuk mengganti [DNS](#aplikasi-aplikasi-dns) terlebih dahulu atau menggunakan [Hosts file](#list-host-file) apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran,Kami juga menyediakan config untuk aplikasi & ISP di folder [ini](/dpi-circumvention-config)
+> Jangan lupa untuk mengganti [DNS](#aplikasi-aplikasi-dns) terlebih dahulu atau menggunakan [Hosts file](#list-host-file) apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran
+
+> ℹ️ **Info**  
+> Kami juga menyediakan config untuk aplikasi & ISP di folder [ini](/dpi-circumvention-config)
+
 
 1.[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
 Aplikasi CLI untuk hilangkan DPI
