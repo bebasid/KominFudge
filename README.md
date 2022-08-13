@@ -88,11 +88,11 @@ Nih,list server DNS untuk menggantikan server blokir punya Kominfo
 | BlahDNS | `45.91.92.121`  | X | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` | - |
 | [RethinkDNS](https://rethinkdns.com/configure) | ? | ? | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` | - |
 | NextDNS | `45.90.28.233` | `45.90.30.233` | `2a07:a8c0::` | `2a07:a8c0::` | `dns.nextdns.io` | `dns.nextdns.io` | - |
-| LibreDNS | `116.202.176.26` | X | X | X | `doh.libredns.gr/dns-query`  | `dot.libredns.gr` | - |
+| LibreDNS | `116.202.176.26` | X | X | X | `doh.libredns.gr/dns-query` | `dot.libredns.gr` | - |
 | [ControlD](https://controld.com/free-dns) | `76.76.2.2` | `76.76.10.2` | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com`| - |
 | AdGuard DNS | `94.140.14.14` | `94.140.15.15` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` | Memblokir iklan & malware |
 | [DNSWarden](https://dnswarden.com/customfilter.html) | ? | ? | ? | ? | ? | ? | - |
-| Moratelindo Uncensored DNS | ? | X | X | X | X | X | DNS punya Moratelindo yang tidak tersensor |
+| Moratelindo Uncensored DNS | `27.50.20.22` | X | X | X | X | X | DNS punya Moratelindo yang tidak tersensor |
 
 <sup>List lebih lengkap bisa dilihat di [KB Adguard](https://adguard-dns.io/kb/general/dns-providers/) dan [Curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). Bisa juga bikin sendiri dengan [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) atau [server sendiri dengan PHP](https://github.com/NotMikeDEV/DoH)</sup>
 
