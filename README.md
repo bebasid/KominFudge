@@ -68,7 +68,7 @@ Nih,coba liat VPN aman yang lebih baik dipake daripada vpn playstore di list ini
 | Nama | Positif | Negatif | Server |
 | :---: | :---: | :---: | :---: |
 | [Mullvad](https://mullvad.net/) | VPN Berbayar yang aman | Berbayar | 867 |
-| [ProtonVPN](https://protonvpn.com) | VPN "gratis" yang "aman" | Tidak ada Split-tunneling di sub gratis | 100 |
+| [ProtonVPN](https://protonvpn.com) | VPN "gratis" yang "aman" | Tidak ada Split-tunneling di sub gratis dan [ini](https://arstechnica.com/information-technology/2021/09/privacy-focused-protonmail-provided-a-users-ip-address-to-authorities) | 100 |
 | [Windscribe](https://windscribe.com) | Ada Split-tunneling & banyak fitur lainnya | 15GB per bulan dan [ini](https://arstechnica.com/gadgets/2021/07/vpn-servers-seized-by-ukrainian-authorities-werent-encrypted) | 15 |
 | [ExpressVPN](https://expressvpn.com) | Cepat | Tidak begitu aman dan berbayar | 148 |
 | [Psiphon](https://psiphon.ca) | Open Source | ? | ? |
@@ -140,7 +140,7 @@ DNS untuk selfhost dengan adblock, encrypted upstream dan downstream
 10.[Stubby](https://github.com/getdnsapi/stubby) [Windows, macOS, Linux]  
 DNS untuk selfhost yang dapat melakukan forwarding ke server DNS over TLS
 
-11. [InviZible](https://github.com/Gedsh/InviZible) [Android]  
+11.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
 Aplikasi android untuk dns dan tor
 
 ## Cara mengganti DNS[🔝](#navigasi)
