@@ -11,6 +11,8 @@ dah tau semua? ok,ayuk kita lanjut
 4. link-kan juga medsos mu di deskripsi pr (opsional)  
 love you ;P
 
+# Guide
+
 ### Spasi
 Spasinya gini gan
 ```
@@ -18,7 +20,7 @@ text1  <- ada 2 spasi
 text2
 ```
 
-### Template
+# Template
 
 #### DNS
 `| [DNS](DNS Site) | note | ? | ? | ? | ? | ? | ? |`
@@ -30,16 +32,21 @@ text2
 #### VPN
 `| [VPN](VPN Site) | Positif | Negatif | Jumlah Server |`
 
+Advanced VPN  
+`| [VPN](VPN Site) | Deskripsi |`
+
 #### Aplikasi
-`Number.[App](Situs App) [Platform]  
-deskripsi`
+```
+Number.[App](Situs App) [Platform]  
+deskripsi
+```
 
 #### [kredit.md](/kredit.md)
 ```
 | <a href="link sosial utama"><img src="link foto" width="50px" /><a/> | kontribusi 1<br />kontibusi 2(optional) | link sosial,pakai template tombol dibawah |
-```  
-nih,ini template untuk naro di Table  
-template tombol:  
+```
+
+Template tombol:  
 ```
 <a href="link medsos mu"><img src="taruh link img.shields.io disini"/><a/>
 ```
