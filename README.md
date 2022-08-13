@@ -6,6 +6,7 @@
 - [Pilihan Tertinggi](#pilihan-tertinggi)
 - [Memilih ISP yang tidak ketat](#memilih-isp-yang-tidak-ketat)
 - [Memilih VPN yang aman](#memilih-vpn-yang-aman)
+  - [VPN untuk Advanced Users](#vpn-untuk-advanced-users)
 - [Memilih DNS yang tepat](#memilih-dns-yang-tepat)
   - [Aplikasi² DNS](#aplikasi-aplikasi-dns)
   - [Cara mengganti DNS](#cara-mengganti-dns)
@@ -69,11 +70,18 @@ Nih,coba liat VPN aman yang lebih baik dipake daripada vpn playstore di list ini
 | [Mullvad](https://mullvad.net/) | VPN Berbayar yang aman | Berbayar | 867 |
 | [ProtonVPN](https://protonvpn.com) | VPN "gratis" yang "aman" | Tidak ada Split-tunneling di sub gratis | 100 |
 | [Windscribe](https://windscribe.com) | Ada Split-tunneling & banyak fitur lainnya | 15GB per bulan dan [ini](https://arstechnica.com/gadgets/2021/07/vpn-servers-seized-by-ukrainian-authorities-werent-encrypted) | 15 |
-| [OpenVPN](https://openvpn.net) | Open source | Disediakan oleh individu | ? |
 | [ExpressVPN](https://expressvpn.com) | Cepat | Tidak begitu aman dan berbayar | 148 |
-| [Wireguard](https://wireguard.com) | Seperti OpenVPN | Disediakan oleh individu | ? |
-| [Softether](https://www.vpngate.net/en/download.aspx) | Seperti OpenVPN(?) | Disediakan oleh individu | ? |
 | [Psiphon](https://psiphon.ca) | Open Source | ? | ? |
+| [OVPN](https://ovpn.com) | **Aman** | Berbayar | 102 |
+
+### VPN untuk Advanced Users[🔝](#navigasi)
+
+| Nama | Deskripsi |
+| :---: | :---: |
+| [OpenVPN](https://openvpn.net) | VPN system that implements techniques to create secure point-to-point or site-to-site connections |
+| [Wireguard](https://wireguard.com) | Seperti OpenVPN |
+| [Softether](https://softether.org) | Seperti OpenVPN(?) |
+
 
 ## Memilih DNS yang tepat[🔝](#navigasi)
 DNS,cara paling simpel untuk kominfo ngeblokir,tapi DNS bisa [diganti](#cara-mengganti-dns)!  
