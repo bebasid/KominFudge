@@ -21,10 +21,10 @@ text2
 ### Template
 
 #### DNS
-`| [DNS](DNS Site) | ? | ? | ? | ? | ? | ? | note |`
+`| [DNS](DNS Site) | note | ? | ? | ? | ? | ? | ? |`
 
 ```
-| DNS | `ipv4` | X | `ipv6` | X | `doh` | `dot` | note |
+| DNS | note | `ipv4` | X | `ipv6` | X | `doh` | `dot` |
 ```
 
 #### VPN
