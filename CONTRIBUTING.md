@@ -11,7 +11,30 @@ dah tau semua? ok,ayuk kita lanjut
 4. link-kan juga medsos mu di deskripsi pr (opsional)  
 love you ;P
 
-### Wah,kamu mau mandiri dan naro apa yang kamu buat di [kredit.md](/kredit.md)?
+### Spasi
+Spasinya gini gan
+```
+text1  <- ada 2 spasi
+text2
+```
+
+### Template
+
+#### DNS
+`| [DNS](DNS Site) | ? | ? | ? | ? | ? | ? | note |`
+
+```
+| DNS | `ipv4` | X | `ipv6` | X | `doh` | `dot` | note |
+```
+
+#### VPN
+`| [VPN](VPN Site) | Positif | Negatif | Jumlah Server |`
+
+#### Aplikasi
+`Number.[App](Situs App) [Platform]  
+deskripsi`
+
+#### [kredit.md](/kredit.md)
 ```
 | <a href="link sosial utama"><img src="link foto" width="50px" /><a/> | kontribusi 1<br />kontibusi 2(optional) | link sosial,pakai template tombol dibawah |
 ```  
