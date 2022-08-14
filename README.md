@@ -5,6 +5,7 @@
 ### Navigasi
 - [Pilihan Tertinggi](#pilihan-tertinggi)
 - [Memilih ISP yang tidak ketat](#memilih-isp-yang-tidak-ketat)
+  - [Level kepayahan unblok memakai DPI](#level-kepayahan-unblok-memakai-dpi)
 - [Memilih VPN yang aman](#memilih-vpn-yang-aman)
   - [VPN untuk Advanced Users](#vpn-untuk-advanced-users)
 - [Memilih DNS yang tepat](#memilih-dns-yang-tepat)
@@ -47,7 +48,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | MNC | Ya | Tidak |
 | PT Remala Abadi | Ya | Tidak |
 | PT iForte Global internet | Ya | Tidak |
-| lconnect PLN | Ya | Ya |
+| Iconnet PLN | Ya | Ya |
 | Telkomsel | Ya | Ya |
 | XL | Ya | Ya |
 | 3 | Ya | Ya |
@@ -59,7 +60,20 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | Lintasarta | Ya | Tidak |
 | Citranet | Ya | Tidak |
 
-<sup>Ambil ini dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
+### Level kepayahan unblok memakai DPI
+Seberapa payah cara nge-unblok memakai DPI per-ISP
+
+**DATA INI TIDAK LENGKAP**
+| Nama | Kepayahan |
+| :---: | :---: |
+| XL | Tinggi |
+| Indihome | Sedang |
+| Iconnet | Sedang |
+| Indosat | Sedang |
+| 3 | Rendah |
+| Smartfren | Rendah |
+
+<sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
 
 ## Memilih VPN yang aman[🔝](#navigasi)
 Ah VPN,cara yang tersenang untuk melewati blok,*Tapi* jangan pergi ke Playstore dan download VPN yang gak aman!  
