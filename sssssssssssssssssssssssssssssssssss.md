@@ -1,7 +1,7 @@
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
 | :---: | :---: | :---: |
 | Indihome | DNS Nasional | Ya |
-| CBN | DNS | Tidak |
+| CBN | DNS Nasional | Tidak |
 | Biznet | DNS Nasional | Tidak |
 | MyRepublic | DNS Nasional | Tidak |
 | FirstMedia | DNS Nasional | Tidak |
@@ -9,7 +9,7 @@
 | MNC | DNS | Tidak |
 | PT Remala Abadi | DNS | Tidak |
 | PT iForte Global internet | DNS | Tidak |
-| lconnect PLN | DNS | Ya |
+| Iconnet PLN | DNS | Ya |
 | Telkomsel | DNS Nasional | Ya |
 | XL | DNS Nasional | Ya |
 | 3 | DNS Nasional | Ya |
