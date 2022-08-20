@@ -6,15 +6,15 @@
 - [Pilihan Tertinggi](#pilihan-tertinggi)
 - [Memilih ISP yang tidak ketat](#memilih-isp-yang-tidak-ketat)
   - [Level kepayahan unblok memakai DPI](#level-kepayahan-unblok-memakai-dpi)
-- [Memilih VPN yang aman](#memilih-vpn-yang-aman)
-  - [VPN untuk Advanced Users](#vpn-untuk-advanced-users)
 - [Memilih DNS yang tepat](#memilih-dns-yang-tepat)
   - [Aplikasi² DNS](#aplikasi-aplikasi-dns)
   - [Cara mengganti DNS](#cara-mengganti-dns)
 - [Aplikasi² untuk menghilangkan DPI](#aplikasi-aplikasi-untuk-menghilangkan-dpi)
   - [Trik untuk bypass DPI tanpa aplikasi](#trik-untuk-bypass-dpi-tanpa-aplikasi)
-- [List Filehost](#list-host-file)
-  - [Cara unblok memakai Filehost](#cara-unblok-memakai-filehost)
+- [List hosts file](#list-host-file)
+  - [Cara unblok memakai hosts file](#cara-unblok-memakai-filehost)
+- [Memilih VPN yang aman](#memilih-vpn-yang-aman)
+  - [VPN untuk Advanced Users](#vpn-untuk-advanced-users)
 - [Aplikasi² Tor](#aplikasi-aplikasi-tor)
 
 Projek ini tidak akan ada tanpa kontribusi [kalian](/kredit.md)  
@@ -74,27 +74,6 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | Smartfren | Rendah |
 
 <sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
-
-## Memilih VPN yang aman[🔝](#navigasi)
-Ah VPN,cara yang tersenang untuk melewati blok,*Tapi* jangan pergi ke Playstore dan download VPN yang gak aman!  
-Nih,coba liat VPN aman yang lebih baik dipake daripada vpn playstore di list ini
-
-| Nama | Positif | Negatif | Server |
-| :---: | :---: | :---: | :---: |
-| [Mullvad](https://mullvad.net/) | VPN Berbayar yang aman | Berbayar | 867 |
-| [ProtonVPN](https://protonvpn.com) | VPN "gratis" yang "aman" | Tidak ada Split-tunneling di sub gratis dan [ini](https://arstechnica.com/information-technology/2021/09/privacy-focused-protonmail-provided-a-users-ip-address-to-authorities) | 100 |
-| [Windscribe](https://windscribe.com) | Ada Split-tunneling & banyak fitur lainnya | 15GB per bulan dan [ini](https://arstechnica.com/gadgets/2021/07/vpn-servers-seized-by-ukrainian-authorities-werent-encrypted) | 15 |
-| [ExpressVPN](https://expressvpn.com) | Cepat | Tidak begitu aman dan berbayar | 148 |
-| [Psiphon](https://psiphon.ca) | Open Source | ? | ? |
-| [OVPN](https://ovpn.com) | **Aman** | Berbayar | 102 |
-
-### VPN untuk Advanced Users[🔝](#navigasi)
-
-| Nama | Deskripsi |
-| :---: | :---: |
-| [OpenVPN](https://openvpn.net) | VPN system that implements techniques to create secure point-to-point or site-to-site connections |
-| [Wireguard](https://wireguard.com) | Seperti OpenVPN |
-| [Softether](https://softether.org) | Seperti OpenVPN(?) |
 
 
 ## Memilih DNS yang tepat[🔝](#navigasi)
@@ -263,7 +242,7 @@ DPI Circumvention Tool berbasis AI
 Jalankan perintah `sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP` di terminal\
 Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server
 
-## List Host file[🔝](#navigasi)
+## List hosts file[🔝](#navigasi)
 Nah,Hostfile (atau Filehost)....agak payah nge-eksplanasi xD  
 Nih List hostfile untuk yang big brain
 
@@ -278,26 +257,49 @@ Nih List hostfile untuk yang big brain
 | [Reddit](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3878656#gistcomment-3878656) |
 | [Steam](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=4250815#gistcomment-4250815) | [2](https://pastebin.com/auhuXvAD) |
 
-## Cara unblok memakai Filehost[🔝](#navigasi)
+## Cara unblok memakai hosts file[🔝](#navigasi)
 Nah,filenya ada...sekarang apa?
 
 ### Di Windows
 1.Salin text didalam hostfile yang kamu pilih  
 2.Buka File Explorer dan pergi ke `C:\Windows\System32\drivers\etc`  
-3.Paste text ke file "host"
+3.Paste text ke file "hosts"
 
 ### Di Android
 
 #### ROOT:
 1.Salin text didalam hostfile yang kamu pilih  
 2.Buka File Explorer dan pergi ke `/system/etc`  
-3.Paste text ke file "host"
+3.Paste text ke file "hosts"
 
 #### NON-ROOT:
 1.Salin text didalam hostfile yang kamu pilih  
 2.Buat file dan paste textnya didalam file itu  
 3.Install [Virtual Hosts](https://github.com/x-falcon/Virtual-Hosts) atau [Host Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change)  
 4.Pencet "Select Host File"/"Import HOSTS file" dan pencet file yang kamu buat
+
+## Memilih VPN yang aman[🔝](#navigasi)
+Ah VPN,cara yang tersenang untuk melewati blok apabila cara diatas tidak work, *Tapi* jangan download VPN yang gak aman & gak terpercaya!  
+Nih,coba liat VPN aman yang lebih baik dipake daripada vpn yang gak terpercaya di list ini
+
+| Nama | Positif | Negatif | Server |
+| :---: | :---: | :---: | :---: |
+| [Mullvad](https://mullvad.net/) | VPN Berbayar yang aman | Berbayar | 867 |
+| [ProtonVPN](https://protonvpn.com) | VPN "gratis" yang "aman" | Tidak ada Split-tunneling di sub gratis dan [ini](https://arstechnica.com/information-technology/2021/09/privacy-focused-protonmail-provided-a-users-ip-address-to-authorities) | 100 |
+| [Windscribe](https://windscribe.com) | Ada Split-tunneling & banyak fitur lainnya | 15GB per bulan dan [ini](https://arstechnica.com/gadgets/2021/07/vpn-servers-seized-by-ukrainian-authorities-werent-encrypted) | 15 |
+| [ExpressVPN](https://expressvpn.com) | Cepat | Tidak begitu aman dan berbayar | 148 |
+| [Psiphon](https://psiphon.ca) | Open Source | ? | ? |
+| [OVPN](https://ovpn.com) | **Aman** | Berbayar | 102 |
+
+### VPN untuk Advanced Users[🔝](#navigasi)
+
+| Nama | Deskripsi |
+| :---: | :---: |
+| [OpenVPN](https://openvpn.net) | VPN system that implements techniques to create secure point-to-point or site-to-site connections |
+| [Wireguard](https://wireguard.com) | Seperti OpenVPN |
+| [Softether](https://softether.org) | Seperti OpenVPN(?) |
+
+
 
 ## Aplikasi-Aplikasi Tor[🔝](#navigasi)
 Nah,ini bagian extrim,memakai Tor
