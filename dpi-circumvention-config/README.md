@@ -7,7 +7,7 @@
 > ℹ️ **info**  
 > Untuk ISP yang belum tercantum mungkin config untuk ISP lain dapat bekerja.
 
-| Nama | Program untuk menembus/config |
+| Nama | Program (dan config) untuk menembus |
 | :---: | :---: |
 | XL/Axis | [Geneva](geneva/3-axis-indihome-telkomsel), [GoodbyeDPI](goodbyedpi/xl-smartfren), [Zapret](zapret/smartfren-xl) |
 | Indihome | [Geneva](geneva/3-axis-indihome-telkomsel), [GoodbyeDPI](goodbyedpi/3-indihome-telkomsel-smartfren), PowerTunnel |
