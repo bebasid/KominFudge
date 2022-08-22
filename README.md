@@ -11,8 +11,8 @@
   - [Cara mengganti DNS](#cara-mengganti-dns)
 - [Aplikasi² untuk menghilangkan DPI](#aplikasi-aplikasi-untuk-menghilangkan-dpi)
   - [Trik untuk bypass DPI tanpa aplikasi](#trik-untuk-bypass-dpi-tanpa-aplikasi)
-- [List hosts file](#list-host-file)
-  - [Cara unblok memakai hosts file](#cara-unblok-memakai-filehost)
+- [List hosts file](#list-hosts-file)
+  - [Cara unblok memakai hosts file](#cara-unblok-memakai-hosts-file)
 - [Memilih VPN yang aman](#memilih-vpn-yang-aman)
   - [VPN untuk Advanced Users](#vpn-untuk-advanced-users)
 - [Aplikasi² Tor](#aplikasi-aplikasi-tor)
@@ -196,7 +196,7 @@ Jika DNS ISP muncul daripada DNS yang diset, silahkan download [DNSCrypt](https:
 Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep packet inspection,tapi DPI bisa dihilangkan dengan mudah dengan aplikasi² ini
 
 > ⚠ **PERHATIAN** ⚠  
-> Jangan lupa untuk mengganti [DNS](#aplikasi-aplikasi-dns) terlebih dahulu atau menggunakan [Hosts file](#list-host-file) apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran
+> Jangan lupa untuk mengganti [DNS](#aplikasi-aplikasi-dns) terlebih dahulu atau menggunakan [Hosts file](#list-hosts-file) apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran
 
 > ℹ️ **Info**  
 > Kami juga menyediakan config untuk aplikasi & ISP di folder [ini](/dpi-circumvention-config)
