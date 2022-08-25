@@ -9,10 +9,11 @@
 
 | Nama | Program (dan config) untuk menembus |
 | :---: | :---: |
-| XL/Axis | [Geneva](geneva/3-axis-indihome-telkomsel), [GoodbyeDPI](goodbyedpi/xl-smartfren), [Zapret](zapret/smartfren-xl) |
+| XL/Axis | [Geneva](geneva/3-axis-indihome-telkomsel), [GoodbyeDPI](goodbyedpi/smartfren-telkomsel-xl), [Zapret](zapret/smartfren-xl) |
 | Indihome | [Geneva](geneva/3-axis-indihome-telkomsel), [GoodbyeDPI](goodbyedpi/3-indihome-telkomsel-smartfren), PowerTunnel |
-| Telkomsel | [Geneva](geneva/3-axis-indihome-telkomsel), [GoodbyeDPI](goodbyedpi/3-indihome-telkomsel-smartfren) |
+| Telkomsel | [Geneva](geneva/3-axis-indihome-telkomsel), [GoodbyeDPI(1)](goodbyedpi/3-indihome-telkomsel-smartfren),[GoodbyeDPI(2)](goodbyedpi/smartfren-telkomsel-xl)\* |
 | Indosat | PowerTunnel, GreenTunnel |
 | 3 | [Geneva](geneva/3-axis-indihome-telkomsel), [GoodbyeDPI](goodbyedpi/3-indihome-telkomsel-smartfren) |
-| Smartfren | [GoodbyeDPI (1)](goodbyedpi/xl-smartfren), [GoodbyeDPI (2)](goodbyedpi/3-indihome-telkomsel-smartfren), [Zapret](zapret/smartfren-xl) |
+| Smartfren | [GoodbyeDPI (1)](goodbyedpi/smartfren-telkomsel-xl), [GoodbyeDPI (2)](goodbyedpi/3-indihome-telkomsel-smartfren), [Zapret](zapret/smartfren-xl) |
 
+\* Terkadang masih tidak tembus, apabila masih mendapatkan Connection Reset refresh halaman
