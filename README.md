@@ -59,6 +59,8 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | Astinet | Ya | Ya |
 | Lintasarta | Ya | Tidak |
 | Citranet | Ya | Tidak |
+| PT Metrasat | Ya | Ya |
+| PT Pasifik Satelit Nusantara | Ya | Tidak |
 
 ### Level kepayahan unblok memakai DPI
 Seberapa payah cara nge-unblok memakai DPI per-ISP
@@ -66,6 +68,7 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 **DATA INI TIDAK LENGKAP**
 | Nama | Kepayahan |
 | :---: | :---: |
+| Telkomsel | Tinggi |
 | XL | Tinggi |
 | Indihome | Sedang |
 | Iconnet | Sedang |
@@ -107,28 +110,28 @@ Aplikasi² DNS ini bisa buat memakai DNS lebih senang
 > Apabila ISP juga melakukan pemblokiran menggunakan DPI gunakan juga [Aplikasi-aplikasi untuk menghilangkan DPI](#aplikasi-aplikasi-untuk-menghilangkan-dpi)
 
 1.[Nebulo](https://nebulo.app) [Android]  
-Aplikasi untuk mengganti DNS dengan mudah  
+Aplikasi untuk mengganti DNS di Android dengan mudah  
 
 2.[DNSCloak](https://apps.apple.com/app/id1452162351) [iOS]  
-Aplikasi untuk mengganti DNS dan mengatur dnscrypt dengan mudah  
+Aplikasi untuk mengganti DNS dan mengatur dnscrypt di iOS  
 
 3.[DNSCrypt](https://dnscrypt.info) [Windows,macOS,Linux]  
 DNS untuk selfhost yang dapat melakukan forwarding ke server DNSCrypt & DNS over HTTPS  
 
 4.[SimpleDNSCrypt](https://simplednscrypt.org) [Windows]  
-Untuk yang males,ini aplikasi penginstalan DNSCrypt dengan senang  
+Untuk yang males,ini aplikasi penginstalan DNSCrypt  
 
 5.[DNS Profile Creator](https://dns.notjakob.com/tool.html) [Browser]  
 Cara membuat mobileconfig Apple dengan senang  
 
 6.[YogaDNS](https://yogadns.com) [Windows]  
-Client DNS untuk Windows  
+Aplikasi pengganti DNS untuk Windows  
 
 7.[RethinkDNS](https://rethinkdns.com) [Android]  
-Aplikasi untuk mengganti DNS dengan mudah...lagi  
+Aplikasi untuk mengganti DNS dan pemblokiran iklan  
 
 8.[Intra](https://getintra.org) [Android]  
-dan lagi.........  
+Aplikasi pengganti DNS untuk Android
 
 9.[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) [Windows, macOS, Linux]  
 DNS untuk selfhost dengan adblock, encrypted upstream dan downstream  
@@ -137,7 +140,7 @@ DNS untuk selfhost dengan adblock, encrypted upstream dan downstream
 DNS untuk selfhost yang dapat melakukan forwarding ke server DNS over TLS
 
 11.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
-Aplikasi android untuk dns dan tor
+Aplikasi android untuk DNS dan Tor
 
 ## Cara mengganti DNS[🔝](#navigasi)
 Nah,tu udah ada List DNS,gimana makenya?
@@ -206,16 +209,16 @@ Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep p
 Aplikasi CLI untuk hilangkan DPI
 
 2.[GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [Windows,macOS,Linux]  
-Aplikasi yang ada GUI untuk hilangkan DPI
+Aplikasi GUI untuk hilangkan DPI
 
 3.[PowerTunnel](https://github.com/krlvm/PowerTunnel) [Windows,macOS,Linux,[Android](https://github.com/krlvm/PowerTunnel-Android)]  
-Aplikasi yang ada GUI untuk hilangkan DPI (2)
+Aplikasi GUI untuk hilangkan DPI (2)
 
 4.[SNI-Mask](https://github.com/macronut/SNI-Mask) [Windows]  
 proxy untuk menghilangkan DPI
 
 5.[Accesser](https://github.com/URenko/Accesser) [Windows,macOS,Linux]  
-solving SNI RST
+*???*
 
 6.[GhosTCP](https://github.com/macronut/ghostcp) [Windows]  
 Mengamankan koneksi TCP
@@ -224,7 +227,7 @@ Mengamankan koneksi TCP
 Mengamankan wiretap/sniff/IDS
 
 8.[SpoofDPI](https://github.com/xvzc/SpoofDPI) [macOS,Linux]  
-DPI Spoofer
+NgeSpoof DPImu
 
 9.[Zapret](https://github.com/bol-van/zapret/blob/master/docs/readme.eng.md) [Linux, FreeBSD]  
 DPI Circumvention Tool
@@ -311,10 +314,10 @@ Browser officialnya tor
 Proxy dengan Tor  
 
 3.[Onion Browser](https://onionbrowser.com) [iOS]  
-browser tor di iOS  
+browser tor untuk iOS  
 
 4.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
-Aplikasi android untuk dns dan tor
+Aplikasi android untuk DNS dan Tor
 
 <p align="center">Share projek ini</p>
 <div id="sosial">
