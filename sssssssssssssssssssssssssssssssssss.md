@@ -1,3 +1,8 @@
+# Pegawai Kominfo gak boleh disini
+pergi lu kamvret :v
+
+## ISP
+
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
 | :---: | :---: | :---: |
 | Indihome | DNS Nasional | Ya |
@@ -19,3 +24,6 @@
 | Oxygen | DNS Nasional | Tidak |
 | Astinet | DNS Nasional | Ya |
 | Lintasarta | DNS Nasional | Tidak |
+| Citranet | DNS | Tidak |
+| PT Metrasat | DNS Nasional | Ya |
+| PT Pasifik Satelit Nusantara | DNS Nasional | Tidak |
