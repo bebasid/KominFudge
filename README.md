@@ -61,6 +61,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | Citranet | Ya | Tidak |
 | PT Metrasat | Ya | Ya |
 | PT Pasifik Satelit Nusantara | Ya | Tidak |
+| PT Artha Telekomindo | Ya | Tidak |
 
 ### Level kepayahan unblok memakai DPI
 Seberapa payah cara nge-unblok memakai DPI per-ISP
