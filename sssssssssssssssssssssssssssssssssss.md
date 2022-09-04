@@ -27,3 +27,4 @@ pergi lu kamvret :v
 | Citranet | DNS | Tidak |
 | PT Metrasat | DNS Nasional | Ya |
 | PT Pasifik Satelit Nusantara | DNS Nasional | Tidak |
+| PT Artha Telekomindo | DNS | Tidak |
