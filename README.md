@@ -92,7 +92,7 @@ Nih,list server DNS untuk menggantikan server blokir punya Kominfo
 | Google DNS | - | `8.8.8.8` | `8.8.4.4` | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |
 | Quad9 | Memblokir malware | `9.9.9.9` | `149.112.112.112` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` | Memblokir malware |
 | Quad9 Unsecured | DNS alternatif Quad9 yang tidak melakukan pemblokiran | `9.9.9.10` | `149.112.112.10` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` | Memblokir malware |
-| BebasDNS | DNS punya bebasid | `47.254.192.66` | - | - | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
+| BebasID | DNS punya bebasid, memblokir iklan dan malware | `47.254.192.66` | - | - | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
 | [AhaDNS](https://blitz-setup.ahadns.com) | - | ? | ? | ? | ? | `blitz.ahadns.com` | ? |
 | BlahDNS | - | `45.91.92.121`  | X | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` |
 | [RethinkDNS](https://rethinkdns.com/configure) | - | ? | ? | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` |
