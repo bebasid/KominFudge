@@ -37,8 +37,8 @@ Gratis dan Aman
 ## Memilih ISP yang tidak KETAT[🔝](#navigasi)
 ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP² Indonesia memblokir[;](/sssssssssssssssssssssssssssssssssss.md)
 
-| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
-| :---: | :---: | :---: |
+| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
+| :---: | :---: | :---: | :---: |
 | Indihome | Ya | Ya |
 | CBN | Ya | Tidak |
 | Biznet | Ya | Tidak |
@@ -63,6 +63,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | PT Pasifik Satelit Nusantara | Ya | Tidak |
 | PT Artha Telekomindo | Ya | Tidak |
 | PT Netciti Persada | Ya | Tidak |
+| PT Hawk Teknologi Solusi | Ya | Tidak | Mahal banget jir |
 
 ### Level kepayahan unblok memakai DPI
 Seberapa payah cara nge-unblok memakai DPI per-ISP
