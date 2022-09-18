@@ -56,7 +56,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | Smartfren | Ya | Ya |
 | PT Cipta Informatika Cemeriang | Ya | Tidak |
 | Moratelindo (Oxygen) | Ya | Tidak |
-| Astinet | Ya | Ya |
+| Astinet | Ya | Ya | Ya tuhan mahal bet,bangkrut gua 😭😭 |
 | Lintasarta | Ya | Tidak |
 | Citranet | Ya | Tidak |
 | PT Metrasat | Ya | Ya |
