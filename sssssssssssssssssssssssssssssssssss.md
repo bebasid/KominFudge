@@ -29,3 +29,4 @@ pergi lu kamvret :v
 | PT Pasifik Satelit Nusantara | DNS Nasional | Tidak |
 | PT Artha Telekomindo | DNS | Tidak |
 | PT Netciti Persada | DNS | Tidak |
+| PT Hawk Teknologi Solusi | DNS | Tidak |
