@@ -30,3 +30,4 @@ pergi lu kamvret :v
 | PT Artha Telekomindo | DNS | Tidak |
 | PT Netciti Persada | DNS | Tidak |
 | PT Hawk Teknologi Solusi | DNS | Tidak |
+| JSN | DNS Nasional | Tidak |

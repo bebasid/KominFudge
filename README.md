@@ -64,6 +64,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | PT Artha Telekomindo | Ya | Tidak |
 | PT Netciti Persada | Ya | Tidak |
 | PT Hawk Teknologi Solusi | Ya | Tidak | Mahal banget jir |
+| JSN | Ya | Tidak | |
 
 ### Level kepayahan unblok memakai DPI
 Seberapa payah cara nge-unblok memakai DPI per-ISP
