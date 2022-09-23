@@ -53,7 +53,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | XL | Ya | Ya |
 | 3 | Ya | Ya |
 | Indosat | Ya | Ya |
-| Smartfren | Ya | Ya |
+| Smartfren | Ya | Ya | Nama lain: XL |
 | PT Cipta Informatika Cemeriang | Ya | Tidak |
 | Moratelindo (Oxygen) | Ya | Tidak |
 | Astinet | Ya | Ya | Ya tuhan mahal bet,bangkrut gua 😭😭 |
@@ -64,7 +64,8 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | PT Artha Telekomindo | Ya | Tidak |
 | PT Netciti Persada | Ya | Tidak |
 | PT Hawk Teknologi Solusi | Ya | Tidak | Mahal banget jir |
-| JSN | Ya | Tidak | |
+| PT Jaringanku Sarana Nusantara | Ya | Tidak | Nama lain: JSN |
+| Padi Net | Ya | Tidak |
 
 ### Level kepayahan unblok memakai DPI
 Seberapa payah cara nge-unblok memakai DPI per-ISP
