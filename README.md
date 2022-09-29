@@ -55,7 +55,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | Indosat | Ya | Ya |
 | Smartfren | Ya | Ya | Nama lain: XL |
 | PT Cipta Informatika Cemeriang | Ya | Tidak |
-| Moratelindo (Oxygen) | Ya | Tidak |
+| Moratelindo | Ya | Tidak | Nama lain: Oxygen <br /> DoH dan DoT punya Google dan port 5353 diblokir |
 | Astinet | Ya | Ya | Ya tuhan mahal bet,bangkrut gua 😭😭 |
 | Lintasarta | Ya | Tidak |
 | Citranet | Ya | Tidak |
@@ -105,7 +105,6 @@ Nih,list server DNS untuk menggantikan server blokir punya Kominfo
 | [ControlD](https://controld.com/free-dns) | - | `76.76.2.2` | `76.76.10.2` | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com`|
 | AdGuard DNS | Memblokir iklan & malware | `94.140.14.14` | `94.140.15.15` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
 | [DNSWarden](https://dnswarden.com/customfilter.html) | - | ? | ? | ? | ? | ? | ? |
-| Moratelindo Uncensored DNS | DNS punya Moratelindo yang tidak tersensor | `27.50.20.22` | X | X | X | X | X |
 
 <sup>List lebih lengkap bisa dilihat di [KB Adguard](https://adguard-dns.io/kb/general/dns-providers/) dan [Curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). Bisa juga bikin sendiri dengan [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) atau [server sendiri dengan PHP](https://github.com/NotMikeDEV/DoH)</sup>
 
