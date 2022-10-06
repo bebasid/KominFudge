@@ -38,33 +38,39 @@ Gratis dan Aman
 ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP² Indonesia memblokir[;](/sssssssssssssssssssssssssssssssssss.md)
 
 ### ISP Fiber
+
+#### ISP Rumah
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
-| Indihome | Ya | Ya |
-| CBN | Ya | Tidak |
-| Biznet | Ya | Tidak |
+| Indihome | Ya | Ya | ISP dari Telkom untuk rumah |
+| CBN | Ya | Tidak | |
+| Biznet Home | Ya | Tidak |
 | MyRepublic | Ya | Tidak |
 | FirstMedia | Ya | Tidak |
 | Megavision | Ya | Tidak |
 | MNC | Ya | Tidak |
-| PT Remala Abadi | Ya | Tidak |
-| PT iForte Global internet | Ya | Tidak |
 | Iconnet PLN | Ya | Ya |
-| PT Cipta Informatika Cemeriang | Ya | Tidak |
 | Moratelindo | Ya | Tidak | Nama lain: Oxygen <br /> DoH dan DoT punya Google dan port 5353 diblokir |
-| Astinet | Ya | Ya | Ya tuhan mahal bet,bangkrut gua 😭😭 |
-| Lintasarta | Ya | Tidak |
 | Citranet | Ya | Tidak |
+| Padi Net | Ya | Tidak |
+
+#### ISP Kantor
+| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
+| :---: | :---: | :---: | :---: |
+| Astinet | Ya | Ya | ISP dari Telkom untuk kantor, Ya tuhan mahal bet,bangkrut gua 😭😭 |
+| Lintasarta | Ya | Tidak |
+| Biznet Metronet/Dedicated | Ya | Tidak |
 | PT Metrasat | Ya | Ya |
 | PT Pasifik Satelit Nusantara | Ya | Tidak |
 | PT Artha Telekomindo | Ya | Tidak |
 | PT Netciti Persada | Ya | Tidak |
 | PT Hawk Teknologi Solusi | Ya | Tidak | Mahal banget jir |
 | PT Jaringanku Sarana Nusantara | Ya | Tidak | Nama lain: JSN |
-| Padi Net | Ya | Tidak |
+| PT Remala Abadi | Ya | Tidak |
+| PT iForte Global internet | Ya | Tidak |
+| PT Cipta Informatika Cemeriang | Ya | Tidak |
 
 ### ISP Mobile
-
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
 | Telkomsel | Ya | Ya |
@@ -94,23 +100,25 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 DNS,cara paling simpel untuk kominfo ngeblokir,tapi DNS bisa [diganti](#cara-mengganti-dns)!  
 Nih,list server DNS untuk menggantikan server blokir punya Kominfo
 
-| Nama | Catatan | IPv4 | IPv4 2 | IPv6 | IPv6 2 | DoH | DoT |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: |
-| Cloudflare DNS | - | `1.1.1.1` | `1.0.0.1` | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query`  | `1dot1dot1dot1.cloudflare-dns.com` |
-| Cloudflare Secure DNS | Memblokir malware | `1.1.1.2` | `1.0.0.2` | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query`  | `security.cloudflare-dns.com` |
-| Cloudflare Family DNS | Memblokir malware & situs dewasa | `1.1.1.3` | `1.0.0.3` | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query`  | `family.cloudflare-dns.com` |
-| Google DNS | - | `8.8.8.8` | `8.8.4.4` | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |
-| Quad9 | Memblokir malware | `9.9.9.9` | `149.112.112.112` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` | Memblokir malware |
-| Quad9 Unsecured | DNS alternatif Quad9 yang tidak melakukan pemblokiran | `9.9.9.10` | `149.112.112.10` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` | Memblokir malware |
-| BebasID | DNS punya bebasid, memblokir iklan dan malware | `47.254.192.66` | - | - | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
-| [AhaDNS](https://blitz-setup.ahadns.com) | - | ? | ? | ? | ? | `blitz.ahadns.com` | ? |
-| BlahDNS | - | `45.91.92.121`  | X | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` |
-| [RethinkDNS](https://rethinkdns.com/configure) | - | ? | ? | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` |
-| NextDNS | - | `45.90.28.233` | `45.90.30.233` | `2a07:a8c0::` | `2a07:a8c0::` | `dns.nextdns.io` | `dns.nextdns.io` |
-| LibreDNS | - | `116.202.176.26` | X | X | X | `doh.libredns.gr/dns-query` | `dot.libredns.gr` |
-| [ControlD](https://controld.com/free-dns) | - | `76.76.2.2` | `76.76.10.2` | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com`|
-| AdGuard DNS | Memblokir iklan & malware | `94.140.14.14` | `94.140.15.15` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
-| [DNSWarden](https://dnswarden.com/customfilter.html) | - | ? | ? | ? | ? | ? | ? |
+| Nama | Catatan | IPv4 | IPv4 2 | Port Alternatif | IPv6 | IPv6 2 | DoH | DoT |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: |  :---: |
+| Cloudflare DNS | - | `1.1.1.1` | `1.0.0.1` | - | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query`  | `1dot1dot1dot1.cloudflare-dns.com` |
+| Cloudflare Secure DNS | Memblokir malware | `1.1.1.2` | `1.0.0.2` | - | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query`  | `security.cloudflare-dns.com` |
+| Cloudflare Family DNS | Memblokir malware & situs dewasa | `1.1.1.3` | `1.0.0.3` | - | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query`  | `family.cloudflare-dns.com` |
+| Google DNS | - | `8.8.8.8` | `8.8.4.4` | - | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |
+| Quad9 Secured | Memblokir malware | `9.9.9.9` | `149.112.112.112` | `9953` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` | Memblokir malware |
+| Quad9 Secured with ECS | Memblokir malware, mendukung ECS | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `tls://dns11.quad9.net` |
+| Quad9 Unsecured | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` |
+| Quad9 Unsecured ECS | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware, mendukung ECS | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `tls://dns12.quad9.net` |
+| BebasID | DNS punya bebasid, memblokir iklan dan malware | `47.254.192.66` | - | `1753` | - | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
+| [AhaDNS](https://blitz-setup.ahadns.com) | - | ? | ? | ? | ? | ? | `blitz.ahadns.com` | ? |
+| BlahDNS | - | `45.91.92.121`  | X | - | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` |
+| [RethinkDNS](https://rethinkdns.com/configure) | - | ? | ? | - | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` |
+| NextDNS | - | `45.90.28.233` | `45.90.30.233` | `5353` | `2a07:a8c0::` | `2a07:a8c0::` | `dns.nextdns.io` | `dns.nextdns.io` |
+| LibreDNS | - | `116.202.176.26` | X | - | X | X | `doh.libredns.gr/dns-query` | `dot.libredns.gr` |
+| [ControlD](https://controld.com/free-dns) | - | `76.76.2.2` | `76.76.10.2` | - | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com`|
+| AdGuard DNS | Memblokir iklan & malware | `94.140.14.14` | `94.140.15.15` | `5353` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
+| [DNSWarden](https://dnswarden.com/customfilter.html) | - | ? | ? | ? | ? | ? | ? | ? |
 
 <sup>List lebih lengkap bisa dilihat di [KB Adguard](https://adguard-dns.io/kb/general/dns-providers/) dan [Curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). Bisa juga bikin sendiri dengan [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) atau [server sendiri dengan PHP](https://github.com/NotMikeDEV/DoH)</sup>
 
