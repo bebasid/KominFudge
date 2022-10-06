@@ -37,6 +37,7 @@ Gratis dan Aman
 ## Memilih ISP yang tidak KETAT[🔝](#navigasi)
 ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP² Indonesia memblokir[;](/sssssssssssssssssssssssssssssssssss.md)
 
+### ISP Fiber
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
 | Indihome | Ya | Ya |
@@ -49,11 +50,6 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | PT Remala Abadi | Ya | Tidak |
 | PT iForte Global internet | Ya | Tidak |
 | Iconnet PLN | Ya | Ya |
-| Telkomsel | Ya | Ya |
-| XL | Ya | Ya |
-| 3 | Ya | Ya |
-| Indosat | Ya | Ya |
-| Smartfren | Ya | Ya | Nama lain: XL |
 | PT Cipta Informatika Cemeriang | Ya | Tidak |
 | Moratelindo | Ya | Tidak | Nama lain: Oxygen <br /> DoH dan DoT punya Google dan port 5353 diblokir |
 | Astinet | Ya | Ya | Ya tuhan mahal bet,bangkrut gua 😭😭 |
@@ -66,6 +62,16 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | PT Hawk Teknologi Solusi | Ya | Tidak | Mahal banget jir |
 | PT Jaringanku Sarana Nusantara | Ya | Tidak | Nama lain: JSN |
 | Padi Net | Ya | Tidak |
+
+### ISP Mobile
+
+| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
+| :---: | :---: | :---: | :---: |
+| Telkomsel | Ya | Ya |
+| XL | Ya | Ya |
+| 3 | Ya | Ya |
+| Indosat | Ya | Ya |
+| Smartfren | Ya | Ya | Nama lain: XL |
 
 ### Level kepayahan unblok memakai DPI
 Seberapa payah cara nge-unblok memakai DPI per-ISP
