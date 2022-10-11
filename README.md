@@ -69,6 +69,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | PT Remala Abadi | Ya | Tidak |
 | PT iForte Global internet | Ya | Tidak |
 | PT Cipta Informatika Cemeriang | Ya | Tidak |
+| PT Lexa Net | Ya | Tidak | Nama lain: PT Lexa Global Akses |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
