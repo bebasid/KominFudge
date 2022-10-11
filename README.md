@@ -37,9 +37,8 @@ Gratis dan Aman
 ## Memilih ISP yang tidak KETAT[🔝](#navigasi)
 ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP² Indonesia memblokir[;](/sssssssssssssssssssssssssssssssssss.md)
 
-### ISP Fiber
-
-#### ISP Rumah
+### ISP Fiber  
+**ISP Rumah**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
 | Indihome | Ya | Ya | ISP dari Telkom untuk rumah |
@@ -54,12 +53,12 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | Citranet | Ya | Tidak |
 | Padi Net | Ya | Tidak |
 
-#### ISP Kantor
+**ISP Kantor**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
 | Astinet | Ya | Ya | ISP dari Telkom untuk kantor, Ya tuhan mahal bet,bangkrut gua 😭😭 |
 | Lintasarta | Ya | Tidak |
-| Biznet Metronet/Dedicated | Ya | Tidak |
+| Metronet | Ya | Tidak | aka Biznet Dedicated |
 | PT Metrasat | Ya | Ya |
 | PT Pasifik Satelit Nusantara | Ya | Tidak |
 | PT Artha Telekomindo | Ya | Tidak |
