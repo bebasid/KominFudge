@@ -37,7 +37,7 @@ pergi lu kamvret :v
 | PT iForte Global internet | DNS | Tidak |
 | PT Cipta Informatika Cemeriang | DNS | Tidak |
 | PT Lexa Net | DNS Nasional | Tidak |
-| Fiberstream | DNS Nasional | Tidak |
+| GMEDIA | DNS Nasional | Tidak |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
