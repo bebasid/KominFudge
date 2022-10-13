@@ -19,6 +19,7 @@ pergi lu kamvret :v
 | Moratelindo | DNS Nasional | Tidak |
 | Citranet | DNS | Tidak |
 | Padi Net | DNS Nasional | Tidak |
+| Fiberstream | DNS Nasional | Tidak |
 
 #### ISP Kantor
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
@@ -36,6 +37,7 @@ pergi lu kamvret :v
 | PT iForte Global internet | DNS | Tidak |
 | PT Cipta Informatika Cemeriang | DNS | Tidak |
 | PT Lexa Net | DNS Nasional | Tidak |
+| Fiberstream | DNS Nasional | Tidak |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
