@@ -42,16 +42,18 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
 | Indihome | Ya | Ya | ISP dari Telkom untuk rumah |
-| CBN | Ya | Tidak | |
+| CBN | Ya | Tidak |
 | Biznet Home | Ya | Tidak |
 | MyRepublic | Ya | Tidak |
 | FirstMedia | Ya | Tidak |
 | Megavision | Ya | Tidak |
 | MNC | Ya | Tidak |
 | Iconnet PLN | Ya | Ya |
+| PT Netciti Persada | Ya | Tidak |
 | Moratelindo | Ya | Tidak | Nama lain: Oxygen <br /> DoH dan DoT punya Google dan port 5353 diblokir |
 | Citranet | Ya | Tidak |
 | Padi Net | Ya | Tidak |
+| Fiberstream | Ya | Tidak |
 
 **ISP Kantor**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
@@ -62,22 +64,22 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | PT Metrasat | Ya | Ya |
 | PT Pasifik Satelit Nusantara | Ya | Tidak |
 | PT Artha Telekomindo | Ya | Tidak |
-| PT Netciti Persada | Ya | Tidak |
-| PT Hawk Teknologi Solusi | Ya | Tidak | Mahal banget jir |
+| PT Hawk Teknologi Solusi | Ya | Tidak |
 | PT Jaringanku Sarana Nusantara | Ya | Tidak | Nama lain: JSN |
 | PT Remala Abadi | Ya | Tidak |
 | PT iForte Global internet | Ya | Tidak |
 | PT Cipta Informatika Cemeriang | Ya | Tidak |
 | PT Lexa Net | Ya | Tidak | Nama lain: PT Lexa Global Akses |
+| GMEDIA  | Ya | Tidak |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
 | Telkomsel | Ya | Ya |
-| XL | Ya | Ya |
+| XL | Ya | Ya | Nama Lain: Axis |
 | 3 | Ya | Ya |
 | Indosat | Ya | Ya |
-| Smartfren | Ya | Ya | Nama lain: XL |
+| Smartfren | Ya | Ya |
 
 ### Level kepayahan unblok memakai DPI
 Seberapa payah cara nge-unblok memakai DPI per-ISP
@@ -185,7 +187,7 @@ Nah,tu udah ada List DNS,gimana makenya?
 1. Buka Settings di Windows 11, Pergi ke Network & Internet dan pilih Properties    
 2. Dibagian DNS server assignment, klik tombol Edit  
 3. Ganti Automatic menjadi Manual  
-4. di Preferred DNS, masukan 1.1.1.1 dan di Alternate masukan 8.8.8.8  
+4. di Preferred DNS, masukan 1.1.1.1/8.8.8.8/9.9.9.9 dan di Alternate masukan 1.0.0.1/8.8.4.4/149.112.112.112
 5. di Preferred dan Alternate DNS Encryption, pilih opsi Encrypted only (DNS-over-HTTPS)  
 6. Klik Save
 
