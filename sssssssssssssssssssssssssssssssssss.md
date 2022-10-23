@@ -6,27 +6,28 @@ pergi lu kamvret :v
 ### ISP Fiber
 
 #### ISP Rumah
-| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
-| :---: | :---: | :---: |
+| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
+| :---: | :---: | :---: | :---: |
 | Indihome | DNS Nasional | Ya |
-| CBN | DNS Nasional | Tidak |
+| CBN | DNS Nasional | Tidak | DNS Cloudflare for Family aman |
 | Biznet Home | DNS Nasional | Tidak |
 | MyRepublic | DNS Nasional | Tidak |
 | FirstMedia | DNS Nasional | Tidak |
 | Megavision | DNS Nasional | Tidak |
 | MNC | DNS | Tidak |
 | Iconnet PLN | DNS | Ya |
-| Moratelindo | DNS Nasional | Tidak |
+| Moratelindo (Oxygen) | DNS Nasional | Tidak | Port 5353 diblokir. DoH/DoT punya Google diblokir. DNS Indonesia aman |
 | Citranet | DNS | Tidak |
 | Padi Net | DNS Nasional | Tidak |
 | Fiberstream | DNS Nasional | Tidak |
 
 #### ISP Kantor
-| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
-| :---: | :---: | :---: |
-| Astinet | DNS Nasional | Ya |
+| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
+| :---: | :---: | :---: | :---: |
+| Astinet | DNS Nasional | Ya |  DNS Indonesia aman |
 | Lintasarta | DNS Nasional | Tidak |
 | Biznet Metronet/Dedicated | DNS Nasional | Tidak |
+| Moratel Dedictated/SOHO | DNS Nasional | Tidak | DNS Indonesia aman |
 | PT Metrasat | DNS Nasional | Ya |
 | PT Pasifik Satelit Nusantara | DNS Nasional | Tidak |
 | PT Artha Telekomindo | DNS | Tidak |
@@ -37,13 +38,15 @@ pergi lu kamvret :v
 | PT iForte Global internet | DNS | Tidak |
 | PT Cipta Informatika Cemeriang | DNS | Tidak |
 | PT Lexa Net | DNS Nasional | Tidak |
-| GMEDIA | DNS Nasional | Tidak |
+| G-MEDIA | DNS Nasional | Tidak |
+| PT Artorius Telemetri Sentosa | DNS Nasional | Tidak |
+| D-NET (PT. Core Mediatech) | DNS | Tidak | DNS Google, Cloudflare dan Quad9 dibelokin tapi masih bisa pake DoH/DoT,  DNS Indonesia aman |
 
 ### ISP Mobile
-| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
-| :---: | :---: | :---: |
+| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
+| :---: | :---: | :---: | :---: |
 | Telkomsel | DNS Nasional | Ya |
 | XL | DNS Nasional | Ya |
 | 3 | DNS Nasional | Ya |
 | Indosat | DNS | Ya |
-| Smartfren | DNS Nasional | Ya |
+| Smartfren | DNS Nasional | Ya | DoH dan DoT punya Google diblokir |
