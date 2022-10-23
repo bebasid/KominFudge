@@ -71,6 +71,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | PT Cipta Informatika Cemeriang | Ya | Tidak |
 | PT Lexa Net | Ya | Tidak | Nama lain: PT Lexa Global Akses |
 | GMEDIA  | Ya | Tidak |
+| PT Artorius Telemetri Sentosa | Ya | Tidak |
 | D-NET | Ya | Tidak | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
 
 ### ISP Mobile
@@ -91,7 +92,7 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | Telkomsel | Tinggi |
 | XL | Tinggi |
 | Indihome | Sedang |
-| Iconnet | Sedang |
+| Iconnet | Rendah |
 | Indosat | Sedang |
 | 3 | Rendah |
 | Smartfren | Rendah |
