@@ -42,7 +42,7 @@ pergi lu kamvret :v
 | PT Artorius Telemetri Sentosa | DNS Nasional | Tidak |
 | D-NET (PT. Core Mediatech) | DNS | Tidak | DNS Google, Cloudflare dan Quad9 dibelokin tapi masih bisa pake DoH/DoT,  DNS Indonesia aman |
 | PT Sumber Koneksi Indotelematika | DNS | Tidak |
-| PT Trisari Data Indonesia | DNS | Ya | Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir  |
+| PT Trisari Data Indonesia (ProNET) | DNS | Ya | Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir  |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
