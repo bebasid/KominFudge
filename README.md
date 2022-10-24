@@ -46,7 +46,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | Biznet Home | Ya | Tidak |
 | MyRepublic | Ya | Tidak |
 | FirstMedia | Ya | Tidak |
-| Megavision | Ya | Tidak |
+| Megavision | Ya | Tidak | Nama lain: StarNET |
 | MNC | Ya | Tidak |
 | Iconnet PLN | Ya | Ya |
 | PT Netciti Persada | Ya | Tidak |
@@ -59,6 +59,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
 | Astinet | Ya | Ya | ISP dari Telkom untuk kantor, Ya tuhan mahal bet,bangkrut gua 😭😭 |
+| Linknet | Ya | Tidak | ISP dari Firstmedia untuk kantor |
 | Lintasarta | Ya | Tidak |
 | Metronet | Ya | Tidak | aka Biznet Dedicated |
 | PT Metrasat | Ya | Ya |
@@ -73,6 +74,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | GMEDIA  | Ya | Tidak |
 | PT Artorius Telemetri Sentosa | Ya | Tidak |
 | D-NET | Ya | Tidak | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
+| PT Sumber Koneksi Indotelematika | Ya | Tidak |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
@@ -81,7 +83,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | XL | Ya | Ya | Nama Lain: Axis |
 | 3 | Ya | Ya |
 | Indosat | Ya | Ya |
-| Smartfren | Ya | Ya |
+| Smartfren | Ya | Ya | Memblokir DoH/DoT punya Google |
 
 ### Level kepayahan unblok memakai DPI
 Seberapa payah cara nge-unblok memakai DPI per-ISP
@@ -110,6 +112,8 @@ Nih,list server DNS untuk menggantikan server blokir punya Kominfo
 | Cloudflare Secure DNS | Memblokir malware | `1.1.1.2` | `1.0.0.2` | - | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query`  | `security.cloudflare-dns.com` |
 | Cloudflare Family DNS | Memblokir malware & situs dewasa | `1.1.1.3` | `1.0.0.3` | - | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query`  | `family.cloudflare-dns.com` |
 | Google DNS | - | `8.8.8.8` | `8.8.4.4` | - | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |
+| OpenDNS | - | `208.67.222.222` | `208.67.220.220` | `5353, 443` | ` 2620:119:35::35` | `2620:119:53::53` | `doh.opendns.com/dns-query` | - |
+| OpenDNS Familyshield | Memblokir situs dewasa | `208.67.222.123` | `208.67.220.123` | `5353, 443` | - | - | `doh.familyshield.opendns.com/dns-query` | - |
 | Quad9 Secured | Memblokir malware | `9.9.9.9` | `149.112.112.112` | `9953` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` | Memblokir malware |
 | Quad9 Secured with ECS | Memblokir malware, mendukung ECS | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `tls://dns11.quad9.net` |
 | Quad9 Unsecured | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` |
@@ -179,7 +183,7 @@ Nah,tu udah ada List DNS,gimana makenya?
 3.Ganti IP Adress jadi Static dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
 
 ### Di Windows
-#### Windows 10 dan kebawah
+#### Windows 10 dan kebawah 
 1. Control Panel>Network and Internet>Network and Sharing Center>Connections>Properties  
 2. Pencet Internet Protocol Version 4 (TCP/IPv4) 2 kali  
 3. Ganti "Obtain DNS server address automatically" ke "Use the following DNS server addresses"  
@@ -283,7 +287,7 @@ Nih List hostfile untuk yang big brain
 | [Reddit](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3878656#gistcomment-3878656) |
 | [Steam](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=4250815#gistcomment-4250815) | [2](https://pastebin.com/auhuXvAD) |
 
-## Cara unblok memakai hosts file[🔝](#navigasi)
+## Cara unblock memakai hosts file[🔝](#navigasi)
 Nah,filenya ada...sekarang apa?
 
 ### Di Windows
