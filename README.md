@@ -75,7 +75,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | PT Artorius Telemetri Sentosa | Ya | Tidak |
 | D-NET | Ya | Tidak | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
 | PT Sumber Koneksi Indotelematika | Ya | Tidak |
-| PT Trisari Data Indonesia | Ya | Ya | Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir  |
+| ProNET | Ya | Ya | Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir  |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
@@ -99,7 +99,7 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | Indosat | Sedang |
 | 3 | Rendah |
 | Smartfren | Rendah |
-| PT Trisari Data Indonesia | Rendah |
+| ProNET | Rendah |
 
 <sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
 
