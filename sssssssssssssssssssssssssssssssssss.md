@@ -9,7 +9,7 @@ pergi lu kamvret :v
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
 | :---: | :---: | :---: | :---: |
 | Indihome | DNS Nasional | Ya |
-| CBN | DNS Nasional | Tidak | DNS Cloudflare for Family aman |
+| CBN | DNS Nasional | Tidak | DNS Cloudflare for Family dan OpenDNS Familysheild aman |
 | Biznet Home | DNS Nasional | Tidak | Beberapa kepala IP bisa memakai DNS Indonesia |
 | MyRepublic | DNS Nasional | Tidak |
 | FirstMedia | DNS Nasional | Tidak |
