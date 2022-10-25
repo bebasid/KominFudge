@@ -10,7 +10,7 @@ pergi lu kamvret :v
 | :---: | :---: | :---: | :---: |
 | Indihome | DNS Nasional | Ya |
 | CBN | DNS Nasional | Tidak | DNS Cloudflare for Family dan OpenDNS Familysheild aman |
-| Biznet Home | DNS Nasional | Tidak | Beberapa kepala IP bisa memakai DNS Indonesia |
+| Biznet Home | DNS Nasional | Tidak | Beberapa kepala IPv4 bisa memakai DNS Indonesia dan IPv6 aman |
 | MyRepublic | DNS Nasional | Tidak |
 | FirstMedia | DNS Nasional | Tidak |
 | Megavision | DNS Nasional | Tidak |
@@ -38,7 +38,7 @@ pergi lu kamvret :v
 | PT iForte Global internet | DNS | Tidak |
 | PT Cipta Informatika Cemeriang | DNS | Tidak |
 | PT Lexa Net | DNS Nasional | Tidak |
-| G-MEDIA | DNS Nasional | Tidak |
+| G-MEDIA | DNS Nasional | Tidak | DNS Cloudflare aman |
 | PT Artorius Telemetri Sentosa | DNS Nasional | Tidak |
 | D-NET (PT. Core Mediatech) | DNS | Tidak | DNS Indonesia aman |
 | PT Sumber Koneksi Indotelematika | DNS | Tidak |
