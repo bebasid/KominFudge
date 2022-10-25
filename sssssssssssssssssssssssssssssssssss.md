@@ -17,7 +17,7 @@ pergi lu kamvret :v
 | MNC | DNS | Tidak |
 | Iconnet PLN | DNS | Ya |
 | PT Netciti Persada | DNS | Tidak |
-| Moratelindo (Oxygen) | DNS Nasional | Tidak | Port 5353 diblokir. DoH/DoT punya Google diblokir. DNS Indonesia aman |
+| Moratelindo | DNS Nasional | Tidak | DNS Indonesia aman |
 | Citranet | DNS | Tidak |
 | Padi Net | DNS Nasional | Tidak |
 | Fiberstream | DNS Nasional | Tidak |
@@ -40,15 +40,15 @@ pergi lu kamvret :v
 | PT Lexa Net | DNS Nasional | Tidak |
 | G-MEDIA | DNS Nasional | Tidak |
 | PT Artorius Telemetri Sentosa | DNS Nasional | Tidak |
-| D-NET (PT. Core Mediatech) | DNS | Tidak | DNS Google, Cloudflare dan Quad9 dibelokin tapi masih bisa pake DoH/DoT,  DNS Indonesia aman |
+| D-NET (PT. Core Mediatech) | DNS | Tidak | DNS Indonesia aman |
 | PT Sumber Koneksi Indotelematika | DNS | Tidak |
-| PT Trisari Data Indonesia (ProNET) | DNS | Ya | Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir  |
+| ProNET | DNS | Ya |
 
 ### ISP Mobile
-| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
-| :---: | :---: | :---: | :---: |
+| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
+| :---: | :---: | :---: |
 | Telkomsel | DNS Nasional | Ya |
 | XL | DNS Nasional | Ya |
 | 3 | DNS Nasional | Ya |
 | Indosat | DNS | Ya |
-| Smartfren | DNS Nasional | Ya | DoH dan DoT punya Google diblokir |
+| Smartfren | DNS Nasional | Ya |
