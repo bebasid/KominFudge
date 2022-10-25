@@ -28,7 +28,7 @@ pergi lu kamvret :v
 | Astinet | DNS Nasional | Ya |  DNS Indonesia aman |
 | Lintasarta | DNS Nasional | Tidak |
 | Biznet Metronet/Dedicated | DNS Nasional | Tidak |
-| Moratel Dedictated/SOHO | DNS Nasional | Tidak | DNS Indonesia aman |
+| Moratel Dedictated/SOHO | DNS Nasional | Tidak | DNS Indonesia dan DNS Cloudflare aman |
 | PT Metrasat | DNS Nasional | Ya |
 | PT Pasifik Satelit Nusantara | DNS Nasional | Tidak |
 | PT Artha Telekomindo | DNS | Tidak |
