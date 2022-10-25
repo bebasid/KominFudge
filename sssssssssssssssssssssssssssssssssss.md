@@ -10,7 +10,7 @@ pergi lu kamvret :v
 | :---: | :---: | :---: | :---: |
 | Indihome | DNS Nasional | Ya |
 | CBN | DNS Nasional | Tidak | DNS Cloudflare for Family dan OpenDNS Familysheild aman |
-| Biznet Home | DNS Nasional | Tidak | Beberapa kepala IPv4 bisa memakai DNS Indonesia dan IPv6 aman |
+| Biznet Home | DNS Nasional | Tidak | Beberapa kepala IPv4 bisa memakai DNS Indonesia dan beberapa kepala IPv6 aman|
 | MyRepublic | DNS Nasional | Tidak |
 | FirstMedia | DNS Nasional | Tidak |
 | Megavision | DNS Nasional | Tidak |
