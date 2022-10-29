@@ -1,0 +1,28 @@
+name: Bug Report
+description: File a bug report
+title: "Informasi salah: "
+body:
+  - type: textarea
+    id: dimana
+    attributes:
+      label: Apa yang salah?
+      placeholder: Informasi ISP ini salah
+    validations:
+      required: true
+  body:
+  - type: textarea
+    id: harusnya
+    attributes:
+      label: Harusnya apa?
+      placeholder: ISP ini memblokir memakai DNS Nasional
+    validations:
+      required: true
+      body:
+  - type: textarea
+    id: sumber
+    attributes:
+      label: Berikan sumber
+      description: Jika kamu yang ngetes sendiri, silahkan join server bebasid atau berikan link foto
+      placeholder: https://eff.org
+    validations:
+      required: true
