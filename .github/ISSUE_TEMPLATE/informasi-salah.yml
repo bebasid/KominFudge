@@ -2,25 +2,25 @@ name: Informasi Salah
 description: Jika ada kesalahan di repo kita, pakai issue ini untuk melapor
 title: "Informasi salah: "
 body:
-- type: textarea
+- type: input
   id: apa
-    attributes:
-      label: Apa yang salah?
-      placeholder: Informasi ISP ini salah
-    validations:
-      required: true
-- type: textarea
-    id: harusnya
-    attributes:
-      label: Harusnya apa?
-      placeholder: ISP ini memblokir memakai DNS Nasional
-    validations:
-      required: true
-- type: textarea
-    id: sumber
-    attributes:
-      label: Berikan sumber
-      description: Jika kamu yang ngetes sendiri, silahkan join server bebasid atau berikan link foto
-      placeholder: https://eff.org
-    validations:
-      required: true
+  attributes:
+    label: Apa yang salah?
+    placeholder: "Informasi ISP ini salah"
+  validations:
+    required: true
+- type: input
+  id: harusnya
+  attributes:
+    label: Harusnya apa?
+    placeholder: "ISP ini memblokir memakai DNS Nasional"
+  validations:
+    required: true
+- type: input
+  id: sumber
+  attributes:
+    label: Berikan sumber
+    description: Jika kamu yang ngetes sendiri, silahkan join server bebasid atau berikan link foto
+    placeholder: "https://eff.org"
+  validations:
+    required: true
