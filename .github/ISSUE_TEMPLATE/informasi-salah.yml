@@ -1,24 +1,22 @@
-name: Bug Report
-description: File a bug report
+name: Informasi Salah
+description: Jika ada kesalahan di repo kita, pakai issue ini untuk melapor
 title: "Informasi salah: "
 body:
-  - type: textarea
-    id: dimana
+- type: textarea
+  id: apa
     attributes:
       label: Apa yang salah?
       placeholder: Informasi ISP ini salah
     validations:
       required: true
-  body:
-  - type: textarea
+- type: textarea
     id: harusnya
     attributes:
       label: Harusnya apa?
       placeholder: ISP ini memblokir memakai DNS Nasional
     validations:
       required: true
-      body:
-  - type: textarea
+- type: textarea
     id: sumber
     attributes:
       label: Berikan sumber
