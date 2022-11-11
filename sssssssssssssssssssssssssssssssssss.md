@@ -25,7 +25,7 @@ pergi lu kamvret :v
 #### ISP Kantor
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
 | :---: | :---: | :---: | :---: |
-| Astinet | DNS Nasional | Ya |  DNS Indonesia aman |
+| Astinet | DNS Injector | Ya |  DNS Indonesia aman |
 | Lintasarta | DNS Nasional | Tidak |
 | Biznet Metronet/Dedicated | DNS Nasional | Tidak |
 | Moratel Dedictated/SOHO | DNS Nasional | Tidak | DNS Indonesia dan DNS Cloudflare aman |
