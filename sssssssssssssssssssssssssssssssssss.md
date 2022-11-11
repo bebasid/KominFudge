@@ -43,6 +43,8 @@ pergi lu kamvret :v
 | D-NET (PT. Core Mediatech) | DNS | Tidak | DNS Indonesia aman |
 | PT Sumber Koneksi Indotelematika | DNS | Tidak |
 | ProNET | DNS | Ya |
+| PT Media Jaringan Telekomunikasi | DNS Nasional | Tidak |
+| PT Sekawan Global Komunika | DNS Nasional | Tidak |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
