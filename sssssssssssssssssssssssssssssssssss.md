@@ -26,7 +26,7 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 #### ISP Kantor
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
 | :---: | :---: | :---: | :---: |
-| Astinet | DNS Injection By Transparent Proxy | Ya |  DNS Indonesia aman. Port 53 mengarah ke luar negeri dibelokin ke proxy DNS Telkom sebelum dilanjutkan jadi  DNS custom filtering seperti NextDNS dan ControlD tidak akan berjalan jika menggunakan plain dns karena yang terbaca IP Proxy Telkom daripada IP asli kita |
+| Astinet | DNS Injection By Transparent Proxy | Ya |  DNS Indonesia aman. Port 53 mengarah ke luar negeri dibelokin ke proxy DNS Telkom sebelum dilanjutkan jadi DNS custom filtering seperti NextDNS dan ControlD tidak akan berjalan jika menggunakan plain dns karena yang terbaca oleh server adalah IP Proxy Telkom daripada IP asli kita |
 | Lintasarta | DNS Nasional | Tidak |
 | Biznet Metronet/Dedicated | DNS Nasional | Tidak |
 | Moratel Dedictated/SOHO | DNS Nasional | Tidak | DNS Indonesia dan DNS Cloudflare aman |
