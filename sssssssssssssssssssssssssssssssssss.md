@@ -1,7 +1,8 @@
-# Pegawai Kominfo gak boleh disini
-pergi lu kamvret :v
+# Pegawai Kominfo dan pegawai ISP pro-sensor gak boleh disini
+pergi lu kamvret :v 
+mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan stabil sama gimana biar data kita aman
 
-## ISP
+## List ISP Indonesia 
 
 ### ISP Fiber
 
@@ -25,7 +26,7 @@ pergi lu kamvret :v
 #### ISP Kantor
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
 | :---: | :---: | :---: | :---: |
-| Astinet | DNS Injector | Ya |  DNS Indonesia aman |
+| Astinet | DNS Injection By Transparent Proxy | Ya |  DNS Indonesia aman. Port 53 mengarah ke luar negeri dibelokin ke proxy DNS Telkom sebelum dilanjutkan jadi  DNS custom filtering seperti NextDNS dan ControlD tidak akan berjalan jika menggunakan plain dns karena yang terbaca IP Proxy Telkom daripada IP asli kita |
 | Lintasarta | DNS Nasional | Tidak |
 | Biznet Metronet/Dedicated | DNS Nasional | Tidak |
 | Moratel Dedictated/SOHO | DNS Nasional | Tidak | DNS Indonesia dan DNS Cloudflare aman |
