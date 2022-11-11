@@ -22,6 +22,7 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | Citranet | DNS | Tidak |
 | Padi Net | DNS Nasional | Tidak |
 | Fiberstream | DNS Nasional | Tidak |
+| Balifiber | DNS | Tidak |
 
 #### ISP Kantor
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
