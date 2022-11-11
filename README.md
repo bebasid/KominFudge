@@ -54,6 +54,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | Citranet | Ya | Tidak |
 | Padi Net | Ya | Tidak |
 | Fiberstream | Ya | Tidak |
+| Balifiber | Ya | Tidak |
 
 **ISP Kantor**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
