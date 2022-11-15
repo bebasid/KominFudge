@@ -50,7 +50,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | MNC | Ya | Tidak |
 | Iconnet PLN | Ya | Ya |
 | PT Netciti Persada | Ya | Tidak |
-| Moratelindo | Ya | Ya | Nama lain: Oxygen <br /> DoH dan DoT punya Google diblokir|
+| Moratelindo | Ya | Ya | Nama lain: Oxygen <br /> DoH dan DoT punya Google diblokir <br> Beberapa kepala IP memblokir alt-port DNS 5353|
 | Citranet | Ya | Tidak |
 | Padi Net | Ya | Tidak |
 | Fiberstream | Ya | Tidak |
