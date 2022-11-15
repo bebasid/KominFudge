@@ -18,7 +18,7 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | MNC | DNS | Tidak |
 | Iconnet PLN | DNS | Ya |
 | PT Netciti Persada | DNS | Tidak |
-| Moratelindo | DNS | Ya | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole di gateway Oxygen |
+| Moratelindo | DNS | Ya | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole di gateway Oxygen <br> DPI Oxygen hanya memblokir situs porno dan judi (Reddit, Vimeo, dkk lewat) |
 | Citranet | DNS | Tidak |
 | Padi Net | DNS Nasional | Tidak |
 | Fiberstream | DNS Nasional | Tidak |
@@ -30,7 +30,7 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | Astinet | DNS Injection By Transparent Proxy | Ya |  DNS Indonesia aman. Port 53 mengarah ke luar negeri dibelokin ke proxy DNS Telkom sebelum dilanjutkan jadi DNS custom filtering seperti NextDNS dan ControlD tidak akan berjalan jika menggunakan plain dns karena yang terbaca oleh server adalah IP Proxy Telkom daripada IP asli kita |
 | Lintasarta | DNS Nasional | Tidak |
 | Biznet Metronet/Dedicated | DNS Nasional | Tidak |
-| Moratel Dedictated/SOHO | DNS Nasional | Tidak | DNS Indonesia dan DNS Cloudflare aman |
+| Moratel Dedictated/SOHO | DNS Nasional | Ya | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole |
 | PT Metrasat | DNS Nasional | Ya |
 | PT Pasifik Satelit Nusantara | DNS Nasional | Tidak |
 | PT Artha Telekomindo | DNS | Tidak |
