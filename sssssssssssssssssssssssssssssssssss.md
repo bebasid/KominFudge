@@ -18,7 +18,7 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | MNC | DNS | Tidak |
 | Iconnet PLN | DNS | Ya |
 | PT Netciti Persada | DNS | Tidak |
-| Moratelindo | DNS Nasional | Tidak | DNS Indonesia aman |
+| Moratelindo | DNS | Ya | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole di gateway Oxygen |
 | Citranet | DNS | Tidak |
 | Padi Net | DNS Nasional | Tidak |
 | Fiberstream | DNS Nasional | Tidak |
@@ -44,7 +44,7 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | PT Artorius Telemetri Sentosa | DNS Nasional | Tidak |
 | D-NET (PT. Core Mediatech) | DNS | Tidak | DNS Indonesia aman |
 | PT Sumber Koneksi Indotelematika | DNS | Tidak |
-| ProNET | DNS | Ya |
+| ProNET | DNS Nasional | Ya |
 | PT Media Jaringan Telekomunikasi | DNS Nasional | Tidak |
 | PT Sekawan Global Komunika | DNS Nasional | Tidak |
 
