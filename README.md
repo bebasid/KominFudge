@@ -50,7 +50,7 @@ ISP adalah provider Internetmu,list ini akan buat kamu lebih tau bagaimana ISP²
 | MNC | Ya | Tidak |
 | Iconnet PLN | Ya | Ya |
 | PT Netciti Persada | Ya | Tidak |
-| Moratelindo | Ya | Tidak | Nama lain: Oxygen <br /> DoH dan DoT punya Google dan port 5353 diblokir |
+| Moratelindo | Ya | Ya | Nama lain: Oxygen <br /> DoH dan DoT punya Google diblokir|
 | Citranet | Ya | Tidak |
 | Padi Net | Ya | Tidak |
 | Fiberstream | Ya | Tidak |
@@ -103,6 +103,7 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | 3 | Rendah |
 | Smartfren | Rendah |
 | ProNET | Rendah |
+| Oxygen | Rendah |
 
 <sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
 
