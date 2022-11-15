@@ -18,7 +18,7 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | MNC | DNS | Tidak |
 | Iconnet PLN | DNS | Ya |
 | PT Netciti Persada | DNS | Tidak |
-| Moratelindo | DNS | Ya | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole di gateway Oxygen <br> DPI Oxygen hanya memblokir situs porno dan judi (Reddit, Vimeo, dkk lewat) |
+| Moratelindo | DNS Nasional | Ya | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole di gateway Oxygen dan beberapa kepala IP tidak menerapkan DNS Nasional (Transparent DNS) <br> DPI Oxygen hanya memblokir situs porno dan judi (Reddit, Vimeo, dkk lewat). |
 | Citranet | DNS | Tidak |
 | Padi Net | DNS Nasional | Tidak |
 | Fiberstream | DNS Nasional | Tidak |
