@@ -40,13 +40,13 @@ ISP adalah provider Internetmu, list ini akan buat kamu lebih tau bagaimana ISPÂ
 ### IP Transit 
 <sup><b>Untuk mengecek IP Transit apa yang ISP kita gunakan, silahkan check di https://bgp.tools atau https://bgp.he.net</b></sup><br>
 
-ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara biasa karena port 53 telah dibelokan ke DNS provider IP Transit masing-masing sebagaimana DNS Nasional yang diusulkan di IDNOG 2022. <br>
+ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara biasa karena port 53 telah dibelokan ke DNS provider IP Transit masing-masing sebagaimana <a href="https://youtu.be/q1706yrzzws?t=18927">DNS Nasional yang diusulkan di IDNOG 2022.</a><br>
 | ASN | Nama | Pemblokiran menggunakan DNS | Catatan |
 | :---: | :---: | :---: | :---: |
 | AS4800 | PT Aplikanusa Lintasarta | DNS Transparan | Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia |
 | AS7713 | PT Telkom Indonesia | DNS Proxy | Request port 53 luar negeri dibelokan dulu ke proxy DNS Telkom sebelum dilanjutkan sehingga DNS custom filtering seperti NextDNS dan ControlD tidak akan berjalan jika menggunakan plain dns karena yang terbaca oleh server adalah IP Proxy Telkom daripada IP asli kita.<br>Walaupun begitu, server DNS Indonesia masih aman asalkan dirutekan oleh Telkom kedalam negeri |
 
-<sup style="text-align:center;">Jika di-sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama saja kena blokir dan harus menggunakan DNS terenkripsi.</sup><br>
+<sup style="text-align:center;">Jika di-sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama saja kena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dirutekan melalui IP Transit diatas jika ada</sup><br>
 
 ### ISP Fiber  
 **ISP Rumah**
