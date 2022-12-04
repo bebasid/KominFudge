@@ -47,6 +47,8 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | ProNET | DNS Nasional | Ya |
 | PT Media Jaringan Telekomunikasi | DNS Nasional | Tidak |
 | PT Sekawan Global Komunika | DNS Nasional | Tidak |
+| PT INFORMASI NUSANTARA TEKNOLOGI | DNS | Tidak |
+| Orion Cyber Internet | DNS | Tidak | 
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
