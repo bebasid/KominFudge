@@ -90,6 +90,8 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | ProNET | Ya | Ya | Nama lain: PT Trisari Data Indonesia<br />Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir  |
 | PT Media Jaringan Telekomunikasi | Ya | Tidak |
 | PT Sekawan Global Komunika | Ya | Tidak |
+| PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak |
+| Orion Cyber Internet | Ya | Tidak | DNS populer seperti Cloudflare, Google, Quad9, Level3, dll dibelokin ke server ISP |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
