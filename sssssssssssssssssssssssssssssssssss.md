@@ -49,6 +49,8 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | PT Sekawan Global Komunika | DNS Nasional | Tidak |
 | PT INFORMASI NUSANTARA TEKNOLOGI | DNS | Tidak |
 | Orion Cyber Internet | DNS | Tidak | 
+| PT AGTI | DNS Nasional | Tidak | 
+| PT Parsaoran Global Datatrans | DNS | Tidak |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
