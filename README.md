@@ -41,10 +41,10 @@ ISP adalah provider Internetmu, list ini akan buat kamu lebih tau bagaimana ISPÂ
 <sup><b>Untuk mengecek IP Transit apa yang ISP kita gunakan, silahkan check di https://bgp.tools atau https://bgp.he.net</b></sup><br>
 
 ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara biasa karena port 53 telah dibelokan ke DNS provider IP Transit masing-masing sebagaimana <a href="https://youtu.be/q1706yrzzws?t=18927">DNS Nasional yang diusulkan di IDNOG 2022.</a><br>
-| ASN | Nama | Pemblokiran menggunakan DNS | Catatan |
-| :---: | :---: | :---: | :---: |
-| AS4800 | PT Aplikanusa Lintasarta | DNS Transparan | Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia |
-| AS7713 | PT Telkom Indonesia | DNS Proxy | Request port 53 luar negeri dibelokan dulu ke proxy DNS Telkom sebelum dilanjutkan sehingga DNS custom filtering seperti NextDNS dan ControlD tidak akan berjalan jika menggunakan plain dns karena yang terbaca oleh server adalah IP Proxy Telkom daripada IP asli kita.<br>Walaupun begitu, server DNS Indonesia masih aman asalkan dirutekan oleh Telkom kedalam negeri |
+| ASN | Nama | Pemblokiran menggunakan DNS | Catatan | Contoh ISP yang kena |
+| :---: | :---: | :---: | :---: | :---: |
+| AS4800 | PT Aplikanusa Lintasarta | DNS Transparan | Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia | Netciti, CYB Media |
+| AS7713 | PT Telkom Indonesia | DNS Proxy | Request port 53 luar negeri dibelokan dulu ke proxy DNS Telkom sebelum dilanjutkan sehingga DNS custom filtering seperti NextDNS dan ControlD tidak akan berjalan jika menggunakan plain dns karena yang terbaca oleh server adalah IP Proxy Telkom daripada IP asli kita.<br>Walaupun begitu, server DNS Indonesia masih aman asalkan dirutekan oleh Telkom kedalam negeri | Nusa Net |
 
 <sup style="text-align:center;">Jika di-sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama saja kena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dirutekan melalui IP Transit diatas jika ada</sup><br>
 
@@ -60,8 +60,8 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | Megavision | Ya | Tidak | Nama lain: StarNET |
 | MNC | Ya | Tidak |
 | Iconnet PLN | Ya | Ya |
-| PT Netciti Persada | Ya | Tidak |
-| Moratelindo | Ya | Ya | Nama lain: Oxygen <br /> DoH dan DoT punya Google diblokir <br> Beberapa kepala IP memblokir alt-port DNS 5353|
+| PT Netciti Persada | Ya | Tidak | Kena DNS Nasional oleh upstream Lintasarta |
+| Oxygen | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br> Beberapa kepala IP memblokir alt-port DNS 5353 |
 | Citranet | Ya | Tidak |
 | Padi Net | Ya | Tidak |
 | Fiberstream | Ya | Tidak |
@@ -91,7 +91,9 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | PT Media Jaringan Telekomunikasi | Ya | Tidak |
 | PT Sekawan Global Komunika | Ya | Tidak |
 | PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak |
-| Orion Cyber Internet | Ya | Tidak | DNS populer seperti Cloudflare, Google, Quad9, Level3, dll dibelokin ke server ISP |
+| Orion Cyber Internet | Ya | Tidak | DNS populer seperti Cloudflare, Google, Quad9, Level3, dll dibelokan ke server ISP |
+| PT AGTI | Ya | Tidak | Nama lain: PT. Arjuna Global Teknologi Indonesia |
+| PT Parsaoran Global Datatrans | Ya | Tidak | Nama lain: HSP NET |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
@@ -116,7 +118,6 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | 3 | Rendah |
 | Smartfren | Rendah |
 | ProNET | Rendah |
-| Oxygen | Rendah |
 
 <sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
 
