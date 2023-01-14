@@ -94,6 +94,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | Orion Cyber Internet | Ya | Tidak | DNS populer seperti Cloudflare, Google, Quad9, Level3, dll dibelokan ke server ISP |
 | PT AGTI | Ya | Tidak | Nama lain: PT. Arjuna Global Teknologi Indonesia |
 | PT Parsaoran Global Datatrans | Ya | Tidak | Nama lain: HSP NET |
+| PT Fiber Networks Indonesia | Ya | Tidak | Nama lain: FIBERNET |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
