@@ -10,7 +10,7 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
 | :---: | :---: | :---: | :---: |
 | Indihome | DNS Nasional | Ya |
-| CBN | DNS Nasional | Tidak | DNS Cloudflare for Family dan OpenDNS Familysheild aman |
+| CBN | DNS | Tidak | DNS Cloudflare for Family dan OpenDNS Familysheild aman |
 | Biznet Home | DNS Nasional | Tidak | Beberapa kepala IPv4 bisa memakai DNS Indonesia dan beberapa kepala IPv6 aman|
 | MyRepublic | DNS Nasional | Tidak |
 | FirstMedia | DNS Nasional | Tidak |
@@ -51,6 +51,7 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | Orion Cyber Internet | DNS | Tidak | 
 | PT AGTI | DNS Nasional | Tidak | 
 | PT Parsaoran Global Datatrans | DNS | Tidak |
+| PT Fiber Networks Indonesia | DNS Nasional | Tidak |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI |
