@@ -17,8 +17,8 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | Megavision | DNS Nasional | Tidak |
 | MNC | DNS | Tidak |
 | Iconnet PLN | DNS | Ya |
-| PT Netciti Persada | DNS | Tidak |
-| Moratelindo | DNS Nasional | Tidak | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole di gateway Oxygen dan beberapa kepala IP tidak menerapkan DNS Nasional (Transparent DNS) |
+| Netciti | DNS | Tidak |
+| Oxygen | DNS Nasional | Tidak | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole di gateway Oxygen dan beberapa kepala IP tidak menerapkan DNS Nasional (Transparent DNS) |
 | Citranet | DNS | Tidak |
 | Padi Net | DNS Nasional | Tidak |
 | Fiberstream | DNS Nasional | Tidak |
