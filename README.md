@@ -66,6 +66,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | Padi Net | Ya | Tidak |
 | Fiberstream | Ya | Tidak |
 | Balifiber | Ya | Tidak |
+| PT Media Cepat Indonesia | Ya | Tidak |
 
 **ISP Kantor**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
