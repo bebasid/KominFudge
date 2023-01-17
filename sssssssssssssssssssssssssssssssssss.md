@@ -23,6 +23,7 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | Padi Net | DNS Nasional | Tidak |
 | Fiberstream | DNS Nasional | Tidak |
 | Balifiber | DNS | Tidak |
+| PT Media Cepat Indonesia | DNS Nasional | Tidak |
 
 #### ISP Kantor
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
