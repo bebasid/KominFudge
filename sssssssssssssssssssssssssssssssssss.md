@@ -37,6 +37,7 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | PT Artha Telekomindo | DNS | Tidak |
 | PT Hawk Teknologi Solusi | DNS | Tidak |
 | PT Jaringanku Sarana Nusantara | DNS Nasional | Tidak |
+| PT. Infotama Lintas Global | DNS Nasional | Tidak |
 | PT Remala Abadi | DNS | Tidak |
 | PT iForte Global internet | DNS | Tidak |
 | PT Cipta Informatika Cemeriang | DNS | Tidak |
