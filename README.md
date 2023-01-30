@@ -64,7 +64,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | Oxygen | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br> Beberapa kepala IP memblokir alt-port DNS 5353 |
 | Citranet | Ya | Tidak |
 | Padi Net | Ya | Tidak |
-| Fiberstream | Ya | Tidak |
+| Fiberstream | Ya | Tidak | ISP Rumahan punya G-MEDIA |
 | Balifiber | Ya | Tidak |
 | PT Media Cepat Indonesia | Ya | Tidak |
 
@@ -80,11 +80,12 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | PT Artha Telekomindo | Ya | Tidak |
 | PT Hawk Teknologi Solusi | Ya | Tidak |
 | PT Jaringanku Sarana Nusantara | Ya | Tidak | Nama lain: JSN |
+| PT. Infotama Lintas Global | Ya | Tidak |
 | PT Remala Abadi | Ya | Tidak |
 | PT iForte Global internet | Ya | Tidak |
 | PT Cipta Informatika Cemeriang | Ya | Tidak |
 | PT Lexa Net | Ya | Tidak | Nama lain: PT Lexa Global Akses |
-| GMEDIA  | Ya | Tidak |
+| PT Media Sarana Data  | Ya | Tidak | Nama lain: G-MEDIA |
 | PT Artorius Telemetri Sentosa | Ya | Tidak |
 | D-NET | Ya | Tidak | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
 | PT Sumber Koneksi Indotelematika | Ya | Tidak |
