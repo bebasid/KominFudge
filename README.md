@@ -67,6 +67,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | Fiberstream | Ya | Tidak | ISP Rumahan punya G-MEDIA |
 | Balifiber | Ya | Tidak |
 | PT Media Cepat Indonesia | Ya | Tidak |
+| Melsa | Ya | Tidak | DNS Google aman |
 
 **ISP Kantor**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
