@@ -106,7 +106,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | XL | Ya | Ya | Nama Lain: Axis |
 | 3 | Ya | Ya |
 | Indosat | Ya | Ya |
-| Smartfren | Ya | Ya | Memblokir DoH/DoT punya Google |
+| Smartfren | Ya | Ya | Memblokir DoH/DoT punya Google dan Cloudflare (1.1.1.1) |
 
 ### Level kepayahan unblok memakai DPI
 Seberapa payah cara nge-unblok memakai DPI per-ISP
