@@ -61,6 +61,6 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | :---: | :---: | :---: |
 | Telkomsel | DNS Nasional | Ya |
 | XL | DNS Nasional | Ya |
-| 3 | DNS Nasional | Ya |
+| 3 | DNS | Ya |
 | Indosat | DNS | Ya |
 | Smartfren | DNS Nasional | Ya |
