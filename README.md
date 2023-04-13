@@ -53,12 +53,12 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
 | Indihome | Ya | Ya | ISP dari Telkom untuk rumah |
-| CBN | Ya | Tidak |
+| CBN | Ya | Ya |
 | Biznet Home | Ya | Tidak |
 | MyRepublic | Ya | Tidak |
-| FirstMedia | Ya | Tidak |
+| FirstMedia | Ya | Ya |
 | Megavision | Ya | Tidak | Nama lain: StarNET |
-| MNC | Ya | Tidak |
+| MNC | Ya | Ya |
 | Iconnet PLN | Ya | Ya |
 | PT Netciti Persada | Ya | Tidak | Kena DNS Nasional oleh upstream Lintasarta |
 | Oxygen | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br> Beberapa kepala IP memblokir alt-port DNS 5353 |
@@ -122,6 +122,9 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | 3 | Rendah |
 | Smartfren | Rendah |
 | ProNET | Rendah |
+| CBN | Rendah |
+| MNC | Rendah |
+| Firstmedia | Rendah |
 
 <sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
 
