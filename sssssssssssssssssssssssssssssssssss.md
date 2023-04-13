@@ -12,8 +12,8 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | Indihome | DNS Nasional | Ya |
 | CBN | DNS | Ya | DNS Cloudflare for Family dan OpenDNS Familysheild aman |
 | Biznet Home | DNS Nasional | Tidak | Beberapa kepala IPv4 bisa memakai DNS Indonesia dan beberapa kepala IPv6 aman|
-| MyRepublic | DNS Nasional | Tidak |
-| FirstMedia | DNS Nasional | Tidak |
+| MyRepublic | DNS Nasional | Ya |
+| FirstMedia | DNS Nasional | Ya |
 | Megavision | DNS Nasional | Tidak |
 | MNC | DNS | Ya |
 | Iconnet PLN | DNS | Ya |
