@@ -10,12 +10,12 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
 | :---: | :---: | :---: | :---: |
 | Indihome | DNS Nasional | Ya |
-| CBN | DNS | Tidak | DNS Cloudflare for Family dan OpenDNS Familysheild aman |
+| CBN | DNS | Ya | DNS Cloudflare for Family dan OpenDNS Familysheild aman |
 | Biznet Home | DNS Nasional | Tidak | Beberapa kepala IPv4 bisa memakai DNS Indonesia dan beberapa kepala IPv6 aman|
 | MyRepublic | DNS Nasional | Tidak |
 | FirstMedia | DNS Nasional | Tidak |
 | Megavision | DNS Nasional | Tidak |
-| MNC | DNS | Tidak |
+| MNC | DNS | Ya |
 | Iconnet PLN | DNS | Ya |
 | Netciti | DNS | Tidak |
 | Oxygen | DNS Nasional | Tidak | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole di gateway Oxygen dan beberapa kepala IP tidak menerapkan DNS Nasional (Transparent DNS) |
