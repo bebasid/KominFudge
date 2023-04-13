@@ -48,7 +48,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 
 <sup style="text-align:center;">Jika di-sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama saja kena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dirutekan melalui IP Transit diatas jika ada</sup><br>
 
-Sedangkan ISP yang menggunakan upstream dibawah ini wajib menggunakan VPN/GoodbyeDPI/Powertunnel
+<b>Sedangkan ISP yang menggunakan upstream dibawah ini wajib menggunakan VPN/GoodbyeDPI/Powertunnel</b>
 | ASN | Nama | Menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
 | AS7713 | PT Telkom Indonesia | Ya |
@@ -57,6 +57,8 @@ Sedangkan ISP yang menggunakan upstream dibawah ini wajib menggunakan VPN/Goodby
 | AS137366 | PT iForte Solusi Infotek | Ya |
 | AS23951 | Jembatan Citra Nusantara (Citranet) | Ya | Tidak Memblokir Reddit dan Vimeo |
 | AS58495 | PT Parsaoran Global Datatrans (HSP-NET) | Ya | Tidak Memblokir Vimeo |
+
+<sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
 
 ### ISP Fiber  
 **ISP Rumah**
