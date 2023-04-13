@@ -55,7 +55,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | Indihome | Ya | Ya | ISP dari Telkom untuk rumah |
 | CBN | Ya | Ya |
 | Biznet Home | Ya | Tidak |
-| MyRepublic | Ya | Tidak |
+| MyRepublic | Ya | Ya | DPI MyRepublic hanya memblokir situs 18+ |
 | FirstMedia | Ya | Ya |
 | Megavision | Ya | Tidak | Nama lain: StarNET |
 | MNC | Ya | Ya |
@@ -74,7 +74,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | :---: | :---: | :---: | :---: |
 | Astinet | Ya | Ya | ISP dari Telkom untuk kantor, Ya tuhan mahal bet,bangkrut gua 😭😭 |
 | Linknet | Ya | Tidak | ISP dari Firstmedia untuk kantor |
-| Lintasarta | Ya | Tidak |
+| Lintasarta | Ya | Ya |
 | Metronet | Ya | Tidak | aka Biznet Dedicated |
 | PT Metrasat | Ya | Ya |
 | PT Pasifik Satelit Nusantara | Ya | Tidak |
@@ -125,6 +125,7 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | CBN | Rendah |
 | MNC | Rendah |
 | Firstmedia | Rendah |
+| MyRepublic | Rendah|
 
 <sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
 
