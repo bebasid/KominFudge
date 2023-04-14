@@ -52,7 +52,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | :---: | :---: | :---: | :---: |
 | AS4800 | PT Aplikanusa Lintasarta | Ya |
 | AS4787 | PT Cyberindo Aditama | Ya |
-| AS137366 | PT iForte Solusi Infotek | Ya |
+| AS137366 | PT iForte Solusi Infotek | Ya | Tidak Memblokir Vimeo |
 | AS23951 | Jembatan Citra Nusantara (Citranet) | Ya | Tidak Memblokir Reddit dan Vimeo |
 | AS58495 | PT Parsaoran Global Datatrans (HSP-NET) | Ya | Tidak Memblokir Vimeo |
 | AS17451 | BIZNET NETWORKS | Ya |
