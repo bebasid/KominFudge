@@ -57,6 +57,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | AS137366 | PT iForte Solusi Infotek | Ya |
 | AS23951 | Jembatan Citra Nusantara (Citranet) | Ya | Tidak Memblokir Reddit dan Vimeo |
 | AS58495 | PT Parsaoran Global Datatrans (HSP-NET) | Ya | Tidak Memblokir Vimeo |
+| AS17451 | BIZNET NETWORKS | Ya |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
 
@@ -85,9 +86,9 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
 | Astinet | Ya | Ya | ISP dari Telkom untuk kantor, Ya tuhan mahal bet,bangkrut gua 😭😭 |
-| Linknet | Ya | Tidak | ISP dari Firstmedia untuk kantor |
+| Linknet | Ya | yA | ISP dari Firstmedia untuk kantor |
 | Lintasarta | Ya | Ya |
-| Metronet | Ya | Tidak | aka Biznet Dedicated |
+| Metronet | Ya | Ya | aka Biznet Dedicated |
 | PT Metrasat | Ya | Ya |
 | PT Pasifik Satelit Nusantara | Ya | Tidak |
 | PT Artha Telekomindo | Ya | Tidak |
@@ -128,6 +129,7 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | :---: | :---: |
 | Telkomsel | Tinggi |
 | XL | Tinggi |
+| Biznet | Tinggi |
 | Indihome | Sedang |
 | Iconnet | Rendah |
 | Indosat | Sedang |
@@ -139,7 +141,7 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | Firstmedia | Rendah |
 | MyRepublic | Rendah |
 | PT Parsaoran Global Datatrans | Rendah |
-| Citranet | Rendah|
+| Citranet | Rendah |
 
 <sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
 
