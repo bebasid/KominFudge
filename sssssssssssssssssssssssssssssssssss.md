@@ -14,14 +14,14 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | Biznet Home | DNS Nasional | Tidak | Beberapa kepala IPv4 bisa memakai DNS Indonesia dan beberapa kepala IPv6 aman|
 | MyRepublic | DNS Nasional | Ya |
 | FirstMedia | DNS Nasional | Ya |
-| Megavision | DNS Nasional | Tidak |
+| Megavision | DNS Nasional | Ya |
 | MNC | DNS | Ya |
 | Iconnet PLN | DNS | Ya |
 | Netciti | DNS | Tidak |
-| Oxygen | DNS Nasional | Tidak | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole di gateway Oxygen dan beberapa kepala IP tidak menerapkan DNS Nasional (Transparent DNS) |
-| Citranet | DNS | Tidak |
-| Padi Net | DNS Nasional | Tidak |
-| Fiberstream | DNS Nasional | Tidak |
+| Oxygen | DNS Nasional | ? | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole di gateway Oxygen dan beberapa kepala IP tidak menerapkan DNS Nasional (Transparent DNS) |
+| Citranet | DNS | Ya (Beberapa yang kerouting ke Indosat) |
+| Padi Net | DNS Nasional | ? |
+| Fiberstream | DNS Nasional | ? |
 | Balifiber | DNS | Tidak |
 | PT Media Cepat Indonesia | DNS Nasional | Tidak |
 | Melsa | DNS Nasional | Tidak |
@@ -30,8 +30,8 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan Tambahan |
 | :---: | :---: | :---: | :---: |
 | Astinet | DNS Injection | Ya |  DNS Indonesia aman |
-| Lintasarta | DNS Nasional | Tidak |
-| Biznet Metronet/Dedicated | DNS Nasional | Tidak |
+| Lintasarta | DNS Nasional | Ya |
+| Biznet Metronet/Dedicated | DNS Nasional | Ya |
 | Moratel Dedictated/SOHO | DNS | Tidak | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole di gateway Moratel |
 | PT Metrasat | DNS Nasional | Ya |
 | PT Pasifik Satelit Nusantara | DNS Nasional | Tidak |
@@ -53,7 +53,7 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | PT INFORMASI NUSANTARA TEKNOLOGI | DNS | Tidak |
 | Orion Cyber Internet | DNS | Tidak | 
 | PT AGTI | DNS Nasional | Tidak | 
-| PT Parsaoran Global Datatrans | DNS | Tidak |
+| PT Parsaoran Global Datatrans | DNS | Ya |
 | PT Fiber Networks Indonesia | DNS Nasional | Tidak |
 
 ### ISP Mobile
