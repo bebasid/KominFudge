@@ -90,7 +90,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 **ISP Kantor**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
-| Astinet | Ya | Ya | ISP dari Telkom untuk kantor, Ya tuhan mahal bet,bangkrut gua 😭😭 |
+| Astinet | Ya | Ya | ISP dari Telkom untuk kantor |
 | Linknet | Ya | Tidak | ISP dari Firstmedia untuk kantor |
 | Lintasarta | Ya | Ya |
 | Metronet | Ya | Ya | aka Biznet Dedicated |
@@ -116,6 +116,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | PT AGTI | Ya | Tidak | Nama lain: PT. Arjuna Global Teknologi Indonesia |
 | PT Parsaoran Global Datatrans | Ya | Ya | Nama lain: HSP NET |
 | PT Fiber Networks Indonesia | Ya | Tidak | Nama lain: FIBERNET |
+| PT Power Telecom Indonesia | Ya | Ya | DPI tidak memblokir Vimeo |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
@@ -147,6 +148,7 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | MyRepublic | Rendah |
 | PT Parsaoran Global Datatrans | Rendah |
 | Citranet | Rendah |
+| PT Power Telecom Indonesia | Rendah |
 
 <sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
 
