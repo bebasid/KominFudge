@@ -60,6 +60,12 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
 
+<b>Internet Exchange yang memakai middlebox DPI</b>
+| Nama | Menggunakan DPI | CDN yang terkena dampak | Catatan |
+| :---: | :---: | :---: | :---: |
+| BIX - Biznet Internet Exchange | Ya | <a href="https://cdn.discordapp.com/attachments/630415907482632198/1096638543507501056/image.png">Cloudflare, dan semua CDN yang terhubung dengan BIX</a> | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
+
+
 ### ISP Fiber  
 **ISP Rumah**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
