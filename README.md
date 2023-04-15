@@ -91,7 +91,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
 | Astinet | Ya | Ya | ISP dari Telkom untuk kantor, Ya tuhan mahal bet,bangkrut gua 😭😭 |
-| Linknet | Ya | yA | ISP dari Firstmedia untuk kantor |
+| Linknet | Ya | Tidak | ISP dari Firstmedia untuk kantor |
 | Lintasarta | Ya | Ya |
 | Metronet | Ya | Ya | aka Biznet Dedicated |
 | PT Metrasat | Ya | Ya |
