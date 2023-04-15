@@ -11,11 +11,11 @@ mending urusin tuh infrastruktur gimana biar koneksi internet lebih cepet dan st
 | :---: | :---: | :---: | :---: |
 | Indihome | DNS Nasional | Ya |
 | CBN | DNS | Ya | DNS Cloudflare for Family dan OpenDNS Familysheild aman |
-| Biznet Home | DNS Nasional | Tidak | Beberapa kepala IPv4 bisa memakai DNS Indonesia dan beberapa kepala IPv6 aman|
+| Biznet Home | DNS Nasional | Ya | Beberapa kepala IPv4 bisa memakai DNS Indonesia dan beberapa kepala IPv6 aman|
 | MyRepublic | DNS Nasional | Ya |
 | FirstMedia | DNS Nasional | Ya |
 | Megavision | DNS Nasional | Ya |
-| MNC | DNS | Ya |
+| MNC | DNS | Ya/Tidak tergantung Daerah |
 | Iconnet PLN | DNS | Ya |
 | Netciti | DNS | Tidak |
 | Oxygen | DNS Nasional | ? | IP dari DNS Google, OpenDNS, dan Quad9 diblackhole di gateway Oxygen dan beberapa kepala IP tidak menerapkan DNS Nasional (Transparent DNS) |
