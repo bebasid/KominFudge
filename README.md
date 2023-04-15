@@ -371,6 +371,7 @@ Nih,coba liat VPN aman yang lebih baik dipake daripada vpn yang gak terpercaya d
 | [OVPN](https://ovpn.com) | **Aman** | Berbayar | 102 |
 
 ### VPN untuk Advanced Users[🔝](#navigasi)
+VPN dibagian ini memerlukan konfigurasi, jika anda hanya ingin VPN yang Out of the box, silahkan abaikan ini
 
 | Nama | Deskripsi |
 | :---: | :---: |
