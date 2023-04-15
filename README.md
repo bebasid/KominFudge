@@ -53,7 +53,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | AS4800 | PT Aplikanusa Lintasarta | Ya |
 | AS4787 | PT Cyberindo Aditama | Ya |
 | AS137366 | PT iForte Solusi Infotek | Ya | Tidak Memblokir Vimeo |
-| AS23951 | Jembatan Citra Nusantara (Citranet) | Ya | Terkena dampak dari Upstream Indosat tetapi Reddit aman asalkan ngeresolve ke IP kepala 151.101.x.x dan Vimeo tidak diblokir |
+| AS23951 | Jembatan Citra Nusantara (Citranet) | Ya | <a href="https://images-ext-2.discordapp.net/external/mLnNxd_XIenwPUe_l8_kOvnzjImB93dlHC3LWx_V5H4/https/img001.prntscr.com/file/img001/LuX-l7HFRw6Weq-NKmGPhw.png">Terkena dampak dari Upstream Indosat</a> tetapi Reddit aman asalkan ngeresolve ke IP kepala 151.101.x.x dan Vimeo tidak diblokir |
 | AS4761 | INDOSAT Internet Network Provider | <a href="https://images-ext-2.discordapp.net/external/mLnNxd_XIenwPUe_l8_kOvnzjImB93dlHC3LWx_V5H4/https/img001.prntscr.com/file/img001/LuX-l7HFRw6Weq-NKmGPhw.png">Ya</a> |
 | AS58495 | PT Parsaoran Global Datatrans (HSP-NET) | Ya | Tidak Memblokir Vimeo |
 | AS17451 | BIZNET NETWORKS | Ya |
