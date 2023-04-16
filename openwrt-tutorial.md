@@ -37,4 +37,28 @@ Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib me
 <p align="center"><b>( TO BE CONTINUED... )</b></p>
 
 ### Installasi Zapret
-1.  Setelah selesai menjalankan perintah <i>git clone</i> di terminal<br>
+1.  Setelah selesai menjalankan perintah <i>git clone</i> di terminal, silahkan navigasi ke /tmp/zapret dengan mengetikan ```cd /tmp/zapret``` di terminal<br>
+2.  Jalankan ```./install-easy.sh``` di Terminal
+3.  Jika muncul pesan 
+    ```
+    easy install is supported only from default location : /opt/zapret 
+    currently its run from /tmp/zapret
+    do you want the installer to copy it for you (default : N) (Y/N) ?
+    ```
+    Silahkan ketik `Y` dan Enter
+4.  Untuk Firewall, pilih iptables dengan mengetik 1 dan enter<br>
+    ![image](https://user-images.githubusercontent.com/115700386/232266676-b901a3a2-3cf1-48d1-87ee-bbce9d8e0721.png)<br>
+5.  Untuk enable IPv6 support, silahkan pilih `Y` untuk jaga-jaga<br>
+    ![image](https://user-images.githubusercontent.com/115700386/232266756-e24ba6de-df68-4b65-bce7-e39c3e8669b3.png)<br>
+6.  Untuk Mode, silahkan pilih `3` dan enter<br>
+    ![image](https://user-images.githubusercontent.com/115700386/232266796-e218738c-8399-4469-93c4-b81146730fdc.png)<br>
+7.  Pastikan enable HTTP support, HTTPS support di enablekan dengan pilih `Y` pada saat proses instalasi <br>
+    ![image](https://user-images.githubusercontent.com/115700386/232266856-6abfb4da-e52a-41a9-a720-ae71e2ed293a.png)<br>
+8.  Setelah itu klik Enter sampai selesai
+9.  Hapus folder Zapret di /tmp untuk menyimpan memory<br>
+    
+
+### Konfigurasi Zapret
+1.  Pergi ke folder `cd /opt/zapret/` dan jalankan script `./install_bin.sh`
+2.  Saat proses sudah berhasil, silahkan jalankan `./blockpage.sh` untuk mengetahui setting Zapret yang optimal untuk ISP anda
+
