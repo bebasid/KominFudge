@@ -67,3 +67,7 @@ Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib me
     domain(s) (default: rutracker.org) :
     ```
     Silahkan isi dengan domain yang diblokir Kominfo (Misalkan: `reddit.com`, `vimeo.com`, `omegle.com`, dll)
+4.  Jika muncul presan `ip protocol version`, sesuaikan dengan jaringan anda
+    - Misalkan jaringan anda hanya support IPv4, maka ketik `4` dan enter
+    - Tetapi, jika Jaringan anda support IPv4 dan IPv6, maka ketik `46` dan enter
+5.  Lorem Ipsum
