@@ -34,3 +34,7 @@ Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib me
      <b><sup>Jika hasilnya seperti diatas ini, maka konfigurasi host BebasID telah berhasil</sup></b></p><br>
 - <b>Menggunakan DNS dengan port selain 53</b><br>
 
+<p align="center"><b>( TO BE CONTINUED... )</b></p>
+
+### Installasi Zapret
+1.  Setelah selesai menjalankan perintah <i>git clone</i> di terminal<br>
