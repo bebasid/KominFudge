@@ -77,5 +77,11 @@ Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib me
     ![image](https://user-images.githubusercontent.com/115700386/232272140-d9b62495-493e-4170-93d9-c8b70eae965a.png)<br>
     Catat hasilnya
 9.  Setelah itu, stop service Zapret di OpenWRT dengan mengetikan `service zapret stop`
-10.  Edit Config nya dengan mengetikan `nano /opt/zapret/config`
-
+10. Edit Config nya dengan mengetikan `nano /opt/zapret/config`
+11. Cari bagian ini di confignya dan replace dengan config yang sesuai pada gambar yang anda dapat tadi
+    ```
+    NFQWS_OPT_DESYNC_HTTP=
+    NFQWS_OPT_DESYNC_HTTPS=
+    NFQWS_OPT_DESYNC_HTTP6=
+    NFQWS_OPT_DESYNC_HTTPS6=
+    ```
