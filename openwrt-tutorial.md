@@ -85,3 +85,5 @@ Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib me
     NFQWS_OPT_DESYNC_HTTP6=
     NFQWS_OPT_DESYNC_HTTPS6=
     ```
+    Untuk curl_test_https_tls12, isi di bagian HTTPS dan HTTPS6<br>
+    Dan, untuk curl_test_http, isi di bagian HTTP dan HTTP6
