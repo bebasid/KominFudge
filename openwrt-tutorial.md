@@ -70,4 +70,11 @@ Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib me
 4.  Jika muncul presan `ip protocol version`, sesuaikan dengan jaringan anda
     - Misalkan jaringan anda hanya support IPv4, maka ketik `4` dan enter
     - Tetapi, jika Jaringan anda support IPv4 dan IPv6, maka ketik `46` dan enter
-5.  Lorem Ipsum
+5.  Klik Enter sampai pesan `how many times to repeat each test (default: 1)`. Ketik `2` dan Enter
+6.  Setelah itu, akan muncul pesan berbunyi `do all test despite of result?`. Ketik Y dan Enter
+7.  Tunggu hingga Zapret menemukan settingan optimal untuk ISP anda 
+8.  Jika sudah selesai, akan muncul seperti ini:<br>
+    ![image](https://user-images.githubusercontent.com/115700386/232272140-d9b62495-493e-4170-93d9-c8b70eae965a.png)<br>
+    Catat hasilnya
+9. Lorem Ipsum
+
