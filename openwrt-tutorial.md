@@ -76,5 +76,6 @@ Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib me
 8.  Jika sudah selesai, akan muncul seperti ini:<br>
     ![image](https://user-images.githubusercontent.com/115700386/232272140-d9b62495-493e-4170-93d9-c8b70eae965a.png)<br>
     Catat hasilnya
-9. Lorem Ipsum
+9.  Setelah itu, stop service Zapret di OpenWRT dengan mengetikan `service zapret stop`
+10.  Edit Config nya dengan mengetikan `nano /opt/zapret/config`
 
