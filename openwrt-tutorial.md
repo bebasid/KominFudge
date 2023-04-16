@@ -60,5 +60,10 @@ Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib me
 
 ### Konfigurasi Zapret
 1.  Pergi ke folder `cd /opt/zapret/` dan jalankan script `./install_bin.sh`
-2.  Saat proses sudah berhasil, silahkan jalankan `./blockpage.sh` untuk mengetahui setting Zapret yang optimal untuk ISP anda
-
+2.  Saat proses sudah berhasil, silahkan jalankan `./blockpage.sh` untuk mencari setting Zapret yang optimal untuk ISP anda
+3.  Jika muncul pesan:
+    ```
+    specify domain(s) to test. multiple domains are space separated.
+    domain(s) (default: rutracker.org) :
+    ```
+    Silahkan isi dengan domain yang diblokir Kominfo (Misalkan: `reddit.com`, `vimeo.com`, `omegle.com`, dll)
