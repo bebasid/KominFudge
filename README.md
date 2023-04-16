@@ -75,7 +75,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | MyRepublic | Ya | Ya | DPI MyRepublic hanya memblokir situs 18+ |
 | FirstMedia | Ya | Ya |
 | Megavision | Ya | Ya | Nama lain: StarNET |
-| MNC | Ya | Ya | Terkena DPI dari Upstream iFotre |
+| MNC | Ya | Ya/Tidak (Tergantung routing) | Terkena DPI dari Upstream iFotre |
 | Iconnet PLN | Ya | Ya |
 | PT Netciti Persada | Ya | Tidak | Kena DNS Nasional oleh upstream Lintasarta |
 | Oxygen | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br> Beberapa kepala IP memblokir alt-port DNS 5353 |
@@ -147,6 +147,7 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | PT Parsaoran Global Datatrans | Rendah |
 | Citranet | Rendah |
 | PT Power Telecom Indonesia | Rendah |
+| Megavision | Rendah |
 
 <sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
 
