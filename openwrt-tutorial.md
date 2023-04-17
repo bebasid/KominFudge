@@ -33,7 +33,9 @@ Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib me
      <p align="center"><img src="https://user-images.githubusercontent.com/115700386/232265834-d88744e5-bb59-462f-82e9-20c24434a6b3.png"><br>
      <b><sup>Jika hasilnya seperti diatas ini, maka konfigurasi host BebasID telah berhasil</sup></b></p><br>
 - <b>Menggunakan DNS dengan port selain 53</b><br>
-
+- <b>Menggunakan DNS-over-HTTPS</b><br>
+- <b>Menggunakan DNS-over-TLS (Stubby)</b><br>
+- 
 <p align="center"><b>( TO BE CONTINUED... )</b></p>
 
 ### Installasi Zapret
@@ -85,5 +87,7 @@ Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib me
     NFQWS_OPT_DESYNC_HTTP6=
     NFQWS_OPT_DESYNC_HTTPS6=
     ```
-    Untuk curl_test_https_tls12, isi di bagian HTTPS dan HTTPS6<br>
-    Dan, untuk curl_test_http, isi di bagian HTTP dan HTTP6
+    Untuk curl_test_https_tls12, isi di bagian HTTPS dan HTTPS6 (Tulis setelah huruf nfqws di hasil tadi)<br>
+    Dan, untuk curl_test_http, isi di bagian HTTP dan HTTP6 (Tulis setelah huruf nfqws di hasil tadi)<br>
+12. Lalu, save hasilnya dan restart Zapret dengan mengetikan `service zapret restart`
+13. Jangan lupa enable iptables dan zapret dengan mengetikan `service zapret enable` dan `service iptables enable`
