@@ -16,7 +16,7 @@
 5. Jalankan perintah ```git clone https://github.com/bol-van/zapret.git``` dan tunggu sampai selesai<br>
 
 ### Bypass DNS Nasional
-Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib membelokan Port 53 ke server ISP dan probing tehnik bypassnya Zapret akan menggunakan resolve DNS, kita harus membypass DNS ISP terlebih dahulu sebelum melakukan proses installasi Zapret
+Karena Kominfo menerapkan peraturan <a href="https://cms.dailysocial.id/wp-content/uploads/2015/05/slack_for_ios_upload_1024.png">DNS Nasional</a> yang dimana setiap ISP wajib membelokan Port 53 ke server ISP dan probing tehnik bypassnya Zapret akan menggunakan resolve DNS, kita harus membypass DNS ISP terlebih dahulu sebelum melakukan proses installasi Zapret
 
 <b>Ada 3 cara untuk bypass:</b><br>
 - <b>Menggunakan host BebasID</b><br>
@@ -33,9 +33,22 @@ Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib me
      <p align="center"><img src="https://user-images.githubusercontent.com/115700386/232265834-d88744e5-bb59-462f-82e9-20c24434a6b3.png"><br>
      <b><sup>Jika hasilnya seperti diatas ini, maka konfigurasi host BebasID telah berhasil</sup></b></p><br>
 - <b>Menggunakan DNS dengan port selain 53</b><br>
+   - Login ke OpenWRT
+   - Pergi ke <b>Network >> Interfaces</b> dan Edit WAN (atau apapun interface sumber internet kalian)
+     ![image](https://user-images.githubusercontent.com/115700386/232383389-329fceba-d178-4ca7-88b7-448c7c5dcc19.png)
+   - Pergi ke <b>Advanced Settings</b> dan uncheck opsi `Use DNS servers advertised by peer`
+     ![image](https://user-images.githubusercontent.com/115700386/232383541-96bba9e0-712a-415f-bdde-ffcdc3a6408c.png)
+   - Setting DNS ke 127.0.0.1
+   - Lalu Save dan Apply
+   - Setelah itu, pergi ke <b>Network >> DHCP and DNS</b><br>
+     ![image](https://user-images.githubusercontent.com/115700386/232383622-711dde04-c1b9-4099-8101-3234084c22fc.png)
+   - Dibagian DNS Forwarding, silahkan isi DNS dan alt-portnya dengan format `IP#PORT`
+     Contohnya seperti ini:<br>
+     ![image](https://user-images.githubusercontent.com/115700386/232384543-1a87981d-2186-45d1-b056-9b2a5ed146c9.png)<br>
+     <sup>Contoh menggunakan DNS dari BebasID dengan alt-port 1753</sup><br>
+   - Lalu klik + dan Save & Apply
 - <b>Menggunakan DNS-over-HTTPS</b><br>
 - <b>Menggunakan DNS-over-TLS (Stubby)</b><br>
-- 
 <p align="center"><b>( TO BE CONTINUED... )</b></p>
 
 ### Installasi Zapret
@@ -88,6 +101,13 @@ Karena Kominfo menerapkan peraturan DNS Nasional yang dimana setiap ISP wajib me
     NFQWS_OPT_DESYNC_HTTPS6=
     ```
     Untuk curl_test_https_tls12, isi di bagian HTTPS dan HTTPS6 (Tulis setelah huruf nfqws di hasil tadi)<br>
-    Dan, untuk curl_test_http, isi di bagian HTTP dan HTTP6 (Tulis setelah huruf nfqws di hasil tadi)<br>
+    Dan, untuk curl_test_http, isi di bagian HTTP dan HTTP6 (Tulis setelah huruf nfqws di hasil tadi)<br><br>
+    <b>Sebagai Contoh:</b> (Jangan ikuti melainkan sesuaikan dengan apa yang anda dapat)
+    ```
+    NFQWS_OPT_DESYNC_HTTP=--hostcase
+    NFQWS_OPT_DESYNC_HTTPS=--dpi-desync=split2
+    NFQWS_OPT_DESYNC_HTTP6=--hostcase
+    NFQWS_OPT_DESYNC_HTTPS6=--dpi-desync=split2
+    ```
 12. Lalu, save hasilnya dan restart Zapret dengan mengetikan `service zapret restart`
 13. Jangan lupa enable iptables dan zapret dengan mengetikan `service zapret enable` dan `service iptables enable`
