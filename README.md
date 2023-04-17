@@ -43,7 +43,7 @@ ISP adalah provider Internetmu, list ini akan buat kamu lebih tau bagaimana ISPÂ
 ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara biasa karena port 53 telah dibelokan ke DNS provider IP Transit masing-masing sebagaimana <a href="https://youtu.be/q1706yrzzws?t=18927">DNS Nasional yang diusulkan di IDNOG 2022.</a><br>
 | ASN | Nama | Pemblokiran menggunakan DNS | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
-| AS4800 | PT Aplikanusa Lintasarta | DNS Transparan | <a href="https://files.horizon.pics/44b54573-b615-4bcf-a8e6-b48705e64275?a=550&mime1=image&mime2=png">Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia</a> | Netciti, CYB Media |
+| AS4800 | PT Aplikanusa Lintasarta | <a href="https://media.discordapp.net/attachments/630415907482632198/1097380540732166164/24gpohHtktz8pYIROMJ7.png">DNS Transparan (Port 53 dibelokan ke server)</a> | <a href="https://files.horizon.pics/44b54573-b615-4bcf-a8e6-b48705e64275?a=550&mime1=image&mime2=png">Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia</a> | Netciti, CYB Media |
 
 <sup style="text-align:center;">Jika di-sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama saja kena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dirutekan melalui IP Transit diatas jika ada</sup><br>
 
