@@ -56,6 +56,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | AS4761 | INDOSAT Internet Network Provider | <a href="https://images-ext-2.discordapp.net/external/mLnNxd_XIenwPUe_l8_kOvnzjImB93dlHC3LWx_V5H4/https/img001.prntscr.com/file/img001/LuX-l7HFRw6Weq-NKmGPhw.png">Ya</a> |
 | AS58495 / AS138840 | PT Parsaoran Global Datatrans (HSP-NET) | <a href="https://raw.githubusercontent.com/MeFinity/KominFudge/502f35a61f9663a694ef325f9b6e243307103242/assets/image.png">Ya</a> |
 | AS17451 | BIZNET NETWORKS | Ya |
+| AS4787 | PT Cyberindo Aditama (CBN) | Ya |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
 
@@ -168,7 +169,7 @@ Nih,list server DNS untuk menggantikan server blokir punya Kominfo
 | Quad9 Secured with ECS | Memblokir malware, mendukung ECS | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `tls://dns11.quad9.net` |
 | Quad9 Unsecured | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` |
 | Quad9 Unsecured ECS | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware, mendukung ECS | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `tls://dns12.quad9.net` |
-| BebasID | DNS punya bebasid, memblokir iklan dan malware | `47.254.192.66` | - | `1753` | - | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
+| BebasDNS | DNS punya bebasid, memblokir iklan dan malware | `47.254.192.66` | - | `1753` | `2001:470:36:b90:beba:5::1d` | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
 | [AhaDNS](https://blitz-setup.ahadns.com) | - | ? | ? | ? | ? | ? | `blitz.ahadns.com` | ? |
 | BlahDNS | - | `45.91.92.121`  | X | - | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` |
 | [RethinkDNS](https://rethinkdns.com/configure) | - | ? | ? | - | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` |
