@@ -43,28 +43,28 @@ ISP adalah provider Internetmu, list ini akan buat kamu lebih tau bagaimana ISPÂ
 ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara biasa karena port 53 telah dibelokan ke DNS provider IP Transit masing-masing sebagaimana <a href="https://youtu.be/q1706yrzzws?t=18927">DNS Nasional yang diusulkan di IDNOG 2022.</a><br>
 | ASN | Nama | Pemblokiran menggunakan DNS | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
-| AS4800 | PT Aplikanusa Lintasarta | <a href="https://media.discordapp.net/attachments/630415907482632198/1097380540732166164/24gpohHtktz8pYIROMJ7.png">DNS Transparan (Port 53 dibelokan ke server)</a> | <a href="https://files.horizon.pics/44b54573-b615-4bcf-a8e6-b48705e64275?a=550&mime1=image&mime2=png">Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia</a> | Netciti, CYB Media |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Transparan (Port 53 dibelokan ke server)](assets/proofs/png/AS4800-1.png?raw=1) | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, CYB Media |
 
 <sup style="text-align:center;">Jika di-sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama saja kena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dirutekan melalui IP Transit diatas jika ada</sup><br>
 
 <b>Sedangkan ISP yang menggunakan upstream dibawah ini wajib menggunakan VPN/GoodbyeDPI/Powertunnel</b>
 | ASN | Nama | Menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
-| AS4800 | PT Aplikanusa Lintasarta | Ya |
-| AS137366 | PT iForte Solusi Infotek | <a href="https://raw.githubusercontent.com/MeFinity/KominFudge/main/assets/image.png">Ya</a> | Tidak Memblokir Vimeo |
-| AS23951 | Jembatan Citra Nusantara (Citranet) | Ya | <a href="https://images-ext-2.discordapp.net/external/mLnNxd_XIenwPUe_l8_kOvnzjImB93dlHC3LWx_V5H4/https/img001.prntscr.com/file/img001/LuX-l7HFRw6Weq-NKmGPhw.png">Terkena dampak dari Upstream Indosat</a> tetapi Reddit aman asalkan ngeresolve ke IP kepala 151.101.x.x dan Vimeo tidak diblokir |
-| AS4761 | INDOSAT Internet Network Provider | <a href="https://images-ext-2.discordapp.net/external/mLnNxd_XIenwPUe_l8_kOvnzjImB93dlHC3LWx_V5H4/https/img001.prntscr.com/file/img001/LuX-l7HFRw6Weq-NKmGPhw.png">Ya</a> |
-| AS58495 / AS138840 | PT Parsaoran Global Datatrans (HSP-NET) | <a href="https://raw.githubusercontent.com/MeFinity/KominFudge/502f35a61f9663a694ef325f9b6e243307103242/assets/image.png">Ya</a> |
-| AS17451 | BIZNET NETWORKS | Ya |
-| AS4787 | PT Cyberindo Aditama (CBN) | Ya |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | Ya |
+| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo |
+| [AS23951](https://bgp.tools/as/23951) | Jembatan Citra Nusantara (Citranet) | Ya | [Terkena dampak dari upstream Indosat](assets/proofs/png/AS23951-AS4761.png?raw=1)</a> tetapi Reddit aman asalkan ngeresolve ke IP kepala 151.101.x.x dan Vimeo tidak diblokir |
+| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) |
+| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) |
+| [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya |
+| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
 
 <b>Internet Exchange yang memakai middlebox DPI</b>
 | Nama | Menggunakan DPI | CDN yang terkena dampak | Catatan |
 | :---: | :---: | :---: | :---: |
-| BIX - Biznet Internet Exchange | Ya | <a href="https://cdn.discordapp.com/attachments/630415907482632198/1096638543507501056/image.png">Cloudflare, dan semua CDN yang terhubung dengan BIX</a> | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
-| HSP-IX | Ya | <a href="https://raw.githubusercontent.com/MeFinity/KominFudge/502f35a61f9663a694ef325f9b6e243307103242/assets/image.png">Cloudflare, dll yang terhubung dengan HSP-IX</a> | Sama seperti BIX |
+| BIX - Biznet Internet Exchange | Ya | [Cloudflare, dan semua CDN yang terhubung dengan BIX](assets/proofs/png/BIX.png?raw=1) | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
+| HSP-IX | Ya | [Cloudflare, dll yang terhubung dengan HSP-IX](assets/proofs/png/AS58495-HSP-IX.png?raw=1) | Sama seperti BIX |
 
 ### ISP Fiber  
 **ISP Rumah**
