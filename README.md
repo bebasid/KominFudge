@@ -72,12 +72,12 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | :---: | :---: | :---: | :---: |
 | Indihome | Ya | Ya | ISP dari Telkom untuk rumah |
 | CBN | Ya | Ya |
-| Biznet Home | Ya | Ya | DPI Biznet juga mengirim TCP RST ke server
+| Biznet Home | Ya | Ya | DPI Biznet juga mengirim TCP RST ke server |
 | MyRepublic | Ya | Ya | DPI MyRepublic hanya memblokir situs 18+ |
 | FirstMedia | Ya | Ya |
 | Megavision | Ya | Ya | Nama lain: StarNET |
 | MNC | Ya | Ya/Tidak (Tergantung routing) | Terkena DPI dari Upstream iForte |
-| Iconnet PLN | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server
+| Iconnet PLN | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server |
 | PT Netciti Persada | Ya | Tidak | Kena DNS Nasional oleh upstream Lintasarta |
 | Oxygen | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br>Memblokir alt-port DNS 5353 |
 | Citranet | Ya | Ya/Tidak (Tergantung routing) | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
@@ -121,8 +121,8 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
-| Telkomsel | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server
-| XL | Ya | Ya | Nama Lain: Axis | DPI XL juga mengirim TCP RST ke server
+| Telkomsel | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
+| XL | Ya | Ya | Nama Lain: Axis. DPI XL juga mengirim TCP RST ke server | 
 | 3 | Ya | Ya |
 | Indosat | Ya | Ya |
 | Smartfren | Ya | Ya | Memblokir DoH/DoT punya Google |
