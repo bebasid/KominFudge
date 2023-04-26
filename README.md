@@ -92,7 +92,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | :---: | :---: | :---: | :---: | :---: |
 | Astinet | Ya | Ya | ? | ISP dari Telkom untuk kantor |
 | Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor |
-| Lintasarta | Ya | Ya | Ya |
+| Lintasarta | Ya | Ya | Ya | DPI Lintasarta juga mengirim TCP RST ke server |
 | Metronet | Ya | Ya | Ya | aka Biznet Dedicated |
 | PT Metrasat | Ya | Ya | ? |
 | PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
