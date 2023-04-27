@@ -321,7 +321,7 @@ DPI Circumvention Tool berbasis AI
 #### Di Linux
 *Drop TCP RST*
 Jalankan perintah `sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP` atau `sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP` (untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE) di terminal\
-Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server
+Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom Mengirim TCP RST ke server pada tabel diatas)
 
 ## List hosts file[🔝](#navigasi)
 Nah,Hostfile (atau Filehost)....agak payah nge-eksplanasi xD  
