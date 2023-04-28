@@ -57,6 +57,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) |
 | [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya |
+| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia |[Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Traceroute Proof](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
 
@@ -108,7 +109,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | PT Artorius Telemetri Sentosa | Ya | Tidak | ? |
 | D-NET | Ya | Tidak | ? | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
 | PT Sumber Koneksi Indotelematika | Ya | Tidak | ? |
-| ProNET | Ya | Ya | ? | Nama lain: PT Trisari Data Indonesia<br />Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir  |
+| ProNET | Ya | Ya/Tidak (Tergantung Routing) | ? | Nama lain: PT Trisari Data Indonesia<br />Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir  |
 | PT Media Jaringan Telekomunikasi | Ya | Tidak | ? |
 | PT Sekawan Global Komunika | Ya | Tidak | ? |
 | PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak | ? |
@@ -117,12 +118,13 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | PT Parsaoran Global Datatrans | Ya | Ya | ? | Nama lain: HSP NET |
 | PT Fiber Networks Indonesia | Ya | Tidak | ? | Nama lain: FIBERNET |
 | PT Power Telecom Indonesia | Ya | Ya | ? | DPI tidak memblokir Vimeo |
+| PT Solnet Indonesia | Ya | Ya | ? |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server |  Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Telkomsel | Ya | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
-| XL | Ya | Ya | Ya | Nama Lain: Axis. DPI XL juga mengirim TCP RST ke server | 
+| Telkomsel / By.U / KartuHalo | Ya | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
+| XL / Axis | Ya | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
 | 3 | Ya | Ya | ? |
 | Indosat | Ya | Ya | Tidak |
 | Smartfren | Ya | Ya | Tidak | Memblokir DoH/DoT punya Google |
@@ -133,15 +135,15 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 **DATA INI TIDAK LENGKAP**
 | Nama | Kepayahan |
 | :---: | :---: |
-| Telkomsel | Tinggi |
-| XL | Tinggi |
+| Telkomsel / By.U / KartuHalo | Tinggi |
+| XL / Axis | Tinggi |
 | Biznet | Tinggi |
 | Indihome | Sedang |
 | Iconnet | Rendah |
 | Indosat | Sedang |
 | 3 | Rendah |
 | Smartfren | Rendah |
-| ProNET | Rendah |
+| PT Solnet Indonesia | Rendah |
 | CBN | Sedang |
 | Firstmedia | Rendah |
 | MyRepublic | Rendah |
