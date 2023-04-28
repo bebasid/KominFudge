@@ -109,7 +109,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | PT Artorius Telemetri Sentosa | Ya | Tidak | ? |
 | D-NET | Ya | Tidak | ? | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
 | PT Sumber Koneksi Indotelematika | Ya | Tidak | ? |
-| ProNET | Ya | Ya/Tidak (Tergantung Routing) | ? | Nama lain: PT Trisari Data Indonesia<br />Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir  |
+| ProNET | Ya | Ya/Tidak (Tergantung Routing) | Ya | Nama lain: PT Trisari Data Indonesia<br />Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir. Terkena TCP RST dari upstream Solnet  |
 | PT Media Jaringan Telekomunikasi | Ya | Tidak | ? |
 | PT Sekawan Global Komunika | Ya | Tidak | ? |
 | PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak | ? |
@@ -124,7 +124,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server |  Catatan |
 | :---: | :---: | :---: | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Ya | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
-| XL / Axis | Ya | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
+| XL / Axis / Live On | Ya | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
 | 3 | Ya | Ya | ? |
 | Indosat | Ya | Ya | Tidak |
 | Smartfren | Ya | Ya | Tidak | Memblokir DoH/DoT punya Google |
@@ -323,7 +323,7 @@ DPI Circumvention Tool berbasis AI
 #### Di Linux
 *Drop TCP RST*
 Jalankan perintah `sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP` atau `sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP` (untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE) di terminal\
-Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server
+Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom Mengirim TCP RST ke server pada tabel diatas)
 
 ## List hosts file[🔝](#navigasi)
 Nah,Hostfile (atau Filehost)....agak payah nge-eksplanasi xD  
