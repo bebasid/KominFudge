@@ -1,186 +1,36 @@
-<p align="center"><img src="./assets/kominfudge-500x250.png" align="center"></p>
-<p align="center">"Karena Kominfo ngeblok, ayo kita unblok!"</p>
-<p align="center"><sup>DISCLAIMER: KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.</sup></p>
+<div align="center">
+ <img src="./assets/kominfudge-500x250.png">
+ <p>Tolak diblokir, Ayo unblokir!</p>
+</div>
 
-### Navigasi
-- [Pilihan Tertinggi](#pilihan-tertinggi)
-- [Memilih ISP yang tidak ketat](#memilih-isp-yang-tidak-ketat)
-  - [Level kepayahan unblok memakai DPI](#level-kepayahan-unblok-memakai-dpi)
-- [Memilih DNS yang tepat](#memilih-dns-yang-tepat)
-  - [Aplikasi² DNS](#aplikasi-aplikasi-dns)
-  - [Cara mengganti DNS](#cara-mengganti-dns)
-- [Aplikasi² untuk menghilangkan DPI](#aplikasi-aplikasi-untuk-menghilangkan-dpi)
-  - [Trik untuk bypass DPI tanpa aplikasi](#trik-untuk-bypass-dpi-tanpa-aplikasi)
-- [List hosts file](#list-hosts-file)
-  - [Cara unblok memakai hosts file](#cara-unblok-memakai-hosts-file)
-- [Memilih VPN yang aman](#memilih-vpn-yang-aman)
-  - [VPN untuk Advanced Users](#vpn-untuk-advanced-users)
-- [Aplikasi² Tor](#aplikasi-aplikasi-tor)
+KominFudge adalah list cara dan aplikasi untuk unblokir censorship dari Kominfo
+>DISCLAIMER: KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.
 
-Projek ini tidak akan ada tanpa kontribusi [kalian](/kredit.md)  
-*Oh ya,kalau mau kontribusi,liat [ini](/CONTRIBUTING.md)*
+## Navigasi
+* [Memilih DNS yang Tepat](#memilih-dns-yang-tepat)
+  - [Aplikasi DNS](#aplikasi-dns) WIP
+  - [Cara Menggunakan DNS](#cara-menggunakan-dns) WIP
 
-## Pilihan Tertinggi[🔝](#navigasi)
-
-DNS: [1.1.1.1](https://1.1.1.1)  
-DNS yang Intuitif dan senang untuk dipakai  
-
-DPI: [PowerTunnel](https://github.com/krlvm/PowerTunnel)  
-Intuitif dan Open Source  
-
-Filehost: [bebasid](https://bebasid.com)  
-Mempunyai hostfile yang banyak isinya  
-
-VPN: [ProtonVPN](https://protonvpn.com)  
-Gratis dan Aman
-
-## Memilih ISP yang tidak KETAT[🔝](#navigasi)
-ISP adalah provider Internetmu, list ini akan buat kamu lebih tau bagaimana ISP² Indonesia memblokir[;](/sssssssssssssssssssssssssssssssssss.md)
-
-### IP Transit 
-<sup><b>Untuk mengecek IP Transit apa yang ISP kita gunakan, silahkan check di https://bgp.tools atau https://bgp.he.net</b></sup><br>
-
-ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara biasa karena port 53 telah dibelokan ke DNS provider IP Transit masing-masing sebagaimana <a href="https://youtu.be/q1706yrzzws?t=18927">DNS Nasional yang diusulkan di IDNOG 2022.</a><br>
-| ASN | Nama | Pemblokiran menggunakan DNS | Catatan | Contoh ISP yang kena |
-| :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Transparan (Port 53 dibelokan ke server)](assets/proofs/png/AS4800-1.png?raw=1) | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, CYB Media |
-
-<sup style="text-align:center;">Jika di-sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama saja kena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dirutekan melalui IP Transit diatas jika ada</sup><br>
-
-<b>Sedangkan ISP yang menggunakan upstream dibawah ini wajib menggunakan VPN/GoodbyeDPI/Powertunnel</b>
-| ASN | Nama | Menggunakan DPI | Catatan |
-| :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | Ya |
-| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo |
-| [AS23951](https://bgp.tools/as/23951) | Jembatan Citra Nusantara (Citranet) | Ya | [Terkena dampak dari upstream Indosat](assets/proofs/png/AS23951-AS4761.png?raw=1)</a> tetapi Reddit aman asalkan ngeresolve ke IP kepala 151.101.x.x dan Vimeo tidak diblokir |
-| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) |
-| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) |
-| [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya |
-| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya |
-| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia |[Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Traceroute Proof](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) |
-
-<sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
-
-<b>Internet Exchange yang memakai middlebox DPI</b>
-| Nama | Menggunakan DPI | CDN yang terkena dampak | Catatan |
-| :---: | :---: | :---: | :---: |
-| BIX - Biznet Internet Exchange | Ya | [Cloudflare, dan semua CDN yang terhubung dengan BIX](assets/proofs/png/BIX.png?raw=1) | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
-
-### ISP Fiber  
-**ISP Rumah**
-| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
-| :---: | :---: | :---: | :---: | :---: |
-| Indihome | Ya | Ya | ? | ISP dari Telkom untuk rumah |
-| CBN | Ya | Ya | Tidak |
-| Biznet Home | Ya | Ya | Ya | DPI Biznet juga mengirim TCP RST ke server |
-| MyRepublic | Ya | Ya | Tidak | DPI MyRepublic hanya memblokir situs 18+ |
-| FirstMedia | Ya | Ya | Tidak |
-| Megavision | Ya | Ya | ? | Nama lain: StarNET |
-| MNC | Ya | Ya/Tidak (Tergantung routing) | ? | Terkena DPI dari Upstream iForte |
-| Iconnet PLN | Ya | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server |
-| PT Netciti Persada | Ya | Tidak | ? | Kena DNS Nasional oleh upstream Lintasarta |
-| Oxygen | Ya | Tidak | ? | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br>Memblokir alt-port DNS 5353 |
-| Citranet | Ya | Ya/Tidak (Tergantung routing) | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
-| Padi Net | Ya | Tidak | ? |
-| Fiberstream | Ya | Tidak | ? | ISP Rumahan punya G-MEDIA |
-| Balifiber | Ya | Tidak | ? |
-| PT Media Cepat Indonesia | Ya | Tidak | ? |
-| Melsa | Ya | Tidak | ? | DNS Google aman |
-
-**ISP Kantor**
-| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
-| :---: | :---: | :---: | :---: | :---: |
-| Astinet | Ya | Ya | ? | ISP dari Telkom untuk kantor |
-| Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor |
-| Lintasarta | Ya | Ya | Ya | DPI Lintasarta juga mengirim TCP RST ke server |
-| Metronet | Ya | Ya | Ya | aka Biznet Dedicated |
-| PT Metrasat | Ya | Ya | ? |
-| PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
-| PT Artha Telekomindo | Ya | Tidak | ? |
-| PT Hawk Teknologi Solusi | Ya | Tidak | ? |
-| PT Jaringanku Sarana Nusantara | Ya | Tidak | ? | Nama lain: JSN |
-| PT. Infotama Lintas Global | Ya | Tidak | ? |
-| PT Remala Abadi | Ya | Tidak | ? |
-| PT iForte Global internet | Ya | Ya | Tidak | DPI tidak memblokir Vimeo |
-| PT Cipta Informatika Cemeriang | Ya | Tidak | ? |
-| PT Lexa Net | Ya | Tidak | ? | Nama lain: PT Lexa Global Akses |
-| PT Media Sarana Data  | Ya | Tidak | ? | Nama lain: G-MEDIA |
-| PT Artorius Telemetri Sentosa | Ya | Tidak | ? |
-| D-NET | Ya | Tidak | ? | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
-| PT Sumber Koneksi Indotelematika | Ya | Tidak | ? |
-| ProNET | Ya | Ya/Tidak (Tergantung Routing) | Ya | Nama lain: PT Trisari Data Indonesia<br />Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir. Terkena TCP RST dari upstream Solnet  |
-| PT Media Jaringan Telekomunikasi | Ya | Tidak | ? |
-| PT Sekawan Global Komunika | Ya | Tidak | ? |
-| PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak | ? |
-| Orion Cyber Internet | Ya | Tidak | ? | DNS populer seperti Cloudflare, Google, Quad9, Level3, dll dibelokan ke server ISP |
-| PT AGTI | Ya | Tidak | ? | Nama lain: PT. Arjuna Global Teknologi Indonesia |
-| PT Parsaoran Global Datatrans | Ya | Ya | ? | Nama lain: HSP NET |
-| PT Fiber Networks Indonesia | Ya | Tidak | ? | Nama lain: FIBERNET |
-| PT Power Telecom Indonesia | Ya | Ya | ? | DPI tidak memblokir Vimeo |
-| PT Solnet Indonesia | Ya | Ya | ? |
-
-### ISP Mobile
-| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server |  Catatan |
-| :---: | :---: | :---: | :---: | :---: |
-| Telkomsel / By.U / KartuHalo | Ya | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
-| XL / Axis / Live On | Ya | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
-| 3 | Ya | Ya | ? |
-| Indosat | Ya | Ya | Tidak |
-| Smartfren | Ya | Ya | Tidak | Memblokir DoH/DoT punya Google |
-
-### Level kepayahan unblok memakai DPI
-Seberapa payah cara nge-unblok memakai DPI per-ISP
-
-**DATA INI TIDAK LENGKAP**
-| Nama | Kepayahan |
-| :---: | :---: |
-| Telkomsel / By.U / KartuHalo | Tinggi |
-| XL / Axis | Tinggi |
-| Biznet | Tinggi |
-| Indihome | Sedang |
-| Iconnet | Rendah |
-| Indosat | Sedang |
-| 3 | Rendah |
-| Smartfren | Rendah |
-| PT Solnet Indonesia | Rendah |
-| CBN | Sedang |
-| Firstmedia | Rendah |
-| MyRepublic | Rendah |
-| PT Parsaoran Global Datatrans | Rendah |
-| Citranet | Rendah |
-| PT Power Telecom Indonesia | Rendah |
-| Megavision | Rendah |
-
-<sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
-
-
-## Memilih DNS yang tepat[🔝](#navigasi)
-DNS,cara paling simpel untuk kominfo ngeblokir,tapi DNS bisa [diganti](#cara-mengganti-dns)!  
-Nih,list server DNS untuk menggantikan server blokir punya Kominfo
-
+## Memilih DNS yang Tepat[🔝](#navigasi)
 | Nama | Catatan | IPv4 | IPv4 2 | Port Alternatif | IPv6 | IPv6 2 | DoH | DoT |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: |  :---: |
-| Cloudflare DNS | - | `1.1.1.1` | `1.0.0.1` | - | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query`  | `1dot1dot1dot1.cloudflare-dns.com` |
-| Cloudflare Secure DNS | Memblokir malware | `1.1.1.2` | `1.0.0.2` | - | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query`  | `security.cloudflare-dns.com` |
-| Cloudflare Family DNS | Memblokir malware & situs dewasa | `1.1.1.3` | `1.0.0.3` | - | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query`  | `family.cloudflare-dns.com` |
-| Google DNS | - | `8.8.8.8` | `8.8.4.4` | - | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |
-| OpenDNS | - | `208.67.222.222` | `208.67.220.220` | `5353, 443` | ` 2620:119:35::35` | `2620:119:53::53` | `doh.opendns.com/dns-query` | - |
-| OpenDNS Familyshield | Memblokir situs dewasa | `208.67.222.123` | `208.67.220.123` | `5353, 443` | - | - | `doh.familyshield.opendns.com/dns-query` | - |
-| Quad9 Secured | Memblokir malware | `9.9.9.9` | `149.112.112.112` | `9953` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` | Memblokir malware |
+|---|---|---|---|---|---|---|---|---|
+| ⭐ BebasDNS | DNS punya bebasid, memblokir iklan dan malware | `47.254.192.66` | - | `1753` | `2001:470:36:b90:beba:5::1d` | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
+| Cloudflare DNS | - | `1.1.1.1` | `1.0.0.1` | - | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query` | `1dot1dot1dot1.cloudflare-dns.com` |
+| Cloudflare Secure DNS | Memblokir malware | `1.1.1.2` | `1.0.0.2` | - | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query` | `security.cloudflare-dns.com` |
+| Cloudflare Family DNS | Memblokir malware & situs dewasa | `1.1.1.3` | `1.0.0.3` | - | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query` | `family.cloudflare-dns.com` |
+| Quad9 Secured | Memblokir malware | `9.9.9.9` | `149.112.112.112` | `9953` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` |
 | Quad9 Secured with ECS | Memblokir malware, mendukung ECS | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `tls://dns11.quad9.net` |
 | Quad9 Unsecured | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` |
 | Quad9 Unsecured ECS | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware, mendukung ECS | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `tls://dns12.quad9.net` |
-| BebasDNS | DNS punya bebasid, memblokir iklan dan malware | `47.254.192.66` | - | `1753` | `2001:470:36:b90:beba:5::1d` | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
-| [AhaDNS](https://blitz-setup.ahadns.com) | - | ? | ? | ? | ? | ? | `blitz.ahadns.com` | ? |
-| BlahDNS | - | `45.91.92.121`  | X | - | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` |
-| [RethinkDNS](https://rethinkdns.com/configure) | - | ? | ? | - | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` |
-| NextDNS | - | `45.90.28.233` | `45.90.30.233` | `5353` | `2a07:a8c0::` | `2a07:a8c0::` | `dns.nextdns.io` | `dns.nextdns.io` |
-| LibreDNS | - | `116.202.176.26` | X | - | X | X | `doh.libredns.gr/dns-query` | `dot.libredns.gr` |
-| [ControlD](https://controld.com/free-dns) | - | `76.76.2.2` | `76.76.10.2` | - | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com`|
-| AdGuard DNS | Memblokir iklan & malware | `94.140.14.14` | `94.140.15.15` | `5353` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
-| [DNSWarden](https://dnswarden.com/customfilter.html) | - | ? | ? | ? | ? | ? | ? | ? |
+| Mullvad | - | - | - | - | - | - | `https://doh.mullvad.net/dns-query` | `doh.mullvad.net` |
+| Mullvad Adblocking | Memblokir Iklan | - | - | - | - | - | `https://adblock.doh.mullvad.net/dns-query` | `adblock.doh.mullvad.net` |
+| [NextDNS](https://nextdns.io) | Bisa Diatur | `45.90.28.233` | `45.90.30.233` | `5353` | `2a07:a8c0::` | `2a07:a8c0::` | `dns.nextdns.io` | `dns.nextdns.io` |
+| [ControlD](https://controld.com/free-dns) | Bisa Diatur | `76.76.2.2` | `76.76.10.2` | - | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com` |
 
-<sup>List lebih lengkap bisa dilihat di [KB Adguard](https://adguard-dns.io/kb/general/dns-providers/) dan [Curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). Bisa juga bikin sendiri dengan [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) atau [server sendiri dengan PHP](https://github.com/NotMikeDEV/DoH)</sup>
+<sub>List lebih lengkap bisa dilihat di [KB Adguard](https://adguard-dns.io/kb/general/dns-providers/) dan [cURL wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS).</sub>
+
+# END OF FILE
+MeFinity masih reorganisasi :3c
 
 ## Aplikasi-Aplikasi DNS[🔝](#navigasi)
 Aplikasi² DNS ini bisa buat memakai DNS lebih senang
