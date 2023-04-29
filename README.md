@@ -65,7 +65,6 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | Nama | Menggunakan DPI | CDN yang terkena dampak | Catatan |
 | :---: | :---: | :---: | :---: |
 | BIX - Biznet Internet Exchange | Ya | [Cloudflare, dan semua CDN yang terhubung dengan BIX](assets/proofs/png/BIX.png?raw=1) | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
-| HSP-IX | Ya | [Cloudflare, dll yang terhubung dengan HSP-IX](assets/proofs/png/AS58495-HSP-IX.png?raw=1) | Sama seperti BIX |
 
 ### ISP Fiber  
 **ISP Rumah**
