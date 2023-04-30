@@ -3,32 +3,50 @@
  <p>Tolak diblokir, Ayo unblokir!</p>
 </div>
 
-KominFudge adalah list cara dan aplikasi untuk unblokir censorship dari Kominfo
+KominFudge adalah list cara dan aplikasi untuk unblokir sensor dari Kominfo
 >DISCLAIMER: KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.
 
 ## Navigasi
 * [Memilih DNS yang Tepat](#memilih-dns-yang-tepat)
   - [Aplikasi DNS](#aplikasi-dns) WIP
-  - [Cara Menggunakan DNS](#cara-menggunakan-dns) WIP
+  - [Cara Menggunakan DNS](#cara-menggunakan-dns) Queued
 
 ## Memilih DNS yang Tepat[🔝](#navigasi)
+DNS adalah sistem yang menghubungkan nama domain dengan alamat IP. Kominfo bisa memblokir situs dengan memodifikasi server DNS agar tidak dapat diakses. Kamu bisa menggantinya dengan menggunakan DNS alternatif ini.
+
 | Nama | Catatan | IPv4 | IPv4 2 | Port Alternatif | IPv6 | IPv6 2 | DoH | DoT |
 |---|---|---|---|---|---|---|---|---|
-| ⭐ BebasDNS | DNS punya bebasid, memblokir iklan dan malware | `47.254.192.66` | - | `1753` | `2001:470:36:b90:beba:5::1d` | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
+| ⭐ BebasDNS | DNS punya bebasid, [memblokir iklan dan malware](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | `47.254.192.66` | - | `1753` | `2001:470:36:b90:beba:5::1d` | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
+| BebasDNS Malware | DNS punya bebasid, [memblokir malware](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | - | - | - | - | - | `dns.bebasid.com/dns-query/malware` | `malware.dns.bebasid.com` |
+| BebasDNS Unfiltered | DNS punya bebasid | - | - | - | - | - | `dns.bebasid.com/dns-query/unfiltered` | `unfiltered.dns.bebasid.com` |
+| BebasDNS Family | DNS punya bebasid, [memblokir malware & situs dewasa](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | - | - | - | - | - | `dns.bebasid.com/dns-query/family` | `family.dns.bebasid.com` |
 | Cloudflare DNS | - | `1.1.1.1` | `1.0.0.1` | - | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query` | `1dot1dot1dot1.cloudflare-dns.com` |
-| Cloudflare Secure DNS | Memblokir malware | `1.1.1.2` | `1.0.0.2` | - | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query` | `security.cloudflare-dns.com` |
-| Cloudflare Family DNS | Memblokir malware & situs dewasa | `1.1.1.3` | `1.0.0.3` | - | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query` | `family.cloudflare-dns.com` |
-| Quad9 Secured | Memblokir malware | `9.9.9.9` | `149.112.112.112` | `9953` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` |
-| Quad9 Secured with ECS | Memblokir malware, mendukung ECS | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `tls://dns11.quad9.net` |
-| Quad9 Unsecured | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` |
-| Quad9 Unsecured ECS | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware, mendukung ECS | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `tls://dns12.quad9.net` |
+| Cloudflare Secure DNS | [Memblokir malware](https://one.one.one.one/family) | `1.1.1.2` | `1.0.0.2` | - | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query` | `security.cloudflare-dns.com` |
+| Cloudflare Family DNS | [Memblokir malware & situs dewasa](https://one.one.one.one/family) | `1.1.1.3` | `1.0.0.3` | - | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query` | `family.cloudflare-dns.com` |
+| AdGuard DNS | [Memblokir iklan & malware](https://adguard-dns.io) | `94.140.14.14` | `94.140.15.15` | `5353` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
+| Google DNS | - | `8.8.8.8` | `8.8.4.4` | - | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |
+| Quad9 Secured | [Memblokir malware](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.9` | `149.112.112.112` | `9953` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` |
+| Quad9 Secured with ECS | [Memblokir malware, mendukung ECS](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `tls://dns11.quad9.net` |
+| Quad9 Unsecured | DNS alternatif Quad9 yang [tidak melakukan pemblokiran malware](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` |
+| Quad9 Unsecured ECS | DNS alternatif Quad9 yang [tidak melakukan pemblokiran malware, mendukung ECS](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `tls://dns12.quad9.net` |
 | Mullvad | - | - | - | - | - | - | `https://doh.mullvad.net/dns-query` | `doh.mullvad.net` |
-| Mullvad Adblocking | Memblokir Iklan | - | - | - | - | - | `https://adblock.doh.mullvad.net/dns-query` | `adblock.doh.mullvad.net` |
-| [NextDNS](https://nextdns.io) | Bisa Diatur | `45.90.28.233` | `45.90.30.233` | `5353` | `2a07:a8c0::` | `2a07:a8c0::` | `dns.nextdns.io` | `dns.nextdns.io` |
-| [ControlD](https://controld.com/free-dns) | Bisa Diatur | `76.76.2.2` | `76.76.10.2` | - | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com` |
+| Mullvad Adblocking | [Memblokir iklan](https://github.com/mullvad/dns-blocklists) | - | - | - | - | - | `https://adblock.doh.mullvad.net/dns-query` | `adblock.doh.mullvad.net` |
+| OpenDNS | - | `208.67.222.222` | `208.67.220.220` | `5353, 443` | ` 2620:119:35::35` | `2620:119:53::53` | `doh.opendns.com/dns-query` | - |
+| OpenDNS Familyshield | [Memblokir situs dewasa](https://www.opendns.com/home-internet-security) | `208.67.222.123` | `208.67.220.123` | `5353, 443` | - | - | `doh.familyshield.opendns.com/dns-query` | - |
+| [NextDNS](https://nextdns.io) | Bisa Diatur | Kustom | Kustom | - | Kustom | Kustom | Kustom | Kustom |
+| [ControlD](https://controld.com/free-dns) | Bisa Diatur | Kustom | Kustom | - | Kustom | Kustom | Kustom | Kustom |
+| [DNSWarden](https://dnswarden.com/customfilter.html) | Bisa Diatur | - | - | - | - | - | Kustom | Kustom |
+| [RethinkDNS](https://rethinkdns.com/configure) | Bisa Diatur | - | - | - | - | - | Kustom | Kustom |
 
-<sub>List lebih lengkap bisa dilihat di [KB Adguard](https://adguard-dns.io/kb/general/dns-providers/) dan [cURL wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS).</sub>
+<sub>List lebih lengkap bisa dilihat di [KB Adguard](https://adguard-dns.io/kb/general/dns-providers/) dan [cURL wiki (DoH)](https://github.com/curl/curl/wiki/DNS-over-HTTPS).</sub>
 
+## Aplikasi DNS
+Ini adalah list aplikasi untuk memudahkan mengganti DNS pada perangkat Anda.
+
+1. [SimpleDNSCrypt](https://simplednscrypt.org) [Windows]
+>Simple DNSCrypt adalah alat manajemen sederhana untuk mengkonfigurasi [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy) pada sistem Windows.
+2. [RethinkDNS](https://rethinkdns.com/app) [Android]
+>RethinkDNS adalah cara termudah untuk memantau aktivitas aplikasi, menghindari sensor internet, memblokir iklan, dan pelacak di perangkat Android Anda.
 # END OF FILE
 MeFinity masih reorganisasi :3c
 
