@@ -8,8 +8,8 @@ KominFudge adalah list cara dan aplikasi untuk unblokir sensor dari Kominfo
 
 ## Navigasi
 * [Memilih DNS yang Tepat](#memilih-dns-yang-tepat)
-  - [Aplikasi DNS](#aplikasi-dns) WIP
-  - [Cara Menggunakan DNS](#cara-menggunakan-dns) Queued
+  - [Aplikasi DNS](#aplikasi-dns)
+  - [Cara Menggunakan DNS Secara Manual](#cara-menggunakan-dns-secara-manual)
 
 ## Memilih DNS yang Tepat[🔝](#navigasi)
 DNS adalah sistem yang menghubungkan nama domain dengan alamat IP. Kominfo bisa memblokir situs dengan memodifikasi server DNS agar tidak dapat diakses. Kamu bisa menggantinya dengan menggunakan DNS alternatif ini.
@@ -40,107 +40,85 @@ DNS adalah sistem yang menghubungkan nama domain dengan alamat IP. Kominfo bisa 
 
 <sub>List lebih lengkap bisa dilihat di [KB Adguard](https://adguard-dns.io/kb/general/dns-providers/) dan [cURL wiki (DoH)](https://github.com/curl/curl/wiki/DNS-over-HTTPS).</sub>
 
-## Aplikasi DNS
+## Aplikasi DNS[🔝](#navigasi)
 Ini adalah list aplikasi untuk memudahkan mengganti DNS pada perangkat Anda.
+
+> ⚠ **PERHATIAN** ⚠  
+> Apabila ISP juga melakukan pemblokiran menggunakan DPI gunakan juga [Aplikasi ini](#aplikasi-dpi)
 
 1. [SimpleDNSCrypt](https://simplednscrypt.org) [Windows]
 >Simple DNSCrypt adalah alat manajemen sederhana untuk mengkonfigurasi [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy) pada sistem Windows.
 2. [RethinkDNS](https://rethinkdns.com/app) [Android]
 >RethinkDNS adalah cara termudah untuk memantau aktivitas aplikasi, menghindari sensor internet, memblokir iklan, dan pelacak di perangkat Android Anda.
-# END OF FILE
-MeFinity masih reorganisasi :3c
+3. [DNSCloak](https://apps.apple.com/app/id1452162351) [iOS]
+>DNSCloak mengimplementasikan protokol DNSCrypt & DNS-over-HTTPS/2 (DoH) ke iOS.
+4. [Nebulo](https://nebulo.app) [Android]
+>Nebulo adalah klien dns-over-https, dns-over-tls, and dns-over-http-over-quic yang gratis, open-source, tanpa root, dan ringan, untuk Android.
+5. [YogaDNS](https://yogadns.com) [Windows]
+>YogaDNS secara otomatis mencegat permintaan DNS di tingkat sistem dan memungkinkan Anda memprosesnya melalui server DNS yang ditentukan pengguna menggunakan protokol modern dan aturan fleksibel.
+6. [DNSecure](https://github.com/kkk669/DNSecure) [iOS]
+>DNSecure adalah alat konfigurasi DoT dan DoH untuk iOS.
 
-## Aplikasi-Aplikasi DNS[🔝](#navigasi)
-Aplikasi² DNS ini bisa buat memakai DNS lebih senang
+<sup>[Lebih banyak](#aplikasi-dns-advanced)</sup>
 
-> ⚠ **PERHATIAN** ⚠  
-> Apabila ISP juga melakukan pemblokiran menggunakan DPI gunakan juga [Aplikasi-aplikasi untuk menghilangkan DPI](#aplikasi-aplikasi-untuk-menghilangkan-dpi)
-
-1.[Nebulo](https://nebulo.app) [Android]  
-Aplikasi untuk mengganti DNS di Android dengan mudah  
-
-2.[DNSCloak](https://apps.apple.com/app/id1452162351) [iOS]  
-Aplikasi untuk mengganti DNS dan mengatur dnscrypt di iOS  
-
-3.[DNSCrypt](https://dnscrypt.info) [Windows,macOS,Linux]  
-DNS untuk selfhost yang dapat melakukan forwarding ke server DNSCrypt & DNS over HTTPS  
-
-4.[SimpleDNSCrypt](https://simplednscrypt.org) [Windows]  
-Untuk yang males,ini aplikasi penginstalan DNSCrypt  
-
-5.[DNS Profile Creator](https://dns.notjakob.com/tool.html) [Browser]  
-Cara membuat mobileconfig Apple dengan senang  
-
-6.[YogaDNS](https://yogadns.com) [Windows]  
-Aplikasi pengganti DNS untuk Windows  
-
-7.[RethinkDNS](https://rethinkdns.com) [Android]  
-Aplikasi untuk mengganti DNS dan pemblokiran iklan  
-
-8.[Intra](https://getintra.org) [Android]  
-Aplikasi pengganti DNS untuk Android
-
-9.[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) [Windows, macOS, Linux]  
-DNS untuk selfhost dengan adblock, encrypted upstream dan downstream  
-
-10.[Stubby](https://github.com/getdnsapi/stubby) [Windows, macOS, Linux]  
-DNS untuk selfhost yang dapat melakukan forwarding ke server DNS over TLS
-
-11.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
-Aplikasi android untuk DNS dan Tor
-
-## Cara mengganti DNS[🔝](#navigasi)
-Nah,tu udah ada List DNS,gimana makenya?
+## Cara Menggunakan DNS Secara Manual[🔝](#navigasi)
+Berikut cara menggunakan DNS secara manual
 
 ### Di Android
-1.Settings>Other Wireless Connections>Private DNS  
-2.Masukkan [hostname dns](#memilih-dns-yang-tepat) dan pencet Save
+
+>1. Peraturan > Koneksi Nirkabel Lainnya > DNS Pribadi
+>2. Masukkan [hostname dns](#memilih-dns-yang-tepat) dan pencet Simpan
 
 ### Di iOS
 
-1.Settings>Wi-Fi>*wifi*  
-2.Ketuk ikon (i)  
-3.Ganti IP Adress jadi Static dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
+>1. Peraturan > Wi-Fi > *wifi*
+>2. Ketuk ikon (i)
+>3. Ganti IP Adress jadi Static dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
 
 ### Di Windows
-#### Windows 10 dan kebawah 
-1. Control Panel>Network and Internet>Network and Sharing Center>Connections>Properties  
-2. Pencet Internet Protocol Version 4 (TCP/IPv4) 2 kali  
-3. Ganti "Obtain DNS server address automatically" ke "Use the following DNS server addresses"  
-4. Masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS dan pencet Ok
+#### Windows 10 kebawah
+
+>1. Control Panel > Network and Internet > Network and Sharing Center > Connections > Properties
+>2. Pencet Internet Protocol Version 4 (TCP/IPv4) 2 kali
+>3. Ganti "Obtain DNS server address automatically" ke "Use the following DNS server addresses"
+>4. Masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS dan pencet Ok
 
 #### Windows 11
-1. Buka Settings di Windows 11, Pergi ke Network & Internet dan pilih Properties    
-2. Dibagian DNS server assignment, klik tombol Edit  
-3. Ganti Automatic menjadi Manual  
-4. di Preferred DNS, masukan 1.1.1.1/8.8.8.8/9.9.9.9 dan di Alternate masukan 1.0.0.1/8.8.4.4/149.112.112.112
-5. di Preferred dan Alternate DNS Encryption, pilih opsi Encrypted only (DNS-over-HTTPS)  
-6. Klik Save
+
+>1. Settings > Network & Internet > Properties
+>2. Dibagian DNS server assignment, klik tombol Edit
+>3. Ganti Automatic menjadi Manual
+>4. di Preferred DNS, masukan [Ipv4 dns](#memilih-dns-yang-tepat) dan di Alternate masukan [Ipv4 dns ke-2](#memilih-dns-yang-tepat)
+>5. di Preferred dan Alternate DNS Encryption, pilih opsi Encrypted only (DNS-over-HTTPS)
+>6. Klik Save
 
 ### Di macOS
-1. System Preferences>Network>Wi-Fi>Advanced>DNS  
-2. Pencet tombol “+” dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS,pencet Ok dan Apply
+>1. System Preferences > Network > Wi-Fi > Advanced > DNS
+>2. Pencet tombol “+” dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS,pencet Ok dan Apply
 
 ### Di Linux
-1. Buka Terminal  
-2. Jalankan perintah `nano /etc/resolv.conf` untuk mengedit file `/etc/resolv.conf`  
-3. Ubah isi file menjadi seperti berikut (ganti `<hostname dns>` menjadi salah satu hostname dns [disini](#memilih-dns-yang-tepat))
+>1. Buka Terminal
+>2. Jalankan perintah `nano /etc/resolv.conf` untuk mengedit file `/etc/resolv.conf`
+>3. Ubah isi file menjadi seperti berikut (ganti `<hostname dns>` menjadi salah satu hostname dns [disini](#memilih-dns-yang-tepat))
 ```
 nameserver <hostname dns>
 nameserver <hostname dns>
 ```
 
 ### Di browser berbasis Chromium
-1.Settings>Privacy and Security  
-2.Masukin [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
+Ini termasuk **Chrome**, **Edge**, **Brave**, dll
+>1. Settings > Privacy and Security
+>2. Masukin [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
 
 ### Di Firefox
-1.Settings>Network Settings  
-2.Masukin [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
+>1. Settings > Network Settings
+>2. Masukin [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
 
-#### *Gimana cara tau DNSnya berhasil*  
-Pergi ke situs [DNSLeakTest](https://dnsleaktest.com) atau [BrowserLeaks](https://browserleaks.com/dns) untuk ngetes  
-Jika DNS ISP muncul daripada DNS yang diset, silahkan download [DNSCrypt](https://dnscrypt.info) atau [SimpleDNSCrypt](https://simplednscrypt.org)
+**_Gimana cara tau jika DNSnya berhasil?_**  
+Pergi ke situs seperti [DNSLeakTest](https://dnsleaktest.com) atau [BrowserLeaks](https://browserleaks.com/dns) untuk dicoba  
+Jika DNS yang kamu terapkan tidak muncul, silahkan coba [SimpleDNSCrypt](https://simplednscrypt.org)
+# END OF FILE
+MeFinity masih reorganisasi :3c
 
 ## Aplikasi-Aplikasi untuk menghilangkan DPI[🔝](#navigasi)
 Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep packet inspection,tapi DPI bisa dihilangkan dengan mudah dengan aplikasi² ini
