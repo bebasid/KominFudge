@@ -58,6 +58,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya |
 | [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia |[Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Traceroute Proof](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) |
+| [AS131111](https://bgp.tools/as/AS131111) | PT Mora Telematika Indonesia (Moratelindo) |[Ya](assets/proofs/png/DPI-Moratel.png?raw=1) |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
 
@@ -70,36 +71,36 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 **ISP Rumah**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Indihome | Ya | Ya | ? | ISP dari Telkom untuk rumah |
+| Indihome | Ya (Out, Local) | Ya | ? | ISP dari Telkom untuk rumah |
 | CBN | Ya | Ya | Tidak |
-| Biznet Home | Ya | Ya | Ya | DPI Biznet juga mengirim TCP RST ke server |
-| MyRepublic | Ya | Ya | Tidak | DPI MyRepublic hanya memblokir situs 18+ |
-| FirstMedia | Ya | Ya | Tidak |
-| Megavision | Ya | Ya | ? | Nama lain: StarNET |
+| Biznet Home | Ya (Out, Local) | Ya | Ya | DPI Biznet juga mengirim TCP RST ke server |
+| MyRepublic | Ya (Out, Local) | Ya | Tidak | DPI MyRepublic hanya memblokir situs 18+ |
+| FirstMedia | Ya (Out, Local) | Ya | Tidak |
+| Megavision | Ya (Out, Local) | Ya/Tidak (Tergantung Routing) | ? | Nama lain: StarNET. Terkena DPI dari upstream PT Parsaoran Global Datatrans |
 | MNC | Ya | Ya/Tidak (Tergantung routing) | ? | Terkena DPI dari Upstream iForte |
 | Iconnet PLN | Ya | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server |
-| PT Netciti Persada | Ya | Tidak | ? | Kena DNS Nasional oleh upstream Lintasarta |
-| Oxygen | Ya | Tidak | ? | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br>Memblokir alt-port DNS 5353 |
+| PT Netciti Persada | Ya | Ya/Tidak (Tergantung Routing) | ? | Kena DNS Nasional dan DPI oleh upstream Lintasarta |
+| Oxygen | Ya (Out) | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br>Memblokir alt-port DNS 5353 |
 | Citranet | Ya | Ya/Tidak (Tergantung routing) | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
-| Padi Net | Ya | Tidak | ? |
-| Fiberstream | Ya | Tidak | ? | ISP Rumahan punya G-MEDIA |
+| Padi Net | Ya (Out, Local) | Tidak | ? |
+| Fiberstream | Ya (Out, Local) | Tidak | ? | ISP Rumahan punya G-MEDIA |
 | Balifiber | Ya | Tidak | ? |
-| PT Media Cepat Indonesia | Ya | Tidak | ? |
-| Melsa | Ya | Tidak | ? | DNS Google aman |
+| PT Media Cepat Indonesia | Ya (Out, Local) | Tidak | ? |
+| Melsa | Ya (Out, Local) | Tidak | ? | DNS Google aman |
 
 **ISP Kantor**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Astinet | Ya | Ya | ? | ISP dari Telkom untuk kantor |
+| Astinet | Ya (DNS Injection) | Ya | ? | ISP dari Telkom untuk kantor |
 | Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor |
-| Lintasarta | Ya | Ya | Ya | DPI Lintasarta juga mengirim TCP RST ke server |
-| Metronet | Ya | Ya | Ya | aka Biznet Dedicated |
+| Lintasarta | Ya (Out, Local) | Ya | Ya | DPI Lintasarta juga mengirim TCP RST ke server |
+| Metronet | Ya (Out) | Ya | Ya | aka Biznet Dedicated |
 | PT Metrasat | Ya | Ya | ? |
 | PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
 | PT Artha Telekomindo | Ya | Tidak | ? |
 | PT Hawk Teknologi Solusi | Ya | Tidak | ? |
-| PT Jaringanku Sarana Nusantara | Ya | Tidak | ? | Nama lain: JSN |
-| PT. Infotama Lintas Global | Ya | Tidak | ? |
+| PT Jaringanku Sarana Nusantara | Ya (Out, Local) | Tidak | ? | Nama lain: JSN |
+| PT. Infotama Lintas Global | Ya (Out, Local) | Tidak | ? |
 | PT Remala Abadi | Ya | Tidak | ? |
 | PT iForte Global internet | Ya | Ya | Tidak | DPI tidak memblokir Vimeo |
 | PT Cipta Informatika Cemeriang | Ya | Tidak | ? |
@@ -113,20 +114,20 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | PT Sekawan Global Komunika | Ya | Tidak | ? |
 | PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak | ? |
 | Orion Cyber Internet | Ya | Tidak | ? | DNS populer seperti Cloudflare, Google, Quad9, Level3, dll dibelokan ke server ISP |
-| PT AGTI | Ya | Tidak | ? | Nama lain: PT. Arjuna Global Teknologi Indonesia |
-| PT Parsaoran Global Datatrans | Ya | Ya | ? | Nama lain: HSP NET |
-| PT Fiber Networks Indonesia | Ya | Tidak | ? | Nama lain: FIBERNET |
+| PT AGTI | Ya (Out, Local) | Tidak | ? | Nama lain: PT. Arjuna Global Teknologi Indonesia |
+| PT Parsaoran Global Datatrans | Ya | Ya | Ya (Tetapi lemah) | Nama lain: HSP NET. Pemblokiran DPI dua arah |
+| PT Fiber Networks Indonesia | Ya (Out, Local) | Tidak | ? | Nama lain: FIBERNET |
 | PT Power Telecom Indonesia | Ya | Ya | ? | DPI tidak memblokir Vimeo |
 | PT Solnet Indonesia | Ya | Ya | ? |
 
 ### ISP Mobile
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server |  Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Telkomsel / By.U / KartuHalo | Ya | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
-| XL / Axis / Live On | Ya | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
+| Telkomsel / By.U / KartuHalo | Ya (Out, Local) | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
+| XL / Axis / Live On | Ya (Out, Local) | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
 | 3 | Ya | Ya | ? |
 | Indosat | Ya | Ya | Tidak |
-| Smartfren | Ya | Ya | Tidak | Memblokir DoH/DoT punya Google |
+| Smartfren | Ya (Out, Local) | Ya | Tidak | Memblokir DoH/DoT punya Google |
 
 ### Level kepayahan unblok memakai DPI
 Seberapa payah cara nge-unblok memakai DPI per-ISP
@@ -146,10 +147,11 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | CBN | Sedang |
 | Firstmedia | Rendah |
 | MyRepublic | Rendah |
-| PT Parsaoran Global Datatrans | Rendah |
+| PT Parsaoran Global Datatrans | Sedang |
 | Citranet | Rendah |
 | PT Power Telecom Indonesia | Rendah |
 | Megavision | Rendah |
+| Moratel / Oxygen | Rendah |
 
 <sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
 
@@ -324,6 +326,14 @@ DPI Circumvention Tool berbasis AI
 Jalankan perintah `sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP` atau `sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP` (untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE) di terminal\
 Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom Mengirim TCP RST ke server pada tabel diatas)
 
+### Trik untuk bypass DPI di router[🔝](#navigasi)
+
+#### OpenWRT
+Silahkan ikut tutorial ini https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md
+
+### MikroTik
+Silahkan ikut tutorial ini https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md
+
 ## List hosts file[🔝](#navigasi)
 Nah,Hostfile (atau Filehost)....agak payah nge-eksplanasi xD  
 Nih List hostfile untuk yang big brain
@@ -381,8 +391,6 @@ VPN dibagian ini memerlukan konfigurasi, jika anda hanya ingin VPN yang Out of t
 | [OpenVPN](https://openvpn.net) | VPN system that implements techniques to create secure point-to-point or site-to-site connections |
 | [Wireguard](https://wireguard.com) | Seperti OpenVPN |
 | [Softether](https://softether.org) | Seperti OpenVPN(?) |
-
-
 
 ## Aplikasi-Aplikasi Tor[🔝](#navigasi)
 Nah,ini bagian extrim,memakai Tor
