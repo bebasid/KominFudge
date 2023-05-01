@@ -7,9 +7,25 @@ KominFudge adalah list cara dan aplikasi untuk unblokir sensor dari Kominfo
 >DISCLAIMER: KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.
 
 ## Navigasi
+* [Memilih VPN yang Aman](#memilih-vpn-yang-aman)
 * [Memilih DNS yang Tepat](#memilih-dns-yang-tepat)
   - [Aplikasi DNS](#aplikasi-dns)
   - [Cara Menggunakan DNS Secara Manual](#cara-menggunakan-dns-secara-manual)
+* [Aplikasi DPI](#aplikasi-dpi)
+  - [Cara bypass DPI tanpa Aplikasi](#cara-bypass-dpi-tanpa-aplikasi)
+
+## Memilih VPN yang Aman[🔝](#navigasi)
+VPN adalah pilihan populer untuk mengakses situs yang diblokir. Namun, tidak semua VPN itu aman. Silahkan lihat list ini untuk VPN yang ber-reputasi baik
+
+| Nama | Catatan | Harga |
+|:---:|:---:|---|
+| [ProtonVPN](https://protonvpn.com) | - | Freemium |
+| [Cloudflare WARP](https://one.one.one.one) | - | Freemium |
+| [Windscribe](https://windscribe.com) | Terpengaruh oleh [BIX](#soon) | Freemium |
+| [Mullvad](https://mullvad.net/) | - | Berbayar |
+| [OVPN](https://ovpn.com) | - | Berbayar |
+| [ExpressVPN](https://expressvpn.com) | - | Berbayar |
+| [Psiphon](https://psiphon.ca) | - | Freemium |
 
 ## Memilih DNS yang Tepat[🔝](#navigasi)
 DNS adalah sistem yang menghubungkan nama domain dengan alamat IP. Kominfo bisa memblokir situs dengan memodifikasi server DNS agar tidak dapat diakses. Kamu bisa menggantinya dengan menggunakan DNS alternatif ini.
@@ -44,7 +60,7 @@ DNS adalah sistem yang menghubungkan nama domain dengan alamat IP. Kominfo bisa 
 Ini adalah list aplikasi untuk memudahkan mengganti DNS pada perangkat Anda.
 
 > ⚠ **PERHATIAN** ⚠  
-> Apabila ISP juga melakukan pemblokiran menggunakan DPI gunakan juga [Aplikasi ini](#aplikasi-dpi)
+> Apabila [ISP](#memilih-isp-yang-tidak-ketat) juga melakukan pemblokiran menggunakan DPI gunakan juga [Aplikasi ini](#aplikasi-dpi)
 
 1. [SimpleDNSCrypt](https://simplednscrypt.org) [Windows]
 >Simple DNSCrypt adalah alat manajemen sederhana untuk mengkonfigurasi [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy) pada sistem Windows.
@@ -75,6 +91,8 @@ Berikut cara menggunakan DNS secara manual
 >2. Ketuk ikon (i)
 >3. Ganti IP Adress jadi Static dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
 
+Atau bisa memakai sesuatu seperti [Secure DNS profile creator](https://dns.notjakob.com/tool.html)
+
 ### Di Windows
 #### Windows 10 kebawah
 
@@ -95,6 +113,8 @@ Berikut cara menggunakan DNS secara manual
 ### Di macOS
 >1. System Preferences > Network > Wi-Fi > Advanced > DNS
 >2. Pencet tombol “+” dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS,pencet Ok dan Apply
+
+Atau bisa memakai sesuatu seperti [Secure DNS profile creator](https://dns.notjakob.com/tool.html)
 
 ### Di Linux
 >1. Buka Terminal
@@ -117,133 +137,107 @@ Ini termasuk **Chrome**, **Edge**, **Brave**, dll
 **_Gimana cara tau jika DNSnya berhasil?_**  
 Pergi ke situs seperti [DNSLeakTest](https://dnsleaktest.com) atau [BrowserLeaks](https://browserleaks.com/dns) untuk dicoba  
 Jika DNS yang kamu terapkan tidak muncul, silahkan coba [SimpleDNSCrypt](https://simplednscrypt.org)
+
+## Aplikasi DPI[🔝](#navigasi)
+Ini adalah list aplikasi untuk memudahkan menghilangkan DPI pada perangkat Anda.
+
+> ⚠ **PERHATIAN** ⚠  
+> Jangan lupa untuk mengganti [DNS](#memilih-dns-yang-tepat) terlebih dahulu atau menggunakan [Hosts file](#list-hosts-file) apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran
+
+> (ℹ️) **Info**  
+> Kami juga menyediakan config untuk aplikasi & ISP di [folder ini](/dpi-circumvention-config)
+
+
+1. [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
+>GoodbyeDPI dirancang untuk mem-bypass sistem DPI yang ditemukan di banyak ISP yang memblokir akses ke situs web.
+2. [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [Windows, macOS, Linux]  
+>GreenTunnel melewati sistem DPI yang ditemukan di banyak ISP yang memblokir akses ke situs web.
+3. [PowerTunnel](https://github.com/krlvm/PowerTunnel) [Windows, macOS, Linux, [Android](https://github.com/krlvm/PowerTunnel-Android)]  
+> PowerTunnel adalah server proxy yang dapat diperluas yang dibangun di atas LittleProxy.
+4. [Zapret](https://github.com/bol-van/zapret/blob/master/docs/readme.eng.md) [Linux, FreeBSD]  
+>Alat pengelakan DPI standalone. Dapat memungkinkan untuk mem-bypass pemblokiran situs web http(s) atau pembentukan kecepatan, menolak penemuan protokol tcp/udp tanda tangan.
+5. [DPITunnel](https://github.com/nomoresat/DPITunnel-cli) [Linux, [Android](https://github.com/nomoresat/DPITunnel-android)]  
+>Solusi gratis, sederhana, dan serverless terhadap penyensoran untuk Linux
+6. [Geneva](https://github.com/kkevsterrr/geneva) [Linux]  
+>Geneva adalah alat berbasis AI yang dirancang oleh peneliti di University of Maryland yang mengalahkan sensor dengan mengeksploitasi bug di sensor.
+
+<sub>List lebih lebih lengkap bisa dilihat di [sini](https://github.com/stars/lepz0r/lists/anti-dpi).</sup>
+
+## Cara bypass DPI tanpa Aplikasi[🔝](#navigasi)
+
+### Di Linux
+Drop TCP RST Jalankan perintah sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP atau sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP (untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE) di terminal
+Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom Mengirim TCP RST ke server pada tabel diatas)
+
+### Di Router
+**OpenWRT**  
+Silahkan ikut tutorial [ini](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md)
+
+**MikroTik**  
+Silahkan ikut tutorial [ini](https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md)
+
+## List Hostfile
+Hostfile atau Filehost dapat membantu pengguna unblokir akses ke situs web yang diblokir dengan menempatkan alamat IP situs tersebut di dalam file lokal pada perangkat. Berikut ini adalah daftar hostfile yang dapat membantu pengguna unblokir akses ke situs-situs tertentu secara efektif.
+
+| Pemilik | Layanan yang di unblokir | Mirror |
+|---|---|---|
+| bebasid | [10+](https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts) | - |
+| mul14 | [10](https://gist.githubusercontent.com/mul14/eb05e88fcec5bb195cbb/raw/611c0693c460fc5bd7037c6d9d43fa6c0ce4fd7c/hosts) | - |
+| Kuntaraaaa | [tumblr](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=2556197#gistcomment-2556197) | - |
+| rakaaaaaa, Nuginity | [Netflix](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3235083#gistcomment-3235083) | [2](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3324456#gistcomment-3324456) |
+| Nuginity | [nhentai](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3324461#gistcomment-3324461) | - |
+| Geofany | [Binance](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3727848#gistcomment-3727848) | - |
+| PanjiNamjaElf | [Reddit](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3878656#gistcomment-3878656) | - |
+| pratamatama, SI_CLAY | [Steam](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=4250815#gistcomment-4250815) | [2](https://pastebin.com/auhuXvAD) |
+
 # END OF FILE
 MeFinity masih reorganisasi :3c
 
-## Aplikasi-Aplikasi untuk menghilangkan DPI[🔝](#navigasi)
-Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep packet inspection,tapi DPI bisa dihilangkan dengan mudah dengan aplikasi² ini
-
-> ⚠ **PERHATIAN** ⚠  
-> Jangan lupa untuk mengganti [DNS](#aplikasi-aplikasi-dns) terlebih dahulu atau menggunakan [Hosts file](#list-hosts-file) apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran
-
-> ℹ️ **Info**  
-> Kami juga menyediakan config untuk aplikasi & ISP di folder [ini](/dpi-circumvention-config)
-
-
-1.[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
-Aplikasi CLI untuk hilangkan DPI
-
-2.[GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [Windows,macOS,Linux]  
-Aplikasi GUI untuk hilangkan DPI
-
-3.[PowerTunnel](https://github.com/krlvm/PowerTunnel) [Windows,macOS,Linux,[Android](https://github.com/krlvm/PowerTunnel-Android)]  
-Aplikasi GUI untuk hilangkan DPI (2)
-
-4.[SNI-Mask](https://github.com/macronut/SNI-Mask) [Windows]  
-proxy untuk menghilangkan DPI
-
-5.[Accesser](https://github.com/URenko/Accesser) [Windows,macOS,Linux]  
-*???*
-
-6.[GhosTCP](https://github.com/macronut/ghostcp) [Windows]  
-Mengamankan koneksi TCP
-
-7.[sniffjoke](https://github.com/vecna/sniffjoke) [Linux]  
-Mengamankan wiretap/sniff/IDS
-
-8.[SpoofDPI](https://github.com/xvzc/SpoofDPI) [macOS,Linux]  
-NgeSpoof DPImu
-
-9.[Zapret](https://github.com/bol-van/zapret/blob/master/docs/readme.eng.md) [Linux, FreeBSD]  
-DPI Circumvention Tool
-
-10.[DPITunnel](https://github.com/zhenyolka/DPITunnel-cli) [Linux,[Android](https://github.com/zhenyolka/DPITunnel-android)]  
-CLI untuk Linux
-
-11.[Geneva](https://github.com/kkevsterrr/geneva) [Linux]  
-DPI Circumvention Tool berbasis AI  
-
-### Trik untuk bypass DPI tanpa aplikasi[🔝](#navigasi)
-
-#### Di Linux
-*Drop TCP RST*
-Jalankan perintah `sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP` atau `sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP` (untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE) di terminal\
-Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom Mengirim TCP RST ke server pada tabel diatas)
-
-## List hosts file[🔝](#navigasi)
-Nah,Hostfile (atau Filehost)....agak payah nge-eksplanasi xD  
-Nih List hostfile untuk yang big brain
-
-| List | Alternatif |
-| :---: | :---: |
-| [bebasid](https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts) |
-| [mul14](https://gist.githubusercontent.com/mul14/eb05e88fcec5bb195cbb/raw/611c0693c460fc5bd7037c6d9d43fa6c0ce4fd7c/hosts) |
-| [tumblr](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=2556197#gistcomment-2556197) |
-| [Netflix](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3235083#gistcomment-3235083) | [2](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3324456#gistcomment-3324456) |
-| [nhentai](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3324461#gistcomment-3324461) |
-| [Binance](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3727848#gistcomment-3727848) |
-| [Reddit](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3878656#gistcomment-3878656) |
-| [Steam](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=4250815#gistcomment-4250815) | [2](https://pastebin.com/auhuXvAD) |
-
-## Cara unblock memakai hosts file[🔝](#navigasi)
-Nah,filenya ada...sekarang apa?
-
-### Di Windows
-1.Salin text didalam hostfile yang kamu pilih  
-2.Buka File Explorer dan pergi ke `C:\Windows\System32\drivers\etc`  
-3.Paste text ke file "hosts"
+## Cara Menggunakan Hostfile
+Berikut ini adalah langkah-langkah cara unblock akses ke situs dengan menggunakan hostfile.
 
 ### Di Android
 
-#### ROOT:
-1.Salin text didalam hostfile yang kamu pilih  
-2.Buka File Explorer dan pergi ke `/system/etc`  
-3.Paste text ke file "hosts"
+**ROOTED**
+>1. Salin text didalam hostfile yang kamu pilih
+>2. Buka File Explorer dan pergi ke /system/etc
+>3. Paste text ke file "hosts"
 
-#### NON-ROOT:
-1.Salin text didalam hostfile yang kamu pilih  
-2.Buat file dan paste textnya didalam file itu  
-3.Install [Virtual Hosts](https://github.com/x-falcon/Virtual-Hosts) atau [Host Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change)  
-4.Pencet "Select Host File"/"Import HOSTS file" dan pencet file yang kamu buat
+**NON-ROOT**
+>1. Salin text didalam hostfile yang kamu pilih
+>2. Buat file .txt dan tempel text yang tersalin didalam file
+>3. Install [Virtual Hosts](https://github.com/x-falcon/Virtual-Hosts) atau [Host Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change)
+>4. Pencet "Select Host File"/"Import HOSTS file" dan pilih file yang kamu buat
 
-## Memilih VPN yang aman[🔝](#navigasi)
-Ah VPN,cara yang tersenang untuk melewati blok apabila cara diatas tidak work, *Tapi* jangan download VPN yang gak aman & gak terpercaya!  
-Nih,coba liat VPN aman yang lebih baik dipake daripada vpn yang gak terpercaya di list ini
+### Di iOS
+>⚠ **PERHATIAN** ⚠  
+>Kami perlu bantuan wkwkwkwwkwkwkk
 
-| Nama | Positif | Negatif | Server |
-| :---: | :---: | :---: | :---: |
-| [Mullvad](https://mullvad.net/) | VPN Berbayar yang aman | Berbayar | 867 |
-| [ProtonVPN](https://protonvpn.com) | VPN "gratis" yang "aman" | Tidak ada Split-tunneling di sub gratis dan [ini](https://arstechnica.com/information-technology/2021/09/privacy-focused-protonmail-provided-a-users-ip-address-to-authorities) | 100 |
-| [Windscribe](https://windscribe.com) | Ada Split-tunneling & banyak fitur lainnya | 15GB per bulan dan [ini](https://arstechnica.com/gadgets/2021/07/vpn-servers-seized-by-ukrainian-authorities-werent-encrypted) | 15 |
-| [ExpressVPN](https://expressvpn.com) | Cepat | Tidak begitu aman dan berbayar | 148 |
-| [Psiphon](https://psiphon.ca) | Open Source | ? | ? |
-| [OVPN](https://ovpn.com) | **Aman** | Berbayar | 102 |
+### Di WIndows
+>1. Salin text didalam hostfile yang kamu pilih
+>2. Cari `C:\Windows\System32\drivers\etc\hosts`
+>3. Tempel text ke file
 
-### VPN untuk Advanced Users[🔝](#navigasi)
-VPN dibagian ini memerlukan konfigurasi, jika anda hanya ingin VPN yang Out of the box, silahkan abaikan ini
+### Di macOS
+>1. Salin text didalam hostfile yang kamu pilih
+>2. Cari `/private/etc/hosts`
+>3. Tempel text ke file
 
-| Nama | Deskripsi |
-| :---: | :---: |
-| [OpenVPN](https://openvpn.net) | VPN system that implements techniques to create secure point-to-point or site-to-site connections |
-| [Wireguard](https://wireguard.com) | Seperti OpenVPN |
-| [Softether](https://softether.org) | Seperti OpenVPN(?) |
+### Di Linux
+>1. Salin text didalam hostfile yang kamu pilih
+>2. Cari `/etc/hosts`
+>3. Tempel text ke file
 
+## Memakai Tor
+Tor adalah jaringan internet anonim yang dapat membantu pengguna untuk menjaga privasi dan melewati pemblokiran saat browsing.
 
-
-## Aplikasi-Aplikasi Tor[🔝](#navigasi)
-Nah,ini bagian extrim,memakai Tor
-
-1.[Tor Browser](https://www.torproject.org) [Windows,macOS,Linux,Android]  
-Browser officialnya tor  
-
-2.[Orbot](https://guardianproject.info/apps/org.torproject.android) [Android]  
-Proxy dengan Tor  
-
-3.[Onion Browser](https://onionbrowser.com) [iOS]  
-browser tor untuk iOS  
-
-4.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
-Aplikasi android untuk DNS dan Tor
+1. [Tor](https://www.torproject.org) [Windows, macOS, Linux, Android]
+>Jelajahi Secara Pribadi.
+Jelajahi dengan Bebas.
+2. [Orbot](https://guardianproject.info/apps/org.torproject.android) [Android]
+>Orbot adalah aplikasi proxy gratis yang memberdayakan aplikasi lain untuk menggunakan internet dengan lebih aman.
+3. [OnionBrowser](https://onionbrowser.com)
+> Bebas menjadi dirimu.
 
 <p align="center">Share projek ini</p>
 <div id="sosial">
