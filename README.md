@@ -11,6 +11,7 @@
   - [Cara mengganti DNS](#cara-mengganti-dns)
 - [Aplikasi² untuk menghilangkan DPI](#aplikasi-aplikasi-untuk-menghilangkan-dpi)
   - [Trik untuk bypass DPI tanpa aplikasi](#trik-untuk-bypass-dpi-tanpa-aplikasi)
+  - [Trik untuk bypass DPI memakai router](#trik-untuk-bypass-dpi-di-router)
 - [List hosts file](#list-hosts-file)
   - [Cara unblok memakai hosts file](#cara-unblok-memakai-hosts-file)
 - [Memilih VPN yang aman](#memilih-vpn-yang-aman)
@@ -105,7 +106,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | PT iForte Global internet | Ya | Ya | Tidak | DPI tidak memblokir Vimeo |
 | PT Cipta Informatika Cemeriang | Ya | Tidak | ? |
 | PT Lexa Net | Ya | Tidak | ? | Nama lain: PT Lexa Global Akses |
-| PT Media Sarana Data  | Ya | Tidak | ? | Nama lain: G-MEDIA |
+| PT Media Sarana Data  | Ya (Out, Local) | Tidak | ? | Nama lain: G-MEDIA |
 | PT Artorius Telemetri Sentosa | Ya | Tidak | ? |
 | D-NET | Ya | Tidak | ? | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
 | PT Sumber Koneksi Indotelematika | Ya | Tidak | ? |
