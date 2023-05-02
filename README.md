@@ -59,7 +59,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya |
 | [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia |[Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Traceroute Proof](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) |
-| [AS131111](https://bgp.tools/as/AS131111) | PT Mora Telematika Indonesia (Moratelindo) |[Ya](assets/proofs/png/DPI-Moratel.png?raw=1) |
+| [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia (Moratelindo) |[Ya](assets/proofs/png/DPI-Moratel.png?raw=1) |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
 
@@ -94,7 +94,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | :---: | :---: | :---: | :---: | :---: |
 | Astinet | Ya (DNS Injection) | Ya | ? | ISP dari Telkom untuk kantor |
 | Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor |
-| Lintasarta | Ya (Out, Local) | Ya | Ya | DPI Lintasarta juga mengirim TCP RST ke server |
+| Lintasarta | Ya (Out, Local) | Ya | Ya | DPI Lintasarta juga mengirim TCP RST ke server. Pemblokiran dua arah |
 | Metronet | Ya (Out) | Ya | Ya | aka Biznet Dedicated |
 | PT Metrasat | Ya | Ya | ? |
 | PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
@@ -139,6 +139,8 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | Telkomsel / By.U / KartuHalo | Tinggi |
 | XL / Axis | Tinggi |
 | Biznet | Tinggi |
+| Lintasarta | Tinggi |
+| PT Parsaoran Global Datatrans | Tinggi |
 | Indihome | Sedang |
 | Iconnet | Rendah |
 | Indosat | Sedang |
@@ -148,7 +150,6 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | CBN | Sedang |
 | Firstmedia | Rendah |
 | MyRepublic | Rendah |
-| PT Parsaoran Global Datatrans | Sedang |
 | Citranet | Rendah |
 | PT Power Telecom Indonesia | Rendah |
 | Megavision | Rendah |
