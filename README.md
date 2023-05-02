@@ -49,7 +49,7 @@ DNS adalah sistem yang menghubungkan nama domain dengan alamat IP. Kominfo bisa 
 | Mullvad Adblocking | [Memblokir iklan](https://github.com/mullvad/dns-blocklists) | - | - | - | - | - | `https://adblock.doh.mullvad.net/dns-query` | `adblock.doh.mullvad.net` |
 | OpenDNS | - | `208.67.222.222` | `208.67.220.220` | `5353, 443` | ` 2620:119:35::35` | `2620:119:53::53` | `doh.opendns.com/dns-query` | - |
 | OpenDNS Familyshield | [Memblokir situs dewasa](https://www.opendns.com/home-internet-security) | `208.67.222.123` | `208.67.220.123` | `5353, 443` | - | - | `doh.familyshield.opendns.com/dns-query` | - |
-| UncensoredDNS | - | `91.239.100.100` | `- | - | 2001:67c:28a4:: | - | `anycast.uncensoreddns.org/dns-query` | `tls://anycast.uncensoreddns.org` |
+| UncensoredDNS | - | `91.239.100.100` | `- | - | `2001:67c:28a4::` | - | `anycast.uncensoreddns.org/dns-query` | `tls://anycast.uncensoreddns.org` |
 | [NextDNS](https://nextdns.io) | Bisa Diatur | Kustom | Kustom | - | Kustom | Kustom | Kustom | Kustom |
 | [ControlD](https://controld.com/free-dns) | Bisa Diatur | Kustom | Kustom | - | Kustom | Kustom | Kustom | Kustom |
 | [DNSWarden](https://dnswarden.com/customfilter.html) | Bisa Diatur | - | - | - | - | - | Kustom | Kustom |
