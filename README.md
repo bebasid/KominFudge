@@ -41,15 +41,15 @@ DNS adalah sistem yang menghubungkan nama domain dengan alamat IP. Kominfo bisa 
 | Cloudflare Family DNS | [Memblokir malware & situs dewasa](https://one.one.one.one/family) | `1.1.1.3` | `1.0.0.3` | - | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query` | `family.cloudflare-dns.com` |
 | AdGuard DNS | [Memblokir iklan & malware](https://adguard-dns.io) | `94.140.14.14` | `94.140.15.15` | `5353` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
 | Google DNS | - | `8.8.8.8` | `8.8.4.4` | - | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |
-| Quad9 Secured | [Memblokir malware](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.9` | `149.112.112.112` | `9953` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` |
-| Quad9 Secured with ECS | [Memblokir malware, mendukung ECS](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `tls://dns11.quad9.net` |
-| Quad9 Unsecured | DNS alternatif Quad9 yang [tidak melakukan pemblokiran malware](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` |
-| Quad9 Unsecured ECS | DNS alternatif Quad9 yang [tidak melakukan pemblokiran malware, mendukung ECS](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `tls://dns12.quad9.net` |
+| Quad9 Secured | [Memblokir malware](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.9` | `149.112.112.112` | `9953` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `dns.quad9.net` |
+| Quad9 Secured with ECS | [Memblokir malware, mendukung ECS](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `dns11.quad9.net` |
+| Quad9 Unsecured | DNS alternatif Quad9 yang [tidak melakukan pemblokiran malware](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `dns10.quad9.net` |
+| Quad9 Unsecured ECS | DNS alternatif Quad9 yang [tidak melakukan pemblokiran malware, mendukung ECS](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `dns12.quad9.net` |
 | Mullvad | - | - | - | - | - | - | `https://doh.mullvad.net/dns-query` | `doh.mullvad.net` |
 | Mullvad Adblocking | [Memblokir iklan](https://github.com/mullvad/dns-blocklists) | - | - | - | - | - | `https://adblock.doh.mullvad.net/dns-query` | `adblock.doh.mullvad.net` |
 | OpenDNS | - | `208.67.222.222` | `208.67.220.220` | `5353, 443` | ` 2620:119:35::35` | `2620:119:53::53` | `doh.opendns.com/dns-query` | - |
 | OpenDNS Familyshield | [Memblokir situs dewasa](https://www.opendns.com/home-internet-security) | `208.67.222.123` | `208.67.220.123` | `5353, 443` | - | - | `doh.familyshield.opendns.com/dns-query` | - |
-| UncensoredDNS | - | `91.239.100.100` | `- | - | `2001:67c:28a4::` | - | `anycast.uncensoreddns.org/dns-query` | `tls://anycast.uncensoreddns.org` |
+| UncensoredDNS | - | `91.239.100.100` | `- | - | `2001:67c:28a4::` | - | `anycast.uncensoreddns.org/dns-query` | `anycast.uncensoreddns.org` |
 | [NextDNS](https://nextdns.io) | Bisa Diatur | Kustom | Kustom | - | Kustom | Kustom | Kustom | Kustom |
 | [ControlD](https://controld.com/free-dns) | Bisa Diatur | Kustom | Kustom | - | Kustom | Kustom | Kustom | Kustom |
 | [DNSWarden](https://dnswarden.com/customfilter.html) | Bisa Diatur | - | - | - | - | - | Kustom | Kustom |
