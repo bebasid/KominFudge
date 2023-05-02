@@ -79,7 +79,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | FirstMedia | Ya (Out, Local) | Ya | Tidak |
 | Megavision | Ya (Out, Local) | Ya/Tidak (Tergantung Routing) | ? | Nama lain: StarNET. Terkena DPI dari upstream PT Parsaoran Global Datatrans |
 | MNC | Ya | Ya/Tidak (Tergantung routing) | ? | Terkena DPI dari Upstream iForte |
-| Iconnet PLN | Ya | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server |
+| Iconnet PLN | Ya | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah |
 | PT Netciti Persada | Ya | Ya/Tidak (Tergantung Routing) | ? | Kena DNS Nasional dan DPI oleh upstream Lintasarta |
 | Oxygen | Ya (Out) | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br>Memblokir alt-port DNS 5353 |
 | Citranet | Ya | Ya/Tidak (Tergantung routing) | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
@@ -141,8 +141,8 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | Biznet | Tinggi |
 | Lintasarta | Tinggi |
 | PT Parsaoran Global Datatrans | Tinggi |
+| Iconnet | Tinggi |
 | Indihome | Sedang |
-| Iconnet | Rendah |
 | Indosat | Sedang |
 | 3 | Rendah |
 | Smartfren | Rendah |
@@ -152,7 +152,6 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | MyRepublic | Rendah |
 | Citranet | Rendah |
 | PT Power Telecom Indonesia | Rendah |
-| Megavision | Rendah |
 | Moratel / Oxygen | Rendah |
 
 <sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
