@@ -136,7 +136,7 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | Nama | Kepayahan |
 | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Tinggi |
-| XL / Axis | Tinggi |
+| XL / Axis / Live On | Tinggi |
 | Biznet | Tinggi |
 | Lintasarta | Tinggi |
 | PT Parsaoran Global Datatrans | Tinggi |
