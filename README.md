@@ -101,7 +101,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | PT Hawk Teknologi Solusi | Ya | Tidak | ? |
 | PT Jaringanku Sarana Nusantara | Ya (Out, Local) | Tidak | ? | Nama lain: JSN |
 | PT. Infotama Lintas Global | Ya (Out, Local) | Tidak | ? |
-| PT Remala Abadi | Ya | Tidak | Tidak |
+| PT Remala Abadi | Ya | Tidak | Tidak | Nama lain: Tachyon |
 | PT iForte Global internet | Ya | Ya | Tidak | DPI tidak memblokir Vimeo |
 | PT Cipta Informatika Cemeriang | Ya | Tidak | ? |
 | PT Lexa Net | Ya | Tidak | ? | Nama lain: PT Lexa Global Akses |
@@ -136,7 +136,7 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | Nama | Kepayahan |
 | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Tinggi |
-| XL / Axis | Tinggi |
+| XL / Axis / Live On | Tinggi |
 | Biznet | Tinggi |
 | Lintasarta | Tinggi |
 | PT Parsaoran Global Datatrans | Tinggi |
