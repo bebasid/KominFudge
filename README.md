@@ -263,6 +263,7 @@ Nah,tu udah ada List DNS,gimana makenya?
 nameserver <hostname dns>
 nameserver <hostname dns>
 ```
+Catatan: Beberapa komponen yang mungkin terpasang pada distro Linux (seperti NetworkManager) dapat mengubah isi file `/etc/resolv.conf` tanpa disadari, untuk mencegah hal tersebut dapat mengetik perintah `chattr +i /etc/resolv.conf` setelah selesai mengubah file tersebut. Apabila ingin mengubah isi file `/etc/resolv.conf` kembali, dapat mengetik perintah `chattr -i /etc/resolv.conf`
 
 ### Di browser berbasis Chromium
 1.Settings>Privacy and Security  
@@ -277,7 +278,7 @@ Pergi ke situs [DNSLeakTest](https://dnsleaktest.com) atau [BrowserLeaks](https:
 Jika DNS ISP muncul daripada DNS yang diset, silahkan download [DNSCrypt](https://dnscrypt.info) atau [SimpleDNSCrypt](https://simplednscrypt.org)
 
 ## Aplikasi-Aplikasi untuk menghilangkan DPI[🔝](#navigasi)
-Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep packet inspection,tapi DPI bisa dihilangkan dengan mudah dengan aplikasi² ini
+Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep Packet Inspection, tapi DPI bisa dihilangkan dengan mudah dengan aplikasi² ini
 
 > ⚠ **PERHATIAN** ⚠  
 > Jangan lupa untuk mengganti [DNS](#aplikasi-aplikasi-dns) terlebih dahulu atau menggunakan [Hosts file](#list-hosts-file) apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran
@@ -396,7 +397,7 @@ VPN dibagian ini memerlukan konfigurasi, jika anda hanya ingin VPN yang Out of t
 Nah,ini bagian extrim,memakai Tor
 
 1.[Tor Browser](https://www.torproject.org) [Windows,macOS,Linux,Android]  
-Browser officialnya tor  
+Browser officialnya Tor  
 
 2.[Orbot](https://guardianproject.info/apps/org.torproject.android) [Android]  
 Proxy dengan Tor  
@@ -405,7 +406,7 @@ Proxy dengan Tor
 browser tor untuk iOS  
 
 4.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
-Aplikasi android untuk DNS dan Tor
+Aplikasi Android untuk DNS dan Tor
 
 <p align="center">Share projek ini</p>
 <div id="sosial">
