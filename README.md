@@ -47,7 +47,7 @@ DNS adalah sistem yang menghubungkan nama domain dengan alamat IP. Kominfo bisa 
 | Quad9 Unsecured ECS | DNS alternatif Quad9 yang [tidak melakukan pemblokiran malware, mendukung ECS](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `dns12.quad9.net` |
 | Mullvad | - | - | - | - | - | - | `doh.mullvad.net/dns-query` | `doh.mullvad.net` |
 | Mullvad Adblocking | [Memblokir iklan](https://github.com/mullvad/dns-blocklists) | - | - | - | - | - | `adblock.doh.mullvad.net/dns-query` | `adblock.doh.mullvad.net` |
-| OpenDNS | - | `208.67.222.222` | `208.67.220.220` | `5353, 443` | ` 2620:119:35::35` | `2620:119:53::53` | `doh.opendns.com/dns-query` | - |
+| OpenDNS | - | `208.67.222.222` | `208.67.220.220` | `5353, 443` | `2620:119:35::35` | `2620:119:53::53` | `doh.opendns.com/dns-query` | - |
 | OpenDNS Familyshield | [Memblokir situs dewasa](https://www.opendns.com/home-internet-security) | `208.67.222.123` | `208.67.220.123` | `5353, 443` | - | - | `doh.familyshield.opendns.com/dns-query` | - |
 | UncensoredDNS | - | `91.239.100.100` | `- | - | `2001:67c:28a4::` | - | `anycast.uncensoreddns.org/dns-query` | `anycast.uncensoreddns.org` |
 | [NextDNS](https://nextdns.io) | Bisa Diatur | Kustom | Kustom | - | Kustom | Kustom | Kustom | Kustom |
