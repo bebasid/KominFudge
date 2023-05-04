@@ -1,1 +1,5 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
+contact_links:
+  - name: BebasID Discord Server
+    url: https://discord.gg/EKrxZyu
+    about: Tanya, Lapor, dan Sarankan di server Discord ini
