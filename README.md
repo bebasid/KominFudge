@@ -125,7 +125,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | :---: | :---: | :---: | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Ya (Out, Local) | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
 | XL / Axis / Live On | Ya (Out, Local) | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
-| 3 | Ya | Ya | ? |
+| 3 | Ya | Ya | Ya | DPI Tri juga mengirim TCP RST ke server |
 | Indosat | Ya | Ya | Tidak |
 | Smartfren | Ya (Out, Local) | Ya | Tidak | Memblokir DoH/DoT punya Google |
 
