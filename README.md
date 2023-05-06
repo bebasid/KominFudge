@@ -58,7 +58,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya |
 | [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia |[Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Traceroute Proof](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) |
-| [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia (Moratelindo) |[Ya](assets/proofs/png/DPI-Moratel.png?raw=1) |
+| [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia (Moratelindo) |[Ya](assets/proofs/png/DPI-Moratel.png?raw=1) | Tidak Memblokir Vimeo |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
 
@@ -143,15 +143,14 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | Iconnet | Tinggi |
 | Indihome | Sedang |
 | Indosat | Sedang |
-| 3 | Rendah |
+| Moratel / Oxygen | Sedang |
+| 3 | Sedang |
+| CBN | Sedang |
 | Smartfren | Rendah |
 | PT Solnet Indonesia | Rendah |
-| CBN | Sedang |
 | Firstmedia | Rendah |
 | MyRepublic | Rendah |
-| Citranet | Rendah |
 | PT Power Telecom Indonesia | Rendah |
-| Moratel / Oxygen | Rendah |
 
 <sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
 
@@ -323,8 +322,9 @@ DPI Circumvention Tool berbasis AI
 ### Trik untuk bypass DPI tanpa aplikasi[🔝](#navigasi)
 
 #### Di Linux
-*Drop TCP RST*
-Jalankan perintah `sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP` atau `sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP` (untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE) di terminal\
+*Drop TCP RST dan lamanlabuh*
+Jalankan perintah `sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP` dan `sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.aduankonten.id/" --algo bm -j DROP` atau `sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP` dan `sudo firewall-cmd --permanent --add-rich-rule='rule protocol value="tcp" match="string" string="Location: http://lamanlabuh.aduankonten.id/" algo="bm" drop'
+` (untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE) di terminal\
 Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom Mengirim TCP RST ke server pada tabel diatas)
 
 ### Trik untuk bypass DPI di router[🔝](#navigasi)
