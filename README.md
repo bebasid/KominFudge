@@ -25,11 +25,11 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 - [Tentang KominFudge](#tentang-kominfudge)
 - [Memilih layanan VPN yang aman](#memilih-vpn-yang-aman)
 - [Memilih layanan DNS yang tepat](#memilih-dns-yang-tepat)
-  - [Aplikasi pengatur DNS](#aplikasi-dns)
-  - [Mengubah server DNS secara manual](#cara-menggunakan-dns-secara-manual)
-- [Aplikasi penembus DPI](#aplikasi-dpi)
-  - [Menembus DPI tanpa aplikasi](#cara-bypass-dpi-tanpa-aplikasi)
-- [Berkontribusi kepada KominFudge](b)
+  - [Aplikasi pengatur DNS](#aplikasi-pengatur-dns)
+  - [Mengubah layanan DNS secara manual](#mengubah-layanan-dns-secara-manual)
+- [Aplikasi penembus DPI](#aplikasi-penembus-dpi)
+  - [Menembus DPI tanpa aplikasi](#menembus-dpi-tanpa-aplikasi)
+- [Berkontribusi kepada KominFudge](#berkontribusi-kepada-kominfudge)
 
 ## Memilih layanan VPN yang aman
 
