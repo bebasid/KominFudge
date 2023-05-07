@@ -59,6 +59,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya |
 | [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia |[Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Traceroute Proof](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) |
 | [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia (Moratelindo) |[Ya](assets/proofs/png/DPI-Moratel.png?raw=1) | Tidak Memblokir Vimeo |
+| [AS149684](https://bgp.tools/as/149684) | PT. Kreatif Pasific | Ya | 
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
 
