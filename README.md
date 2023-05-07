@@ -1,21 +1,41 @@
 <div align="center">
  <img src="./assets/kominfudge-500x250.png">
- <p>Tolak diblokir, Ayo unblokir!</p>
+ <p>"Tolak diblokir, Ayo <i>unblokir!</i>"</p>
+ <p><b>KominFudge Panduan Pemula</b></p>
 </div>
 
-KominFudge adalah list cara dan aplikasi untuk unblokir sensor dari Kominfo
->DISCLAIMER: KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.
+## Tentang KominFudge
+
+KominFudge adalah sebuah panduan tentang penyensoran Internet di Indonesia dan cara untuk menembusnya agar dapat mengakses Internet secara bebas.
+
+Panduan ini terdiri atas dua dokumen yaitu:
+
+- **Panduan pemula**, yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya diurut mulai dari cara termudah hingga tersulit serta rekomendasi dari KominFudge.
+
+- [**Panduan mahir**](link-placeholder-tolong-ganti-kalo-dah-ada-panduannya), yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
+
+Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
+
+>DISCLAIMER: KominFudge tidak bertanggung jawab atas kerusakan perangkat Anda, gunakan informasi yang diberikan dengan risiko Anda sendiri.
+
+>CATATAN: Versi panduan ini masih dalam pengembangan awal karena sedang melalui tahap reorganisasi.
 
 ## Navigasi
-* [Memilih VPN yang Aman](#memilih-vpn-yang-aman)
-* [Memilih DNS yang Tepat](#memilih-dns-yang-tepat)
-  - [Aplikasi DNS](#aplikasi-dns)
-  - [Cara Menggunakan DNS Secara Manual](#cara-menggunakan-dns-secara-manual)
-* [Aplikasi DPI](#aplikasi-dpi)
-  - [Cara bypass DPI tanpa Aplikasi](#cara-bypass-dpi-tanpa-aplikasi)
 
-## Memilih VPN yang Aman[🔝](#navigasi)
-VPN adalah pilihan populer untuk mengakses situs yang diblokir. Namun, tidak semua VPN itu aman. Silahkan lihat list ini untuk VPN yang ber-reputasi baik
+- [Tentang KominFudge](#tentang-kominfudge)
+- [Memilih layanan VPN yang aman](#memilih-vpn-yang-aman)
+- [Memilih layanan DNS yang tepat](#memilih-dns-yang-tepat)
+  - [Aplikasi pengatur DNS](#aplikasi-dns)
+  - [Mengubah server DNS secara manual](#cara-menggunakan-dns-secara-manual)
+- [Aplikasi penembus DPI](#aplikasi-dpi)
+  - [Menembus DPI tanpa aplikasi](#cara-bypass-dpi-tanpa-aplikasi)
+- [Berkontribusi kepada KominFudge](b)
+
+## Memilih layanan VPN yang aman
+
+Menggunakan layanan VPN, gratis maupun berbayar, adalah pilihan yang populer dan termudah untuk menembus penyensoran Internet di banyak negara termasuk Indonesia. Tetapi tidak semua layanan VPN memiliki reputasi yang baik.
+
+Berikut ini adalah rekomendasi KominFudge untuk layanan VPN yang memiliki reputasi yang baik:
 
 | Nama | Catatan | Harga |
 |:---:|:---:|---|
@@ -27,27 +47,32 @@ VPN adalah pilihan populer untuk mengakses situs yang diblokir. Namun, tidak sem
 | [ExpressVPN](https://expressvpn.com) | - | Berbayar |
 | [Psiphon](https://psiphon.ca) | - | Freemium |
 
-## Memilih DNS yang Tepat[🔝](#navigasi)
-DNS adalah sistem yang menghubungkan nama domain dengan alamat IP. Kominfo bisa memblokir situs dengan memodifikasi server DNS agar tidak dapat diakses. Kamu bisa menggantinya dengan menggunakan DNS alternatif ini.
+[Kembali ke "Navigasi"](#navigasi)
 
-| Nama | Catatan | IPv4 | IPv4 2 | Port Alternatif | IPv6 | IPv6 2 | DoH | DoT |
+## Memilih layanan DNS yang tepat
+
+DNS adalah sebuah sistem yang menerjemahkan suatu nama domain menjadi alamat-alamat IP. Penyensoran dilakukan dengan memodifikasi layanan DNS yang digunakan.
+
+Tetapi ini bisa diubah dengan layanan DNS alternatif berikut ini:
+
+| Nama | Catatan | Alamat IPv4 Utama | Alamat IPv4 Cadangan | Port Alternatif | Alamat IPv6 Utama | Alamat IPv6 Cadangan | DoH | DoT |
 |---|---|---|---|---|---|---|---|---|
-| ⭐ BebasDNS | DNS punya bebasid, [memblokir iklan dan malware](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | `47.254.192.66` | - | `1753` | `2001:470:36:b90:beba:5::1d` | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
-| BebasDNS Malware | DNS punya bebasid, [memblokir malware](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | - | - | - | - | - | `dns.bebasid.com/dns-query/malware` | `malware.dns.bebasid.com` |
-| BebasDNS Unfiltered | DNS punya bebasid | - | - | - | - | - | `dns.bebasid.com/dns-query/unfiltered` | `unfiltered.dns.bebasid.com` |
-| BebasDNS Family | DNS punya bebasid, [memblokir malware & situs dewasa](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | - | - | - | - | - | `dns.bebasid.com/dns-query/family` | `family.dns.bebasid.com` |
-| Cloudflare DNS | - | `1.1.1.1` | `1.0.0.1` | - | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query` | `1dot1dot1dot1.cloudflare-dns.com` |
-| Cloudflare Secure DNS | [Memblokir malware](https://one.one.one.one/family) | `1.1.1.2` | `1.0.0.2` | - | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query` | `security.cloudflare-dns.com` |
-| Cloudflare Family DNS | [Memblokir malware & situs dewasa](https://one.one.one.one/family) | `1.1.1.3` | `1.0.0.3` | - | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query` | `family.cloudflare-dns.com` |
-| AdGuard DNS | [Memblokir iklan & malware](https://adguard-dns.io) | `94.140.14.14` | `94.140.15.15` | `5353` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
-| Google DNS | - | `8.8.8.8` | `8.8.4.4` | - | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |
-| Quad9 Secured | [Memblokir malware](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.9` | `149.112.112.112` | `9953` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `dns.quad9.net` |
+| ⭐ BebasDNS | Layanan DNS oleh bebasid, [memblokir iklan dan *malware*](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | `47.254.192.66` | - | `1753` | `2001:470:36:b90:beba:5::1d` | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
+| BebasDNS Malware | [Memblokir *malware*](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | - | - | - | - | - | `dns.bebasid.com/dns-query/malware` | `malware.dns.bebasid.com` |
+| BebasDNS Unfiltered | [Tanpa pemblokiran apapun]() | - | - | - | - | - | `dns.bebasid.com/dns-query/unfiltered` | `unfiltered.dns.bebasid.com` |
+| BebasDNS Family | [Memblokir *malware* & situs dewasa](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | - | - | - | - | - | `dns.bebasid.com/dns-query/family` | `family.dns.bebasid.com` |
+| Cloudflare DNS | Layanan DNS oleh Cloudflare | `1.1.1.1` | `1.0.0.1` | - | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query` | `1dot1dot1dot1.cloudflare-dns.com` |
+| Cloudflare Secure DNS | [Memblokir *malware*](https://one.one.one.one/family) | `1.1.1.2` | `1.0.0.2` | - | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query` | `security.cloudflare-dns.com` |
+| Cloudflare Family DNS | [Memblokir *malware* & situs dewasa](https://one.one.one.one/family) | `1.1.1.3` | `1.0.0.3` | - | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query` | `family.cloudflare-dns.com` |
+| AdGuard DNS | [Memblokir iklan & *malware*](https://adguard-dns.io) | `94.140.14.14` | `94.140.15.15` | `5353` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
+| Google DNS | Layanan DNS oleh Google | `8.8.8.8` | `8.8.4.4` | - | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |
+| Quad9 Secured | Layanan DNS oleh Quad9, [memblokir malware](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.9` | `149.112.112.112` | `9953` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `dns.quad9.net` |
 | Quad9 Secured with ECS | [Memblokir malware, mendukung ECS](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `dns11.quad9.net` |
-| Quad9 Unsecured | DNS alternatif Quad9 yang [tidak melakukan pemblokiran malware](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `dns10.quad9.net` |
-| Quad9 Unsecured ECS | DNS alternatif Quad9 yang [tidak melakukan pemblokiran malware, mendukung ECS](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `dns12.quad9.net` |
-| Mullvad | - | - | - | - | - | - | `doh.mullvad.net/dns-query` | `doh.mullvad.net` |
+| Quad9 Unsecured | [Tanpa pemblokiran apapun](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `dns10.quad9.net` |
+| Quad9 Unsecured ECS | [Tanpa pemblokiran apapun, mendukung ECS](https://www.quad9.net/service/service-addresses-and-features) | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `dns12.quad9.net` |
+| Mullvad | Layanan DNS oleh Mullvad | - | - | - | - | - | `doh.mullvad.net/dns-query` | `doh.mullvad.net` |
 | Mullvad Adblocking | [Memblokir iklan](https://github.com/mullvad/dns-blocklists) | - | - | - | - | - | `adblock.doh.mullvad.net/dns-query` | `adblock.doh.mullvad.net` |
-| OpenDNS | - | `208.67.222.222` | `208.67.220.220` | `5353, 443` | `2620:119:35::35` | `2620:119:53::53` | `doh.opendns.com/dns-query` | - |
+| OpenDNS | Layanan DNS oleh OpenDNS | `208.67.222.222` | `208.67.220.220` | `5353, 443` | `2620:119:35::35` | `2620:119:53::53` | `doh.opendns.com/dns-query` | - |
 | OpenDNS Familyshield | [Memblokir situs dewasa](https://www.opendns.com/home-internet-security) | `208.67.222.123` | `208.67.220.123` | `5353, 443` | - | - | `doh.familyshield.opendns.com/dns-query` | - |
 | UncensoredDNS | - | `91.239.100.100` | `- | - | `2001:67c:28a4::` | - | `anycast.uncensoreddns.org/dns-query` | `anycast.uncensoreddns.org` |
 | [NextDNS](https://nextdns.io) | Bisa Diatur | Kustom | Kustom | - | Kustom | Kustom | Kustom | Kustom |
@@ -57,8 +82,11 @@ DNS adalah sistem yang menghubungkan nama domain dengan alamat IP. Kominfo bisa 
 
 <sub>List lebih lengkap bisa dilihat di [KB Adguard](https://adguard-dns.io/kb/general/dns-providers/) dan [cURL wiki (DoH)](https://github.com/curl/curl/wiki/DNS-over-HTTPS).</sub>
 
-## Aplikasi DNS[🔝](#navigasi)
-Ini adalah list aplikasi untuk memudahkan mengganti DNS pada perangkat Anda.
+[Kembali ke "Navigasi"](#navigasi)
+
+## Aplikasi pengatur DNS
+
+Aplikasi berikut ini dapat mempermudah Anda mengatur layanan DNS yang digunakan, dengan beberapa juga dibekali fitur tambahan:
 
 > ⚠ **PERHATIAN** ⚠  
 > Apabila [ISP](#memilih-isp-yang-tidak-ketat) juga melakukan pemblokiran menggunakan DPI gunakan juga [Aplikasi ini](#aplikasi-dpi)
@@ -77,6 +105,8 @@ Ini adalah list aplikasi untuk memudahkan mengganti DNS pada perangkat Anda.
 >DNSecure adalah alat konfigurasi DoT dan DoH untuk iOS.
 
 <sup>[Lebih banyak](#aplikasi-dns-advanced)</sup>
+
+[Kembali ke "Navigasi"](#navigasi)
 
 ## Cara Menggunakan DNS Secara Manual[🔝](#navigasi)
 Berikut cara menggunakan DNS secara manual
