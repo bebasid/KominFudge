@@ -10,9 +10,9 @@ KominFudge adalah sebuah panduan tentang penyensoran Internet di Indonesia dan c
 
 Panduan ini terdiri atas dua dokumen yaitu:
 
-- **Panduan pemula**, yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya diurut mulai dari cara termudah hingga tersulit serta rekomendasi dari KominFudge.
+- **Panduan pemula**, yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya, diurut dari cara termudah hingga tersulit, serta rekomendasi dari KominFudge.
 
-- [**Panduan mahir**](link-placeholder-tolong-ganti-kalo-dah-ada-panduannya), yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
+- [**Panduan mahir**](advanced-guide/README.md), yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
 
 Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
 
@@ -23,13 +23,20 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 ## Navigasi
 
 - [Tentang KominFudge](#tentang-kominfudge)
-- [Memilih layanan VPN yang aman](#memilih-vpn-yang-aman)
-- [Memilih layanan DNS yang tepat](#memilih-dns-yang-tepat)
+- [Memilih layanan VPN yang aman](#memilih-layanan-vpn-yang-aman)
+- [Memilih layanan DNS yang tepat](#memilih-layanan-dns-yang-tepat)
   - [Aplikasi pengatur DNS](#aplikasi-pengatur-dns)
   - [Mengubah layanan DNS secara manual](#mengubah-layanan-dns-secara-manual)
 - [Aplikasi penembus DPI](#aplikasi-penembus-dpi)
   - [Menembus DPI tanpa aplikasi](#menembus-dpi-tanpa-aplikasi)
+- [Menggunakan *hosts file*](#menggunakan-hosts-file)
+- [Menggunakan Tor](#menggunakan-tor)
 - [Berkontribusi kepada KominFudge](#berkontribusi-kepada-kominfudge)
+
+<details>
+<summary>Catatan</summary>
+- Freemium: Menyediakan layanan yang gratis dan berbayar, umumnya dengan yang gratis memiliki fitur yang terbatas.
+</details>
 
 ## Memilih layanan VPN yang aman
 
@@ -51,11 +58,11 @@ Berikut ini adalah rekomendasi KominFudge untuk layanan VPN yang memiliki reputa
 
 ## Memilih layanan DNS yang tepat
 
-DNS adalah sebuah sistem yang menerjemahkan suatu nama domain menjadi alamat-alamat IP. Penyensoran dilakukan dengan memodifikasi layanan DNS yang digunakan.
+DNS adalah sebuah sistem yang menerjemahkan nama domain suatu situs menjadi alamat-alamat IP situs tersebut. Penyensoran umumnya dilakukan dengan memblokir layanan DNS selain yang disediakan oleh ISP, atau memodifikasi data DNS secara transparan jika terdeteksi situs yang diblokir.
 
-Tetapi ini bisa diubah dengan layanan DNS alternatif berikut ini:
+Layanan DNS yang menyensor dapat diubah dengan layanan DNS alternatif berikut ini:
 
-| Nama | Catatan | Alamat IPv4 Utama | Alamat IPv4 Cadangan | Port Alternatif | Alamat IPv6 Utama | Alamat IPv6 Cadangan | DoH | DoT |
+| Nama | Catatan | Alamat IPv4 Utama | Alamat IPv4 Cadangan | Port Alternatif | Alamat IPv6 Utama | Alamat IPv6 Cadangan | DNS-over-HTTPS (DoH) | DNS-over-TLS (DoT) |
 |---|---|---|---|---|---|---|---|---|
 | ⭐ BebasDNS | Layanan DNS oleh bebasid, [memblokir iklan dan *malware*](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | `47.254.192.66` | - | `1753` | `2001:470:36:b90:beba:5::1d` | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
 | BebasDNS Malware | [Memblokir *malware*](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | - | - | - | - | - | `dns.bebasid.com/dns-query/malware` | `malware.dns.bebasid.com` |
@@ -220,9 +227,6 @@ Hostfile atau Filehost dapat membantu pengguna unblokir akses ke situs web yang 
 | Geofany | [Binance](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3727848#gistcomment-3727848) | - |
 | PanjiNamjaElf | [Reddit](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3878656#gistcomment-3878656) | - |
 | pratamatama, SI_CLAY | [Steam](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=4250815#gistcomment-4250815) | [2](https://pastebin.com/auhuXvAD) |
-
-# END OF FILE
-MeFinity masih reorganisasi :3c
 
 ## Cara Menggunakan Hostfile
 Berikut ini adalah langkah-langkah cara unblock akses ke situs dengan menggunakan hostfile.
