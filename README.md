@@ -285,12 +285,12 @@ Jelajahi dengan Bebas.
 
 ## Berkontribusi kepada KominFudge
 
-KominFudge adalah sebuah proyek terbuka yang tidak akan mungkin tanpa kontribusi [sosok-sosok berikut ini.](../kredit.md)
+KominFudge adalah sebuah proyek terbuka yang tidak akan mungkin tanpa kontribusi [sosok-sosok berikut ini.](kredit.md)
 
 Siapapun dapat menambahkan informasi baru dan berkontribusi kepada repositori ini setelah dicek oleh pengelola repositori melalui proses *pull request* atau disingkat sebagai PR.
 
 - Untuk pembaca yang tidak pernah menggunakan GitHub sebelumnya, silahkan baca [dokumen ini.](masih-placeholder-contrib-tutorial)
-- Untuk panduan berkontribusi, silahkan baca [dokumen ini.](../CONTRIBUTING.md)
+- Untuk panduan berkontribusi, silahkan baca [dokumen ini.](CONTRIBUTING.md)
 
 [Kembali ke "Navigasi"](#navigasi)
 
