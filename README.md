@@ -60,7 +60,7 @@ Berikut ini adalah rekomendasi KominFudge untuk layanan VPN yang memiliki reputa
 
 DNS adalah sebuah sistem yang menerjemahkan nama domain suatu situs menjadi alamat-alamat IP situs tersebut. Penyensoran umumnya dilakukan dengan memblokir layanan DNS selain yang disediakan oleh ISP, atau memodifikasi data DNS secara transparan jika terdeteksi situs yang diblokir.
 
-Layanan DNS yang menyensor dapat diubah dengan layanan DNS alternatif berikut ini:
+Layanan DNS yang menyensor dapat diganti dengan layanan DNS alternatif berikut ini:
 
 | Nama | Catatan | Alamat IPv4 Utama | Alamat IPv4 Cadangan | Port Alternatif | Alamat IPv6 Utama | Alamat IPv6 Cadangan | DNS-over-HTTPS (DoH) | DNS-over-TLS (DoT) |
 |---|---|---|---|---|---|---|---|---|
