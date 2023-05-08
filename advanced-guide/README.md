@@ -22,7 +22,18 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 
 ## Navigasi
 
+- [Tentang KominFudge](#tentang-kominfudge)
+- [Jaringan *upstream* (IP *transit*) dan *internet exchange*](#jaringan-upstream-ip-transit-dan-internet-exchange)
+- [ISP dan metode pemblokiran yang digunakan](ISP-dan-metode-pemblokiran-yang-digunakan)
 - [Berkontribusi kepada KominFudge](#berkontribusi-kepada-kominfudge)
+
+## Jaringan *upstream* (IP *transit*) dan *internet exchange*
+
+Sedang dikerjakan.
+
+## ISP dan metode pemblokiran yang digunakan
+
+Sedang dikerjakan.
 
 ## Berkontribusi kepada KominFudge
 
@@ -30,7 +41,7 @@ KominFudge adalah sebuah proyek terbuka yang tidak akan mungkin tanpa kontribusi
 
 Siapapun dapat menambahkan informasi baru dan berkontribusi kepada repositori ini setelah dicek oleh pengelola repositori melalui proses *pull request* atau disingkat sebagai PR.
 
-- Untuk pembaca yang tidak pernah menggunakan GitHub sebelumnya, silahkan baca [dokumen ini.](#masih-placeholder-contrib-tutorial)
+- Untuk pembaca yang tidak pernah menggunakan GitHub sebelumnya, silahkan baca [dokumen ini.](masih-placeholder-contrib-tutorial)
 - Untuk panduan berkontribusi, silahkan baca [dokumen ini.](../CONTRIBUTING.md)
 
 [Kembali ke "Navigasi"](#navigasi)
