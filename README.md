@@ -26,21 +26,17 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 - [Memilih layanan VPN yang aman](#memilih-layanan-vpn-yang-aman)
 - [Memilih layanan DNS yang tepat](#memilih-layanan-dns-yang-tepat)
   - [Aplikasi pengatur DNS](#aplikasi-pengatur-dns)
-  - [Mengubah layanan DNS secara manual](#mengubah-layanan-dns-secara-manual)
+  - [Mengganti layanan DNS secara manual](#mengganti-layanan-dns-secara-manual)
 - [Aplikasi penembus DPI](#aplikasi-penembus-dpi)
   - [Menembus DPI tanpa aplikasi](#menembus-dpi-tanpa-aplikasi)
-- [Menggunakan *hosts file*](#menggunakan-hosts-file)
+- [Daftar *hosts file*](#daftar-hosts-file)
+  - [Menggunakan *hosts file*](#menggunakan-hosts-file)
 - [Menggunakan Tor](#menggunakan-tor)
 - [Berkontribusi kepada KominFudge](#berkontribusi-kepada-kominfudge)
 
-<details>
-<summary>Catatan</summary>
-- Freemium: Menyediakan layanan yang gratis dan berbayar, umumnya dengan yang gratis memiliki fitur yang terbatas.
-</details>
-
 ## Memilih layanan VPN yang aman
 
-Menggunakan layanan VPN, gratis maupun berbayar, adalah pilihan yang populer dan termudah untuk menembus penyensoran Internet di banyak negara termasuk Indonesia. Tetapi tidak semua layanan VPN memiliki reputasi yang baik.
+Menggunakan layanan VPN, gratis maupun berbayar, adalah pilihan yang populer dan termudah untuk menembus penyensoran Internet di banyak negara termasuk di Indonesia. Tetapi tidak semua layanan VPN memiliki reputasi yang baik.
 
 Berikut ini adalah rekomendasi KominFudge untuk layanan VPN yang memiliki reputasi yang baik:
 
@@ -58,7 +54,7 @@ Berikut ini adalah rekomendasi KominFudge untuk layanan VPN yang memiliki reputa
 
 ## Memilih layanan DNS yang tepat
 
-DNS adalah sebuah sistem yang menerjemahkan nama domain suatu situs menjadi alamat-alamat IP situs tersebut. Penyensoran umumnya dilakukan dengan memblokir layanan DNS selain yang disediakan oleh ISP, atau memodifikasi data DNS secara transparan jika terdeteksi situs yang diblokir.
+DNS adalah sebuah sistem yang menerjemahkan nama domain suatu situs menjadi alamat-alamat IP situs tersebut. Penyensoran umumnya dilakukan dengan memblokir layanan DNS selain yang disediakan oleh ISP dan/atau memodifikasi data DNS agar tidak dapat mengakses situs yang diblokir.
 
 Layanan DNS yang menyensor dapat diganti dengan layanan DNS alternatif berikut ini:
 
@@ -115,7 +111,7 @@ Aplikasi berikut ini dapat mempermudah Anda mengatur layanan DNS yang digunakan,
 
 [Kembali ke "Navigasi"](#navigasi)
 
-## Cara Menggunakan DNS Secara Manual[🔝](#navigasi)
+## Mengganti layanan DNS secara manual
 Berikut cara menggunakan DNS secara manual
 
 ### Di Android
@@ -176,7 +172,10 @@ Ini termasuk **Chrome**, **Edge**, **Brave**, dll
 Pergi ke situs seperti [DNSLeakTest](https://dnsleaktest.com) atau [BrowserLeaks](https://browserleaks.com/dns) untuk dicoba  
 Jika DNS yang kamu terapkan tidak muncul, silahkan coba [SimpleDNSCrypt](https://simplednscrypt.org)
 
-## Aplikasi DPI[🔝](#navigasi)
+[Kembali ke "Navigasi"](#navigasi)
+
+## Aplikasi penembus DPI
+
 Ini adalah list aplikasi untuk memudahkan menghilangkan DPI pada perangkat Anda.
 
 > ⚠ **PERHATIAN** ⚠  
@@ -201,7 +200,9 @@ Ini adalah list aplikasi untuk memudahkan menghilangkan DPI pada perangkat Anda.
 
 <sub>List lebih lebih lengkap bisa dilihat di [sini](https://github.com/stars/lepz0r/lists/anti-dpi).</sup>
 
-## Cara bypass DPI tanpa Aplikasi[🔝](#navigasi)
+[Kembali ke "Navigasi"](#navigasi)
+
+## Menembus DPI tanpa aplikasi
 
 ### Di Linux
 Drop TCP RST Jalankan perintah sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP atau sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP (untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE) di terminal
@@ -214,7 +215,9 @@ Silahkan ikut tutorial [ini](https://github.com/bebasid/bebasit/blob/master/docs
 **MikroTik**  
 Silahkan ikut tutorial [ini](https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md)
 
-## List Hostfile
+[Kembali ke "Navigasi"](#navigasi)
+
+## Daftar *hosts file*
 Hostfile atau Filehost dapat membantu pengguna unblokir akses ke situs web yang diblokir dengan menempatkan alamat IP situs tersebut di dalam file lokal pada perangkat. Berikut ini adalah daftar hostfile yang dapat membantu pengguna unblokir akses ke situs-situs tertentu secara efektif.
 
 | Pemilik | Layanan yang di unblokir | Mirror |
@@ -228,7 +231,9 @@ Hostfile atau Filehost dapat membantu pengguna unblokir akses ke situs web yang 
 | PanjiNamjaElf | [Reddit](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3878656#gistcomment-3878656) | - |
 | pratamatama, SI_CLAY | [Steam](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=4250815#gistcomment-4250815) | [2](https://pastebin.com/auhuXvAD) |
 
-## Cara Menggunakan Hostfile
+[Kembali ke "Navigasi"](#navigasi)
+
+## Menggunakan *hosts file*
 Berikut ini adalah langkah-langkah cara unblock akses ke situs dengan menggunakan hostfile.
 
 ### Di Android
@@ -263,7 +268,9 @@ Berikut ini adalah langkah-langkah cara unblock akses ke situs dengan menggunaka
 >2. Cari `/etc/hosts`
 >3. Tempel text ke file
 
-## Memakai Tor
+[Kembali ke "Navigasi"](#navigasi)
+
+## Menggunakan Tor
 Tor adalah jaringan internet anonim yang dapat membantu pengguna untuk menjaga privasi dan melewati pemblokiran saat browsing.
 
 1. [Tor](https://www.torproject.org) [Windows, macOS, Linux, Android]
@@ -273,6 +280,19 @@ Jelajahi dengan Bebas.
 >Orbot adalah aplikasi proxy gratis yang memberdayakan aplikasi lain untuk menggunakan internet dengan lebih aman.
 3. [OnionBrowser](https://onionbrowser.com)
 > Bebas menjadi dirimu.
+
+[Kembali ke "Navigasi"](#navigasi)
+
+## Berkontribusi kepada KominFudge
+
+KominFudge adalah sebuah proyek terbuka yang tidak akan mungkin tanpa kontribusi [sosok-sosok berikut ini.](../kredit.md)
+
+Siapapun dapat menambahkan informasi baru dan berkontribusi kepada repositori ini setelah dicek oleh pengelola repositori melalui proses *pull request* atau disingkat sebagai PR.
+
+- Untuk pembaca yang tidak pernah menggunakan GitHub sebelumnya, silahkan baca [dokumen ini.](masih-placeholder-contrib-tutorial)
+- Untuk panduan berkontribusi, silahkan baca [dokumen ini.](../CONTRIBUTING.md)
+
+[Kembali ke "Navigasi"](#navigasi)
 
 <p align="center">Share projek ini</p>
 <div id="sosial">
