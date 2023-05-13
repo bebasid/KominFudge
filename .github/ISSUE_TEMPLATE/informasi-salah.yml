@@ -1,42 +1,38 @@
 name: Informasi Salah/Outdated
-description: Laporkan informasi yang salah atau kadaluwarsa pada dokumen atau halaman website.
-
+description: Laporkan informasi yang salah atau kadaluwarsa.
+title: "[Informasi Salah]: "
+labels: ["misleading"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## Informasi Salah/Outdated
-
+         ## Informasi Salah/Outdated
         Terima kasih telah melaporkan masalah informasi yang salah atau kadaluwarsa. Silakan lengkapi detail di bawah ini untuk membantu kami memperbaiki dan memperbarui informasi yang tidak akurat atau tidak relevan lagi.
-
   - type: input
-    id: informasi_salah
+    id: salah
     attributes:
       label: Informasi apa yang salah atau kadaluwarsa?
       description: Harap jelaskan dengan detail tentang informasi yang salah atau kadaluwarsa.
-      validations:
-       required: true
-
+    validations:
+      required: true
   - type: input
-    id: informasi_benar
+    id: benar
     attributes:
       label: Informasi yang benar
-      description: (Opsional) Jika Anda tahu informasi yang benar, silakan jelaskan di sini.
-      validations:
-       required: false
-
+      description: Silahkan jelaskan di sini.
+    validations:
+      required: true
   - type: input
-    id: referensi
+    id: refrensi
     attributes:
       label: Referensi
-      description: (Opsional) Jika ada, silakan berikan referensi atau sumber yang mendukung klaim Anda tentang informasi yang salah atau kadaluwarsa.
-      validations:
-       required: false
-
+      description: Jika ada, silakan berikan referensi atau sumber yang mendukung klaim Anda tentang informasi yang salah atau kadaluwarsa.
+    validations:
+      required: false
   - type: textarea
-    id: tambahan_info
+    id: tambahan
     attributes:
       label: Informasi tambahan
-      description: (Opsional) Apakah Anda memiliki informasi tambahan atau komentar yang ingin disertakan? Silakan tulis di sini.
-      validations:
-       required: false
+      description: Apakah Anda memiliki informasi tambahan atau komentar yang ingin disertakan? Silakan tulis di sini.
+    validations:
+      required: false
