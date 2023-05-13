@@ -1,26 +1,38 @@
-name: Informasi Salah
-description: Jika ada kesalahan di repo kita, pakai issue ini untuk melapor
-title: "Informasi salah: "
+name: Informasi Salah/Outdated
+description: Laporkan informasi yang salah atau kadaluwarsa pada dokumen atau halaman website.
+
 body:
-- type: input
-  id: apa
-  attributes:
-    label: Apa yang salah?
-    placeholder: "Informasi ISP ini salah"
-  validations:
-    required: true
-- type: input
-  id: harusnya
-  attributes:
-    label: Harusnya apa?
-    placeholder: "ISP ini memblokir memakai DNS Nasional"
-  validations:
-    required: true
-- type: input
-  id: sumber
-  attributes:
-    label: Berikan sumber
-    description: Jika kamu yang ngetes sendiri, silahkan join server bebasid atau berikan link foto
-    placeholder: "https://eff.org"
-  validations:
-    required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Informasi Salah/Outdated
+
+        Terima kasih telah melaporkan masalah informasi yang salah atau kadaluwarsa. Silakan lengkapi detail di bawah ini untuk membantu kami memperbaiki dan memperbarui informasi yang tidak akurat atau tidak relevan lagi.
+
+  - type: input
+    id: informasi_salah
+    attributes:
+      label: Informasi apa yang salah atau kadaluwarsa?
+      description: Harap jelaskan dengan detail tentang informasi yang salah atau kadaluwarsa.
+      required: true
+
+  - type: input
+    id: informasi_benar
+    attributes:
+      label: Informasi yang benar
+      description: (Opsional) Jika Anda tahu informasi yang benar, silakan jelaskan di sini.
+      required: false
+
+  - type: input
+    id: referensi
+    attributes:
+      label: Referensi
+      description: (Opsional) Jika ada, silakan berikan referensi atau sumber yang mendukung klaim Anda tentang informasi yang salah atau kadaluwarsa.
+      required: false
+
+  - type: textarea
+    id: tambahan_info
+    attributes:
+      label: Informasi tambahan
+      description: (Opsional) Apakah Anda memiliki informasi tambahan atau komentar yang ingin disertakan? Silakan tulis di sini.
+      required: false
