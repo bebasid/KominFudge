@@ -6,8 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-         ## Informasi Salah/Outdated
-        Terima kasih telah melaporkan masalah informasi yang salah atau kadaluwarsa. Silakan lengkapi detail di bawah ini untuk membantu kami memperbaiki dan memperbarui informasi yang tidak akurat atau tidak relevan lagi.
+       Terima kasih telah melaporkan masalah informasi yang salah atau kadaluwarsa. Silakan lengkapi detail di bawah ini untuk membantu kami memperbaiki dan memperbarui informasi yang tidak akurat atau tidak relevan lagi.
   - type: input
     id: salah
     attributes:
