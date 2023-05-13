@@ -1,5 +1,5 @@
 <div align="center">
- <img src="../assets/kominfudge-500x250.png">
+ <img src="/assets/kominfudge-500x250.png">
  <p>"Tolak diblokir, Ayo <i>unblokir!</i>"</p>
  <p><b>KominFudge Panduan Mahir</b></p>
 </div>
