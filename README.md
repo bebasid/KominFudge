@@ -1,5 +1,5 @@
 <div align="center">
- <img src="./assets/kominfudge-500x250.png">
+ <img src="/assets/icon/kominfudge-500x250.png">
  <p>"Tolak diblokir, Ayo <i>unblokir!</i>"</p>
  <p><b>KominFudge Panduan Pemula</b></p>
 </div>
@@ -182,7 +182,7 @@ Ini adalah list aplikasi untuk memudahkan menghilangkan DPI pada perangkat Anda.
 > Jangan lupa untuk mengganti [DNS](#memilih-dns-yang-tepat) terlebih dahulu atau menggunakan [Hosts file](#list-hosts-file) apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran
 
 > (ℹ️) **Info**  
-> Kami juga menyediakan config untuk aplikasi & ISP di [folder ini](/dpi-circumvention-config)
+> Kami juga menyediakan config untuk aplikasi & ISP di [folder ini](/Config/DPI)
 
 
 1. [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
