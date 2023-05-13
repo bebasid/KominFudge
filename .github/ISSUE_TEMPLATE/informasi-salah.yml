@@ -14,25 +14,29 @@ body:
     attributes:
       label: Informasi apa yang salah atau kadaluwarsa?
       description: Harap jelaskan dengan detail tentang informasi yang salah atau kadaluwarsa.
-      required: true
+      validations:
+       required: true
 
   - type: input
     id: informasi_benar
     attributes:
       label: Informasi yang benar
       description: (Opsional) Jika Anda tahu informasi yang benar, silakan jelaskan di sini.
-      required: false
+      validations:
+       required: false
 
   - type: input
     id: referensi
     attributes:
       label: Referensi
       description: (Opsional) Jika ada, silakan berikan referensi atau sumber yang mendukung klaim Anda tentang informasi yang salah atau kadaluwarsa.
-      required: false
+      validations:
+       required: false
 
   - type: textarea
     id: tambahan_info
     attributes:
       label: Informasi tambahan
       description: (Opsional) Apakah Anda memiliki informasi tambahan atau komentar yang ingin disertakan? Silakan tulis di sini.
-      required: false
+      validations:
+       required: false
