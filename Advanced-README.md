@@ -24,6 +24,7 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 
 - [Tentang KominFudge](#tentang-kominfudge)
 - [Penjelasan metode pemblokiran](#penjelasan-metode-pemblokiran)
+- [Menentukan metode pemblokiran](#menentukan-metode-pemblokiran)
 - [Jaringan *upstream* (IP *transit*) dan *internet exchange*](#jaringan-upstream-ip-transit-dan-internet-exchange)
 - [ISP dan metode pemblokiran yang digunakan](ISP-dan-metode-pemblokiran-yang-digunakan)
 - [Berkontribusi kepada KominFudge](#berkontribusi-kepada-kominfudge)
@@ -49,7 +50,11 @@ Karena protokol DNS bersifat tidak terenkripsi dan tidak dapat memverifikasi *se
 
 ### Pemblokiran berbasis DPI
 
-Masih dikerjakan.
+Sedang dikerjakan.
+
+## Menentukan metode pemblokiran
+
+Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek metode pemblokiran yang digunakan oleh suatu ISP serta ciri-cirinya sehingga pengguna dapat mengetahui metode penembusan pemblokiran apa saja yang dapat digunakan.
 
 ## Jaringan *upstream* (IP *transit*) dan *internet exchange*
 
@@ -69,15 +74,15 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 <b>Sedangkan ISP yang menggunakan upstream dibawah ini wajib menggunakan VPN/GoodbyeDPI/Powertunnel</b>
 | ASN | Nama | Menggunakan DPI | Catatan |
 | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | Ya |
-| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | Ya | |
+| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo. |
 | [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) |
 | [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) |
-| [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya |
-| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya |
-| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia |[Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Traceroute Proof](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) |
-| [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia (Moratelindo) |[Ya](assets/proofs/png/DPI-Moratel.png?raw=1) | Tidak Memblokir Vimeo |
-| [AS149684](https://bgp.tools/as/149684) | PT. Kreatif Pasific | Ya | 
+| [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya | |
+| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya | |
+| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia |[Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) |
+| [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia (Moratelindo) | [Ya](assets/proofs/png/DPI-Moratel.png?raw=1) | Tidak Memblokir Vimeo. |
+| [AS149684](https://bgp.tools/as/149684) | PT. Kreatif Pasific | Ya | |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
 
