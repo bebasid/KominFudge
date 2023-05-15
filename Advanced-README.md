@@ -86,8 +86,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 
 | Nomor AS | Nama | Pemblokiran berbasis DNS | Pemblokiran berbasis DPI | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Transparan (Port 53 dibelokan ke server)](assets/proofs/png/AS4800-1.png?raw=1) | ? | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, CYB Media |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | ? | Ya | | |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Transparan (Port 53 dibelokan ke server)](assets/proofs/png/AS4800-1.png?raw=1) | Ya | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, CYB Media |
 | [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | ? | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo. | |
 | [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | ? | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) | | |
 | [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | ? | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) | | |
