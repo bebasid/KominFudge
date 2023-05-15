@@ -77,10 +77,11 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | :---: | :---: | :---: | :---: | :---: |
 | Indihome | Ya (Out, Local) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
 | CBN | Ya | Ya | Tidak |
-| Biznet Home | Ya (Out, Local) | Ya | Ya | DPI Biznet juga mengirim TCP RST ke server |
+| Biznet Home | Ya (Out, Local) | Ya | Tidak |
 | MyRepublic | Ya (Out, Local) | Ya | Tidak | DPI MyRepublic hanya memblokir situs 18+ |
 | FirstMedia | Ya (Out, Local) | Ya | Tidak |
 | Megavision | Ya (Out, Local) | Ya/Tidak (Tergantung Routing) | ? | Nama lain: StarNET. Terkena DPI dari upstream PT Parsaoran Global Datatrans |
+| Jujung Net | Ya | Ya | Ya | Provider rumah punya PT Parsaroan Global Datatrans |
 | MNC | Ya | Ya/Tidak (Tergantung routing) | ? | Terkena DPI dari Upstream iForte |
 | Iconnet PLN | Ya | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah |
 | PT Netciti Persada | Ya | Ya/Tidak (Tergantung Routing) | ? | Kena DNS Nasional dan DPI oleh upstream Lintasarta |
@@ -95,7 +96,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 **ISP Kantor**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Astinet | Ya (DNS Injection) | Ya | ? | ISP dari Telkom untuk kantor |
+| Astinet | Ya (DNS Injection Out) | Ya | ? | ISP dari Telkom untuk kantor |
 | Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor |
 | Lintasarta | Ya (Out, Local) | Ya | Ya | DPI Lintasarta juga mengirim TCP RST ke server. Pemblokiran dua arah |
 | Metronet | Ya (Out) | Ya | Ya | aka Biznet Dedicated |
@@ -129,7 +130,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | :---: | :---: | :---: | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Ya (Out, Local) | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
 | XL / Axis / Live On | Ya (Out, Local) | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
-| 3 | Ya | Ya | Ya | DPI Tri juga mengirim TCP RST ke server |
+| 3 | Ya (Google, OpenDNS) | Ya | Ya | DPI Tri juga mengirim TCP RST ke server |
 | Indosat | Ya | Ya | Tidak |
 | Smartfren | Ya (Out, Local) | Ya | Tidak | Memblokir DoH/DoT punya Google |
 
