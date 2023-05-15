@@ -1,5 +1,5 @@
 <div align="center">
- <img src="/assets/icon/kominfudge-500x250.png">
+ <img src="/assets/icon/kominfudge-compressed.png">
  <p>"Tolak diblokir, Ayo <i>unblokir!</i>"</p>
  <p><b>KominFudge Panduan Mahir</b></p>
 </div>
@@ -12,7 +12,7 @@ Panduan ini terdiri atas dua dokumen yaitu:
 
 - **Panduan mahir**, yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
 
-- [**Panduan pemula**](../README.md), yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya diurut mulai dari cara termudah hingga tersulit serta rekomendasi dari KominFudge.
+- [**Panduan pemula**](README.md), yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya diurut mulai dari cara termudah hingga tersulit serta rekomendasi dari KominFudge.
 
 Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
 
@@ -135,12 +135,12 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 
 ## Berkontribusi kepada KominFudge
 
-KominFudge adalah sebuah proyek terbuka yang tidak akan mungkin tanpa kontribusi [sosok-sosok berikut ini.](../kredit.md)
+KominFudge adalah sebuah proyek terbuka yang tidak akan mungkin tanpa kontribusi [sosok-sosok berikut ini.](CREDITS.md)
 
 Siapapun dapat menambahkan informasi baru dan berkontribusi kepada repositori ini setelah dicek oleh pengelola repositori melalui proses *pull request* atau disingkat sebagai PR.
 
 - Untuk pembaca yang tidak pernah menggunakan GitHub sebelumnya, silahkan baca [dokumen ini.](masih-placeholder-contrib-tutorial)
-- Untuk panduan berkontribusi, silahkan baca [dokumen ini.](../CONTRIBUTING.md)
+- Untuk panduan berkontribusi, silahkan baca [dokumen ini.](CONTRIBUTING.md)
 
 [Kembali ke "Navigasi"](#navigasi)
 
