@@ -1,5 +1,5 @@
 <div align="center">
- <img src="/assets/icon/kominfudge-500x250.png">
+ <img src="/assets/icon/KominFudge-compressed.png">
  <p>"Tolak diblokir, Ayo <i>unblokir!</i>"</p>
  <p><b>KominFudge Panduan Pemula</b></p>
 </div>
@@ -12,7 +12,7 @@ Panduan ini terdiri atas dua dokumen yaitu:
 
 - **Panduan pemula**, yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya, diurut dari cara termudah hingga tersulit, serta rekomendasi dari KominFudge.
 
-- [**Panduan mahir**](advanced-guide/README.md), yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
+- [**Panduan mahir**](Advanced-README.md), yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
 
 Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
 
@@ -285,7 +285,7 @@ Jelajahi dengan Bebas.
 
 ## Berkontribusi kepada KominFudge
 
-KominFudge adalah sebuah proyek terbuka yang tidak akan mungkin tanpa kontribusi [sosok-sosok berikut ini.](kredit.md)
+KominFudge adalah sebuah proyek terbuka yang tidak akan mungkin tanpa kontribusi [sosok-sosok berikut ini.](CREDITS.md)
 
 Siapapun dapat menambahkan informasi baru dan berkontribusi kepada repositori ini setelah dicek oleh pengelola repositori melalui proses *pull request* atau disingkat sebagai PR.
 
