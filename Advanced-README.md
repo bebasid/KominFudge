@@ -52,7 +52,7 @@ Karena protokol DNS bersifat tidak terenkripsi dan tidak dapat memverifikasi *se
 
 | Nama metode | Cara kerja | Contoh ISP yang menerapkan (Max 5) |
 | :---: | :--- | :---: |
-| Memblokir akses layanan DNS lain | Akses menuju layanan DNS publik popular / luar negeri dapat diblokir dari alamat IP, nomor port, atau jenis protokol yang digunakan maupun kombinasi dari ciri-ciri tersebut atau seluruhnya. | 3 (Three), Orion Cyber Internet, Nusanet, PT Centrin Utama, Oxygen (Moratelindo), D-NET  |
+| Memblokir akses layanan DNS lain | Akses menuju layanan DNS publik popular / luar negeri dapat diblokir dari alamat IP, nomor port, atau jenis protokol yang digunakan maupun kombinasi dari ciri-ciri tersebut atau seluruhnya. | 3 (Three), Orion Cyber Internet, Nusanet, PT Centrin Utama, Oxygen  |
 | Memblokir port DNS selain menuju ke DNS ISP | Akses menuju layanan DNS selain yang disediakan oleh ISP diblokir melalui pemblokiran request outbound port 53 selain menuju ke server ISP. Beberapa ISP seperti Biznet menggunakan DPI untuk memblokir DNS plain dengan melihat *fingerprint* dari request client daripada memblokir port nya langsung sehingga port 53 bisa digunakan kecuali untuk query DNS  | Biznet, Melsa, Smartfren |
 | Membelokan akses DNS secara transparan | Dikenal juga sebagai "DNS transparan atau Transparent DNS", ISP dapat membelokkan sambungan ke layanan DNS alternatif, biasanya dengan nomor port 53, agar hanya dapat menuju layanan DNS yang disediakan oleh ISP secara transparan. | Indihome, MyRepublic, Firstmedia, XL, Lintasarta |
 | Memodifikasi data DNS secara langsung | Dikenal juga sebagai "*DNS injection*" (injeksi DNS), ISP menggunakan sistem DPI atau Proxy dapat memodifikasi data DNS secara langsung sesaat melalui jaringan ISP jika terdeteksi situs yang diblokir agar situs tersebut tidak dapat diakses atau diarahkan ke situs notifikasi pemblokiran akses. | Telkom Astinet, PT Lexa Net |
@@ -61,7 +61,7 @@ Karena protokol DNS bersifat tidak terenkripsi dan tidak dapat memverifikasi *se
 
 ### Pemblokiran berbasis DPI
 
-Sedang dikerjakan.
+[ Sedang dikerjakan. / Under Construction ]
 
 [Kembali ke "Navigasi](#navigasi)
 
