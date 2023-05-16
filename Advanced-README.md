@@ -55,7 +55,7 @@ Karena protokol DNS bersifat tidak terenkripsi dan tidak dapat memverifikasi *se
 | Memblokir akses layanan DNS lain | Akses menuju layanan DNS publik popular / luar negeri dapat diblokir dari alamat IP, nomor port, atau jenis protokol yang digunakan maupun kombinasi dari ciri-ciri tersebut atau seluruhnya. | 3 (Three), Orion Cyber Internet, Nusanet, PT Centrin Utama, Oxygen (Moratelindo)  |
 | Memblokir port DNS selain menuju ke DNS ISP | Akses menuju layanan DNS selain yang disediakan oleh ISP diblokir melalui pemblokiran request outbound port 53 selain menuju ke server ISP  | Biznet, Melsa, Smartfren |
 | Membelokan akses DNS secara transparan | Dikenal juga sebagai "DNS transparan atau Transparent DNS", ISP dapat membelokkan sambungan ke layanan DNS alternatif, biasanya dengan nomor port 53, agar hanya dapat menuju layanan DNS yang disediakan oleh ISP secara transparan. | Indihome, MyRepublic, Firstmedia, XL, Lintasarta |
-| Memodifikasi data DNS secara langsung | Dikenal juga sebagai "*DNS injection*" (injeksi DNS), ISP menggunakan sistem DPI atau Proxy dapat memodifikasi data DNS secara langsung sesaat melalui jaringan ISP jika terdeteksi situs yang diblokir agar situs tersebut tidak dapat diakses atau diarahkan ke situs notifikasi pemblokiran akses. | Telkom Astinet |
+| Memodifikasi data DNS secara langsung | Dikenal juga sebagai "*DNS injection*" (injeksi DNS), ISP menggunakan sistem DPI atau Proxy dapat memodifikasi data DNS secara langsung sesaat melalui jaringan ISP jika terdeteksi situs yang diblokir agar situs tersebut tidak dapat diakses atau diarahkan ke situs notifikasi pemblokiran akses. | Telkom Astinet, PT Lexa Net |
 
 [Kembali ke "Navigasi](#navigasi)
 
@@ -79,23 +79,21 @@ Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek me
 
 <sup><b>Untuk mengecek IP Transit apa yang ISP kita gunakan, silahkan check di https://bgp.tools atau https://bgp.he.net</b></sup><br>
 
-ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara biasa karena port 53 telah dibelokan ke DNS provider IP Transit masing-masing sebagaimana <a href="https://youtu.be/q1706yrzzws?t=18927">DNS Nasional yang diusulkan di IDNOG 2022.</a><br>
-
 [Kembali ke "Navigasi](#navigasi)
 
 ### Jaringan *upstream* (IP *transit*)
 
-| Nomor AS | Nama | Pemblokiran berbasis DNS | Pemblokiran berbasis DPI | Catatan | Contoh ISP yang kena |
+| Nomor AS | Nama | Pemblokiran berbasis DNS | Pemblokiran berbasis DPI | Catatan | Contoh ISP yang kena (Max 5) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Transparan (Port 53 dibelokan ke server)](assets/proofs/png/AS4800-1.png?raw=1) | Ya | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, Varion |
-| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | Tidak | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo. | |
-| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | Tidak | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) | | |
-| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | Tidak | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) | | |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Transparan (Port 53 dibelokan ke server)](assets/proofs/png/AS4800-1.png?raw=1) | Ya | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia dan mereka memakai DPI di gateway menuju luar negeri](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, Varion |
+| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | Tidak | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo. | MNC Play, Transvision |
+| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | Tidak | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
+| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | Tidak | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) | | Megavision, MNC Play |
 | [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Tidak | Ya | | |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Tidak | Ya | | |
-| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | Tidak | [Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | |
-| [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia (Moratelindo) | Tidak | [Ya](assets/proofs/png/DPI-Moratel.png?raw=1) | Tidak Memblokir Vimeo. | |
+| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | Tidak | [Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
 | [AS149684](https://bgp.tools/as/149684) | PT. Kreatif Pasific | Tidak | Ya | | |
+| [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | Tidak | Ya | | |
 
 [Kembali ke "Navigasi](#navigasi)
 
@@ -155,7 +153,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | PT Remala Abadi | Ya | Tidak | Tidak | Dikenal juga sebagai Tachyon. |
 | PT iForte Global internet | Ya | Ya | Tidak | Sistem DPI tidak memblokir Vimeo. |
 | PT Cipta Informatika Cemeriang | Ya | Tidak | ? | |
-| PT Lexa Net | Ya | Tidak | ? | Dikenal juga sebagai PT Lexa Global Akses. |
+| PT Lexa Net | Ya (DNS Injection by proxy In and Out) | Tidak | ? | Dikenal juga sebagai PT Lexa Global Akses. |
 | PT Media Sarana Data  | Ya (Out, Local) | Tidak | ? | Dikenal juga sebagai G-MEDIA. |
 | PT Artorius Telemetri Sentosa | Ya | Tidak | ? | |
 | D-NET | Ya | Tidak | ? | Dikenal juga sebagai PT Core Mediatech, hanya membelokkan akses ke layanan DNS alternatif milik Google, Cloudflare, dan Quad9. | |
