@@ -23,47 +23,88 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 ## Navigasi
 
 - [Tentang KominFudge](#tentang-kominfudge)
-- [Penjelasan metode pemblokiran](#Penjelasan-metode-pemblokiran)
+- [Penjelasan metode pemblokiran](#penjelasan-metode-pemblokiran)
+  - [Pemblokiran berbasis DNS](#pemblokiran-berbasis-dns)
+  - [Pemblokiran berbasis DPI](#pemblokiran-berbasis-dpi)
+- [Menentukan metode pemblokiran yang digunakan](#menentukan-metode-pemblokiran-yang-digunakan)
 - [Jaringan *upstream* (IP *transit*) dan *internet exchange*](#jaringan-upstream-ip-transit-dan-internet-exchange)
-- [ISP dan metode pemblokiran yang digunakan](ISP-dan-metode-pemblokiran-yang-digunakan)
+  - [Jaringan *upstream* (IP *transit*)](#jaringan-upstream-ip-transit)
+  - [*Internet exchange*](#internet-exchange)
+- [ISP dan metode pemblokiran yang digunakan](#isp-dan-metode-pemblokiran-yang-digunakan)
+  - [ISP serat optik (*fiber optic*)](#isp-serat-optik-fiber-optic)
+  - [ISP selular / *mobile*](#isp-selular--mobile)
 - [Berkontribusi kepada KominFudge](#berkontribusi-kepada-kominfudge)
 
 ## Penjelasan metode pemblokiran
 
+Metode pemblokiran yang umumnya diterapkan oleh masing-masing ISP (*Internet Service Provider*, Penyedia Layanan Internet), jaringan *upstream* (IP *transit*), dan *internet exchange* dapat dibagi menjadi dua metode yaitu:
+
+| Nama metode | Cara kerja |
+| :---: | :--- |
+| Pemblokiran berbasis DNS | Dengan membatasi layanan DNS yang dapat digunakan, penyensoran dapat dilakukan dengan membalas permintaan alamat IP yang menuju ke situs yang diblokir dengan alamat IP situs notifikasi pemblokiran akses. |
+| Pemblokiran berbasis DPI | Dengan memantau akses Internet dan memeriksa setiap paket data secara mendalam, sistem DPI dapat mengidentifikasi sambungan menuju situs yang diblokir dan menutup atau mengarahkan sambungan tersebut ke halaman notifikasi pemblokiran akses sebelum *server* tujuan dapat merespon. |
+
+[Kembali ke "Navigasi](#navigasi)
+
+### Pemblokiran berbasis DNS
+
+Karena protokol DNS bersifat tidak terenkripsi dan tidak dapat memverifikasi *server* yang ingin dituju serta integritas data, pemblokiran berbasis DNS pada umumnya diterapkan melalui tiga metode ini yaitu:
+
+| Nama metode | Cara kerja |
+| :---: | :--- |
+| Memblokir akses layanan DNS lain | Akses menuju layanan DNS selain yang disediakan oleh ISP dapat diblokir dari alamat IP, nomor port, atau jenis protokol yang digunakan maupun kombinasi dari ciri-ciri tersebut. |
+| Menmbelokkan akses DNS secara transparan | Dikenal juga sebagai "DNS transparan", ISP dapat membelokkan sambungan ke layanan DNS alternatif, biasanya dengan nomor port 53, agar hanya dapat menuju layanan DNS yang disediakan oleh ISP secara transparan. |
+| Memodifikasi data DNS secara langsung | Dikenal juga sebagai "*DNS injection*" (injeksi DNS), ISP menggunakan sistem DPI dapat memodifikasi data DNS secara langsung sesaat melalui jaringan ISP jika terdeteksi situs yang diblokir agar situs tersebut tidak dapat diakses atau diarahkan ke situs notifikasi pemblokiran akses. |
+
+[Kembali ke "Navigasi](#navigasi)
+
+### Pemblokiran berbasis DPI
+
 Sedang dikerjakan.
+
+[Kembali ke "Navigasi](#navigasi)
+
+## Menentukan metode pemblokiran yang digunakan
+
+Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek metode pemblokiran yang digunakan oleh suatu ISP serta ciri-cirinya sehingga pengguna dapat mengetahui metode penembusan pemblokiran apa saja yang dapat digunakan.
+
+[Kembali ke "Navigasi](#navigasi)
 
 ## Jaringan *upstream* (IP *transit*) dan *internet exchange*
 
 > CATATAN: Masih dalam pengerjaan, isi baru saja disalin dari README.md di branch main.
 
+> CATATAN: Hanya disediakan untuk informasi semata. Tidak diperuntukkan sebagai informasi ketika mempertimbangkan ISP yang ingin digunakan. Metode dan keketatan pemblokiran dapat berubah sewaktu-waktu. Berpindah ISP adalah proses yang mungkin rumit, mahal, atau bahkan tidak memungkinkan dikarenakan berbagai macam faktor yang diluar kendali KominFudge.
+
 <sup><b>Untuk mengecek IP Transit apa yang ISP kita gunakan, silahkan check di https://bgp.tools atau https://bgp.he.net</b></sup><br>
 
 ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara biasa karena port 53 telah dibelokan ke DNS provider IP Transit masing-masing sebagaimana <a href="https://youtu.be/q1706yrzzws?t=18927">DNS Nasional yang diusulkan di IDNOG 2022.</a><br>
-| ASN | Nama | Pemblokiran menggunakan DNS | Catatan | Contoh ISP yang kena |
-| :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Transparan (Port 53 dibelokan ke server)](assets/proofs/png/AS4800-1.png?raw=1) | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, CYB Media |
 
-<sup style="text-align:center;">Jika di-sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama saja kena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dirutekan melalui IP Transit diatas jika ada</sup><br>
+[Kembali ke "Navigasi](#navigasi)
 
-<b>Sedangkan ISP yang menggunakan upstream dibawah ini wajib menggunakan VPN/GoodbyeDPI/Powertunnel</b>
-| ASN | Nama | Menggunakan DPI | Catatan |
-| :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | Ya |
-| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo |
-| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) |
-| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) |
-| [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya |
-| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya |
-| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia |[Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Traceroute Proof](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) |
-| [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia (Moratelindo) |[Ya](assets/proofs/png/DPI-Moratel.png?raw=1) | Tidak Memblokir Vimeo |
-| [AS149684](https://bgp.tools/as/149684) | PT. Kreatif Pasific | Ya | 
+### Jaringan *upstream* (IP *transit*)
 
-<sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
+| Nomor AS | Nama | Pemblokiran berbasis DNS | Pemblokiran berbasis DPI | Catatan | Contoh ISP yang kena |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Transparan (Port 53 dibelokan ke server)](assets/proofs/png/AS4800-1.png?raw=1) | Ya | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, CYB Media |
+| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | ? | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo. | |
+| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | ? | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) | | |
+| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | ? | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) | | |
+| [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | ? | Ya | | |
+| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | ? | Ya | | |
+| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | ? | [Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | |
+| [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia (Moratelindo) | ? | [Ya](assets/proofs/png/DPI-Moratel.png?raw=1) | Tidak Memblokir Vimeo. | |
+| [AS149684](https://bgp.tools/as/149684) | PT. Kreatif Pasific | ? | Ya | | |
 
-<b>Internet Exchange yang memakai middlebox DPI</b>
-| Nama | Menggunakan DPI | CDN yang terkena dampak | Catatan |
+[Kembali ke "Navigasi](#navigasi)
+
+### *Internet exchange*
+
+| Nama | Pemblokiran berbasis DPI | CDN yang terdampak | Catatan |
 | :---: | :---: | :---: | :---: |
 | BIX - Biznet Internet Exchange | Ya | [Cloudflare, dan semua CDN yang terhubung dengan BIX](assets/proofs/png/BIX.png?raw=1) | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
+
+[Kembali ke "Navigasi](#navigasi)
 
 ## ISP dan metode pemblokiran yang digunakan
 
@@ -71,68 +112,77 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 
 Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 
-### ISP Serat Optik (*Fiber Optic*) 
+### ISP serat optik (*fiber optic*) 
 **ISP Rumah**
-| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
+
+| Nama | Pemblokiran berbasis DNS | Pemblokiran berbasis DPI | Mengirim paket TCP RST ke *server* | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Indihome | Ya (Out, Local) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
-| CBN | Ya | Ya | Tidak |
-| Biznet Home | Ya (Out, Local) | Ya | Tidak |
-| MyRepublic | Ya (Out, Local) | Ya | Tidak | DPI MyRepublic hanya memblokir situs 18+ |
-| FirstMedia | Ya (Out, Local) | Ya | Tidak |
-| Megavision | Ya (Out, Local) | Ya/Tidak (Tergantung Routing) | ? | Nama lain: StarNET. Terkena DPI dari upstream PT Parsaoran Global Datatrans |
-| Jujung Net | Ya | Ya | Ya | Provider rumah punya PT Parsaroan Global Datatrans |
-| MNC | Ya | Ya/Tidak (Tergantung routing) | ? | Terkena DPI dari Upstream iForte |
-| Iconnet PLN | Ya | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah |
-| PT Netciti Persada | Ya | Ya/Tidak (Tergantung Routing) | ? | Kena DNS Nasional dan DPI oleh upstream Lintasarta |
-| Oxygen | Ya (Out) | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br>Memblokir alt-port DNS 5353 |
-| Citranet | Ya | Ya/Tidak (Tergantung routing) | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
-| Padi Net | Ya (Out, Local) | Tidak | ? |
-| Fiberstream | Ya (Out, Local) | Tidak | ? | ISP Rumahan punya G-MEDIA |
-| Balifiber | Ya | Tidak | ? |
-| PT Media Cepat Indonesia | Ya (Out, Local) | Tidak | ? |
-| Melsa | Ya (Out, Local) | Tidak | ? | DNS Google aman |
+| Indihome | Ya (Out, Local) | Ya | Ya | ISP dari Telkom untuk rumah. |
+| CBN | Ya | Ya | Tidak | |
+| Biznet Home | Ya (Out, Local) | Ya | Tidak | |
+| MyRepublic | Ya (Out, Local) | Ya | Tidak | Sistem DPI hanya memblokir situs dewasa. |
+| FirstMedia | Ya (Out, Local) | Ya | Tidak | |
+| Megavision | Ya (Out, Local) | Tergantung perutean | ? | Dikenal juga sebagai StarNET. Terdampak sistem DPI dari jaringan upstream PT Parsaoran Global Datatrans. |
+| Jujung Net | Ya | Ya | Ya | ISP dari PT Parsaroan Global Datatrans untuk rumah. |
+| MNC | Ya | Tergantung perutean | ? | Terdampak sistem DPI dari jaringan upstream iForte. |
+| Iconnet PLN | Ya | Ya | Ya | |
+| PT Netciti Persada | Ya | Tergantung perutean | ? | Terdampak DNS Nasional dan sistem DPI dari jaringan upstream Lintasarta. |
+| Oxygen | Ya (Out) | Ya | Tidak | Dikenal juga sebagai Moratelindo, memblokir layanan DNS alternatif milik Google yang menggunakan DoH dan DoT dan nomor port alternatif DNS 5353. |
+| Citranet | Ya | Tergantung perutean | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
+| Padi Net | Ya (Out, Local) | Tidak | ? | |
+| Fiberstream | Ya (Out, Local) | Tidak | ? | ISP dari G-MEDIA untuk rumah. |
+| Balifiber | Ya | Tidak | ? | |
+| PT Media Cepat Indonesia | Ya (Out, Local) | Tidak | ? | |
+| Melsa | Ya (Out, Local) | Tidak | ? | Layanan DNS alternatif milik Google tidak diblokir. |
+
+[Kembali ke "Navigasi](#navigasi)
 
 **ISP Kantor**
-| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
-| :---: | :---: | :---: | :---: | :---: |
-| Astinet | Ya (DNS Injection Out) | Ya | ? | ISP dari Telkom untuk kantor |
-| Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor |
-| Lintasarta | Ya (Out, Local) | Ya | Ya | DPI Lintasarta juga mengirim TCP RST ke server. Pemblokiran dua arah |
-| Metronet | Ya (Out) | Ya | Ya | aka Biznet Dedicated |
-| PT Metrasat | Ya | Ya | ? |
-| PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
-| PT Artha Telekomindo | Ya | Tidak | ? |
-| PT Hawk Teknologi Solusi | Ya | Tidak | ? |
-| PT Jaringanku Sarana Nusantara | Ya (Out, Local) | Tidak | ? | Nama lain: JSN |
-| PT. Infotama Lintas Global | Ya (Out, Local) | Tidak | ? |
-| PT Remala Abadi | Ya | Tidak | Tidak | Nama lain: Tachyon |
-| PT iForte Global internet | Ya | Ya | Tidak | DPI tidak memblokir Vimeo |
-| PT Cipta Informatika Cemeriang | Ya | Tidak | ? |
-| PT Lexa Net | Ya | Tidak | ? | Nama lain: PT Lexa Global Akses |
-| PT Media Sarana Data  | Ya (Out, Local) | Tidak | ? | Nama lain: G-MEDIA |
-| PT Artorius Telemetri Sentosa | Ya | Tidak | ? |
-| D-NET | Ya | Tidak | ? | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
-| PT Sumber Koneksi Indotelematika | Ya | Tidak | ? |
-| ProNET | Ya | Ya/Tidak (Tergantung Routing) | Ya | Nama lain: PT Trisari Data Indonesia<br />Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir. Terkena TCP RST dari upstream Solnet  |
-| PT Media Jaringan Telekomunikasi | Ya | Tidak | ? |
-| PT Sekawan Global Komunika | Ya | Tidak | ? |
-| PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak | ? |
-| Orion Cyber Internet | Ya | Tidak | ? | DNS populer seperti Cloudflare, Google, Quad9, Level3, dll dibelokan ke server ISP |
-| PT AGTI | Ya (Out, Local) | Tidak | ? | Nama lain: PT. Arjuna Global Teknologi Indonesia |
-| PT Parsaoran Global Datatrans | Ya | Ya | Ya (Tetapi lemah) | Nama lain: HSP NET. Pemblokiran DPI dua arah |
-| PT Fiber Networks Indonesia | Ya (Out, Local) | Tidak | ? | Nama lain: FIBERNET |
-| PT Power Telecom Indonesia | Ya | Ya | ? | DPI tidak memblokir Vimeo |
-| PT Solnet Indonesia | Ya | Ya | Ya | DPI Solnet juga mengirim TCP RST ke server |
 
-### ISP Selular/*Mobile*
-| Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server |  Catatan |
+| Nama | Pemblokiran berbasis DNS | Pemblokiran berbasis DPI | Mengirim TCP RST ke *server* | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Telkomsel / By.U / KartuHalo | Ya (Out, Local) | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
-| XL / Axis / Live On | Ya (Out, Local) | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
-| 3 | Ya (Google, OpenDNS) | Ya | Ya | DPI Tri juga mengirim TCP RST ke server |
-| Indosat | Ya | Ya | Tidak |
-| Smartfren | Ya (Out, Local) | Ya | Tidak | Memblokir DoH/DoT punya Google |
+| Astinet | Ya (DNS Injection Out) | Ya | ? | ISP dari Telkom untuk kantor. |
+| Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor. |
+| Lintasarta | Ya (Out, Local) | Ya | Ya | |
+| Metronet | Ya (Out) | Ya | Ya | Dikenal juga sebagai Biznet Dedicated. |
+| PT Metrasat | Ya | Ya | ? | |
+| PT Pasifik Satelit Nusantara | Ya | Tidak | ? | |
+| PT Artha Telekomindo | Ya | Tidak | ? | |
+| PT Hawk Teknologi Solusi | Ya | Tidak | ? | |
+| PT Jaringanku Sarana Nusantara | Ya (Out, Local) | Tidak | ? | Dikenal juga sebagai JSN. |
+| PT. Infotama Lintas Global | Ya (Out, Local) | Tidak | ? | |
+| PT Remala Abadi | Ya | Tidak | Tidak | Dikenal juga sebagai Tachyon. |
+| PT iForte Global internet | Ya | Ya | Tidak | Sistem DPI tidak memblokir Vimeo. |
+| PT Cipta Informatika Cemeriang | Ya | Tidak | ? | |
+| PT Lexa Net | Ya | Tidak | ? | Dikenal juga sebagai PT Lexa Global Akses. |
+| PT Media Sarana Data  | Ya (Out, Local) | Tidak | ? | Dikenal juga sebagai G-MEDIA. |
+| PT Artorius Telemetri Sentosa | Ya | Tidak | ? | |
+| D-NET | Ya | Tidak | ? | Dikenal juga sebagai PT Core Mediatech, hanya membelokkan akses ke layanan DNS alternatif milik Google, Cloudflare, dan Quad9. | |
+| PT Sumber Koneksi Indotelematika | Ya | Tidak | ? | |
+| ProNET | Ya | Tergantung perutean | Ya | Dikenal juga sebagai PT Trisari Data Indonesia, memblokir beberapa layanan DNS alternatif domestik dan internasional, terdampak TCP RST dari jaringan upstream Solnet. |
+| PT Media Jaringan Telekomunikasi | Ya | Tidak | ? | |
+| PT Sekawan Global Komunika | Ya | Tidak | ? | |
+| PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak | ? | |
+| Orion Cyber Internet | Ya | Tidak | ? | Membelokkan akses menuju beberapa layanan DNS alternatif ke layanan DNS milik ISP. |
+| PT AGTI | Ya (Out, Local) | Tidak | ? | Dikenal juga sebagai PT Arjuna Global Teknologi Indonesia. |
+| PT Parsaoran Global Datatrans | Ya | Ya | Ya (Lemah) | Dikenal juga sebagai HSP NET. |
+| PT Fiber Networks Indonesia | Ya (Out, Local) | Tidak | ? | Dikenal juga sebagai FIBERNET. |
+| PT Power Telecom Indonesia | Ya | Ya | ? | Sistem DPI tidak memblokir Vimeo. |
+| PT Solnet Indonesia | Ya | Ya | Ya | |
+
+[Kembali ke "Navigasi](#navigasi)
+
+### ISP selular / *mobile*
+
+| Nama | Pemblokiran berbasis DNS | Pemblokiran berbasis DPI | Mengirim TCP RST ke *server* | Catatan |
+| :---: | :---: | :---: | :---: | :---: |
+| Telkomsel / By.U / KartuHalo | Ya (Out, Local) | Ya | Ya | |
+| XL / Axis / Live On | Ya (Out, Local) | Ya | Ya | | 
+| 3 | Ya (Google, OpenDNS) | Ya | Ya | |
+| Indosat | Ya | Ya | Tidak | |
+| Smartfren | Ya (Out, Local) | Ya | Tidak | Memblokir layanan DNS alternatif milik Google yang menggunakan DoH dan DoT. |
+
+[Kembali ke "Navigasi](#navigasi)
 
 ## Berkontribusi kepada KominFudge
 
