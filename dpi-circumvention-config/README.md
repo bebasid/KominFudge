@@ -15,5 +15,6 @@
 | Indosat | PowerTunnel, GreenTunnel |
 | 3 | [Geneva](geneva/3-axis-indihome-telkomsel), [GoodbyeDPI](goodbyedpi/3-indihome-telkomsel-smartfren) |
 | Smartfren | [GoodbyeDPI (1)](goodbyedpi/smartfren-telkomsel-xl), [GoodbyeDPI (2)](goodbyedpi/3-indihome-telkomsel-smartfren), [Zapret](zapret/smartfren-xl) |
+| PT. Solnet Indonesia | [GoodbyeDPI](goodbyedpi/3-indihome-telkomsel-smartfren) |
 
 \* Untuk Telkomsel tidak dapat bekerja di kepala IP 114
