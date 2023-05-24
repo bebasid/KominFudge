@@ -49,17 +49,21 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 <sup style="text-align:center;">Jika di-sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama saja kena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dirutekan melalui IP Transit diatas jika ada</sup><br>
 
 <b>Sedangkan ISP yang menggunakan upstream dibawah ini wajib menggunakan VPN/GoodbyeDPI/Powertunnel</b>
-| ASN | Nama | Menggunakan DPI | Catatan |
-| :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | Ya |
-| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo |
-| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) |
-| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) |
-| [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya |
-| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya |
-| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia |[Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Traceroute Proof](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) |
-| [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia (Moratelindo) |[Ya](assets/proofs/png/DPI-Moratel.png?raw=1) | Tidak Memblokir Vimeo |
-| [AS149684](https://bgp.tools/as/149684) | PT. Kreatif Pasific | Ya | 
+| ASN | Nama | Pemblokiran menggunakan DPI | Catatan | Contoh ISP yang kena |
+| :---: | :---: | :---: | :---: | :---: |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | Ya | | Netciti, Varion |
+| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo. | MNC, Transvision, MTM Bali |
+| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
+| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) | | Megavision, MNC Play |
+| [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya | | |
+| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya | | |
+| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | [Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
+| [AS131219](https://bgp.tools/as/131219) | Indosat Singapore Pte Ltd | Ya | | |
+| [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | Ya | | |
+| [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras | Ya |  | MNC Play |
+| [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | Ya |  | |
+| [AS18351](https://bgp.tools/as/18351) | DTPNET NAP | [Ya](https://media.discordapp.net/attachments/1109515185108046015/1109935886889656450/image.png?width=648&height=559) |  |  |
+| [AS136106](https://bgp.tools/as/136106) | PT Mega Akses Persada (Fiberstar) | Ya |  | MyRepublic, Mayatama |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
 
