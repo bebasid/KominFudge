@@ -60,7 +60,7 @@ Layanan DNS yang menyensor dapat diganti dengan layanan DNS alternatif berikut i
 
 | Nama | Catatan | Alamat IPv4 Utama | Alamat IPv4 Cadangan | Port Alternatif | Alamat IPv6 Utama | Alamat IPv6 Cadangan | DNS-over-HTTPS (DoH) | DNS-over-TLS (DoT) |
 |---|---|---|---|---|---|---|---|---|
-| ⭐ BebasDNS | Layanan DNS oleh bebasid, [memblokir iklan dan *malware*](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | `47.254.192.66` | - | `1753` | `2001:470:36:b90:beba:5::1d` | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
+| ⭐ BebasDNS | Layanan DNS oleh bebasid, [memblokir iklan dan *malware*](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | `147.139.211.126` | `47.254.192.66` | `1753` | `2001:470:36:b90:beba:5::1d` | `2001:470:36:9be:ba5::1d` | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
 | BebasDNS Malware | [Memblokir *malware*](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | - | - | - | - | - | `dns.bebasid.com/dns-query/malware` | `malware.dns.bebasid.com` |
 | BebasDNS Unfiltered | [Tanpa pemblokiran apapun]() | - | - | - | - | - | `dns.bebasid.com/dns-query/unfiltered` | `unfiltered.dns.bebasid.com` |
 | BebasDNS Family | [Memblokir *malware* & situs dewasa](https://github.com/bebasid/bebasdns#daftar-blokir-dns--08092022) | - | - | - | - | - | `dns.bebasid.com/dns-query/family` | `family.dns.bebasid.com` |
@@ -140,9 +140,11 @@ Atau bisa memakai sesuatu seperti [Secure DNS profile creator](https://dns.notja
 >1. Settings > Network & Internet > Properties
 >2. Dibagian DNS server assignment, klik tombol Edit
 >3. Ganti Automatic menjadi Manual
->4. di Preferred DNS, masukan [Ipv4 dns](#memilih-dns-yang-tepat) dan di Alternate masukan [Ipv4 dns ke-2](#memilih-dns-yang-tepat)
+>4. di Preferred DNS, masukan [IPv4 dns](#memilih-dns-yang-tepat) dan di Alternate masukan [IPv4 dns ke-2](#memilih-dns-yang-tepat)
 >5. di Preferred dan Alternate DNS Encryption, pilih opsi Encrypted only (DNS-over-HTTPS)
->6. Klik Save
+>6. Jika Automatic Template tidak bekerja, masukan Manual Template dan masukan domain DoH nya 
+>7. Jika ISP anda support IPv6, jangan lupa disetting DNS nya
+>8. Klik Save
 
 ### Di macOS
 >1. System Preferences > Network > Wi-Fi > Advanced > DNS
@@ -205,14 +207,20 @@ Ini adalah list aplikasi untuk memudahkan menghilangkan DPI pada perangkat Anda.
 ## Menembus DPI tanpa aplikasi
 
 ### Di Linux
-Drop TCP RST Jalankan perintah sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP atau sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP (untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE) di terminal
-Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom Mengirim TCP RST ke server pada tabel diatas)
+Drop TCP RST dan string lamanlabuh dengan menjalankan perintah dibawah ini:
+- **UNTUK PENGGUNA IPTABLES**
+  - `sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP`
+  - `sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.aduankonten.id" --algo bm -j DROP`
+- **UNTUK PENGGUNA FIREWALLD**
+  - `sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP`
+
+**(Cara diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom Mengirim TCP RST ke server)**
 
 ### Di Router
 **OpenWRT**  
 Silahkan ikut tutorial [ini](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md)
 
-**MikroTik**  
+**MikroTik (Hanya berfungsi jika ISP tidak mengirim RST ke server)**  
 Silahkan ikut tutorial [ini](https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md)
 
 [Kembali ke "Navigasi"](#navigasi)
