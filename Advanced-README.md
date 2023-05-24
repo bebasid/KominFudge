@@ -105,9 +105,9 @@ Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek me
 
 ### Jaringan *upstream* (IP *transit*)
 
-| Nomor AS | Nama | Pemblokiran berbasis DNS | Pemblokiran berbasis DPI | Catatan | Contoh ISP yang kena (Max 5) |
+| Nomor AS | Nama | Memblokir via DNS | Memblokir via DPI | Catatan | Contoh ISP yang kena (Max 5) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Transparan (Port 53 dibelokan ke server)](assets/proofs/png/AS4800-1.png?raw=1) | Ya | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia dan mereka memakai DPI di gateway menuju luar negeri](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, Varion |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Nasional](assets/proofs/png/AS4800-1.png?raw=1) | Ya | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia dan mereka memakai DPI di gateway menuju luar negeri](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, Varion |
 | [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | Tidak | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo. | MNC Play, Transvision, MTM Bali |
 | [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | Tidak | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
 | [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | Tidak | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) | | Megavision, MNC Play |
@@ -130,6 +130,17 @@ Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek me
 | BIX - Biznet Internet Exchange | Ya | [Cloudflare, dan semua CDN yang terhubung dengan BIX](assets/proofs/png/BIX.png?raw=1) | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
 
 [Kembali ke "Navigasi](#navigasi)
+
+### *Virtual Private Server (VPS)*
+
+<sup><b>VPS lokal banyak yang terkena dari [Upstream yang mereka pakai](#Jaringan). Sebelum membeli VPS lokal untuk membypass blokiran, pastikan cek upstream mereka di https://bgp.tools atau https://bgp.he.net terlebih dahulu sebelum menggunakannya</b></sup><br>
+
+| Provider VPS | Terkena DPI | Dari Upstream | Catatan |
+| :---: | :---: | :---: | :---: |
+| PT Herza Digital Indonesia | Iya | Sendiri (Provider VPS ini menerapkan DPI)  |
+| Hostinger | Iya | PT Aplikanusa Lintasarta | |
+| PT Cloud Hosting Indonesia | Iya | BIZNET NETWORKS | Terkena karena situs Cloudflare di routing ke BIX |
+| PT Atharva Telematika Persada | Iya | Indosat Singapore Pte Ltd **via** PT Kreatif Pasific |
 
 ## ISP dan metode pemblokiran yang digunakan
 
