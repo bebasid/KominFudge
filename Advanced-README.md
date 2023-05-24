@@ -139,7 +139,7 @@ Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek me
 | :---: | :---: | :---: | :---: |
 | PT Herza Digital Indonesia | Iya | Sendiri (Provider VPS ini menerapkan DPI)  |
 | Hostinger | Iya | PT Aplikanusa Lintasarta | |
-| PT Cloud Hosting Indonesia | Iya | BIZNET NETWORKS | Terkena karena situs Cloudflare di routing ke BIX |
+| PT Cloud Hosting Indonesia | Iya | Biznet Internet Exchange (BIX) | Terkena karena situs Cloudflare di routing ke BIX |
 | PT Atharva Telematika Persada | Iya | Indosat Singapore Pte Ltd **via** PT Kreatif Pasific |
 
 ## ISP dan metode pemblokiran yang digunakan
