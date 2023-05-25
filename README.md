@@ -46,7 +46,7 @@ Berikut ini adalah rekomendasi KominFudge untuk layanan VPN yang memiliki reputa
 |:---:|:---:|---|
 | [ProtonVPN](https://protonvpn.com) | - | Freemium |
 | [Cloudflare WARP](https://one.one.one.one) | - | Freemium |
-| [Windscribe](https://windscribe.com) | Terpengaruh oleh [BIX](#soon) | Freemium |
+| [Windscribe](https://windscribe.com) | Terpengaruh oleh [BIX](Advanced-README.md#internet-exchange) | Freemium |
 | [Mullvad](https://mullvad.net/) | - | Berbayar |
 | [OVPN](https://ovpn.com) | - | Berbayar |
 | [ExpressVPN](https://expressvpn.com) | - | Berbayar |
@@ -94,7 +94,7 @@ Layanan DNS yang menyensor dapat diganti dengan layanan DNS alternatif berikut i
 Aplikasi berikut ini dapat mempermudah Anda mengatur layanan DNS yang digunakan, dengan beberapa juga dibekali fitur tambahan:
 
 > ⚠ **PERHATIAN** ⚠  
-> Apabila [ISP](#memilih-isp-yang-tidak-ketat) juga melakukan pemblokiran menggunakan DPI gunakan juga [Aplikasi ini](#aplikasi-dpi)
+> Apabila [ISP](Advanced-README.md#isp-dan-metode-pemblokiran-yang-digunakan) juga melakukan pemblokiran menggunakan DPI gunakan juga [Aplikasi ini](#aplikasi-penembus-dpi)
 
 1. [SimpleDNSCrypt](https://simplednscrypt.org) [Windows]
 >Simple DNSCrypt adalah alat manajemen sederhana untuk mengkonfigurasi [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy) pada sistem Windows.
@@ -109,8 +109,6 @@ Aplikasi berikut ini dapat mempermudah Anda mengatur layanan DNS yang digunakan,
 6. [DNSecure](https://github.com/kkk669/DNSecure) [iOS]
 >DNSecure adalah alat konfigurasi DoT dan DoH untuk iOS.
 
-<sup>[Lebih banyak](#aplikasi-dns-advanced)</sup>
-
 [Kembali ke "Navigasi"](#navigasi)
 
 ## Mengganti layanan DNS secara manual
@@ -119,13 +117,13 @@ Berikut cara menggunakan DNS secara manual
 ### Di Android
 
 >1. Peraturan > Koneksi Nirkabel Lainnya > DNS Pribadi
->2. Masukkan [hostname dns](#memilih-dns-yang-tepat) dan pencet Simpan
+>2. Masukkan [hostname dns](#memilih-layanan-dns-yang-tepat) dan pencet Simpan
 
 ### Di iOS
 
 >1. Peraturan > Wi-Fi > *wifi*
 >2. Ketuk ikon (i)
->3. Ganti IP Adress jadi Static dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
+>3. Ganti IP Adress jadi Static dan masukkan [hostname dns](#memilih-layanan-dns-yang-tepat) di kolom DNS
 
 Atau bisa memakai sesuatu seperti [Secure DNS profile creator](https://dns.notjakob.com/tool.html)
 
@@ -135,14 +133,14 @@ Atau bisa memakai sesuatu seperti [Secure DNS profile creator](https://dns.notja
 >1. Control Panel > Network and Internet > Network and Sharing Center > Connections > Properties
 >2. Pencet Internet Protocol Version 4 (TCP/IPv4) 2 kali
 >3. Ganti "Obtain DNS server address automatically" ke "Use the following DNS server addresses"
->4. Masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS dan pencet Ok
+>4. Masukkan [hostname dns](#memilih-layanan-dns-yang-tepat) di kolom DNS dan pencet Ok
 
 #### Windows 11
 
 >1. Settings > Network & Internet > Properties
 >2. Dibagian DNS server assignment, klik tombol Edit
 >3. Ganti Automatic menjadi Manual
->4. di Preferred DNS, masukan [IPv4 dns](#memilih-dns-yang-tepat) dan di Alternate masukan [IPv4 dns ke-2](#memilih-dns-yang-tepat)
+>4. di Preferred DNS, masukan [IPv4 dns](#memilih-layanan-dns-yang-tepat) dan di Alternate masukan [IPv4 dns ke-2](#memilih-layanan-dns-yang-tepat)
 >5. di Preferred dan Alternate DNS Encryption, pilih opsi Encrypted only (DNS-over-HTTPS)
 >6. Jika Automatic Template tidak bekerja, masukan Manual Template dan masukan domain DoH nya 
 >7. Jika ISP anda support IPv6, jangan lupa disetting DNS nya
@@ -150,14 +148,14 @@ Atau bisa memakai sesuatu seperti [Secure DNS profile creator](https://dns.notja
 
 ### Di macOS
 >1. System Preferences > Network > Wi-Fi > Advanced > DNS
->2. Pencet tombol “+” dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS,pencet Ok dan Apply
+>2. Pencet tombol “+” dan masukkan [hostname dns](#memilih-layanan-dns-yang-tepat) di kolom DNS,pencet Ok dan Apply
 
 Atau bisa memakai sesuatu seperti [Secure DNS profile creator](https://dns.notjakob.com/tool.html)
 
 ### Di Linux
 >1. Buka Terminal
 >2. Jalankan perintah `nano /etc/resolv.conf` untuk mengedit file `/etc/resolv.conf`
->3. Ubah isi file menjadi seperti berikut (ganti `<hostname dns>` menjadi salah satu hostname dns [disini](#memilih-dns-yang-tepat))
+>3. Ubah isi file menjadi seperti berikut (ganti `<hostname dns>` menjadi salah satu hostname dns [disini](#memilih-layanan-dns-yang-tepat))
 ```
 nameserver <hostname dns>
 nameserver <hostname dns>
@@ -166,11 +164,11 @@ nameserver <hostname dns>
 ### Di browser berbasis Chromium
 Ini termasuk **Chrome**, **Edge**, **Brave**, dll
 >1. Settings > Privacy and Security
->2. Masukin [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
+>2. Masukin [hostname dns](#memilih-layanan-dns-yang-tepat) di kolom DNS
 
 ### Di Firefox
 >1. Settings > Network Settings
->2. Masukin [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
+>2. Masukin [hostname dns](#memilih-layanan-dns-yang-tepat) di kolom DNS
 
 **_Gimana cara tau jika DNSnya berhasil?_**  
 Pergi ke situs seperti [DNSLeakTest](https://dnsleaktest.com) atau [BrowserLeaks](https://browserleaks.com/dns) untuk dicoba  
@@ -183,7 +181,7 @@ Jika DNS yang kamu terapkan tidak muncul, silahkan coba [SimpleDNSCrypt](https:/
 Ini adalah list aplikasi untuk memudahkan menghilangkan DPI pada perangkat Anda.
 
 > ⚠ **PERHATIAN** ⚠  
-> Jangan lupa untuk mengganti [DNS](#memilih-dns-yang-tepat) terlebih dahulu atau menggunakan [Hosts file](#list-hosts-file) apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran
+> Jangan lupa untuk mengganti [DNS](#memilih-layanan-dns-yang-tepat) terlebih dahulu atau menggunakan [Hosts file](#daftar-hosts-file) apabila [ISP](Advanced-README.md#isp-dan-metode-pemblokiran-yang-digunakan) juga menggunakan DNS untuk pemblokiran
 
 > (ℹ️) **Info**  
 > Kami juga menyediakan config untuk aplikasi & ISP di [folder ini](/Config/DPI)
@@ -295,12 +293,12 @@ Jelajahi dengan Bebas.
 
 ## Berkontribusi kepada KominFudge
 
-KominFudge adalah sebuah proyek terbuka yang tidak akan mungkin tanpa kontribusi [sosok-sosok berikut ini.](CREDITS.md)
+KominFudge adalah sebuah proyek terbuka yang tidak akan mungkin tanpa kontribusi [seperti ini.](CREDITS.md)
 
 Siapapun dapat menambahkan informasi baru dan berkontribusi kepada repositori ini setelah dicek oleh pengelola repositori melalui proses *pull request* atau disingkat sebagai PR.
 
-- Untuk pembaca yang tidak pernah menggunakan GitHub sebelumnya, silahkan baca [dokumen ini.](masih-placeholder-contrib-tutorial)
-- Untuk panduan berkontribusi, silahkan baca [dokumen ini.](CONTRIBUTING.md)
+- Untuk pembaca yang tidak pernah menggunakan GitHub sebelumnya, silahkan baca [dokumen ini](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github).
+- Untuk panduan berkontribusi, silahkan baca [dokumen ini](CONTRIBUTING.md).
 
 [Kembali ke "Navigasi"](#navigasi)
 
