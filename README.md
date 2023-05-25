@@ -1,5 +1,10 @@
 <p align="center"><img src="./assets/kominfudge-500x250.png" align="center"></p>
 <p align="center">"Karena Kominfo ngeblok, ayo kita unblok!"</p>
+
+<p align="center">
+    <b>Indonesia</b> | English (available soon)
+</p>
+
 <p align="center"><sup>DISCLAIMER: KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.</sup></p>
 
 ### Navigasi
