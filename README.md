@@ -22,6 +22,7 @@
 ---
 
 ## Daftar Isi
+
 - [Pilihan Tertinggi](#pilihan-tertinggi)
 - [Memilih ISP yang tidak ketat](#memilih-isp-yang-tidak-ketat)
   - [Level kepayahan unblok memakai DPI](#level-kepayahan-unblok-memakai-dpi)
