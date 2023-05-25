@@ -434,7 +434,7 @@ VPN di bagian ini memerlukan konfigurasi, jika hanya ingin VPN yang di luar kota
 | [Wireguard](https://wireguard.com) | Seperti OpenVPN |
 | [Softether](https://softether.org) | Seperti OpenVPN. Tapi, hanya ada server yang terbatas(?) |
 
-## Jenis Aplikasi Tor[🔝](#navigasi)
+## Jenis Aplikasi Tor[🔝](#daftar-isi)
 Ini adalah bagian yang ekstrim dengan memakai Tor ada di bawah ini.
 
 1. [Tor Browser](https://www.torproject.org) [Windows, macOS, Linux, Android]  
