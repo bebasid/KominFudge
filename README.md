@@ -418,5 +418,6 @@ Aplikasi Android untuk DNS dan Tor
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/KominFudge"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white"/></a>
- </p>
+  </p>
+  <p align="center"><a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> dilisensikan sebagai <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a>.</p>
 </div>
