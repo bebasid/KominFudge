@@ -2,7 +2,7 @@
 <p align="center">"Karena Kominfo ngeblok, ayo kita unblok!"</p>
 
 <p align="center">
-    <b>Indonesia</b> | English (available soon)
+    <a href="README.md">Indonesia</a> | <b>English</b>
 </p>
 
 <p align="center"><sup>DISCLAIMER: KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.</sup></p>
