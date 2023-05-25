@@ -1,11 +1,11 @@
 <div align="center">
  <img src="/assets/icon/logo.png#gh-dark-mode-only" width="500">
  <img src="/assets/icon/logo-black.png#gh-light-mode-only" width="500">
- <p>"Tolak diblokir, Ayo <i>unblokir!</i>"</p>
- <p><b>KominFudge Panduan Pemula</b></p>
+  <p>"Tolak diblokir, Ayo <i>unblokir!</i>"</p>
+   <p><b>KominFudge Panduan Pemula</b></p>
 </div>
 
- <p align="center" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/bebasid/KominFudge">KominFudge</a> dari <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/bebasid">bebasid</a> di lisensikan dibawah <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+ <p align="center"><a href="https://github.com/bebasid/KominFudge">KominFudge</a> dari <a href="https://github.com/bebasid">bebasid</a> di lisensikan dibawah <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></p>
 
 ## Tentang KominFudge
 
