@@ -44,7 +44,7 @@ Free and secure
 ISP is your Internet provider, this list will helps you understand more about how Indonesian ISPs blocking[;](/sssssssssssssssssssssssssssssssssss.md)
 
 ### IP Transit 
-<sup><b>To determine what Transit IP that our ISP is using, you can check on https://bgp.tools atau https://bgp.he.net</b></sup><br>
+<sup><b>To determine what Transit IP that your ISP is using, you can check on https://bgp.tools or https://bgp.he.net</b></sup><br>
 
 ISP that using these upstreams will not be able to change DNS in usual way due to port 53 redirection to each Transit IP provider DNS resolvers following the <a href="https://youtu.be/q1706yrzzws?t=18927">National DNS that unveiled during IDNOG 2022.</a><br>
 | ASN | Name | Blocking using DNS | Note | Example of affected ISP |
