@@ -1,5 +1,6 @@
 <div align="center">
- <img src="/assets/icon/KominFudge-compressed.png">
+ <img src="/assets/icon/logo.png#gh-dark-mode-only">
+ <img src="/assets/icon/logo-black.png#gh-light-mode-only">
  <p>"Tolak diblokir, Ayo <i>unblokir!</i>"</p>
  <p><b>KominFudge Panduan Pemula</b></p>
 </div>
