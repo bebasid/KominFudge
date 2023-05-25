@@ -1,10 +1,22 @@
 <p align="center"><img src="./assets/kominfudge-500x250.png" align="center"></p>
-<p align="center">"Because Kominfo blocks, let's unblock!"</p>
-
+<p align="center"><b>X</b></p>
+<p align="center">
+    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png#gh-light-mode-only" alt="BEBASID LOGO" width="330">
+    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.png#gh-dark-mode-only" alt="BEBASID LOGO" width="330">
+</p>
+</p>
+<p align="center">
+<a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join Discord BEBASID"></a>
+ </p>
+<p align="center">
+    <a href="#"><img src="https://img.shields.io/static/v1?label=year%20launched:&message=2022&color=yellowgreen&style=plastic%22"></a>
+    <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2FKominFudge_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=watchers%3A+%28today%2Ftotal%29&edge_flat=false"/></a>
+    <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--SA--4.0-blue"></a>
+</p>
 <p align="center">
     <a href="README.md">Indonesia</a> | <b>English</b>
 </p>
-
+<p align="center">"Because Kominfo blocks, let's unblock!"</p>
 <p align="center"><sup>DISCLAIMER: Kominfudge is not responsible for any damages caused to your device, do with your own risk.</sup></p>
 
 ### Navigation
@@ -29,19 +41,19 @@ This project would not exist without your [contributions](/kredit.md)
 ## Top Choices[🔝](#navigation)
 
 DNS: [1.1.1.1](https://1.1.1.1)  
-Most intuitive DNS resolver and easy to use 
+<em>Most intuitive DNS resolver and easy to use</em>
 
 DPI: [PowerTunnel](https://github.com/krlvm/PowerTunnel)  
-Intuitive and Open Source  
+<em>Intuitive and Open Source</em>
 
 Filehost: [bebasid](https://bebasid.com)  
-Host file with a lot of content 
+<em>Host file with a lot of content</em>
 
 VPN: [ProtonVPN](https://protonvpn.com)  
-Free and secure
+<em>Free and secure</em>
 
 ## Choosing less-STRICT ISP[🔝](#navigation)
-ISP is your Internet provider, this list will helps you understand more about how Indonesian ISPs blocking[;](/sssssssssssssssssssssssssssssssssss.md)
+ISP is your Internet provider, this list will helps you understand more about how Indonesian ISPs [blocking](/sssssssssssssssssssssssssssssssssss.md)
 
 ### IP Transit 
 <sup><b>To determine what Transit IP that your ISP is using, you can check on https://bgp.tools or https://bgp.he.net</b></sup><br>
