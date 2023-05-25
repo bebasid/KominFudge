@@ -1,54 +1,75 @@
 <p align="center"><img src="./assets/kominfudge-500x250.png" align="center"></p>
-<p align="center">"Karena Kominfo ngeblok, ayo kita unblok!"</p>
-<p align="center"><sup>DISCLAIMER: KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.</sup></p>
+<p align="center"><b>X</b></p>
+<p align="center">
+    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png#gh-light-mode-only" alt="BEBASID LOGO" width="330">
+    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.png#gh-dark-mode-only" alt="BEBASID LOGO" width="330">
+</p>
+</p>
+<p align="center">
+<a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join Discord BEBASID"></a>
+ </p>
+<p align="center">
+    <a href="#"><img src="https://img.shields.io/static/v1?label=tahun%20diluncurkan:&message=2022&color=yellowgreen&style=plastic%22"></a>
+    <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2FKominFudge_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=penonton%3A+%28hari%20ini%2Ftotal%29&edge_flat=false"/></a>
+    <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE"><img src="https://img.shields.io/badge/lisensi-CC--BY--SA--4.0-blue"></a>
+</p>
+<p align="center">
+    <b>Indonesia</b> | <a href="README.en.md">English</a>
+</p>
+<p align="center"><em>Karena Kominfo ngeblok, mari kita unblok!</em></p>
+<p align="center"><sup><b>DISCLAIMER</b>: <em>KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.</em></sup></p>
 
-### Navigasi
+---
+
+## Daftar Isi
 - [Pilihan Tertinggi](#pilihan-tertinggi)
 - [Memilih ISP yang tidak ketat](#memilih-isp-yang-tidak-ketat)
   - [Level kepayahan unblok memakai DPI](#level-kepayahan-unblok-memakai-dpi)
-- [Memilih DNS yang tepat](#memilih-dns-yang-tepat)
-  - [Aplikasi² DNS](#aplikasi-aplikasi-dns)
-  - [Cara mengganti DNS](#cara-mengganti-dns)
-- [Aplikasi² untuk menghilangkan DPI](#aplikasi-aplikasi-untuk-menghilangkan-dpi)
-  - [Trik untuk bypass DPI tanpa aplikasi](#trik-untuk-bypass-dpi-tanpa-aplikasi)
-  - [Trik untuk bypass DPI memakai router](#trik-untuk-bypass-dpi-di-router)
-- [List hosts file](#list-hosts-file)
+- [Cara memilih DNS yang tepat](#cara-memilih-dns-yang-tepat)
+  - [Jenis Aplikasi DNS](#jenis-aplikasi-dns)
+  - [Cara mengganti lewat DNS](#cara-mengganti-lewat-dns)
+- [Jenis Aplikasi untuk menghilangkan DPI](#jenis-aplikasi-untuk-menghilangkan-dpi)
+  - [Trik untuk melewati DPI tanpa aplikasi](#trik-untuk-melewati-dpi-tanpa-aplikasi)
+  - [Trik untuk melewati DPI memakai router](#trik-untuk-melewati-dpi-memakai-router)
+- [Daftar Isi hosts file](#daftar-isi-hosts-file)
   - [Cara unblok memakai hosts file](#cara-unblok-memakai-hosts-file)
 - [Memilih VPN yang aman](#memilih-vpn-yang-aman)
-  - [VPN untuk Advanced Users](#vpn-untuk-advanced-users)
-- [Aplikasi² Tor](#aplikasi-aplikasi-tor)
+  - [VPN untuk para Pengguna Tingkat Lanjut](#vpn-untuk-para-pengguna-tingkat-lanjut)
+- [Jenis Aplikasi Tor](#jenis-aplikasi-tor)
 
-Projek ini tidak akan ada tanpa kontribusi [kalian](/kredit.md)  
-*Oh ya,kalau mau kontribusi,liat [ini](/CONTRIBUTING.md)*
+---
 
-## Pilihan Tertinggi[🔝](#navigasi)
+Proyek ini tiada tanpa kontribusi [yang tidak termasuk disini](/kredit.md).  
+*Jika mau bergabung kontribusi, lihat dari [sini](/CONTRIBUTING.md).*
+
+## Pilihan Tertinggi[🔝](#daftar-isi)
 
 DNS: [1.1.1.1](https://1.1.1.1)  
-DNS yang Intuitif dan senang untuk dipakai  
+<em>DNS yang intuitif dan senang untuk dipakai.</em>  
 
 DPI: [PowerTunnel](https://github.com/krlvm/PowerTunnel)  
-Intuitif dan Open Source  
+<em>Intuitif dan Open Source.</em>  
 
 Filehost: [bebasid](https://bebasid.com)  
-Mempunyai hostfile yang banyak isinya  
+<em>Mempunyai hosts file yang banyak isi pada tersebut.</em>  
 
 VPN: [ProtonVPN](https://protonvpn.com)  
-Gratis dan Aman
+<em>Gratis dan Aman.</em>
 
-## Memilih ISP yang tidak KETAT[🔝](#navigasi)
-ISP adalah provider Internetmu, list ini akan buat kamu lebih tau bagaimana ISP² Indonesia memblokir[;](/sssssssssssssssssssssssssssssssssss.md)
+## Memilih ISP yang tidak *ketat*[🔝](#daftar-isi)
+ISP adalah provider Internet, daftar isi ini akan membuat lebih tau bagaimana jenis ISP Indonesia [memblokir](/sssssssssssssssssssssssssssssssssss.md).
 
-### IP Transit 
-<sup><b>Untuk mengecek IP Transit apa yang ISP kita gunakan, silahkan check di https://bgp.tools atau https://bgp.he.net</b></sup><br>
+### <ins>IP Transit</ins> 
+<sup><b>Untuk mengecek IP Transit apa yang ISP gunakan, silahkan check di https://bgp.tools atau https://bgp.he.net</b>.</sup><br>
 
-ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara biasa karena port 53 telah dibelokan ke DNS provider IP Transit masing-masing sebagaimana <a href="https://youtu.be/q1706yrzzws?t=18927">DNS Nasional yang diusulkan di IDNOG 2022.</a><br>
+ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara biasa, karena port 53 telah ditutupkan ke provider DNS IP Transit masing-masing sebagaimana <a href="https://youtu.be/q1706yrzzws?t=18927">DNS Nasional yang diusulkan di IDNOG 2022</a>.<br>
 | ASN | Nama | Pemblokiran menggunakan DNS | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
 | [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Transparan (Port 53 dibelokan ke server)](assets/proofs/png/AS4800-1.png?raw=1) | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, CYB Media |
 
-<sup style="text-align:center;">Jika di-sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama saja kena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dirutekan melalui IP Transit diatas jika ada</sup><br>
+<sup style="text-align:center;">Jika di sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama terkena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dijalurkan melalui IP Transit diatas <em>jika ada.</em></sup><br>
 
-<b>Sedangkan ISP yang menggunakan upstream dibawah ini wajib menggunakan VPN/GoodbyeDPI/Powertunnel</b>
+<b>Sedangkan ISP yang menggunakan upstream dibawah ini, wajib menggunakan WARP/VPN, GoodbyeDPI, atau GreenTunnel/PowerTunnel.</b>
 | ASN | Nama | Pemblokiran menggunakan DPI | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
 | [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | Ya | | Netciti, Varion |
@@ -65,15 +86,16 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | [AS18351](https://bgp.tools/as/18351) | DTPNET NAP | [Ya](https://media.discordapp.net/attachments/1109515185108046015/1109935886889656450/image.png?width=648&height=559) |  |  |
 | [AS136106](https://bgp.tools/as/136106) | PT Mega Akses Persada (Fiberstar) | Ya |  | MyRepublic, Mayatama |
 
-<sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan tool anti DPI untuk membypass nya</sup><br>
+<sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan alat anti DPI untuk melewatinya.</sup><br>
 
-<b>Internet Exchange yang memakai middlebox DPI</b>
+<b>Internet Exchange yang memakai middlebox DPI:</b>
 | Nama | Menggunakan DPI | CDN yang terkena dampak | Catatan |
 | :---: | :---: | :---: | :---: |
 | BIX - Biznet Internet Exchange | Ya | [Cloudflare, dan semua CDN yang terhubung dengan BIX](assets/proofs/png/BIX.png?raw=1) | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
 
-### ISP Fiber  
-**ISP Rumah**
+### <ins>ISP Fiber</ins>
+
+**ISP Rumah:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
 | Indihome | Ya (Out, Local) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
@@ -93,7 +115,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | PT Media Cepat Indonesia | Ya (Out, Local) | Tidak | ? |
 | Melsa | Ya (Out, Local) | Tidak | ? | DNS Google aman |
 
-**ISP Kantor**
+**ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
 | Astinet | Ya (DNS Injection) | Ya | ? | ISP dari Telkom untuk kantor |
@@ -125,7 +147,7 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | PT Power Telecom Indonesia | Ya | Ya | ? | DPI tidak memblokir Vimeo |
 | PT Solnet Indonesia | Ya | Ya | Ya | DPI Solnet juga mengirim TCP RST ke server |
 
-### ISP Mobile
+### <ins>ISP Mobile Seluler</ins>
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server |  Catatan |
 | :---: | :---: | :---: | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Ya (Out, Local) | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
@@ -134,10 +156,9 @@ ISP yang menggunakan upstream dibawah ini tidak bisa mengganti DNS dengan cara b
 | Indosat | Ya | Ya | Tidak |
 | Smartfren | Ya (Out, Local) | Ya | Tidak | Memblokir DoH/DoT punya Google |
 
-### Level kepayahan unblok memakai DPI
-Seberapa payah cara nge-unblok memakai DPI per-ISP
+### <ins>Level kepayahan unblok memakai DPI</ins>
+Seberapa payah dengan cara unblok memakai DPI per ISP:
 
-**DATA INI TIDAK LENGKAP**
 | Nama | Kepayahan |
 | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Tinggi |
@@ -157,12 +178,14 @@ Seberapa payah cara nge-unblok memakai DPI per-ISP
 | MyRepublic | Rendah |
 | PT Power Telecom Indonesia | Rendah |
 
-<sup>Ambil ini semua dengan sedikit garam,semua ISP akan ganti cara blokingnya</sup>
+**DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
+
+<sup><em>Ambilkan semua dengan sedikit garam, semua ISP akan mengganti dengan cara pemblokirannya.</em></sup>
 
 
-## Memilih DNS yang tepat[🔝](#navigasi)
-DNS,cara paling simpel untuk kominfo ngeblokir,tapi DNS bisa [diganti](#cara-mengganti-dns)!  
-Nih,list server DNS untuk menggantikan server blokir punya Kominfo
+## Cara memilih DNS yang tepat[🔝](#daftar-isi)
+Paling simpel untuk *Kominfo* ngeblokir. Tapi, DNS bisa [digantikan](#cara-mengganti-lewat-dns).  
+Daftar isi server DNS untuk menggantikan server blokir punya *Kominfo*.
 
 | Nama | Catatan | IPv4 | IPv4 2 | Port Alternatif | IPv6 | IPv6 2 | DoH | DoT |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: |  :---: |
@@ -176,7 +199,7 @@ Nih,list server DNS untuk menggantikan server blokir punya Kominfo
 | Quad9 Secured with ECS | Memblokir malware, mendukung ECS | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `tls://dns11.quad9.net` |
 | Quad9 Unsecured | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` |
 | Quad9 Unsecured ECS | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware, mendukung ECS | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `tls://dns12.quad9.net` |
-| BebasDNS | DNS punya bebasid, memblokir iklan dan malware | `47.254.192.66` | - | `1753` | `2001:470:36:b90:beba:5::1d` | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
+| [BebasDNS](https://github.com/bebasid/bebasdns) | DNS punya bebasid, menghadirkan blokir iklan, malware, dan juga family | `147.139.211.126` | `47.254.192.66` | `1753` | `2001:470:36:9be:ba5::1d` | `2001:470:36:b90:beba:5::1d` | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
 | [AhaDNS](https://blitz-setup.ahadns.com) | - | ? | ? | ? | ? | ? | `blitz.ahadns.com` | ? |
 | BlahDNS | - | `45.91.92.121`  | X | - | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` |
 | [RethinkDNS](https://rethinkdns.com/configure) | - | ? | ? | - | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` |
@@ -186,199 +209,211 @@ Nih,list server DNS untuk menggantikan server blokir punya Kominfo
 | AdGuard DNS | Memblokir iklan & malware | `94.140.14.14` | `94.140.15.15` | `5353` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
 | [DNSWarden](https://dnswarden.com/customfilter.html) | - | ? | ? | ? | ? | ? | ? | ? |
 
-<sup>List lebih lengkap bisa dilihat di [KB Adguard](https://adguard-dns.io/kb/general/dns-providers/) dan [Curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). Bisa juga bikin sendiri dengan [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) atau [server sendiri dengan PHP](https://github.com/NotMikeDEV/DoH)</sup>
+<sup>Daftar isi ini lebih lengkap dan bisa dilihat dari [KB AdGuard](https://adguard-dns.io/kb/general/dns-providers/) dan [Curl Wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). Dan bisa juga membuat sendiri dengan menggunakan [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) atau [server sendiri dengan memakai PHP](https://github.com/NotMikeDEV/DoH).</sup>
 
-## Aplikasi-Aplikasi DNS[🔝](#navigasi)
-Aplikasi² DNS ini bisa buat memakai DNS lebih senang
+## Jenis Aplikasi DNS[🔝](#daftar-isi)
+*Aplikasi DNS ini bisa buat memakai DNS lebih senang.*
 
 > ⚠ **PERHATIAN** ⚠  
-> Apabila ISP juga melakukan pemblokiran menggunakan DPI gunakan juga [Aplikasi-aplikasi untuk menghilangkan DPI](#aplikasi-aplikasi-untuk-menghilangkan-dpi)
+> Apabila ISP juga melakukan pemblokiran menggunakan DPI, hanya bisa gunakan [Jenis Aplikasi untuk menghilangkan DPI](#jenis-aplikasi-untuk-menghilangkan-dpi).
 
-1.[Nebulo](https://nebulo.app) [Android]  
-Aplikasi untuk mengganti DNS di Android dengan mudah  
+1. [Nebulo](https://nebulo.app) [Android]  
+<em>Aplikasi untuk mengganti DNS di Android dengan mudah.</em>  
 
-2.[DNSCloak](https://apps.apple.com/app/id1452162351) [iOS]  
-Aplikasi untuk mengganti DNS dan mengatur dnscrypt di iOS  
+2. [DNSCloak](https://apps.apple.com/app/id1452162351) [iOS]  
+<em>Aplikasi untuk mengganti DNS dan mengatur <b>DNSCrypt</b> di iOS.</em>   
 
-3.[DNSCrypt](https://dnscrypt.info) [Windows,macOS,Linux]  
-DNS untuk selfhost yang dapat melakukan forwarding ke server DNSCrypt & DNS over HTTPS  
+3. [DNSCrypt](https://dnscrypt.info) [Windows, macOS, Linux]  
+<em>DNS untuk selfhost yang dapat melakukan forwarding ke server <b>DNSCrypt</b> dan <b>DNS-over-HTTPS</b>.</em>   
 
-4.[SimpleDNSCrypt](https://simplednscrypt.org) [Windows]  
-Untuk yang males,ini aplikasi penginstalan DNSCrypt  
+4. [SimpleDNSCrypt](https://simplednscrypt.org) [Windows]  
+<em>Aplikasi penginstalan <b>DNSCrypt</b>.</em>   
 
-5.[DNS Profile Creator](https://dns.notjakob.com/tool.html) [Browser]  
-Cara membuat mobileconfig Apple dengan senang  
+5. [DNS Profile Creator](https://dns.notjakob.com/tool.html) [Browser]  
+<em>Cara membuat <code>dns.mobileconfig</code> Apple dengan senang.</em>   
 
-6.[YogaDNS](https://yogadns.com) [Windows]  
-Aplikasi pengganti DNS untuk Windows  
+6. [YogaDNS](https://yogadns.com) [Windows]  
+<em>Aplikasi pengganti DNS untuk Windows.</em>   
 
-7.[RethinkDNS](https://rethinkdns.com) [Android]  
-Aplikasi untuk mengganti DNS dan pemblokiran iklan  
+7. [RethinkDNS](https://rethinkdns.com) [Android]  
+<em>Aplikasi untuk mengganti DNS dan pemblokiran iklan.</em>   
 
-8.[Intra](https://getintra.org) [Android]  
-Aplikasi pengganti DNS untuk Android
+8. [Intra](https://getintra.org) [Android]  
+<em>Aplikasi pengganti DNS untuk Android.</em> 
 
-9.[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) [Windows, macOS, Linux]  
-DNS untuk selfhost dengan adblock, encrypted upstream dan downstream  
+9. [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) [Windows, macOS, Linux]  
+<em>DNS untuk selfhost dengan AdBlock, encrypted upstream dan downstream.</em>   
 
-10.[Stubby](https://github.com/getdnsapi/stubby) [Windows, macOS, Linux]  
-DNS untuk selfhost yang dapat melakukan forwarding ke server DNS over TLS
+10. [Stubby](https://github.com/getdnsapi/stubby) [Windows, macOS, Linux]  
+<em>DNS untuk self-hosts yang dapat melakukan forwarding ke server **DNS-over-TLS**.</em> 
 
-11.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
-Aplikasi android untuk DNS dan Tor
+11. [InviZible](https://github.com/Gedsh/InviZible) [Android]  
+<em>Aplikasi android untuk DNS dan Tor.</em> 
 
-## Cara mengganti DNS[🔝](#navigasi)
-Nah,tu udah ada List DNS,gimana makenya?
+## Cara mengganti lewat DNS[🔝](#daftar-isi)
+<em>Setelah sudah ada daftar isi DNS, gimana cara memakainya?</em>
 
-### Di Android
-1.Settings>Other Wireless Connections>Private DNS  
-2.Masukkan [hostname dns](#memilih-dns-yang-tepat) dan pencet Save
+### <ins>Android</ins>
+1. **Settings** > **Other Wireless Connections** > **Private DNS**  
+2. Masukkan [hostname dns](#cara-memilih-dns-yang-tepat) lalu klik tombol **Save**.
 
-### Di iOS
+### <ins>iOS</ins>
 
-1.Settings>Wi-Fi>*wifi*  
-2.Ketuk ikon (i)  
-3.Ganti IP Adress jadi Static dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
+1. **Settings** > **Wi-Fi** > ***wifi***  
+2. Ketuk ikon `(i)`  
+3. Ganti IP Address menjadikan **Static** dan masukkan [hostname dns](#cara-memilih-dns-yang-tepat) di kolom DNS tersebut.
 
-### Di Windows
-#### Windows 10 dan kebawah 
-1. Control Panel>Network and Internet>Network and Sharing Center>Connections>Properties  
-2. Pencet Internet Protocol Version 4 (TCP/IPv4) 2 kali  
-3. Ganti "Obtain DNS server address automatically" ke "Use the following DNS server addresses"  
-4. Masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS dan pencet Ok
+### <ins>Windows</ins>
 
-#### Windows 11
-1. Buka Settings di Windows 11, Pergi ke Network & Internet dan pilih Properties    
-2. Dibagian DNS server assignment, klik tombol Edit  
-3. Ganti Automatic menjadi Manual  
-4. di Preferred DNS, masukan 1.1.1.1/8.8.8.8/9.9.9.9 dan di Alternate masukan 1.0.0.1/8.8.4.4/149.112.112.112
-5. di Preferred dan Alternate DNS Encryption, pilih opsi Encrypted only (DNS-over-HTTPS)  
-6. Klik Save
+#### Windows 7 sampai ke Windows 10:
+1. **Control Panel** > **Network and Internet** > **Network and Sharing Center** > **Connections** > **Properties**  
+2. Pencet di Tulisan **Internet Protocol Version 4 (TCP/IPv4)** dengan 2 kali.  
+3. Ubahkan **Obtain DNS server address automatically** ke **Use the following DNS server addresses**. 
+4. Masukkan [hostname dns](#cara-memilih-dns-yang-tepat) di kolom DNS tersebut lalu klik tombol **Ok**.
 
-### Di macOS
-1. System Preferences>Network>Wi-Fi>Advanced>DNS  
-2. Pencet tombol “+” dan masukkan [hostname dns](#memilih-dns-yang-tepat) di kolom DNS,pencet Ok dan Apply
+#### Windows 11:
+1. Buka **Settings**, Pergi ke **Network & Internet** dan pilih **Properties**.    
+2. Di bagian **DNS server assignment**, klik tombol **Edit**.  
+3. Gantikan **Automatic** menjadi **Manual**.  
+4. Untk *Preferred DNS*, masukkan `1.1.1.1`/`8.8.8.8`/`9.9.9.9` sedangkan untuk *Alternate DNS*, masukkan `1.0.0.1`/`8.8.4.4`/`149.112.112.112`.
+5. Di bagian *Preferred DNS* dan *Alternate DNS* Encryption, pilih opsi **Encrypted only (DNS-over-HTTPS)**.  
+6. Lalu klik tombol **Save**.
 
-### Di Linux
-1. Buka Terminal  
-2. Jalankan perintah `nano /etc/resolv.conf` untuk mengedit file `/etc/resolv.conf`  
-3. Ubah isi file menjadi seperti berikut (ganti `<hostname dns>` menjadi salah satu hostname dns [disini](#memilih-dns-yang-tepat))
+### <ins>macOS</ins>
+1. **System Preferences** > **Network** > **Wi-Fi** > **Advanced** > **DNS**  
+2. Pencet tombol `+` dan masukkan [hostname dns](#cara-memilih-dns-yang-tepat) di kolom DNS tersebut.
+3. Lalu klik **Ok** dan **Apply**.
+
+### <ins>Linux</ins>
+1. Buka **Terminal**.  
+2. Jalankan pake perintah `nano /etc/resolv.conf` untuk mengedit file `/etc/resolv.conf`.  
+3. Ubah isi file menjadi seperti berikut (gantikan `<hostname dns>` menjadi salah satu [hostname dns disini](#cara-memilih-dns-yang-tepat)).
 ```
 nameserver <hostname dns>
 nameserver <hostname dns>
 ```
-Catatan: Beberapa komponen yang mungkin terpasang pada distro Linux (seperti NetworkManager) dapat mengubah isi file `/etc/resolv.conf` tanpa disadari, untuk mencegah hal tersebut dapat mengetik perintah `chattr +i /etc/resolv.conf` setelah selesai mengubah file tersebut. Apabila ingin mengubah isi file `/etc/resolv.conf` kembali, dapat mengetik perintah `chattr -i /etc/resolv.conf`
+Catatan: Ada beberapa komponen yang mungkin terpasang pada distro Linux (seperti *NetworkManager*) dapat mengubah isi file `/etc/resolv.conf` tanpa disadari, untuk mencegah hal tersebut dapat mengetik perintah `chattr +i /etc/resolv.conf` setelah selesai mengubah file tersebut. Apabila ingin mengubah isi file `/etc/resolv.conf` kembali, dapat mengetik perintah `chattr -i /etc/resolv.conf` tersebut.
 
-### Di browser berbasis Chromium
-1.Settings>Privacy and Security  
-2.Masukin [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
+### <ins>Browser</ins>
 
-### Di Firefox
-1.Settings>Network Settings  
-2.Masukin [hostname dns](#memilih-dns-yang-tepat) di kolom DNS
+#### Browser berbasis Chromium:
+1. **Settings** > **Privacy and Security**  
+2. Masukin [hostname dns](#cara-memilih-dns-yang-tepat) di kolom DNS tersebut.
 
-#### *Gimana cara tau DNSnya berhasil*  
-Pergi ke situs [DNSLeakTest](https://dnsleaktest.com) atau [BrowserLeaks](https://browserleaks.com/dns) untuk ngetes  
-Jika DNS ISP muncul daripada DNS yang diset, silahkan download [DNSCrypt](https://dnscrypt.info) atau [SimpleDNSCrypt](https://simplednscrypt.org)
+#### Browser berbabis Firefox:
+1. **Settings** > **Network Settings**  
+2. Masukin [hostname dns](#cara-memilih-dns-yang-tepat) di kolom DNS tersebut.
 
-## Aplikasi-Aplikasi untuk menghilangkan DPI[🔝](#navigasi)
-Sekarang banyak [ISP](#memilih-isp-yang-tidak-ketat) blokirnya itu dengan Deep Packet Inspection, tapi DPI bisa dihilangkan dengan mudah dengan aplikasi² ini
+#### <ins><b>Bagaimana cara tau DNS-nya berhasil?</b></ins>  
+Pergi ke situs [DNSLeakTest](https://dnsleaktest.com) atau [BrowserLeaks](https://browserleaks.com/dns) untuk mengeteskan.  
+Jika DNS ISP masih muncul daripada DNS yang sudah diubah, silahkan download [DNSCrypt](https://dnscrypt.info) atau [SimpleDNSCrypt](https://simplednscrypt.org).
+
+## Jenis Aplikasi untuk menghilangkan DPI[🔝](#daftar-isi)
+Untuk sekarang, hanya banyak [ISP](#cara-memilih-isp-yang-tidak-ketat) blokirnya itu dengan menggunakan Deep Packet Inspection (DPI). 
+
+Maka itu, DPI bisa dihilangkan dengan mudah dengan aplikasi dibawah ini:
 
 > ⚠ **PERHATIAN** ⚠  
-> Jangan lupa untuk mengganti [DNS](#aplikasi-aplikasi-dns) terlebih dahulu atau menggunakan [Hosts file](#list-hosts-file) apabila [ISP](#memilih-isp-yang-tidak-ketat) juga menggunakan DNS untuk pemblokiran
+> Jangan lupa untuk menggantikan [DNS](#jenis-aplikasi-dns) terlebih dahulu atau menggunakan [Hosts file](#datar-isi-hosts-file) apabila [ISP](#cara-memilih-isp-yang-tidak-ketat) yang tidak ketat juga menggunakan DNS untuk pemblokiran tersebut.
 
 > ℹ️ **Info**  
-> Kami juga menyediakan config untuk aplikasi & ISP di folder [ini](/dpi-circumvention-config)
+> KominFudge juga menyediakan config untuk Aplikasi & ISP di folder, ada [disini](/dpi-circumvention-config).
 
 
-1.[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
-Aplikasi CLI untuk hilangkan DPI
+1. [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
+<em>Aplikasi CLI untuk hilangkan DPI.</em>
 
-2.[GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [Windows,macOS,Linux]  
-Aplikasi GUI untuk hilangkan DPI
+2. [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [Windows, macOS, Linux]  
+<em>Aplikasi GUI untuk hilangkan DPI dengan yang mudah.</em>
 
-3.[PowerTunnel](https://github.com/krlvm/PowerTunnel) [Windows,macOS,Linux,[Android](https://github.com/krlvm/PowerTunnel-Android)]  
-Aplikasi GUI untuk hilangkan DPI (2)
+3. [PowerTunnel](https://github.com/krlvm/PowerTunnel) [Windows, macOS, Linux, [Android](https://github.com/krlvm/PowerTunnel-Android)]  
+<em>Aplikasi GUI untuk hilangkan DPI dengan banyak fitur.</em>
 
-4.[SNI-Mask](https://github.com/macronut/SNI-Mask) [Windows]  
-proxy untuk menghilangkan DPI
+4. [SNI-Mask](https://github.com/macronut/SNI-Mask) [Windows]  
+<em>Proxy untuk menghilangkan DPI.</em>
 
-5.[Accesser](https://github.com/URenko/Accesser) [Windows,macOS,Linux]  
-*???*
+5. [Accesser](https://github.com/URenko/Accesser) [Windows, macOS, Linux]  
+*Belum tau selengkapanya repo tersebut.*
 
-6.[GhosTCP](https://github.com/macronut/ghostcp) [Windows]  
-Mengamankan koneksi TCP
+6. [GhosTCP](https://github.com/macronut/ghostcp) [Windows]  
+<em>Mengamankan koneksi TCP.</em>
 
-7.[sniffjoke](https://github.com/vecna/sniffjoke) [Linux]  
-Mengamankan wiretap/sniff/IDS
+7. [sniffjoke](https://github.com/vecna/sniffjoke) [Linux]  
+<em>Mengamankan WireTap/Sniff/IDS.</em>
 
-8.[SpoofDPI](https://github.com/xvzc/SpoofDPI) [macOS,Linux]  
-NgeSpoof DPImu
+8. [SpoofDPI](https://github.com/xvzc/SpoofDPI) [macOS, Linux]  
+<em>Menipu DPI-mu.</em>
 
-9.[Zapret](https://github.com/bol-van/zapret/blob/master/docs/readme.eng.md) [Linux, FreeBSD]  
-DPI Circumvention Tool
+9. [Zapret](https://github.com/bol-van/zapret/blob/master/docs/readme.eng.md) [Linux, FreeBSD]  
+<em>Alat penghindaran DPI.</em>
 
-10.[DPITunnel](https://github.com/zhenyolka/DPITunnel-cli) [Linux,[Android](https://github.com/zhenyolka/DPITunnel-android)]  
-CLI untuk Linux
+10. [DPITunnel](https://github.com/zhenyolka/DPITunnel-cli) [Linux, [Android](https://github.com/zhenyolka/DPITunnel-android)]  
+<em>CLI untuk Linux.</em>
 
-11.[Geneva](https://github.com/kkevsterrr/geneva) [Linux]  
-DPI Circumvention Tool berbasis AI  
+11. [Geneva](https://github.com/kkevsterrr/geneva) [Linux]  
+<em>Alat penghindaran DPI berbasis AI.</em>  
 
-### Trik untuk bypass DPI tanpa aplikasi[🔝](#navigasi)
+## Trik untuk melewati DPI tanpa aplikasi[🔝](#daftar-isi)
 
-#### Di Linux
-*Drop TCP RST dan lamanlabuh*
-Jalankan perintah `sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP` dan `sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.aduankonten.id/" --algo bm -j DROP` atau `sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP` dan `sudo firewall-cmd --permanent --add-rich-rule='rule protocol value="tcp" match="string" string="Location: http://lamanlabuh.aduankonten.id/" algo="bm" drop'
-` (untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE) di terminal\
-Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom Mengirim TCP RST ke server pada tabel diatas)
+#### <ins>Linux</ins>
 
-### Trik untuk bypass DPI di router[🔝](#navigasi)
+*Untuk Drop **TCP RST** dan **lamanlabuh**, jalankan perintah*:
+```
+sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP 
+sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.aduankonten.id/" --algo bm -j DROP 
+sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP
+sudo firewall-cmd --permanent --add-rich-rule='rule protocol value="tcp" match="string" string="Location: http://lamanlabuh.aduankonten.id/" algo="bm" drop' 
+```
 
-#### OpenWRT
-Silahkan ikut tutorial ini https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md
+*Untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE) di terminal. Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom mengirim **TCP RST** ke server pada tabel diatas).*
 
-### MikroTik
-Silahkan ikut tutorial ini https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md
+## Trik untuk melewati DPI memakai router[🔝](#daftar-isi)
 
-## List hosts file[🔝](#navigasi)
-Nah,Hostfile (atau Filehost)....agak payah nge-eksplanasi xD  
-Nih List hostfile untuk yang big brain
+#### <ins>OpenWRT</ins>
+Silahkan ikut tutorial pada [tersebut](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md).
+
+### <ins>MikroTik</ins>
+Silahkan ikut tutorial pada [tersebut](https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md).
+
+## Daftar isi hosts file[🔝](#navigasi)
+Hosts file *(atau File hosts)* tidak terlalu payah menjelaskan ini.
+Daftar Isi host file untuk orang yang memahami tersebut.
 
 | List | Alternatif |
 | :---: | :---: |
-| [bebasid](https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts) |
-| [mul14](https://gist.githubusercontent.com/mul14/eb05e88fcec5bb195cbb/raw/611c0693c460fc5bd7037c6d9d43fa6c0ce4fd7c/hosts) |
-| [tumblr](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=2556197#gistcomment-2556197) |
+| [bebasid](https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts) | - |
+| [mul14](https://gist.githubusercontent.com/mul14/eb05e88fcec5bb195cbb/raw/611c0693c460fc5bd7037c6d9d43fa6c0ce4fd7c/hosts) | - |
+| [tumblr](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=2556197#gistcomment-2556197) | - |
 | [Netflix](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3235083#gistcomment-3235083) | [2](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3324456#gistcomment-3324456) |
-| [nhentai](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3324461#gistcomment-3324461) |
-| [Binance](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3727848#gistcomment-3727848) |
-| [Reddit](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3878656#gistcomment-3878656) |
+| [nhentai](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3324461#gistcomment-3324461) | - |
+| [Binance](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3727848#gistcomment-3727848) | - |
+| [Reddit](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3878656#gistcomment-3878656) | - |
 | [Steam](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=4250815#gistcomment-4250815) | [2](https://pastebin.com/auhuXvAD) |
 
-## Cara unblock memakai hosts file[🔝](#navigasi)
-Nah,filenya ada...sekarang apa?
+## Cara unblok memakai hosts file[🔝](#navigasi)
+Filenya sudah ada. Sekarang, apalagi yang harus dilakukan?
 
-### Di Windows
-1.Salin text didalam hostfile yang kamu pilih  
-2.Buka File Explorer dan pergi ke `C:\Windows\System32\drivers\etc`  
-3.Paste text ke file "hosts"
+### Windows
+1. Salinkan teks di dalam hosts file yang kamu pilih.  
+2. Buka File Explorer dan pergi ke `C:\Windows\System32\drivers\etc`.  
+3. Tempelkan teks ke file **hosts** tersebut.
 
-### Di Android
+### Android
 
-#### ROOT:
-1.Salin text didalam hostfile yang kamu pilih  
-2.Buka File Explorer dan pergi ke `/system/etc`  
-3.Paste text ke file "hosts"
+#### Perangkat yang sudah di ROOT:
+1. Salinkan teks didalam hosts file yang kamu pilih.  
+2. Buka File Explorer dan pergi ke `/system/etc`.  
+3. Tempelkan teks ke file **hosts**.
 
-#### NON-ROOT:
-1.Salin text didalam hostfile yang kamu pilih  
-2.Buat file dan paste textnya didalam file itu  
-3.Install [Virtual Hosts](https://github.com/x-falcon/Virtual-Hosts) atau [Host Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change)  
-4.Pencet "Select Host File"/"Import HOSTS file" dan pencet file yang kamu buat
+#### Perangkat yang belum di ROOT:
+1. Salin teks didalam hosts file yang kamu pilih.  
+2. Buatkan file dan tempelkan teksnya di dalam file tersebut.  
+3. Pasangkan [Virtual Hosts](https://github.com/x-falcon/Virtual-Hosts) atau [Host Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change).  
+4. Lalu, pencet **Select Host File** atau **Import HOSTS file** dan klik file yang kamu sudah buat.
 
-## Memilih VPN yang aman[🔝](#navigasi)
-Ah VPN,cara yang tersenang untuk melewati blok apabila cara diatas tidak work, *Tapi* jangan download VPN yang gak aman & gak terpercaya!  
-Nih,coba liat VPN aman yang lebih baik dipake daripada vpn yang gak terpercaya di list ini
+## Memilih VPN yang aman[🔝](#daftar-isi)
+Cara yang untuk melewati oleh blokir apabila cara diatas tidak bisa. *Tapi, jangan download VPN yang tidak aman & terpercaya!*  
+Coba lihat VPN yang aman dan lebih baik dipake, daripada vpn yang tidak terpercaya ada di bawah ini:
 
 | Nama | Positif | Negatif | Server |
 | :---: | :---: | :---: | :---: |
@@ -389,31 +424,31 @@ Nih,coba liat VPN aman yang lebih baik dipake daripada vpn yang gak terpercaya d
 | [Psiphon](https://psiphon.ca) | Open Source | ? | ? |
 | [OVPN](https://ovpn.com) | **Aman** | Berbayar | 102 |
 
-### VPN untuk Advanced Users[🔝](#navigasi)
-VPN dibagian ini memerlukan konfigurasi, jika anda hanya ingin VPN yang Out of the box, silahkan abaikan ini
+### VPN untuk para Pengguna Tingkat Lanjut[🔝](#daftar-isi)
+VPN di bagian ini memerlukan konfigurasi, jika hanya ingin VPN yang di luar kotak, silahkan abaikan di bawah ini.
 
 | Nama | Deskripsi |
 | :---: | :---: |
-| [OpenVPN](https://openvpn.net) | VPN system that implements techniques to create secure point-to-point or site-to-site connections |
+| [OpenVPN](https://openvpn.net) | Sistem VPN yang mengimplementasikan teknik-teknik untuk membuat koneksi arah-ke-arah atau situs-ke-situs yang aman |
 | [Wireguard](https://wireguard.com) | Seperti OpenVPN |
-| [Softether](https://softether.org) | Seperti OpenVPN(?) |
+| [Softether](https://softether.org) | Seperti OpenVPN. Tapi, hanya ada server yang terbatas(?) |
 
-## Aplikasi-Aplikasi Tor[🔝](#navigasi)
-Nah,ini bagian extrim,memakai Tor
+## Jenis Aplikasi Tor[🔝](#navigasi)
+Ini adalah bagian yang ekstrim dengan memakai Tor ada di bawah ini.
 
-1.[Tor Browser](https://www.torproject.org) [Windows,macOS,Linux,Android]  
-Browser officialnya Tor  
+1. [Tor Browser](https://www.torproject.org) [Windows, macOS, Linux, Android]  
+<em>Resmi Browser Tor.</em>  
 
-2.[Orbot](https://guardianproject.info/apps/org.torproject.android) [Android]  
-Proxy dengan Tor  
+2. [Orbot](https://guardianproject.info/apps/org.torproject.android) [Android]  
+<em>Proxy dengan Tor.</em>  
 
-3.[Onion Browser](https://onionbrowser.com) [iOS]  
-browser tor untuk iOS  
+3. [Onion Browser](https://onionbrowser.com) [iOS]  
+<em>Browser Tor untuk iOS.</em>  
 
-4.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
-Aplikasi Android untuk DNS dan Tor
+4. [InviZible](https://github.com/Gedsh/InviZible) [Android]  
+<em>Aplikasi Android untuk DNS dan Tor.</em>
 
-<p align="center">Share projek ini</p>
+<p align="center">Share proyek ini!</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
