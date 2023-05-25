@@ -1,5 +1,10 @@
 <p align="center"><img src="./assets/kominfudge-500x250.png" align="center"></p>
 <p align="center">"Because Kominfo blocks, let's unblock!"</p>
+
+<p align="center">
+    <a href="README.md">Indonesia</a> | <b>English</b>
+</p>
+
 <p align="center"><sup>DISCLAIMER: Kominfudge is not responsible for any damages caused to your device, do with your own risk.</sup></p>
 
 ### Navigation
@@ -9,7 +14,7 @@
 - [Choosing the right DNS](#choosing-the-right-dns)
   - [DNS Applications](#dns-applications)
   - [How to change DNS](#how-to-change-dns)
-- [Appllications to eliminate DPI](#applications-to-eliminate-dpi)
+- [Applications to eliminate DPI](#applications-to-eliminate-dpi)
   - [Trick to bypass DPI without application](#trick-to-bypass-dpi-without-application)
   - [Trick to bypass DPI using router](#trick-to-bypass-dpi-using-router)
 - [List of hosts file](#list-of-hosts-file)
@@ -160,7 +165,7 @@ How much effort needed to unblock with DPI per-ISP
 <sup>Take this with a grain of salt, all ISPs will change their blocking method without notice</sup>
 
 
-## Choosing right DNS[🔝](#navigation)
+## Choosing the right DNS[🔝](#navigation)
 DNS, a simple way for kominfo to block, but DNS can be [changed!](#how-to-change-dns)  
 This is a list of DNS resolvers that can be used instead of blocking resolvers of Kominfo
 
@@ -281,7 +286,7 @@ Note: Some components that installed on Linux distribution (like NetworkManager)
 Go to [DNSLeakTest](https://dnsleaktest.com) or [BrowserLeaks](https://browserleaks.com/dns) for testing
 If the ISP DNS being shown instead of one you have already set, you can download [DNSCrypt](https://dnscrypt.info) or [SimpleDNSCrypt](https://simplednscrypt.org)
 
-## Appllications to eliminate DPI[🔝](#navigation)
+## Applications to eliminate DPI[🔝](#navigation)
 Now, many [ISPs](#choosing-less-strict-isp) are using Deep Packet Inspection as blocking method, but you can eliminate the DPI with these applications
 
 > ⚠ **ATTENTION** ⚠  
