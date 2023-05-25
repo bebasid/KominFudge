@@ -6,6 +6,9 @@
 </p>
 </p>
 <p align="center">
+    <em>Kolaborasi KominFudge x BEBASID</em>
+ </p>
+<p align="center">
 <a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join Discord BEBASID"></a>
  </p>
 <p align="center">
@@ -13,6 +16,10 @@
     <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2FKominFudge_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=penonton%3A+%28hari%20ini%2Ftotal%29&edge_flat=false"/></a>
     <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE"><img src="https://img.shields.io/badge/lisensi-CC--BY--SA--4.0-blue"></a>
 </p>
+<p align="center">Donasi kami:</br>
+<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
+<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
+ </p>
 <p align="center">
     <b>Indonesia</b> | <a href="README.en.md">English</a>
 </p>
@@ -454,6 +461,14 @@ Ini adalah bagian yang ekstrim dengan memakai Tor ada di bawah ini.
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/KominFudge"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white"/></a>
-  </p>
-  <p align="center"><a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> dilisensikan sebagai <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a>.</p>
+  <p align="center">
+:coffee: Traktir kami kopi!
+    </br>
+<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
+<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
+    </br>
+    </p>
+  <p align="center">
+    <a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> dilisensikan sebagai <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a>.
+</p>
 </div>
