@@ -455,7 +455,7 @@ Ini adalah bagian yang ekstrim dengan memakai Tor ada di bawah ini.
 
 4. [InviZible](https://github.com/Gedsh/InviZible) [Android]  
 <em>Aplikasi Android untuk DNS dan Tor.</em>
-
+---
 <p align="center">Share proyek ini!</p>
 <div id="sosial">
  <p align="center">
