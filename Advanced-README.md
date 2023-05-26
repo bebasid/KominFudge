@@ -208,18 +208,20 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | PT Power Telecom Indonesia | DNS Hijacking | Tidak | Ya | ? | Sistem DPI tidak memblokir Vimeo. |
 | PT Solnet Indonesia | DNS Hijacking | Tidak | Ya | Ya | |
 | PT Jala Lintas Media | DNS Hijacking | Tidak | Tidak | Tidak | |
+| PT Centrin Utama | DNS Hijacking & DNS Blocking | Tidak | Tidak | Tidak | Membelokan DNS Google, OpenDNS, Level3, dan subnet DNS OpenDNS (`208.67.222.0/24` dan `208.67.220.0/24`) ke server mereka |
+| PT Mitra Visioner Pratama | DNS Hijacking | Tidak | Ya | Ya | Punya PT Saranainsan Mudaselaras |
 
 [Kembali ke "Navigasi](#navigasi)
 
 ### ISP selular / *mobile*
 
-| Nama | Pemblokiran berbasis DNS | Pemblokiran berbasis DPI | Mengirim TCP RST ke *server* | Catatan |
-| :---: | :---: | :---: | :---: | :---: |
-| Telkomsel / By.U / KartuHalo | DNS Nasional | Ya | Ya | |
-| XL / Axis / Live On | DNS Nasional | Ya | Ya | | 
-| 3 | Membelokan DNS Google dan OpenDNS ke Server ISP | Ya | Ya | |
-| Indosat | Memodifikasi data DNS | Ya | Tidak | |
-| Smartfren | DNS Nasional | Ya | Tidak | Memblokir layanan DNS alternatif milik Google yang menggunakan DoH dan DoT. |
+| Nama | Metode Pemblokiran DNS | Mengikuti DNS Nasional | Pemblokiran berbasis DPI | Ada IP yang aman dari DPI | Mengirim paket TCP RST ke *server* | Catatan |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Telkomsel / By.U / KartuHalo | DNS Hijacking | Ya | Ya | Ya | Ya |
+| XL / Axis / Live On | DNS Hijacking | Ya | Ya | Tidak | Ya | 
+| 3 | DNS Hijacking & DNS Blocking | Tidak | Ya | Tidak | Tidak | Membelokan DNS Google dan OpenDNS ke server mereka |
+| Indosat | DNS Hijacking | Tidak | Ya | Ya | Tidak |
+| Smartfren | DNS Hijacking | Ya | Ya | Ya | Tidak | Memblokir layanan DNS alternatif milik Google yang menggunakan DoH dan DoT. |
 
 [Kembali ke "Navigasi](#navigasi)
 
