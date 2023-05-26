@@ -374,7 +374,7 @@ sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL
 sudo firewall-cmd --permanent --add-rich-rule='rule protocol value="tcp" match="string" string="Location: http://lamanlabuh.aduankonten.id/" algo="bm" drop' 
 ```
 
-*Untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE) di terminal. Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom mengirim **TCP RST** ke server pada tabel diatas).*
+*Gunakan firewall-cmd untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE di terminal. Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom mengirim **TCP RST** ke server pada tabel diatas).*
 
 ## Trik untuk melewati DPI memakai router[🔝](#daftar-isi)
 
