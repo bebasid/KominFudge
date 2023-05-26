@@ -180,7 +180,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | Nama | Metode Pemblokiran DNS | Mengikuti DNS Nasional | Pemblokiran berbasis DPI | Mengirim paket TCP RST ke *server* | Catatan |
 | :---: | :---: | :---: | :---: | :---: | :---:|
 | Astinet | DNS Injection | Tidak | Ya | ? | ISP dari Telkom untuk kantor. |
-| Linknet | DNS Hijacking | TIdak | Tidak | Tidak | ISP dari Firstmedia untuk kantor. |
+| Linknet | DNS Hijacking | Tidak | Tidak | Tidak | ISP dari Firstmedia untuk kantor. |
 | Lintasarta | DNS Hijacking | Iya | Ya | Ya | |
 | Biznet Metronet | DNS Hijacking | Ya | Ya | Ya | Dikenal juga sebagai Biznet Dedicated. |
 | PT Metrasat | DNS Hijacking | Ya | Ya | ? | |
@@ -237,7 +237,7 @@ Siapapun dapat menambahkan informasi baru dan berkontribusi kepada repositori in
 
 [Kembali ke "Navigasi"](#navigasi)
 
-<p align="center">Share projek ini</p>
+<p align="center">Share proyek ini</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/MeFinity/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
