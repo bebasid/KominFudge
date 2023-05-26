@@ -6,6 +6,9 @@
 </p>
 </p>
 <p align="center">
+    <em>A KominFudge x BEBASID Collaboration</em>
+ </p>
+<p align="center">
 <a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join Discord BEBASID"></a>
  </p>
 <p align="center">
@@ -16,10 +19,13 @@
 <p align="center">
     <a href="README.md">Indonesia</a> | <b>English</b>
 </p>
-<p align="center">"Because Kominfo blocks, let's unblock!"</p>
-<p align="center"><sup>DISCLAIMER: Kominfudge is not responsible for any damages caused to your device, do with your own risk.</sup></p>
+<p align="center"><em>"Because Kominfo blocks, let's unblock!"</em></p>
+<p align="center"><sup><em>DISCLAIMER: Kominfudge is not responsible for any damages caused to your device, do with your own risk.</em></sup></p>
+
+---
 
 ### Navigation
+
 - [Top Choices](#top-choices)
 - [Choosing less-strict ISP](#choosing-less-strict-isp)
   - [Effort level to unblock with DPI](#effort-level-to-unblock-with-dpi)
@@ -35,27 +41,29 @@
   - [VPN for Advanced Users](#vpn-for-advanced-users)
 - [Tor Applications](#tor-applications)
 
-This project would not exist without your [contributions](/kredit.md)  
-*Oh, if you want to contribute, take a look [at this first](/CONTRIBUTING.md)*
+---
+
+This project would not exist without your [contributions](/kredit.md).  
+*Oh, if you want to contribute, take a look [at this first](/CONTRIBUTING.md).*
 
 ## Top Choices[🔝](#navigation)
 
 DNS: [1.1.1.1](https://1.1.1.1)  
-<em>Most intuitive DNS resolver and easy to use</em>
+<em>Most intuitive DNS resolver and easy to use.</em>
 
 DPI: [PowerTunnel](https://github.com/krlvm/PowerTunnel)  
-<em>Intuitive and Open Source</em>
+<em>Intuitive and Open Source.</em>
 
 Filehost: [bebasid](https://bebasid.com)  
-<em>Host file with a lot of content</em>
+<em>Host file with a lot of content.</em>
 
 VPN: [ProtonVPN](https://protonvpn.com)  
-<em>Free and secure</em>
+<em>Free and secure.</em>
 
 ## Choosing less-STRICT ISP[🔝](#navigation)
-ISP is your Internet provider, this list will helps you understand more about how Indonesian ISPs [blocking](/sssssssssssssssssssssssssssssssssss.md)
+ISP is your Internet provider, this list will helps you understand more about how Indonesian ISPs [blocking](/sssssssssssssssssssssssssssssssssss.md).
 
-### IP Transit 
+### <ins>IP Transit</ins> 
 <sup><b>To determine what Transit IP that your ISP is using, you can check on https://bgp.tools or https://bgp.he.net</b></sup><br>
 
 ISP that using these upstreams will not be able to change DNS in usual way due to port 53 redirection to each Transit IP provider DNS resolvers following the <a href="https://youtu.be/q1706yrzzws?t=18927">National DNS that unveiled during IDNOG 2022.</a><br>
@@ -63,9 +71,9 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | :---: | :---: | :---: | :---: | :---: |
 | [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [Transparent DNS (Port 53 redirected to server](assets/proofs/png/AS4800-1.png?raw=1) | [Lintasarta redirecting port 53 to their own server so other DNS server and individual ISP will not work if the ISP routing their server towards Lintasarta even if the DNS server is located in Indonesia](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, CYB Media |
 
-<sup style="text-align:center;">If your ISP does not comply with National DNS regulation but uses Transit IP as shown above, you will experience the same blocking and must use encrypted DNS.<br>Or you can use DNS that is not routed towards those Transit IPs if available</sup><br>
+<sup style="text-align:center;">If your ISP does not comply with National DNS regulation but uses Transit IP as shown above, you will experience the same blocking and must use encrypted DNS.<br>Or you can use DNS that is not routed towards those Transit IPs if available.</sup><br>
 
-<b>If you are using ISP with these upstream, you must use VPN/GoodbyeDPI/Powertunnel</b>
+<b>If you are using ISP with these upstream, you must use VPN/GoodbyeDPI/Powertunnel.</b>
 | ASN | Name | Blocking using DPI | Note | Example of affected ISP |
 | :---: | :---: | :---: | :---: | :---: |
 | [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | Yes | | Netciti, Varion |
@@ -84,12 +92,13 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 
 <sup style="text-align:center;">If your ISP does not use DPI but using those upstreams, you can use an anti DPI tool to bypass</sup><br>
 
-<b>Internet Exchange using DPI middlebox</b>
+<b>Internet Exchange using DPI middlebox:</b>
 | Name | Using DPI | Example of affected CDN | Note |
 | :---: | :---: | :---: | :---: |
-| BIX - Biznet Internet Exchange | Yes | [Cloudflare, and all CDNs that peered with BIX](assets/proofs/png/BIX.png?raw=1) | Even with GoodbyeDPI, Powertunnel, etc will not work because it is already blocked by Biznet from the Server side 
+| BIX - Biznet Internet Exchange | Yes | [Cloudflare, and all CDNs that peered with BIX](assets/proofs/png/BIX.png?raw=1) | Even with GoodbyeDPI, Powertunnel, etc will not work because it is already blocked by Biznet from the Server side. 
 
-### Fiber ISP 
+### <ins>Fiber ISP</ins> 
+
 **Residential ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
 | :---: | :---: | :---: | :---: | :---: |
@@ -142,7 +151,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | PT Power Telecom Indonesia | Yes | Yes | ? | DPI does not blocking Vimeo |
 | PT Solnet Indonesia | Yes | Yes | Yes | Solnet DPI also sending TCP RST to server |
 
-### Mobile ISP
+### <ins>Mobile ISP</ins>
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server |  Note |
 | :---: | :---: | :---: | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Yes (Out, Local) | Yes | Yes | Telkomsel DPI also sending TCP RST to server |
@@ -151,10 +160,9 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | Indosat | Yes | Yes | No |
 | Smartfren | Yes (Out, Local) | Yes | No | Blocking Google DoH/DoT |
 
-### Effort level to unblock with DPI
+### <ins>Effort level to unblock with DPI</ins>
 How much effort needed to unblock with DPI per-ISP
 
-**THIS DATA IS NOT COMPLETE**
 | Name | Effort
 | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | High |
@@ -174,12 +182,14 @@ How much effort needed to unblock with DPI per-ISP
 | MyRepublic | Low |
 | PT Power Telecom Indonesia | Low |
 
-<sup>Take this with a grain of salt, all ISPs will change their blocking method without notice</sup>
+**THIS DATA IS NOT COMPLETE, IF YOU WANT TO ADD MORE, PLEASE GIVE FURTHER INFORMATION**
+
+<sup><em>Take this with a grain of salt, all ISPs will change their blocking method without notice.</em></sup>
 
 
 ## Choosing the right DNS[🔝](#navigation)
-DNS, a simple way for kominfo to block, but DNS can be [changed!](#how-to-change-dns)  
-This is a list of DNS resolvers that can be used instead of blocking resolvers of Kominfo
+DNS, a simple way for kominfo to block, but DNS can be [changed!](#how-to-change-dns). 
+This is a list of DNS resolvers that can be used instead of blocking resolvers of *Kominfo*.
 
 | Name | Note | IPv4 | IPv4 2 | Alternative Port | IPv6 | IPv6 2 | DoH | DoT |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: |  :---: |
@@ -203,68 +213,68 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 | AdGuard DNS | Blocking ad and malware | `94.140.14.14` | `94.140.15.15` | `5353` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
 | [DNSWarden](https://dnswarden.com/customfilter.html) | - | ? | ? | ? | ? | ? | ? | ? |
 
-<sup>More comprehensive list can be seen at [Adguard KB](https://adguard-dns.io/kb/general/dns-providers/) and [Curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). You can create your own DNS over HTTPS with [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) or [with PHP](https://github.com/NotMikeDEV/DoH)</sup>
+<sup>More comprehensive list can be seen at [Adguard KB](https://adguard-dns.io/kb/general/dns-providers/) and [Curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). You can create your own DNS over HTTPS with [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) or [with PHP](https://github.com/NotMikeDEV/DoH).</sup>
 
 ## DNS Applications[🔝](#navigation)
-These DNS applications can help you in configuring DNS resolvers on your system
+*These DNS applications can help you in configuring DNS resolvers on your system*
 
 > ⚠ **ATTENTION** ⚠  
 > If your ISP is also blocking using DPI also use [applications to eliminate DPI](#applications-to-eliminate-dpi)
 
 1.[Nebulo](https://nebulo.app) [Android]  
-Application to easily change DNS on Android
+<em>Application to easily change DNS on Android</em>
 
 2.[DNSCloak](https://apps.apple.com/app/id1452162351) [iOS]  
-Application to change DNS and configure dnscrypt on iOS
+<em>Application to change DNS and configure dnscrypt on iOS</em>
 
 3.[DNSCrypt](https://dnscrypt.info) [Windows,macOS,Linux]  
-Selfhost DNS that can do forwarding to DNSCrypt & DNS over HTTPS servers
+<em>Selfhost DNS that can do forwarding to DNSCrypt & DNS over HTTPS servers</em>
 
 4.[SimpleDNSCrypt](https://simplednscrypt.org) [Windows]  
-An easy to use graphical DNSCrypt client
+<em>An easy to use graphical DNSCrypt client</em>
 
 5.[DNS Profile Creator](https://dns.notjakob.com/tool.html) [Browser]  
-Easily create mobileconfig Apple
+<em>Easily create Apple mobileconfig</em>
 
 6.[YogaDNS](https://yogadns.com) [Windows]  
-DNS changer for Windows
+<em>DNS changer for Windows</em>
 
 7.[RethinkDNS](https://rethinkdns.com) [Android]  
-Application to change DNS and ad blocker
+<em>Application to change DNS and ad blocker</em>
 
 8.[Intra](https://getintra.org) [Android]  
-Application to change DNS on Android
+<em>Application to change DNS on Android</em>
 
 9.[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) [Windows, macOS, Linux]  
-Selfhost DNS with integrated adblock, encrypted upstream and downstream
+<em>Selfhost DNS with integrated adblock, encrypted upstream and downstream</em>
 
 10.[Stubby](https://github.com/getdnsapi/stubby) [Windows, macOS, Linux]  
-Selfhost DNS that can do forwarding to DNS over TLS server
+<em>Selfhost DNS that can do forwarding to DNS over TLS server</em>
 
 11.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
-An Android application for DNS and Tor
+<em>An Android application for DNS and Tor</em>
 
 ## How to change DNS[🔝](#navigation)
-Now, you have got the List, so how to use it?
+<em>Now, you have got the List, so how to use it?</em>
 
-### On Android
+### <em>Android</em>
 1.Settings>Other Wireless Connections>Private DNS  
 2.Type the [DNS hostname](#choosing-the-right-dns) and tap Save
 
-### On iOS
+### <em>iOS</em>
 
 1.Settings>Wi-Fi>*wifi*  
 2.Tap (i) icon  
 3.Ganti IP Adress jadi Static Change the IP Address into Static and type the [DNS hostname](#choosing-the-right-dns) on the DNS column
 
-### On Windows
-#### Windows 10 and earlier 
+### <em>Windows</em>
+#### Windows 7 to Windows 10:  
 1. Control Panel>Network and Internet>Network and Sharing Center>Connections>Properties  
 2. Click Internet Protocol Version 4 (TCP/IPv4) twice  
 3. Change from "Obtain DNS server address automatically" to "Use the following DNS server addresses"  
 4. Type the [DNS hostname](#choosing-the-right-dns) on the DNS column and click OK
 
-#### Windows 11
+#### Windows 11:
 1. Open Settings on Windows 11, Go to Network & Internet and click Properties    
 2. On the DNS server assignment section, click Edit button  
 3. Change from Automatic to Manual  
@@ -272,11 +282,11 @@ Now, you have got the List, so how to use it?
 5. On Preferred and Alternate DNS Encryption, choose Encrypted only (DNS-over-HTTPS) option 
 6. Click Save
 
-### On macOS
+### <em>macOS</em>
 1. System Preferences>Network>Wi-Fi>Advanced>DNS  
 2. Click “+” button and type the [DNS hostname](#choosing-the-right-dns) on the DNS column, click OK and Apply
 
-### On Linux
+### <em>Linux</em>
 1. Open Terminal  
 2. Type the command `nano /etc/resolv.conf` to edit `/etc/resolv.conf`  
 3. Ubah isi file menjadi seperti berikut Change the file content into something like this (replace `<dns hostname>` into one of the DNS hostname [listed here](#choosing-the-right-dns))
@@ -286,15 +296,17 @@ nameserver <dns hostname>
 ```
 Note: Some components that installed on Linux distribution (like NetworkManager) may change the content of `/etc/resolv.conf` without notice, to prevent this you can type `chattr +i /etc/resolv.conf` after editing the file. If you want to change the content of `/etc/resolv.conf` again, you can type `chattr -i /etc/resolv.conf`
 
-### On Chromium-based browser
+### <ins>Browser</ins>
+
+#### Chromium-based browser
 1.Settings>Privacy and Security  
 2.Type the [DNS hostname](#choosing-the-right-dns) on the DNS column
 
-### On Firefox
+#### Firefox
 1.Settings>Network Settings  
 2.Type the [DNS hostname](#choosing-the-right-dns) on the DNS column
 
-#### *How to determine if the DNS is properly configured*  
+#### <ins><b>How to determine if the DNS is properly configured</b></ins>  
 Go to [DNSLeakTest](https://dnsleaktest.com) or [BrowserLeaks](https://browserleaks.com/dns) for testing
 If the ISP DNS being shown instead of one you have already set, you can download [DNSCrypt](https://dnscrypt.info) or [SimpleDNSCrypt](https://simplednscrypt.org)
 
@@ -309,51 +321,57 @@ Now, many [ISPs](#choosing-less-strict-isp) are using Deep Packet Inspection as 
 
 
 1.[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
-CLI application to eliminate DPI
+<em>CLI application to eliminate DPI</em>
 
 2.[GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [Windows,macOS,Linux]  
-GUI application to eliminate DPI
+<em>GUI application to eliminate DPI</em>
 
 3.[PowerTunnel](https://github.com/krlvm/PowerTunnel) [Windows,macOS,Linux,[Android](https://github.com/krlvm/PowerTunnel-Android)]  
-GUI application to eliminate DPI (2)
+<em>GUI application to eliminate DPI (2)</em>
 
 4.[SNI-Mask](https://github.com/macronut/SNI-Mask) [Windows]  
-Proxy to eliminate DPI
+<em>Proxy to eliminate DPI</em>
 
 5.[Accesser](https://github.com/URenko/Accesser) [Windows,macOS,Linux]  
-*???*
+<em>Application to solve TCP RST, used primarily in Mainland China</em>
 
 6.[GhosTCP](https://github.com/macronut/ghostcp) [Windows]  
-Securing TCP connection
+<em>Securing TCP connection</em>
 
 7.[sniffjoke](https://github.com/vecna/sniffjoke) [Linux]  
-Securing wiretap/sniff/IDS
+<em>Securing wiretap/sniff/IDS</em>
 
 8.[SpoofDPI](https://github.com/xvzc/SpoofDPI) [macOS,Linux]  
-Spoofing your DPI
+<em>Spoofing your DPI</em>
 
 9.[Zapret](https://github.com/bol-van/zapret/blob/master/docs/readme.eng.md) [Linux, FreeBSD]  
-DPI Circumvention Tool
+<em>DPI Circumvention Tool</em>
 
 10.[DPITunnel](https://github.com/zhenyolka/DPITunnel-cli) [Linux,[Android](https://github.com/zhenyolka/DPITunnel-android)]  
-CLI application for Linux
+<em>CLI application for Linux</em>
 
 11.[Geneva](https://github.com/kkevsterrr/geneva) [Linux]  
-AI-powered DPI Circumvention Tool 
+<em>AI-powered DPI Circumvention Tool</em> 
 
 ### Trick to bypass DPI without application[🔝](#navigation)
 
-#### On Linux
+#### <ins>On Linux</ins>
 *Drop TCP RST and lamanlabuh*
-Run command `sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP` and `sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.aduankonten.id/" --algo bm -j DROP` or `sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP` (for Linux distribution that using firewalld, like Fedora and OpenSUSE) in terminal\
-Tetapi perintah diatas tidak akan bekerja apabila But those commands will not work if ISP is also sending TCP RST to server (List of ISP can be seen in Sending TCP RST to server column on above table)
+```
+sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP 
+sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.aduankonten.id/" --algo bm -j DROP 
+sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP
+sudo firewall-cmd --permanent --add-rich-rule='rule protocol value="tcp" match="string" string="Location: http://lamanlabuh.aduankonten.id/" algo="bm" drop' 
+``` 
+*Use the firewall-cmd one for Linux distribution that using firewalld, like Fedora and OpenSUSE) in terminal
+But those commands will not work if ISP is also sending TCP RST to server (List of ISP can be seen in Sending TCP RST to server column on above table).*
 
 ### Trick to bypass DPI using router[🔝](#navigation)
 
-#### OpenWRT
+#### <ins>OpenWRT</ins>
 Follow this tutorial https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.en.md
 
-### MikroTik
+### <ins>MikroTik</ins>
 Follow this tutorial https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.en.md
 
 ## List of hosts file[🔝](#navigation)
@@ -417,17 +435,18 @@ VPN in this section needs configuration, if you just want a Out of the box VPN, 
 And, this is the most extreme part, using Tor
 
 1.[Tor Browser](https://www.torproject.org) [Windows,macOS,Linux,Android]  
-Official browser of Tor Project
+<em>Official browser of Tor Project</em>
 
 2.[Orbot](https://guardianproject.info/apps/org.torproject.android) [Android]  
-Proxy with Tor  
+<em>Proxy with Tor</em>
 
 3.[Onion Browser](https://onionbrowser.com) [iOS]  
-Tor browser for iOS
+<em>Tor browser for iOS</em>
 
 4.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
-Android application for DNS and Tor
+<em>Android application for DNS and Tor</em>
 
+---
 <p align="center">Share this project</p>
 <div id="sosial">
  <p align="center">
