@@ -294,7 +294,7 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 ### <em>Linux</em>
 1. Open Terminal  
 2. Type the command `nano /etc/resolv.conf` to edit `/etc/resolv.conf`.  
-3. Ubah isi file menjadi seperti berikut Change the file content into something like this (replace `<dns hostname>` into one of the DNS hostname [listed here](#choosing-the-right-dns)).
+3. Change the file content into something like this (replace `<dns hostname>` into one of the DNS hostname [listed here](#choosing-the-right-dns)).
 ```
 nameserver <dns hostname>
 nameserver <dns hostname>
