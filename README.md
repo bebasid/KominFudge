@@ -1,6 +1,6 @@
 <div align="center">
- <img src="/assets/icon/logo.png#gh-dark-mode-only" width="500">
- <img src="/assets/icon/logo-black.png#gh-light-mode-only" width="500">
+ <img src="/assets/icon/logo.svg#gh-dark-mode-only" width="500">
+ <img src="/assets/icon/logo-black.svg#gh-light-mode-only" width="500">
   <p>"Tolak diblokir, Ayo <i>unblokir!</i>"</p>
    <p><b>KominFudge Panduan Pemula</b></p>
 </div>
