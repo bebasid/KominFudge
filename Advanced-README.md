@@ -210,6 +210,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | PT Jala Lintas Media | DNS Hijacking | Tidak | Tidak | Tidak | |
 | PT Centrin Utama | DNS Hijacking & DNS Blocking | Tidak | Tidak | Tidak | Membelokan DNS Google, OpenDNS, Level3, dan subnet DNS OpenDNS (`208.67.222.0/24` dan `208.67.220.0/24`) ke server mereka |
 | PT Mitra Visioner Pratama | DNS Hijacking | Tidak | Ya | Ya | Punya PT Saranainsan Mudaselaras |
+| PT. DATAUTAMA DINAMIKA | DNS Hijacking | Tidak | ? | ? |
 
 [Kembali ke "Navigasi](#navigasi)
 
