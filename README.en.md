@@ -216,142 +216,142 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 <sup>More comprehensive list can be seen at [Adguard KB](https://adguard-dns.io/kb/general/dns-providers/) and [Curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). You can create your own DNS over HTTPS with [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) or [with PHP](https://github.com/NotMikeDEV/DoH).</sup>
 
 ## DNS Applications[🔝](#navigation)
-*These DNS applications can help you in configuring DNS resolvers on your system*
+*These DNS applications can help you in configuring DNS resolvers on your system.*
 
 > ⚠ **ATTENTION** ⚠  
-> If your ISP is also blocking using DPI also use [applications to eliminate DPI](#applications-to-eliminate-dpi)
+> If your ISP is also blocking using DPI also use [applications to eliminate DPI](#applications-to-eliminate-dpi).
 
 1.[Nebulo](https://nebulo.app) [Android]  
-<em>Application to easily change DNS on Android</em>
+<em>Application to easily change DNS on Android.</em>
 
 2.[DNSCloak](https://apps.apple.com/app/id1452162351) [iOS]  
-<em>Application to change DNS and configure dnscrypt on iOS</em>
+<em>Application to change DNS and configure dnscrypt on iOS.</em>
 
 3.[DNSCrypt](https://dnscrypt.info) [Windows,macOS,Linux]  
-<em>Selfhost DNS that can do forwarding to DNSCrypt & DNS over HTTPS servers</em>
+<em>Selfhost DNS that can do forwarding to DNSCrypt & DNS over HTTPS servers.</em>
 
 4.[SimpleDNSCrypt](https://simplednscrypt.org) [Windows]  
-<em>An easy to use graphical DNSCrypt client</em>
+<em>An easy to use graphical DNSCrypt client.</em>
 
 5.[DNS Profile Creator](https://dns.notjakob.com/tool.html) [Browser]  
-<em>Easily create Apple mobileconfig</em>
+<em>Easily create Apple mobileconfig.</em>
 
 6.[YogaDNS](https://yogadns.com) [Windows]  
-<em>DNS changer for Windows</em>
+<em>DNS changer for Windows.</em>
 
 7.[RethinkDNS](https://rethinkdns.com) [Android]  
-<em>Application to change DNS and ad blocker</em>
+<em>Application to change DNS and ad blocker.</em>
 
 8.[Intra](https://getintra.org) [Android]  
-<em>Application to change DNS on Android</em>
+<em>Application to change DNS on Android.</em>
 
 9.[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) [Windows, macOS, Linux]  
-<em>Selfhost DNS with integrated adblock, encrypted upstream and downstream</em>
+<em>Selfhost DNS with integrated adblock, encrypted upstream and downstream.</em>
 
 10.[Stubby](https://github.com/getdnsapi/stubby) [Windows, macOS, Linux]  
-<em>Selfhost DNS that can do forwarding to DNS over TLS server</em>
+<em>Selfhost DNS that can do forwarding to DNS over TLS server.</em>
 
 11.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
-<em>An Android application for DNS and Tor</em>
+<em>An Android application for DNS and Tor.</em>
 
 ## How to change DNS[🔝](#navigation)
 <em>Now, you have got the List, so how to use it?</em>
 
 ### <em>Android</em>
-1.Settings>Other Wireless Connections>Private DNS  
-2.Type the [DNS hostname](#choosing-the-right-dns) and tap Save
+1.Settings>Other Wireless Connections>Private DNS . 
+2.Type the [DNS hostname](#choosing-the-right-dns) and tap Save.
 
 ### <em>iOS</em>
 
 1.Settings>Wi-Fi>*wifi*  
-2.Tap (i) icon  
-3.Ganti IP Adress jadi Static Change the IP Address into Static and type the [DNS hostname](#choosing-the-right-dns) on the DNS column
+2.Tap (i) icon.  
+3.Change the IP Address into Static and type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
 
 ### <em>Windows</em>
 #### Windows 7 to Windows 10:  
-1. Control Panel>Network and Internet>Network and Sharing Center>Connections>Properties  
-2. Click Internet Protocol Version 4 (TCP/IPv4) twice  
-3. Change from "Obtain DNS server address automatically" to "Use the following DNS server addresses"  
-4. Type the [DNS hostname](#choosing-the-right-dns) on the DNS column and click OK
+1. Control Panel>Network and Internet>Network and Sharing Center>Connections>Properties.  
+2. Click Internet Protocol Version 4 (TCP/IPv4) twice.  
+3. Change from "Obtain DNS server address automatically" to "Use the following DNS server addresses".  
+4. Type the [DNS hostname](#choosing-the-right-dns) on the DNS column and click OK.
 
 #### Windows 11:
-1. Open Settings on Windows 11, Go to Network & Internet and click Properties    
-2. On the DNS server assignment section, click Edit button  
-3. Change from Automatic to Manual  
-4. On Preferred DNS, type 1.1.1.1/8.8.8.8/9.9.9.9 and on Alternate type 1.0.0.1/8.8.4.4/149.112.112.112
-5. On Preferred and Alternate DNS Encryption, choose Encrypted only (DNS-over-HTTPS) option 
-6. Click Save
+1. Open Settings on Windows 11, Go to Network & Internet and click Properties.    
+2. On the DNS server assignment section, click Edit button.  
+3. Change from Automatic to Manual.  
+4. On Preferred DNS, type 1.1.1.1/8.8.8.8/9.9.9.9 and on Alternate type 1.0.0.1/8.8.4.4/149.112.112.112.
+5. On Preferred and Alternate DNS Encryption, choose Encrypted only (DNS-over-HTTPS) option. 
+6. Click Save.
 
 ### <em>macOS</em>
-1. System Preferences>Network>Wi-Fi>Advanced>DNS  
-2. Click “+” button and type the [DNS hostname](#choosing-the-right-dns) on the DNS column, click OK and Apply
+1. System Preferences>Network>Wi-Fi>Advanced>DNS.  
+2. Click “+” button and type the [DNS hostname](#choosing-the-right-dns) on the DNS column, click OK and Apply.
 
 ### <em>Linux</em>
 1. Open Terminal  
-2. Type the command `nano /etc/resolv.conf` to edit `/etc/resolv.conf`  
-3. Ubah isi file menjadi seperti berikut Change the file content into something like this (replace `<dns hostname>` into one of the DNS hostname [listed here](#choosing-the-right-dns))
+2. Type the command `nano /etc/resolv.conf` to edit `/etc/resolv.conf`.  
+3. Ubah isi file menjadi seperti berikut Change the file content into something like this (replace `<dns hostname>` into one of the DNS hostname [listed here](#choosing-the-right-dns)).
 ```
 nameserver <dns hostname>
 nameserver <dns hostname>
 ```
-Note: Some components that installed on Linux distribution (like NetworkManager) may change the content of `/etc/resolv.conf` without notice, to prevent this you can type `chattr +i /etc/resolv.conf` after editing the file. If you want to change the content of `/etc/resolv.conf` again, you can type `chattr -i /etc/resolv.conf`
+Note: Some components that installed on Linux distribution (like NetworkManager) may change the content of `/etc/resolv.conf` without notice, to prevent this you can type `chattr +i /etc/resolv.conf` after editing the file. If you want to change the content of `/etc/resolv.conf` again, you can type `chattr -i /etc/resolv.conf`.
 
 ### <ins>Browser</ins>
 
 #### Chromium-based browser
-1.Settings>Privacy and Security  
-2.Type the [DNS hostname](#choosing-the-right-dns) on the DNS column
+1.Settings>Privacy and Security.  
+2.Type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
 
 #### Firefox
-1.Settings>Network Settings  
-2.Type the [DNS hostname](#choosing-the-right-dns) on the DNS column
+1.Settings>Network Settings.  
+2.Type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
 
-#### <ins><b>How to determine if the DNS is properly configured</b></ins>  
-Go to [DNSLeakTest](https://dnsleaktest.com) or [BrowserLeaks](https://browserleaks.com/dns) for testing
-If the ISP DNS being shown instead of one you have already set, you can download [DNSCrypt](https://dnscrypt.info) or [SimpleDNSCrypt](https://simplednscrypt.org)
+#### <ins><b>How to determine if the DNS is properly configured?</b></ins>  
+Go to [DNSLeakTest](https://dnsleaktest.com) or [BrowserLeaks](https://browserleaks.com/dns) for testing.
+If the ISP DNS being shown instead of one you have already set, you can download [DNSCrypt](https://dnscrypt.info) or [SimpleDNSCrypt](https://simplednscrypt.org).
 
 ## Applications to eliminate DPI[🔝](#navigation)
-Now, many [ISPs](#choosing-less-strict-isp) are using Deep Packet Inspection as blocking method, but you can eliminate the DPI with these applications
+Now, many [ISPs](#choosing-less-strict-isp) are using Deep Packet Inspection as blocking method, but you can eliminate the DPI with these applications:
 
 > ⚠ **ATTENTION** ⚠  
-> Do not forget to change [DNS](#dns-applications) first or using [Hosts file](#list-of-hosts-file) if your [ISP](#choosing-less-strict-isp) is also using DNS for blocking
+> Do not forget to change [DNS](#dns-applications) first or using [Hosts file](#list-of-hosts-file) if your [ISP](#choosing-less-strict-isp) is also using DNS for blocking.
 
 > ℹ️ **Info**  
-> We also providing config for application and ISP in [this folder](/dpi-circumvention-config)
+> We also providing config for application and ISP in [this folder](/dpi-circumvention-config).
 
 
 1.[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
-<em>CLI application to eliminate DPI</em>
+<em>CLI application to eliminate DPI.</em>
 
 2.[GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [Windows,macOS,Linux]  
-<em>GUI application to eliminate DPI</em>
+<em>GUI application to eliminate DPI.</em>
 
 3.[PowerTunnel](https://github.com/krlvm/PowerTunnel) [Windows,macOS,Linux,[Android](https://github.com/krlvm/PowerTunnel-Android)]  
-<em>GUI application to eliminate DPI (2)</em>
+<em>GUI application to eliminate DPI (2).</em>
 
 4.[SNI-Mask](https://github.com/macronut/SNI-Mask) [Windows]  
-<em>Proxy to eliminate DPI</em>
+<em>Proxy to eliminate DPI.</em>
 
 5.[Accesser](https://github.com/URenko/Accesser) [Windows,macOS,Linux]  
-<em>Application to solve TCP RST, used primarily in Mainland China</em>
+<em>Application to solve TCP RST, used primarily in Mainland China.</em>
 
 6.[GhosTCP](https://github.com/macronut/ghostcp) [Windows]  
-<em>Securing TCP connection</em>
+<em>Securing TCP connection.</em>
 
 7.[sniffjoke](https://github.com/vecna/sniffjoke) [Linux]  
-<em>Securing wiretap/sniff/IDS</em>
+<em>Securing wiretap/sniff/IDS.</em>
 
 8.[SpoofDPI](https://github.com/xvzc/SpoofDPI) [macOS,Linux]  
-<em>Spoofing your DPI</em>
+<em>Spoofing your DPI.</em>
 
 9.[Zapret](https://github.com/bol-van/zapret/blob/master/docs/readme.eng.md) [Linux, FreeBSD]  
-<em>DPI Circumvention Tool</em>
+<em>DPI Circumvention Tool.</em>
 
 10.[DPITunnel](https://github.com/zhenyolka/DPITunnel-cli) [Linux,[Android](https://github.com/zhenyolka/DPITunnel-android)]  
-<em>CLI application for Linux</em>
+<em>CLI application for Linux.</em>
 
 11.[Geneva](https://github.com/kkevsterrr/geneva) [Linux]  
-<em>AI-powered DPI Circumvention Tool</em> 
+<em>AI-powered DPI Circumvention Tool.</em> 
 
 ### Trick to bypass DPI without application[🔝](#navigation)
 
@@ -375,7 +375,7 @@ Follow this tutorial https://github.com/bebasid/bebasit/blob/master/docs/openwrt
 Follow this tutorial https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.en.md
 
 ## List of hosts file[🔝](#navigation)
-If you have a big brain and prefer to use hosts file, here the list
+If you have a big brain and prefer to use hosts file, here the list:
 
 | List | Alternative |
 | :---: | :---: |
@@ -392,26 +392,26 @@ If you have a big brain and prefer to use hosts file, here the list
 So, you have the file... now what?
 
 ### On Windows
-1.Copy the text inside the hosts file that you have chosen before
-2.Open File Explorer and go to `C:\Windows\System32\drivers\etc`  
-3.Paste text to "hosts" file
+1.Copy the text inside the hosts file that you have chosen before.
+2.Open File Explorer and go to `C:\Windows\System32\drivers\etc`.  
+3.Paste text to "hosts" file.
 
 ### On Android
 
 #### ROOT:
-1.Copy the text inside the hosts file that you have chosen before  
-2.Open File Explorer and go to `/system/etc`  
-3.Paste text to "hosts" file
+1.Copy the text inside the hosts file that you have chosen before.  
+2.Open File Explorer and go to `/system/etc`.  
+3.Paste text to "hosts" file.
 
 #### NON-ROOT:
-1.Copy the text inside the hosts file that you have chosen before 
-2.Create the file and paste the text inside that file
+1.Copy the text inside the hosts file that you have chosen before.
+2.Create the file and paste the text inside that file.
 3.Install [Virtual Hosts](https://github.com/x-falcon/Virtual-Hosts) or [Host Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change)  
-4.Tap "Select Host File"/"Import HOSTS file" and choose the file that you have created before
+4.Tap "Select Host File"/"Import HOSTS file" and choose the file that you have created before.
 
 ## Choosing secure VPN[🔝](#navigation)
 Ah VPN, the easiest way to bypass the block if any of above methods do not work, *But* do not download insecure and untrustworthy VPN!
-Take a look at this list of secure VPN that you can use instead of untrustworthy VPN
+Take a look at this list of secure VPN that you can use instead of untrustworthy VPN:
 
 | Name | Positive | Negative | Server |
 | :---: | :---: | :---: | :---: |
@@ -423,7 +423,7 @@ Take a look at this list of secure VPN that you can use instead of untrustworthy
 | [OVPN](https://ovpn.com) | **Secure** | Paid | 102 |
 
 ### VPN for Advanced Users[🔝](#navigation)
-VPN in this section needs configuration, if you just want a Out of the box VPN, please ignore this
+VPN in this section needs configuration, if you just want a Out of the box VPN, please ignore this.
 
 | Name | Description |
 | :---: | :---: |
@@ -432,19 +432,19 @@ VPN in this section needs configuration, if you just want a Out of the box VPN, 
 | [Softether](https://softether.org) | Similar to OpenVPN(?) |
 
 ## Tor Applications[🔝](#navigation)
-And, this is the most extreme part, using Tor
+And, this is the most extreme part, using Tor.
 
 1.[Tor Browser](https://www.torproject.org) [Windows,macOS,Linux,Android]  
-<em>Official browser of Tor Project</em>
+<em>Official browser of Tor Project.</em>
 
 2.[Orbot](https://guardianproject.info/apps/org.torproject.android) [Android]  
-<em>Proxy with Tor</em>
+<em>Proxy with Tor.</em>
 
 3.[Onion Browser](https://onionbrowser.com) [iOS]  
-<em>Tor browser for iOS</em>
+<em>Tor browser for iOS.</em>
 
 4.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
-<em>Android application for DNS and Tor</em>
+<em>Android application for DNS and Tor.</em>
 
 ---
 <p align="center">Share this project</p>
