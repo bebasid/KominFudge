@@ -1,5 +1,6 @@
 <div align="center">
- <img src="/assets/icon/KominFudge-compressed.png">
+ <img src="/assets/icon/logo.svg#gh-dark-mode-only" width="500">
+ <img src="/assets/icon/logo-black.svg#gh-light-mode-only" width="500"><br><br>
  <p>"Tolak diblokir, Ayo <i>unblokir!</i>"</p>
  <p><b>KominFudge Panduan Mahir</b></p>
 </div>
@@ -151,72 +152,76 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 ### ISP serat optik (*fiber optic*) 
 **ISP Rumah**
 
-| Nama | Metode Pemblokiran DNS | Pemblokiran berbasis DPI | Mengirim paket TCP RST ke *server* | Catatan |
-| :---: | :---: | :---: | :---: | :---: |
-| Indihome | DNS Nasional | Ya | Ya | ISP dari Telkom untuk rumah. |
-| CBN | Memodifikasi data DNS | Ya | Tidak | |
-| Biznet Home | DNS Nasional (DPI memblokir request DNS di port 53) | Ya | Tidak | |
-| MyRepublic | DNS Nasional | Ya | Tidak | Sistem DPI hanya memblokir situs dewasa. |
-| FirstMedia | DNS Nasional | Ya | Tidak | |
-| Megavision | DNS Nasional | Tergantung perutean | ? | Dikenal juga sebagai StarNET. Terdampak sistem DPI dari jaringan upstream PT Parsaoran Global Datatrans. |
-| Jujung Net | Memodifikasi data DNS | Ya | Ya | ISP dari PT Parsaroan Global Datatrans untuk rumah. |
-| MNC | Memodifikasi data DNS | Tergantung perutean | ? | Terdampak sistem DPI dari jaringan upstream iForte. |
-| Iconnet PLN | Memodifikasi data DNS | Ya | Ya | |
-| PT Netciti Persada | Terkena DNS Nasional oleh Lintasarta | Tergantung perutean | ? | Terdampak DNS Nasional dan sistem DPI dari jaringan upstream Lintasarta. |
-| Oxygen | Memblokir akses layanan DNS lain keluar negeri | Ya | Tidak | Dikenal juga sebagai Moratelindo, memblokir layanan DNS alternatif milik Google yang menggunakan DoH dan DoT dan nomor port alternatif DNS 5353. |
-| Citranet | Memodifikasi data DNS | Tergantung perutean | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
-| Padi Net | DNS Nasional	 | Tidak | ? | |
-| Fiberstream | DNS Nasional	 | Tidak | ? | ISP dari G-MEDIA untuk rumah. |
-| Balifiber | Memodifikasi data DNS | Tidak | ? | |
-| PT Media Cepat Indonesia | DNS Nasional | Tidak | ? | |
-| Melsa | DNS Nasional (Memblokir port 53 selain punya ISP) | Tidak | ? | Layanan DNS alternatif milik Google tidak diblokir. |
+| Nama | Metode Pemblokiran DNS | Mengikuti DNS Nasional | Pemblokiran berbasis DPI | Mengirim paket TCP RST ke *server* | Catatan |
+| :---: | :---: | :---: | :---: | :---: | :---:|
+| Indihome | DNS Hijacking | Ya | Ya | Ya | ISP dari Telkom untuk rumah. |
+| CBN | DNS Hijacking | Tidak | Ya | Tidak | |
+| Biznet Home | DNS Hijacking | Ya (DPI memblokir request DNS di port 53) | Ya | Tidak | Terkena DPI di BIX |
+| MyRepublic | DNS Hijacking | Ya | Ya | Tidak | Sistem DPI hanya memblokir situs dewasa. |
+| FirstMedia | DNS Hijacking | Ya | Ya | Tidak | |
+| Megavision | DNS Hijacking | Ya | Tergantung perutean | ? | Dikenal juga sebagai StarNET. Terdampak sistem DPI dari jaringan upstream PT Parsaoran Global Datatrans. |
+| Jujung Net | DNS Hijacking | ? | Ya | Ya | ISP dari PT Parsaroan Global Datatrans untuk rumah. |
+| MNC | DNS Hijacking | Ya | Tergantung perutean | ? | Terdampak sistem DPI dari jaringan upstream iForte. |
+| Iconnet PLN | DNS Hijacking | Ya | Ya | Ya | |
+| Netciti | DNS Hijacking | Aslinya tidak, terkena dampak dari Lintasarta | Tergantung perutean | ? | Terdampak DNS Nasional dan sistem DPI dari jaringan upstream Lintasarta. |
+| Oxygen | DNS Hijacking | Ya (Lokal aman) | Ya | Tidak | Dikenal juga sebagai Moratelindo, memblokir layanan DNS alternatif milik Google yang menggunakan DoH dan DoT dan nomor port alternatif DNS 5353. |
+| Citranet | DNS Hijacking | Tidak | Tergantung perutean | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
+| Padi Net | DNS Hijacking | Ya | Tidak | ? | |
+| Fiberstream | DNS Hijacking | Ya | Tidak | ? | ISP dari G-MEDIA untuk rumah. |
+| Balifiber | DNS Hijacking | Tidak | Tidak | ? | |
+| PT Media Cepat Indonesia | DNS Hijacking | Ya | Tidak | ? | |
+| Melsa | DNS Hijacking | Ya | Tidak | ? | Layanan DNS alternatif milik Google tidak diblokir. |
+| MTM Bali | DNS Hijacking | Tidak | Tergantung Perutean | ? | Jika melewati Lintasarta, iForte maka akan kena DPI / Akan kena DNS Nasional jika lewat Lintasarta |
 
 [Kembali ke "Navigasi](#navigasi)
 
 **ISP Kantor**
 
-| Nama | Metode Pemblokiran DNS | Pemblokiran berbasis DPI | Mengirim TCP RST ke *server* | Catatan |
-| :---: | :---: | :---: | :---: | :---: |
-| Astinet | Injeksi DNS melalui Proxy/DPI | Ya | ? | ISP dari Telkom untuk kantor. |
-| Linknet | Memodifikasi data DNS | Tidak | Tidak | ISP dari Firstmedia untuk kantor. |
-| Lintasarta | DNS Nasional	 | Ya | Ya | |
-| Metronet | Memblokir akses layanan DNS lain keluar negeri | Ya | Ya | Dikenal juga sebagai Biznet Dedicated. |
-| PT Metrasat | DNS Nasional (Memblokir DNS selain ke ISP) | Ya | ? | |
-| PT Pasifik Satelit Nusantara | Memodifikasi data DNS | Tidak | ? | |
-| PT Artha Telekomindo | Memodifikasi data DNS | Tidak | ? | |
-| PT Hawk Teknologi Solusi | Memodifikasi data DNS | Tidak | ? | |
-| PT Jaringanku Sarana Nusantara | DNS Nasional | Tidak | ? | Dikenal juga sebagai JSN. |
-| PT. Infotama Lintas Global | DNS Nasional | Tidak | ? | |
-| PT Remala Abadi | Memodifikasi data DNS | Tidak | Tidak | Dikenal juga sebagai Tachyon. |
-| PT iForte Global internet | Memodifikasi data DNS | Ya | Tidak | Sistem DPI tidak memblokir Vimeo. |
-| PT Cipta Informatika Cemeriang | Memodifikasi data DNS | Tidak | ? | |
-| PT Lexa Net | Injeksi DNS melalui Proxy/DPI | Tidak | ? | Dikenal juga sebagai PT Lexa Global Akses. |
-| PT Media Sarana Data  | DNS Nasional | Tidak | ? | Dikenal juga sebagai G-MEDIA. |
-| PT Artorius Telemetri Sentosa | Memodifikasi data DNS | Tidak | ? | |
-| D-NET | Memblokir akses layanan DNS lain | Tidak | ? | Dikenal juga sebagai PT Core Mediatech, hanya membelokkan akses ke layanan DNS alternatif milik Google, Cloudflare, dan Quad9. | |
-| PT Sumber Koneksi Indotelematika | Memodifikasi data DNS | Tidak | ? | |
-| ProNET | Memodifikasi data DNS | Tergantung perutean | Memodifikasi data DNS | Dikenal juga sebagai PT Trisari Data Indonesia, memblokir beberapa layanan DNS alternatif domestik dan internasional, terdampak TCP RST dari jaringan upstream Solnet. |
-| PT Media Jaringan Telekomunikasi | Memodifikasi data DNS | Tidak | ? | |
-| PT Sekawan Global Komunika | Memodifikasi data DNS | Tidak | ? | |
-| PT INFORMASI NUSANTARA TEKNOLOGI | Memodifikasi data DNS | Tidak | ? | |
-| Orion Cyber Internet | Memodifikasi data DNS | Tidak | ? | Membelokkan akses menuju beberapa layanan DNS alternatif ke layanan DNS milik ISP. |
-| PT AGTI | DNS Nasional | Tidak | ? | Dikenal juga sebagai PT Arjuna Global Teknologi Indonesia. |
-| PT Parsaoran Global Datatrans | Memodifikasi data DNS | Ya | Ya (Lemah) | Dikenal juga sebagai HSP NET. |
-| PT Fiber Networks Indonesia | DNS Nasional | Tidak | ? | Dikenal juga sebagai FIBERNET. |
-| PT Power Telecom Indonesia | Memodifikasi data DNS | Ya | ? | Sistem DPI tidak memblokir Vimeo. |
-| PT Solnet Indonesia | Memodifikasi data DNS | Ya | Ya | |
+| Nama | Metode Pemblokiran DNS | Mengikuti DNS Nasional | Pemblokiran berbasis DPI | Mengirim paket TCP RST ke *server* | Catatan |
+| :---: | :---: | :---: | :---: | :---: | :---:|
+| Astinet | DNS Injection | Tidak | Ya | ? | ISP dari Telkom untuk kantor. |
+| Linknet | DNS Hijacking | TIdak | Tidak | Tidak | ISP dari Firstmedia untuk kantor. |
+| Lintasarta | DNS Hijacking | Iya | Ya | Ya | |
+| Biznet Metronet | DNS Hijacking | Ya | Ya | Ya | Dikenal juga sebagai Biznet Dedicated. |
+| PT Metrasat | DNS Hijacking | Ya | Ya | ? | |
+| PT Pasifik Satelit Nusantara | DNS Hijacking | Tidak | Tidak | ? | |
+| PT Artha Telekomindo | DNS Hijacking | Tidak | Tidak | ? | |
+| PT Hawk Teknologi Solusi | DNS Hijacking | Tidak | Tidak | ? | |
+| PT Jaringanku Sarana Nusantara | DNS Hijacking | Ya | Tidak | ? | Dikenal juga sebagai JSN. |
+| PT. Infotama Lintas Global | DNS Hijacking | Ya | Tidak | ? | |
+| PT Remala Abadi | DNS Hijacking | Tidak | Tidak | Tidak | Dikenal juga sebagai Tachyon. |
+| PT iForte Global internet | DNS Hijacking | Tidak | Ya | Tidak | Sistem DPI tidak memblokir Vimeo. |
+| PT Cipta Informatika Cemeriang | DNS Hijacking | Tidak | Tidak | ? | |
+| PT Lexa Net | DNS Injection | ? | Tidak | ? | Dikenal juga sebagai PT Lexa Global Akses. |
+| PT Media Sarana Data  | DNS Hijacking | Ya | Tidak | ? | Dikenal juga sebagai G-MEDIA. |
+| PT Artorius Telemetri Sentosa | DNS Hijacking | Tidak | Tidak | ? | |
+| D-NET | DNS Hijacking & DNS Blocking | Tidak | Tidak | ? | Dikenal juga sebagai PT Core Mediatech, hanya membelokkan akses ke layanan DNS alternatif milik Google, Cloudflare, dan Quad9. | |
+| PT Sumber Koneksi Indotelematika | DNS Hijacking | Tidak | Tidak | ? | |
+| ProNET | DNS Hijacking | Tidak | Tergantung perutean | Memodifikasi data DNS | Dikenal juga sebagai PT Trisari Data Indonesia, memblokir beberapa layanan DNS alternatif domestik dan internasional, terdampak TCP RST dari jaringan upstream Solnet. |
+| PT Media Jaringan Telekomunikasi | DNS Hijacking | Tidak | Tidak | ? | |
+| PT Sekawan Global Komunika | DNS Hijacking | Tidak | Tidak | ? | |
+| PT INFORMASI NUSANTARA TEKNOLOGI | DNS Hijacking | Tidak | Tidak | ? | |
+| Orion Cyber Internet | DNS Hijacking | Tidak | Tidak | ? | Membelokkan akses menuju beberapa layanan DNS alternatif ke layanan DNS milik ISP. |
+| PT AGTI | DNS Hijacking | Ya | Tidak | ? | Dikenal juga sebagai PT Arjuna Global Teknologi Indonesia. |
+| PT Parsaoran Global Datatrans | DNS Hijacking | Tidak | Ya | Ya (Lemah) | Dikenal juga sebagai HSP NET. |
+| PT Fiber Networks Indonesia | DNS Hijacking | Ya | Tidak | ? | Dikenal juga sebagai FIBERNET. |
+| PT Power Telecom Indonesia | DNS Hijacking | Tidak | Ya | ? | Sistem DPI tidak memblokir Vimeo. |
+| PT Solnet Indonesia | DNS Hijacking | Tidak | Ya | Ya | |
+| PT Jala Lintas Media | DNS Hijacking | Tidak | Tidak | Tidak | |
+| PT Centrin Utama | DNS Hijacking & DNS Blocking | Tidak | Tidak | Tidak | Membelokan DNS Google, OpenDNS, Level3, dan subnet DNS OpenDNS (`208.67.222.0/24` dan `208.67.220.0/24`) ke server mereka |
+| PT Mitra Visioner Pratama | DNS Hijacking | Tidak | Ya | Ya | Punya PT Saranainsan Mudaselaras |
 
 [Kembali ke "Navigasi](#navigasi)
 
 ### ISP selular / *mobile*
 
-| Nama | Pemblokiran berbasis DNS | Pemblokiran berbasis DPI | Mengirim TCP RST ke *server* | Catatan |
-| :---: | :---: | :---: | :---: | :---: |
-| Telkomsel / By.U / KartuHalo | DNS Nasional | Ya | Ya | |
-| XL / Axis / Live On | DNS Nasional | Ya | Ya | | 
-| 3 | Membelokan DNS Google dan OpenDNS ke Server ISP | Ya | Ya | |
-| Indosat | Memodifikasi data DNS | Ya | Tidak | |
-| Smartfren | DNS Nasional | Ya | Tidak | Memblokir layanan DNS alternatif milik Google yang menggunakan DoH dan DoT. |
+| Nama | Metode Pemblokiran DNS | Mengikuti DNS Nasional | Pemblokiran berbasis DPI | Ada IP yang aman dari DPI | Mengirim paket TCP RST ke *server* | Catatan |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Telkomsel / By.U / KartuHalo | DNS Hijacking | Ya | Ya | Ya | Ya |
+| XL / Axis / Live On | DNS Hijacking | Ya | Ya | Tidak | Ya | 
+| 3 | DNS Hijacking & DNS Blocking | Tidak | Ya | Tidak | Tidak | Membelokan DNS Google dan OpenDNS ke server mereka |
+| Indosat | DNS Hijacking | Tidak | Ya | Ya | Tidak |
+| Smartfren | DNS Hijacking | Ya | Ya | Ya | Tidak | Memblokir layanan DNS alternatif milik Google yang menggunakan DoH dan DoT. |
 
 [Kembali ke "Navigasi](#navigasi)
 
