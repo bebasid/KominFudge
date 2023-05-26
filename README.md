@@ -341,7 +341,7 @@ Maka itu, DPI bisa dihilangkan dengan mudah dengan aplikasi dibawah ini:
 <em>Proxy untuk menghilangkan DPI.</em>
 
 5. [Accesser](https://github.com/URenko/Accesser) [Windows, macOS, Linux]  
-*Belum tau selengkapanya repo tersebut.*
+<em>Aplikasi untuk menghilangkan TCP RST. Umumnya digunakan di Tiongkok.</em>
 
 6. [GhosTCP](https://github.com/macronut/ghostcp) [Windows]  
 <em>Mengamankan koneksi TCP.</em>
