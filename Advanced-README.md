@@ -101,8 +101,8 @@ Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek me
 ## Jaringan *upstream* (IP *transit*) dan *internet exchange*
 
 > CATATAN: Hanya disediakan untuk informasi semata. Tidak diperuntukkan sebagai informasi ketika mempertimbangkan ISP yang ingin digunakan. Metode dan keketatan pemblokiran dapat berubah sewaktu-waktu. Berpindah ISP adalah proses yang mungkin rumit, mahal, atau bahkan tidak memungkinkan dikarenakan berbagai macam faktor yang diluar kendali KominFudge.
->
-> Untuk mengecek IP Transit apa yang ISP Anda gunakan, silahkan cek di https://bgp.tools atau https://bgp.he.net
+
+Untuk mengecek IP Transit apa yang ISP Anda gunakan, silahkan cek di [bgp.tools](https://bgp.tools) atau [bgp.he.net](https://bgp.he.net).
 
 [Kembali ke "Navigasi](#navigasi)
 
@@ -110,18 +110,18 @@ Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek me
 
 | Nomor AS | Nama | Memblokir via DNS | Memblokir via DPI | Catatan | Contoh ISP yang kena (Max 5) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Nasional](assets/proof/png/AS4800-1.png?raw=1) | Ya | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia dan mereka memakai DPI di gateway menuju luar negeri](assets/proof/png/AS4800-2.png?raw=1) | Netciti, Varion |
-| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | Tidak | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo. | MNC Play, Transvision, MTM Bali |
-| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | Tidak | [Ya](assets/proof/png/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
-| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | Tidak | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) | | Megavision, MNC Play |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Nasional](assets/proof/AS4800-1.png?raw=1) | Ya | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia dan mereka memakai DPI di gateway menuju luar negeri](assets/proof/AS4800-2.png?raw=1) | Netciti, Varion |
+| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | Tidak | [Ya](assets/iForte-DPI.png?raw=1) | Tidak Memblokir Vimeo. | MNC Play, Transvision, MTM Bali |
+| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | Tidak | [Ya](assets/proof/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
+| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | Tidak | [Ya](assets/proof/AS58495-HSP-IX.png?raw=1) | | Megavision, MNC Play |
 | [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Tidak | Ya | | |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Tidak | Ya | | |
-| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | Tidak | [Ya](assets/proof/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
+| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | Tidak | [Ya](assets/proof/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proof/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
 | [AS131219](https://bgp.tools/as/131219) | Indosat Singapore Pte Ltd | Tidak | Ya | | |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | Tidak | Ya | | |
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras | Tidak | Ya |  | MNC Play |
 | [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | Tidak | Ya |  | |
-| [AS18351](https://bgp.tools/as/18351) | DTPNET NAP | Tidak | [Ya](https://media.discordapp.net/attachments/1109515185108046015/1109935886889656450/image.png?width=648&height=559) |  |  |
+| [AS18351](https://bgp.tools/as/18351) | DTPNET NAP | Tidak | [Ya](assets/proof/AS18351.png?raw=1) |  |  |
 | [AS136106](https://bgp.tools/as/136106) | PT Mega Akses Persada (Fiberstar) | Tidak | Ya |  | MyRepublic, Mayatama |
 
 [Kembali ke "Navigasi](#navigasi)
@@ -130,7 +130,7 @@ Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek me
 
 | Nama | Pemblokiran berbasis DPI | CDN yang terdampak | Catatan |
 | :---: | :---: | :---: | :---: |
-| BIX - Biznet Internet Exchange | Ya | [Cloudflare, dan semua CDN yang terhubung dengan BIX](assets/proofs/png/BIX.png?raw=1) | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
+| BIX - Biznet Internet Exchange | Ya | [Cloudflare, dan semua CDN yang terhubung dengan BIX](assets/proof/BIX.png?raw=1) | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
 
 [Kembali ke "Navigasi](#navigasi)
 
