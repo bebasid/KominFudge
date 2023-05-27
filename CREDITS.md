@@ -29,7 +29,7 @@
 ### FazlyMR
 [Github](https://github.com/FazlyMR)
 
-## Situs refrensi
+## Situs referensi 
 
 1. https://github.com/bebasid/bebasid
 2. https://github.com/bebasid/bebasit
@@ -38,3 +38,5 @@
 5. https://adguard-dns.io/kb/general/dns-providers
 6. https://github.com/curl/curl/wiki/DNS-over-HTTPS
 7. https://bgp.tools
+8. https://explorer.ooni.org/networks/ (Untuk data ISP)
+9. https://vpngate.net (Untuk pengetesan ISP Indonesia)
