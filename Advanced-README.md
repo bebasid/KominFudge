@@ -42,22 +42,26 @@ Metode pemblokiran yang umumnya diterapkan oleh masing-masing ISP (*Internet Ser
 
 | Nama metode | Cara kerja |
 | :---: | :--- |
-| Pemblokiran berbasis DNS | Dengan membatasi layanan DNS yang dapat digunakan, penyensoran dapat dilakukan dengan membalas permintaan alamat IP yang menuju ke situs yang diblokir dengan alamat IP situs notifikasi pemblokiran akses. |
+| Pemblokiran berbasis DNS | Dengan membatasi layanan DNS yang dapat digunakan, penyensoran dapat dilakukan dengan membalas permintaan alamat IP situs yang diblokir dengan alamat IP situs notifikasi pemblokiran akses. |
 | Pemblokiran berbasis DPI | Dengan memantau akses Internet dan memeriksa setiap paket data secara mendalam, sistem DPI dapat mengidentifikasi sambungan menuju situs yang diblokir dan menutup atau mengarahkan sambungan tersebut ke halaman notifikasi pemblokiran akses sebelum *server* tujuan dapat merespon. |
 
 [Kembali ke "Navigasi](#navigasi)
 
 ### Pemblokiran berbasis DNS
 
-Karena protokol DNS bersifat tidak terenkripsi dan tidak dapat memverifikasi *server* yang ingin dituju serta integritas data, pemblokiran berbasis DNS pada umumnya diterapkan melalui tiga metode ini yaitu:
+Karena protokol DNS bersifat tidak terenkripsi dan tidak dapat memverifikasi *server* yang ingin dituju serta integritas data, protokol tersebut rentan terhadap manipulasi dan modifikasi yang tak diinginkan melalui berbagai macam cara.
 
-| Nama metode | Cara kerja | Contoh ISP yang menerapkan (Max 5) |
+Pemblokiran berbasis DNS umumnya diterapkan dengan memaksa klien agar hanya dapat menggunakan layanan DNS yang disediakan oleh ISP melalui tiga metode berikut ini yaitu:
+
+| Nama metode | Cara kerja | Contoh ISP yang menerapkan |
 | :---: | :--- | :---: |
-| Memblokir akses layanan DNS lain | Akses menuju layanan DNS publik popular / luar negeri dapat diblokir dari alamat IP, nomor port, atau jenis protokol yang digunakan maupun kombinasi dari ciri-ciri tersebut atau seluruhnya. | 3 (Kepala IP 116), Orion Cyber Internet, Nusanet, PT Centrin Utama, Oxygen  |
-| Memblokir port DNS selain menuju ke DNS ISP | Akses menuju layanan DNS selain yang disediakan oleh ISP diblokir melalui pemblokiran request outbound port 53 selain menuju ke server ISP. Beberapa ISP seperti Biznet menggunakan DPI untuk memblokir DNS plain dengan melihat *fingerprint* dari request client daripada memblokir port nya langsung sehingga port 53 bisa digunakan kecuali untuk query DNS  | **ISP yang mengikuti DNS Nasional seperti:** Biznet, Melsa, Smartfren, 3 (Kepala IP non 116) |
-| Membelokan akses DNS secara transparan | Dikenal juga sebagai "DNS transparan atau Transparent DNS", ISP dapat membelokkan sambungan ke layanan DNS alternatif, biasanya dengan nomor port 53, agar hanya dapat menuju layanan DNS yang disediakan oleh ISP secara transparan. | **ISP yang mengikuti DNS Nasional seperti:** Indihome, MyRepublic, Firstmedia, XL, Megavision |
-| Memodifikasi data DNS secara langsung | Dikenal juga sebagai "*DNS injection*" (injeksi DNS), ISP menggunakan sistem DPI atau Proxy dapat memodifikasi data DNS secara langsung sesaat melalui jaringan ISP jika terdeteksi situs yang diblokir agar situs tersebut tidak dapat diakses atau diarahkan ke situs notifikasi pemblokiran akses. | Telkom Astinet, PT Lexa Net |
-| Memodifikasi data DNS | Dikenal sebagai "*DNS Hijacking*" dimana ISP mengubah record situs yang diblokir ke halaman blokir di server ISP masing-masing sehingga tidak dapat diakses. | Hampir semua ISP di Indonesia dibawah Trust+ |
+| Memblokir akses layanan DNS lain | Akses menuju layanan DNS publik popular / luar negeri dapat diblokir dari alamat IP, nomor port, atau jenis protokol yang digunakan maupun kombinasi dari ciri-ciri tersebut atau seluruhnya. | 3 (IP kepala 116), Orion Cyber Internet, Nusanet, PT Centrin Utama, Oxygen  |
+| Memblokir port DNS selain menuju ke DNS ISP | Akses menuju layanan DNS selain yang disediakan oleh ISP diblokir melalui pemblokiran request outbound port 53 selain menuju ke server ISP.<br /><br />Beberapa ISP seperti Biznet menggunakan sistem DPI untuk memblokir DNS tak terenkripsi dengan melihat *fingerprint* dari klien daripada memblokir *port*-nya secara langsung sehingga *port* 53 tetap bisa digunakan kecuali untuk *query* DNS  | **ISP yang mengikuti DNS Nasional seperti:** Biznet, Melsa, Smartfren, 3 (Kepala IP non 116) |
+| Membelokan akses DNS secara transparan<br />(*DNS redirection*) | Dikenal juga sebagai "DNS transparan" atau "*Transparent DNS*", ISP dapat membelokan sambungan ke layanan DNS alternatif agar hanya dapat menuju layanan DNS yang disediakan oleh ISP secara transparan. | **ISP yang mengikuti DNS Nasional seperti:** Indihome, MyRepublic, Firstmedia, XL, Megavision |
+
+Jika klien berhasil dipaksa untuk menggunakan layanan DNS yang disediakan oleh ISP, maka ISP dapat menegakkan penyensoran Internet dengan membalas permintaan alamat IP situs yang diblokir dengan alamat IP yang menuju ke situs notifikasi pemblokiran akses. Ini juga dikenal sebagai "*DNS hijacking*" dan hampir semua ISP di Indonesia dibawah Trust+ menerapkan metode ini.
+
+ISP juga dapat menggunakan sistem DPI untuk mengubah isi data DNS yang dikirim oleh layanan DNS alternatif secara *real-time*. Metode ini juga dikenal sebagai "*DNS injection*" (injeksi DNS) dan ISP seperti Telkom Astinet dan PT Lexa Net adalah contoh ISP yang menerapkannya.
 
 [Kembali ke "Navigasi](#navigasi)
 
@@ -96,11 +100,9 @@ Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek me
 
 ## Jaringan *upstream* (IP *transit*) dan *internet exchange*
 
-> CATATAN: Masih dalam pengerjaan, isi baru saja disalin dari README.md di branch main.
-
 > CATATAN: Hanya disediakan untuk informasi semata. Tidak diperuntukkan sebagai informasi ketika mempertimbangkan ISP yang ingin digunakan. Metode dan keketatan pemblokiran dapat berubah sewaktu-waktu. Berpindah ISP adalah proses yang mungkin rumit, mahal, atau bahkan tidak memungkinkan dikarenakan berbagai macam faktor yang diluar kendali KominFudge.
 
-<sup><b>Untuk mengecek IP Transit apa yang ISP kita gunakan, silahkan check di https://bgp.tools atau https://bgp.he.net</b></sup><br>
+Untuk mengecek IP Transit apa yang ISP Anda gunakan, silahkan cek di [bgp.tools](https://bgp.tools) atau [bgp.he.net](https://bgp.he.net).
 
 [Kembali ke "Navigasi](#navigasi)
 
@@ -108,18 +110,18 @@ Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek me
 
 | Nomor AS | Nama | Memblokir via DNS | Memblokir via DPI | Catatan | Contoh ISP yang kena (Max 5) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Nasional](assets/proof/png/AS4800-1.png?raw=1) | Ya | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia dan mereka memakai DPI di gateway menuju luar negeri](assets/proof/png/AS4800-2.png?raw=1) | Netciti, Varion |
-| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | Tidak | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo. | MNC Play, Transvision, MTM Bali |
-| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | Tidak | [Ya](assets/proof/png/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
-| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | Tidak | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) | | Megavision, MNC Play |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [DNS Nasional](assets/proof/AS4800-1.png?raw=1) | Ya | [Lintasarta membelokan port 53 ke server mereka sendiri sehingga DNS lain selain punya mereka dan ISP masing-masing tidak akan berfungsi jika ISP merutekan servernya melalui Lintasarta walaupun DNS server nya ada di Indonesia dan mereka memakai DPI di gateway menuju luar negeri](assets/proof/AS4800-2.png?raw=1) | Netciti, Varion |
+| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | Tidak | [Ya](assets/iForte-DPI.png?raw=1) | Tidak Memblokir Vimeo. | MNC Play, Transvision, MTM Bali |
+| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | Tidak | [Ya](assets/proof/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
+| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | Tidak | [Ya](assets/proof/AS58495-HSP-IX.png?raw=1) | | Megavision, MNC Play |
 | [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Tidak | Ya | | |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Tidak | Ya | | |
-| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | Tidak | [Ya](assets/proof/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
+| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | Tidak | [Ya](assets/proof/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proof/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
 | [AS131219](https://bgp.tools/as/131219) | Indosat Singapore Pte Ltd | Tidak | Ya | | |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | Tidak | Ya | | |
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras | Tidak | Ya |  | MNC Play |
 | [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | Tidak | Ya |  | |
-| [AS18351](https://bgp.tools/as/18351) | DTPNET NAP | Tidak | [Ya](https://media.discordapp.net/attachments/1109515185108046015/1109935886889656450/image.png?width=648&height=559) |  |  |
+| [AS18351](https://bgp.tools/as/18351) | DTPNET NAP | Tidak | [Ya](assets/proof/AS18351.png?raw=1) |  |  |
 | [AS136106](https://bgp.tools/as/136106) | PT Mega Akses Persada (Fiberstar) | Tidak | Ya |  | MyRepublic, Mayatama |
 
 [Kembali ke "Navigasi](#navigasi)
@@ -128,7 +130,7 @@ Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek me
 
 | Nama | Pemblokiran berbasis DPI | CDN yang terdampak | Catatan |
 | :---: | :---: | :---: | :---: |
-| BIX - Biznet Internet Exchange | Ya | [Cloudflare, dan semua CDN yang terhubung dengan BIX](assets/proofs/png/BIX.png?raw=1) | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
+| BIX - Biznet Internet Exchange | Ya | [Cloudflare, dan semua CDN yang terhubung dengan BIX](assets/proof/BIX.png?raw=1) | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
 
 [Kembali ke "Navigasi](#navigasi)
 
@@ -145,14 +147,13 @@ Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek me
 
 ## ISP dan metode pemblokiran yang digunakan
 
-> CATATAN: Masih dalam pengerjaan, isi baru saja disalin dari README.md di branch main.
-
 Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 
-### ISP serat optik (*fiber optic*) 
+### ISP serat optik (*fiber optic*)
+
 **ISP Rumah**
 
-| Nama | Metode Pemblokiran DNS | Mengikuti DNS Nasional | Pemblokiran berbasis DPI | Mengirim paket TCP RST ke *server* | Catatan |
+| Nama | Metode pemblokiran DNS | Mengikuti DNS Nasional | Pemblokiran berbasis DPI | Mengirim paket TCP RST ke *server* | Catatan |
 | :---: | :---: | :---: | :---: | :---: | :---:|
 | Indihome | DNS Hijacking | Ya | Ya | Ya | ISP dari Telkom untuk rumah. |
 | CBN | DNS Hijacking | Tidak | Ya | Tidak | |
@@ -177,7 +178,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 
 **ISP Kantor**
 
-| Nama | Metode Pemblokiran DNS | Mengikuti DNS Nasional | Pemblokiran berbasis DPI | Mengirim paket TCP RST ke *server* | Catatan |
+| Nama | Metode pemblokiran DNS | Mengikuti DNS Nasional | Pemblokiran berbasis DPI | Mengirim paket TCP RST ke *server* | Catatan |
 | :---: | :---: | :---: | :---: | :---: | :---:|
 | Astinet | DNS Injection | Tidak | Ya | ? | ISP dari Telkom untuk kantor. |
 | Linknet | DNS Hijacking | Tidak | Tidak | Tidak | ISP dari Firstmedia untuk kantor. |
@@ -216,7 +217,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 
 ### ISP selular / *mobile*
 
-| Nama | Metode Pemblokiran DNS | Mengikuti DNS Nasional | Pemblokiran berbasis DPI | Ada IP yang aman dari DPI | Mengirim paket TCP RST ke *server* | Catatan |
+| Nama | Metode pemblokiran DNS | Mengikuti DNS Nasional | Pemblokiran berbasis DPI | Ada IP yang aman dari DPI | Mengirim paket TCP RST ke *server* | Catatan |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | DNS Hijacking | Ya | Ya | Ya | Ya |
 | XL / Axis / Live On | DNS Hijacking | Ya | Ya | Tidak | Ya | 
