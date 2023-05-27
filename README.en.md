@@ -397,22 +397,22 @@ If you have a big brain and prefer to use hosts file, here the list:
 So, you have the file... now what?
 
 ### On Windows
-1.Copy the text inside the hosts file that you have chosen before.
-2.Open File Explorer and go to `C:\Windows\System32\drivers\etc`.  
-3.Paste text to "hosts" file.
+1. Copy the text inside the hosts file that you have chosen before.
+2. Open File Explorer and go to `C:\Windows\System32\drivers\etc`.  
+3. Paste text to "hosts" file.
 
 ### On Android
 
 #### ROOT:
-1.Copy the text inside the hosts file that you have chosen before.  
-2.Open File Explorer and go to `/system/etc`.  
-3.Paste text to "hosts" file.
+1. Copy the text inside the hosts file that you have chosen before.  
+2. Open File Explorer and go to `/system/etc`.  
+3. Paste text to "hosts" file.
 
 #### NON-ROOT:
-1.Copy the text inside the hosts file that you have chosen before.
-2.Create the file and paste the text inside that file.
-3.Install [Virtual Hosts](https://github.com/x-falcon/Virtual-Hosts) or [Host Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change)  
-4.Tap "Select Host File"/"Import HOSTS file" and choose the file that you have created before.
+1. Copy the text inside the hosts file that you have chosen before.
+2. Create the file and paste the text inside that file.
+3. Install [Virtual Hosts](https://github.com/x-falcon/Virtual-Hosts) or [Host Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change).
+4. Tap "Select Host File"/"Import HOSTS file" and choose the file that you have created before.
 
 ## Choosing secure VPN[🔝](#navigation)
 Ah VPN, the easiest way to bypass the block if any of above methods do not work, *But* do not download insecure and untrustworthy VPN!
