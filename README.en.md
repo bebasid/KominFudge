@@ -366,7 +366,6 @@ Now, many [ISPs](#choosing-less-strict-isp) are using Deep Packet Inspection as 
 sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP 
 sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.aduankonten.id/" --algo bm -j DROP 
 sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP
-sudo firewall-cmd --permanent --add-rich-rule='rule protocol value="tcp" match="string" string="Location: http://lamanlabuh.aduankonten.id/" algo="bm" drop' 
 ``` 
 *Use the firewall-cmd one for Linux distribution that using firewalld, like Fedora and OpenSUSE in terminal.
 But those commands will not work if ISP is also sending TCP RST to server (List of ISP can be seen in Sending TCP RST to server column on above table).*
