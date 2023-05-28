@@ -21,6 +21,8 @@
  https://github.com/curl/curl/wiki/DNS-over-HTTPS - Provider DoH  
  https://github.com/tina-hello/doh-cf-workers  
  https://github.com/NotMikeDEV/DoH
+ https://explorer.ooni.org/network - Data ISP dan probing
+ https://vpngate.net - Tool untuk probing ISP Indonesia
 
 ### <p align="center">Share projek ini</p>
 <div id="sosial">
