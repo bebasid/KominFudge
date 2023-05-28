@@ -371,7 +371,6 @@ Maka itu, DPI bisa dihilangkan dengan mudah dengan aplikasi dibawah ini:
 sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP 
 sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.aduankonten.id/" --algo bm -j DROP 
 sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP
-sudo firewall-cmd --permanent --add-rich-rule='rule protocol value="tcp" match="string" string="Location: http://lamanlabuh.aduankonten.id/" algo="bm" drop' 
 ```
 
 *Gunakan firewall-cmd untuk distro yang menggunakan firewalld, seperti Fedora dan OpenSUSE di terminal. Tetapi perintah diatas tidak akan bekerja apabila ISP juga mengirim paket TCP RST ke server (daftar ISP bisa dilihat di kolom mengirim **TCP RST** ke server pada tabel diatas).*
