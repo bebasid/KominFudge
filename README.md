@@ -124,7 +124,7 @@ Berikut cara menggunakan DNS secara manual
 
 >1. Peraturan > Wi-Fi > *wifi*
 >2. Ketuk ikon (i)
->3. Ganti IP Adress jadi Static dan masukkan [hostname dns](#memilih-layanan-dns-yang-tepat) di kolom DNS
+>3. Ganti IP Address jadi Static dan masukkan [hostname dns](#memilih-layanan-dns-yang-tepat) di kolom DNS
 
 Atau bisa memakai sesuatu seperti [Secure DNS profile creator](https://dns.notjakob.com/tool.html)
 
@@ -262,7 +262,7 @@ Berikut ini adalah langkah-langkah cara unblock akses ke situs dengan menggunaka
 >⚠ **PERHATIAN** ⚠  
 >Kami perlu bantuan wkwkwkwwkwkwkk
 
-### Di WIndows
+### Di Windows
 >1. Salin text didalam hostfile yang kamu pilih
 >2. Cari `C:\Windows\System32\drivers\etc\hosts`
 >3. Tempel text ke file
