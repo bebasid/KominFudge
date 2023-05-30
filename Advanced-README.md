@@ -165,7 +165,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | MNC | DNS Hijacking | Ya | Tergantung perutean | ? | Terdampak sistem DPI dari jaringan upstream iForte. |
 | Iconnet PLN | DNS Hijacking | Ya | Ya | Ya | |
 | Netciti | DNS Hijacking | Aslinya tidak, terkena dampak dari Lintasarta | Tergantung perutean | ? | Terdampak DNS Nasional dan sistem DPI dari jaringan upstream Lintasarta. |
-| Oxygen | DNS Hijacking | Ya (Lokal aman) | Ya | Tidak | Dikenal juga sebagai Moratelindo, memblokir layanan DNS alternatif milik Google yang menggunakan DoH dan DoT dan nomor port alternatif DNS 5353. |
+| Oxygen | DNS Hijacking & DNS Blocking | Ya (Lokal aman) | Tidak | Tidak | Dikenal juga sebagai Moratelindo, memblokir layanan DNS alternatif milik Google yang menggunakan DoH dan DoT dan nomor port alternatif DNS 5353. |
 | Citranet | DNS Hijacking | Tidak | Tergantung perutean | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
 | Padi Net | DNS Hijacking | Ya | Tidak | ? | |
 | Fiberstream | DNS Hijacking | Ya | Tidak | ? | ISP dari G-MEDIA untuk rumah. |
@@ -214,6 +214,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | PT Mitra Visioner Pratama | DNS Hijacking | Tidak | Ya | Ya | Punya PT Saranainsan Mudaselaras |
 | PT. DATAUTAMA DINAMIKA | DNS Hijacking | Tidak | Ya | Ya | Terkena dari Lintasarta |
 | PT. BIT TEKNOLOGI NUSANTARA | DNS Hijacking | Tidak | Ya | Ya | Terkena dari iForte |
+| PT Mora Telematika Indonesia | DNS Hijacking & Blocking | Ya (Lokal aman) | Tidak | Tidak | 
 
 [Kembali ke "Navigasi](#navigasi)
 
