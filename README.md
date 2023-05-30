@@ -83,7 +83,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | Ya | | Netciti, Varion |
 | [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | [Ya](assets/image.png?raw=1) | Tidak Memblokir Vimeo. | MNC, Transvision, MTM Bali |
 | [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
-| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) | | Megavision, MNC Play |
+| [AS58495](https://bgp.tools/as/58495) / [AS138840](https://bgp.tools/as/138840) | PT Parsaoran Global Datatrans (HSP-NET) | [Ya](assets/proofs/png/AS58495-HSP-IX.png?raw=1) | | Megavision, MNC Play, CircleOne |
 | [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya | | |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya | | |
 | [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | [Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
@@ -122,6 +122,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Balifiber | Ya | Tidak | ? |
 | PT Media Cepat Indonesia | Ya (Out, Local) | Tidak | ? |
 | Melsa | Ya (Out, Local) | Tidak | ? | DNS Google aman |
+| CircleOne | Ya | Ya | ? | [Terkena DPI dari PT Parsaoran Global Datatrans](https://media.discordapp.net/attachments/1112960690370662480/1113072649178980373/image.png) |
 
 **ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
