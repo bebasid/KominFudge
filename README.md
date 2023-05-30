@@ -122,7 +122,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Balifiber | Ya | Tidak | ? |
 | PT Media Cepat Indonesia | Ya (Out, Local) | Tidak | ? |
 | Melsa | Ya (Out, Local) | Tidak | ? | DNS Google aman |
-| CircleOne | Ya | Ya | ? | [Terkena DPI dari PT Parsaoran Global Datatrans](https://media.discordapp.net/attachments/1112960690370662480/1113072649178980373/image.png) |
+| Circle One | Ya | [Tergantung Perutean](https://prnt.sc/kpXjzTDLtPCc) | ? | [Terkena DPI dari PT Parsaoran Global Datatrans](https://media.discordapp.net/attachments/1112960690370662480/1113072649178980373/image.png) |
 
 **ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
