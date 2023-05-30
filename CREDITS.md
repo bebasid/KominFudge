@@ -24,7 +24,7 @@
 [Github](https://github.com/nxzlem)
 
 ### VulcanSphere
-[Github](https://github.com/VulcanSphere) | [Reddit](https://reddit.com/u/Vulphere)
+[Github](https://github.com/VulcanSphere) | [Reddit](https://reddit.com/u/Vulphere) | [Twitter](https://twitter.com/VulcanSphere)
 
 ### FazlyMR
 [Github](https://github.com/FazlyMR)
