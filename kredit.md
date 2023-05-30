@@ -12,6 +12,8 @@
 | <a href="https://github.com/nxzlem"><img src="https://github.com/nxzlem.png" width="50px" /><a/> | Provider data ISP dan DNS<br />Mengganti Layout ISP | <a href="https://github.com/nxzlem"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> |
 | <a href="https://github.com/SlashyID"><img src="https://github.com/SlashyID.png" width="50px" /><a/> | Provider data ISP<br />Update tutorial DNS<br />Provider data DPI ISP | <a href="https://github.com/SlashyID"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> |
 | <a href="https://github.com/VulcanSphere"><img src="https://github.com/VulcanSphere.png" width="50px" /><a/> | Penerjemah<br />Update tutorial |  <a href="https://github.com/VulcanSphere"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> <a href="https://twitter.com/VulcanSphere"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/> <a href="https://reddit.com/u/Vulphere"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white"/> |
+ | Ohry |  Data CircleOne |
+ | Felpurr | Data MTM Bali |
 
 # Situs yang dipakai/disebutkan
  
