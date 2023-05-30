@@ -207,7 +207,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | PT AGTI | DNS Hijacking | Ya | Tidak | ? | Dikenal juga sebagai PT Arjuna Global Teknologi Indonesia. |
 | PT Parsaoran Global Datatrans | DNS Hijacking | Tidak | Ya | Ya (Lemah) | Dikenal juga sebagai HSP NET. |
 | PT Fiber Networks Indonesia | DNS Hijacking | Ya | Tidak | ? | Dikenal juga sebagai FIBERNET. |
-| PT Power Telecom Indonesia | DNS Hijacking | Tidak | Ya | ? | Sistem DPI tidak memblokir Vimeo. |
+| PT Power Telecom Indonesia | DNS Hijacking | Tidak | Ya | ? | Terkena DPI dari PT Saranainsan Mudaselaras |
 | PT Solnet Indonesia | DNS Hijacking | Tidak | Ya | Ya | |
 | PT Jala Lintas Media | DNS Hijacking | Tidak | Tidak | Tidak | |
 | PT Centrin Utama | DNS Hijacking & DNS Blocking | Tidak | Tidak | Tidak | Membelokan DNS Google, OpenDNS, Level3, dan subnet DNS OpenDNS (`208.67.222.0/24` dan `208.67.220.0/24`) ke server mereka |
