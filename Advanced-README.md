@@ -173,6 +173,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | PT Media Cepat Indonesia | DNS Hijacking | Ya | Tidak | ? | |
 | Melsa | DNS Hijacking | Ya | Tidak | ? | Layanan DNS alternatif milik Google tidak diblokir. |
 | MTM Bali | DNS Hijacking | Tidak | Tergantung Perutean | ? | Jika melewati Lintasarta, iForte maka akan kena DPI / Akan kena DNS Nasional jika lewat Lintasarta |
+| Circle One | DNS Hijacking | Tidak | Ya | ? | [Terkena DPI dari PT Parsaoran Global Datatrans (HSP NET)](https://media.discordapp.net/attachments/1112960690370662480/1113072649178980373/image.png) |
 
 [Kembali ke "Navigasi](#navigasi)
 
@@ -212,6 +213,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | PT Centrin Utama | DNS Hijacking & DNS Blocking | Tidak | Tidak | Tidak | Membelokan DNS Google, OpenDNS, Level3, dan subnet DNS OpenDNS (`208.67.222.0/24` dan `208.67.220.0/24`) ke server mereka |
 | PT Mitra Visioner Pratama | DNS Hijacking | Tidak | Ya | Ya | Punya PT Saranainsan Mudaselaras |
 | PT. DATAUTAMA DINAMIKA | DNS Hijacking | Tidak | Ya | Ya | Terkena dari Lintasarta |
+| PT. BIT TEKNOLOGI NUSANTARA | DNS Hijacking | Tidak | Ya | Ya | Terkena dari iForte |
 
 [Kembali ke "Navigasi](#navigasi)
 
