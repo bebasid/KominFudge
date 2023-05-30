@@ -48,7 +48,7 @@
 
 ---
 
-This project would not exist without your [contributions](/kredit.md).  
+This project would not exist without your [contributions](/kredit.en.md).  
 *Oh, if you want to contribute, take a look [at this first](/CONTRIBUTING.md).*
 
 ## Top Choices[🔝](#navigation)
