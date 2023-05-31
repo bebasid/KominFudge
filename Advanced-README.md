@@ -174,6 +174,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | Melsa | DNS Hijacking | Ya | Tidak | ? | Layanan DNS alternatif milik Google tidak diblokir. |
 | MTM Bali | DNS Hijacking | Tidak | Tergantung Perutean | ? | Jika melewati Lintasarta, iForte maka akan kena DPI / Akan kena DNS Nasional jika lewat Lintasarta |
 | Circle One | DNS Hijacking | Tidak | [Tergantung Perutean](https://prnt.sc/kpXjzTDLtPCc) | ? | [Terkena DPI dari PT Parsaoran Global Datatrans (HSP NET)](https://media.discordapp.net/attachments/1112960690370662480/1113072649178980373/image.png) |
+| WINET | DNS Hijacking | Ya | Tidak | Tidak | Terkena DPI di BIX | 
 
 [Kembali ke "Navigasi](#navigasi)
 
