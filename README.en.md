@@ -123,6 +123,8 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | Balifiber | Yes | No | ? |
 | PT Media Cepat Indonesia | Yes (Out, Local) | No | ? |
 | Melsa | Yes (Out, Local) | No | ? | Google DNS should be safe |
+| Circle One | Yes | [Depends on routing](https://prnt.sc/kpXjzTDLtPCc) | ? | [Affected with DPI from PT Parsaoran Global Datatrans](https://media.discordapp.net/attachments/1112960690370662480/1113072649178980373/image.png) |
+| WINET | Yes (Out, Local) | Depends on routing | ? | Affected with DPI from BIX |
 
 **Corporate ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
