@@ -119,7 +119,7 @@ Untuk mengecek IP Transit apa yang ISP Anda gunakan, silahkan cek di [bgp.tools]
 | [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | Tidak | [Ya](assets/proof/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proof/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
 | [AS131219](https://bgp.tools/as/131219) | Indosat Singapore Pte Ltd | Tidak | Ya | | |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | Tidak | Ya | | |
-| [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras | Tidak | Ya |  | MNC Play |
+| [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras | Tidak | Ya | Beberapa Gateway dari ISP ini masih ada yang <i>merdeka</i> | MNC Play |
 | [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | Tidak | Ya |  | |
 | [AS18351](https://bgp.tools/as/18351) | DTPNET NAP | Tidak | [Ya](assets/proof/AS18351.png?raw=1) |  |  |
 | [AS136106](https://bgp.tools/as/136106) | PT Mega Akses Persada (Fiberstar) | Tidak | Ya |  | MyRepublic, Mayatama |
