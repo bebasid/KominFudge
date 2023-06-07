@@ -1,13 +1,13 @@
-<p align="center"><img src="./assets/kominfudge-500x250.png" align="center"></p>
-<p align="center"><b>X</b></p>
-<p align="center">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png#gh-light-mode-only" alt="BEBASID LOGO" width="330">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.png#gh-dark-mode-only" alt="BEBASID LOGO" width="330">
+<div align="center">
+    <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo-black.svg#gh-light-mode-only" alt="BEBASID LOGO" width="500">
+    <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="500">
+          <br><p>"Tolak diblokir, Terima <i>ngeblokir.</i></br>
+    Karena Kominfo ngeblokir, mari kita <em>unblokir!"</em></p>
+    <b>Indonesia</b> | <a href="README.en.md">English</a></br>
+    <b>KominFudge Panduan Pemula</b></br>
+   
+</div>
 </p>
-</p>
-<p align="center">
-    <em>Kolaborasi KominFudge x BEBASID</em>
- </p>
 <p align="center">
 <a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join Discord BEBASID"></a>
  </p>
@@ -20,11 +20,7 @@
 <a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
 <a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
  </p>
-<p align="center">
-    <b>Indonesia</b> | <a href="README.en.md">English</a>
-</p>
-<p align="center"><em>Karena Kominfo ngeblok, mari kita unblok!</em></p>
-<p align="center"><sup><b>DISCLAIMER</b>: <em>KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.</em></sup></p>
+<p align="center"><sup><b>DISCLAIMER</b>: </br><em>KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.</em></sup></p>
 
 ---
 
@@ -473,6 +469,6 @@ Ini adalah bagian yang ekstrim dengan memakai Tor ada di bawah ini.
     </br>
     </p>
   <p align="center">
-    <a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> dilisensikan sebagai <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a>.
+    <a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> dari <a href="https://github.com/bebasid">bebasid</a> dilisensikan sebagai <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a>.
 </p>
 </div>
