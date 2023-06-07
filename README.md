@@ -165,7 +165,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | :---: | :---: | :---: | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Ya (Out, Local) | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
 | XL / Axis / Live On | Ya (Out, Local) | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
-| 3 | Ya | Ya | Ya | DPI Tri juga mengirim TCP RST ke server |
+| 3 | Ya (Out, In) | Ya | Ya | Three menghijack DNS Server Google dan OpenDNS ke punya dia, DNS lain diblokir |
 | Indosat | Ya | Ya | Tidak |
 | Smartfren | Ya (Out, Local) | Ya | Tidak | Memblokir DoH/DoT punya Google |
 
