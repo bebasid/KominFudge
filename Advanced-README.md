@@ -226,7 +226,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | DNS Hijacking | Ya | Ya | Ya | Ya |
 | XL / Axis / Live On | DNS Hijacking | Ya | Ya | Tidak | Ya | 
-| 3 | DNS Hijacking & DNS Blocking | Ya | Ya | Tidak | Tidak | Membelokan DNS Google dan OpenDNS ke server mereka |
+| 3 | DNS Hijacking & DNS Blocking | Ya | Ya | Tidak (Ya untuk DNS Nasional) | Tidak | Membelokan DNS Google dan OpenDNS ke server mereka |
 | Indosat | DNS Hijacking | Tidak | Ya | Ya | Tidak |
 | Smartfren | DNS Hijacking & DNS Blocking | Ya | Ya | Ya | Tidak | Memblokir layanan DNS alternatif milik Google yang menggunakan DoH dan DoT. |
 
