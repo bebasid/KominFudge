@@ -1,13 +1,12 @@
-<p align="center"><img src="./assets/kominfudge-500x250.png" align="center"></p>
-<p align="center"><b>X</b></p>
-<p align="center">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png#gh-light-mode-only" alt="BEBASID LOGO" width="330">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.png#gh-dark-mode-only" alt="BEBASID LOGO" width="330">
-</p>
-</p>
-<p align="center">
-    <em>A KominFudge x BEBASID Collaboration</em>
- </p>
+<div align="center">
+    <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo-black.svg#gh-light-mode-only" alt="BEBASID LOGO" width="500">
+    <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="500">
+          <br><p>"Refuse to be blocked, Agree to blocking.</i></br>
+    Because Kominfo blocking, let's unblock!"</em></p>
+    <a href="README.md">Indonesia</a> | <b>English</b></br>
+    <b>KominFudge Beginner Guide</b></br>
+
+</div>
 <p align="center">
 <a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join Discord BEBASID"></a>
  </p>
@@ -21,11 +20,7 @@
 <a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
  </p>
 </p>
-<p align="center">
-    <a href="README.md">Indonesia</a> | <b>English</b>
-</p>
-<p align="center"><em>"Because Kominfo blocks, let's unblock!"</em></p>
-<p align="center"><sup><em>DISCLAIMER: Kominfudge is not responsible for any damages caused to your device, do with your own risk.</em></sup></p>
+<p align="center"><sup><b>DISCLAIMER</b>: </br><em>Kominfudge is not responsible for any damages caused to your device, do with your own risk.</em></sup></p>
 
 ---
 
@@ -124,7 +119,8 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | PT Media Cepat Indonesia | Yes (Out, Local) | No | ? |
 | Melsa | Yes (Out, Local) | No | ? | Google DNS should be safe |
 | Circle One | Yes | [Depends on routing](https://prnt.sc/kpXjzTDLtPCc) | ? | [Affected with DPI from PT Parsaoran Global Datatrans](https://media.discordapp.net/attachments/1112960690370662480/1113072649178980373/image.png) |
-| WINET | Yes (Out, Local) | Depends on routing | ? | Affected with DPI from BIX |
+| WINET (PT Wahyu Aditama Network) | Yes (Out, Local) | Depends on routing | ? | Affected with DPI from BIX |
+| MyNet | Yes | Depends on routing | ? | Affected with DPI from BIX |
 
 **Corporate ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
@@ -163,8 +159,8 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | :---: | :---: | :---: | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Yes (Out, Local) | Yes | Yes | Telkomsel DPI also sending TCP RST to server |
 | XL / Axis / Live On | Yes (Out, Local) | Yes | Yes | XL DPI also sending TCP RST to server | 
-| 3 | Yes | Yes | Yes | Tri DPI also sending TCP RST to server |
-| Indosat | Yes | Yes | No |
+| 3 | Yes (Out, In) | Yes | Yes | Tri DPI also sending TCP RST to server Three hijacks Google and OpenDNS servers and redirect them to its resolver, other DNS resolvers are blocked |
+| Indosat | Yes | Yes | No | 
 | Smartfren | Yes (Out, Local) | Yes | No | Blocking Google DoH/DoT |
 
 ### <ins>Effort level to unblock with DPI</ins>
@@ -466,5 +462,5 @@ And, this is the most extreme part, using Tor.
 <a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
     </br>
     </p>
-  <p align="center"><a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> is licensed under <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a>.</p>
+  <p align="center"><a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> from <a href="https://github.com/bebasid">bebasid</a> is licensed under <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a>.</p>
 </div>
