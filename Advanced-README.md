@@ -176,6 +176,7 @@ Berikut ini adalah daftar ISP dan metode pemblokiran yang digunakan:
 | Circle One | DNS Hijacking | Tidak | [Tergantung Perutean](https://prnt.sc/kpXjzTDLtPCc) | ? | [Terkena DPI dari PT Parsaoran Global Datatrans (HSP NET)](https://media.discordapp.net/attachments/1112960690370662480/1113072649178980373/image.png) |
 | WINET (PT Wahyu Adidaya Network) | DNS Hijacking | Ya | Tidak | Tidak | Terkena DPI di BIX | 
 | MyNet | DNS Hijacking | Tidak | Tidak | Tidak | Terkena DPI di BIX |
+| Indosat HIFI | DNS Hijacking | Iya (IPv6) | ? | ? | IPv6 di Indosat dibelokin |
 
 [Kembali ke "Navigasi](#navigasi)
 
