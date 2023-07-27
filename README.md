@@ -76,15 +76,15 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 <b>Sedangkan ISP yang menggunakan upstream dibawah ini, wajib menggunakan WARP/VPN, GoodbyeDPI, atau GreenTunnel/PowerTunnel.</b>
 | ASN | Nama | Pemblokiran menggunakan DPI | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | Ya | | Netciti, Varion |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [Ya](https://media.discordapp.net/attachments/1125830010834522133/1126011627859357716/image.png) | | Netciti, Varion |
 | [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | [Ya](assets/image.png?raw=1) | | MNC, Transvision, MTM Bali |
 | [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
-| [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | Ya | | |
-| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | Ya | | |
+| [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | [Ya](https://cdn.discordapp.com/attachments/1125830010834522133/1133762376156594186/image.png) | | |
+| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Ya](https://prnt.sc/kklpKa_RmRBC) | | |
 | [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | [Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
-| [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | Ya | | |
-| [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras | Ya |  | MNC Play |
+| [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://prnt.sc/oBFA9eKMaBfP) | | |
 | [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | [Ya](https://prnt.sc/IC_APp6LdLCe) |  | |
+| [AS140443](https://bgp.tools/as/140443) | PT Herza Digital Indonesia | [Ya](https://prnt.sc/oqv9GvyLv-CH) | This VPS provider is implementing DPI. This is very shameful as most VPS Provider are Corporate User. Avoid this if you can! | |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan alat anti DPI untuk melewatinya.</sup><br>
 
@@ -98,12 +98,12 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 **ISP Rumah:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Indihome | Ya (Out, Local) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
+| Indihome | Ya (Out, Local) & IPv6 DNS Injection (Out) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
 | CBN | Ya | Ya | Tidak |
 | Biznet Home | Ya (Out, Local) | Ya | Ya | DPI Biznet juga mengirim TCP RST ke server |
 | MyRepublic | Ya (Out, Local) | Ya | Tidak | DPI MyRepublic hanya memblokir situs 18+ |
 | FirstMedia | Ya (Out, Local) | Ya | Tidak |
-| Megavision | Ya (Out, Local) | Ya/Tidak (Tergantung Routing) | ? | Nama lain: StarNET. Terkena DPI dari upstream PT Parsaoran Global Datatrans |
+| Megavision | Ya (Out, Local) | Tidak | ? | Nama lain: StarNET |
 | MNC | Ya | Ya/Tidak (Tergantung routing) | ? | Terkena DPI dari Upstream iForte |
 | Iconnet PLN | Ya | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah |
 | PT Netciti Persada | Ya | Ya/Tidak (Tergantung Routing) | ? | Kena DNS Nasional dan DPI oleh upstream Lintasarta |
@@ -114,7 +114,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Balifiber | Ya | Tidak | ? |
 | PT Media Cepat Indonesia | Ya (Out, Local) | Tidak | ? |
 | Melsa | Ya (Out, Local) | Tidak | ? | DNS Google aman |
-| Circle One | Ya | [Tergantung Perutean](https://prnt.sc/kpXjzTDLtPCc) | ? | [Terkena DPI dari PT Parsaoran Global Datatrans](https://media.discordapp.net/attachments/1112960690370662480/1113072649178980373/image.png) |
+| Circle One | Ya | Tidak | ? |  |
 | WINET (PT Wahyu Adidaya Network) | Ya (Out, Local) | Tergantung Routing | ? | Terkena DPI oleh BIX |
 | MyNet | Ya | Tergantung Routing | ? | Terkena DPI oleh BIX |
 
@@ -124,7 +124,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Astinet | Ya (DNS Injection) | Ya | ? | ISP dari Telkom untuk kantor |
 | Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor |
 | Lintasarta | Ya (Out, Local) | Ya | Ya | DPI Lintasarta juga mengirim TCP RST ke server. Pemblokiran dua arah |
-| Metronet | Ya (Out) | Ya | Ya | aka Biznet Dedicated |
+| Biznet Metronet | Ya (Out) | Ya | Ya | aka Biznet Dedicated |
 | PT Metrasat | Ya | Ya | ? |
 | PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
 | PT Artha Telekomindo | Ya | Tidak | ? |
@@ -145,7 +145,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak | ? |
 | Orion Cyber Internet | Ya | Tidak | ? | DNS populer seperti Cloudflare, Google, Quad9, Level3, dll dibelokan ke server ISP |
 | PT AGTI | Ya (Out, Local) | Tidak | ? | Nama lain: PT. Arjuna Global Teknologi Indonesia |
-| PT Parsaoran Global Datatrans | Ya | Ya | Ya (Tetapi lemah) | Nama lain: HSP NET. Pemblokiran DPI dua arah |
+| PT Parsaoran Global Datatrans | Ya | Tidak | - | Nama lain: HSP NET |
 | PT Fiber Networks Indonesia | Ya (Out, Local) | Tidak | ? | Nama lain: FIBERNET |
 | PT Power Telecom Indonesia | Ya | Ya | ? | DPI tidak memblokir Vimeo |
 | PT Solnet Indonesia | Ya | Ya | Ya | DPI Solnet juga mengirim TCP RST ke server |
@@ -170,7 +170,6 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | XL / Axis / Live On | Tinggi |
 | Biznet | Tinggi |
 | Lintasarta | Tinggi |
-| PT Parsaoran Global Datatrans | Tinggi |
 | Iconnet | Tinggi |
 | Indihome | Sedang |
 | Indosat | Sedang |
@@ -181,7 +180,7 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | PT Solnet Indonesia | Rendah |
 | Firstmedia | Rendah |
 | MyRepublic | Rendah |
-| PT Power Telecom Indonesia | Rendah |
+| PT Herza Digital Indonesia | Rendah |
 
 **DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
 
