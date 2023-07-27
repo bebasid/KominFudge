@@ -84,7 +84,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | [Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://prnt.sc/oBFA9eKMaBfP) | | |
 | [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | [Ya](https://prnt.sc/IC_APp6LdLCe) |  | |
-| [AS140443](https://bgp.tools/as/140443) | PT Herza Digital Indonesia | [Ya](https://prnt.sc/oqv9GvyLv-CH) | This VPS provider is implementing DPI. This is very shameful as most VPS Provider are Corporate User. Avoid this if you can! | |
+| [AS140443](https://bgp.tools/as/140443) | PT Herza Digital Indonesia | [Ya](https://prnt.sc/oqv9GvyLv-CH) | | |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan alat anti DPI untuk melewatinya.</sup><br>
 
