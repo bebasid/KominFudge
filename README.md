@@ -1,4 +1,3 @@
-![image](https://github.com/bebasid/KominFudge/assets/115700386/81807cd2-9909-4859-84e2-c7dd867b244c)<div align="center">
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo-black.svg#gh-light-mode-only" alt="BEBASID LOGO" width="500">
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="500">
           <br><p>"Tolak diblokir, Terima <i>ngeblokir.</i></br>
