@@ -1,4 +1,4 @@
-<div align="center">
+![image](https://github.com/bebasid/KominFudge/assets/115700386/81807cd2-9909-4859-84e2-c7dd867b244c)<div align="center">
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo-black.svg#gh-light-mode-only" alt="BEBASID LOGO" width="500">
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="500">
           <br><p>"Tolak diblokir, Terima <i>ngeblokir.</i></br>
@@ -85,6 +85,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://prnt.sc/oBFA9eKMaBfP) | | |
 | [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | [Ya](https://prnt.sc/IC_APp6LdLCe) |  | |
 | [AS140443](https://bgp.tools/as/140443) | PT Herza Digital Indonesia | [Ya](https://prnt.sc/oqv9GvyLv-CH) | | |
+| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://media.discordapp.net/attachments/1125830010834522133/1137485148955365602/image.png?width=1200&height=548) | | |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan alat anti DPI untuk melewatinya.</sup><br>
 
