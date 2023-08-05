@@ -174,7 +174,6 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | Iconnet | Tinggi |
 | Indihome | Sedang |
 | Indosat | Sedang |
-| Moratel / Oxygen | Sedang |
 | 3 | Sedang |
 | CBN | Sedang |
 | Smartfren | Rendah |
@@ -182,6 +181,7 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | Firstmedia | Rendah |
 | MyRepublic | Rendah |
 | PT Herza Digital Indonesia | Rendah |
+| PT Jala Lintas Media | Rendah |
 
 **DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
 
