@@ -85,6 +85,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Yes](https://prnt.sc/oBFA9eKMaBfP) | | |
 | [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | [Yes](https://prnt.sc/IC_APp6LdLCe) |  | |
 | [AS140443](https://bgp.tools/as/140443) | PT Herza Digital Indonesia | [Ya](https://prnt.sc/oqv9GvyLv-CH) | | |
+| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Yes](https://media.discordapp.net/attachments/1125830010834522133/1137485148955365602/image.png?width=1200&height=548) | | |
 
 <sup style="text-align:center;">If your ISP does not use DPI but using those upstreams, you can use an anti DPI tool to bypass</sup><br>
 
@@ -173,7 +174,6 @@ How much effort needed to unblock with DPI per-ISP
 | Iconnet | High |
 | Indihome | Medium |
 | Indosat | Medium |
-| Moratel / Oxygen | Medium|
 | 3 | Medium |
 | CBN | Medium |
 | Smartfren | Low |
@@ -181,6 +181,7 @@ How much effort needed to unblock with DPI per-ISP
 | FirstMedia | Low |
 | MyRepublic | Low |
 | PT Herza Digital Indonesia | Low |
+| PT Jala Lintas Media | Low |
 
 **THIS DATA IS NOT COMPLETE, IF YOU WANT TO ADD MORE, PLEASE GIVE FURTHER INFORMATION**
 
