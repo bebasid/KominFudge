@@ -86,6 +86,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | [Ya](https://prnt.sc/IC_APp6LdLCe) |  | |
 | [AS140443](https://bgp.tools/as/140443) | PT Herza Digital Indonesia | [Ya](https://prnt.sc/oqv9GvyLv-CH) | | |
 | [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://media.discordapp.net/attachments/1125830010834522133/1137485148955365602/image.png?width=1200&height=548) | | |
+| [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Ya](https://cdn.discordapp.com/attachments/1117725697646014484/1148317828395569222/image.png) | [Traceroute](https://cdn.discordapp.com/attachments/709379460784455730/1148325168637284474/image.png) | |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan alat anti DPI untuk melewatinya.</sup><br>
 
@@ -182,6 +183,7 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | MyRepublic | Rendah |
 | PT Herza Digital Indonesia | Rendah |
 | PT Jala Lintas Media | Rendah |
+| PT UNINET MEDIA SAKTI | Rendah |
 
 **DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
 
