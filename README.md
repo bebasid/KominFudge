@@ -84,7 +84,6 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | [Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://prnt.sc/oBFA9eKMaBfP) | | |
 | [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | [Ya](https://prnt.sc/IC_APp6LdLCe) |  | |
-| [AS140443](https://bgp.tools/as/140443) | PT Herza Digital Indonesia | [Ya](https://prnt.sc/oqv9GvyLv-CH) | | |
 | [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://media.discordapp.net/attachments/1125830010834522133/1137485148955365602/image.png?width=1200&height=548) | | |
 | [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Ya](https://cdn.discordapp.com/attachments/1117725697646014484/1148317828395569222/image.png) | [Traceroute](https://cdn.discordapp.com/attachments/709379460784455730/1148325168637284474/image.png) | |
 
@@ -94,6 +93,15 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Nama | Menggunakan DPI | CDN yang terkena dampak | Catatan |
 | :---: | :---: | :---: | :---: |
 | BIX - Biznet Internet Exchange | Ya | [Cloudflare, dan semua CDN yang terhubung dengan BIX](assets/proofs/png/BIX.png?raw=1) | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
+
+### <ins>VPS Provider (Virtual Private Server) / Cloud Provider</ins> 
+<sup><b>Berikut merupakan VPS yang menerapkan DPI pada koneksinya sehingga tidak friendly untuk dipakai untuk tunneling jika anda ingin kebebasan dalam internet</b>.</sup><br>
+
+| ASN | Situs Resmi | Provider | Pemblokiran Menggunakan DPI | Mengirim TCP RST ke Server |
+| :---: | :---: | :---: | :---: | :---: |
+| - | - | - | - | - |
+
+<sup style="text-align:center;"><b>CATATAN: </b>Provider VPS diatas merupakan provider yang telah terbukti melakukan pemblokiran menggunakan DPI di jaringan mereka yang membuat privasi terganggu sehingga tidak cocok untuk anda yang ingin VPN untuk membuka Reddit, Vimeo, dan semacamnya.</sup><br>
 
 ### <ins>ISP Fiber</ins>
 
@@ -153,6 +161,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Solnet Indonesia | Ya | Ya | Ya | DPI Solnet juga mengirim TCP RST ke server |
 | PT Data Utama Dinamika | Ya | Ya | Ya | Terkena dari Lintasarta |
 | PT BIT TEKNOLOGI NUSANTARA | Ya | Ya | ? | [Terkena dari iForte](https://media.discordapp.net/attachments/709386084894900236/1112694319992807454/image.png) |
+| PT Hyperindo Media Perkasa | Ya | Ya | ? | [Terkena dari PT Jala Lintas Media](https://prnt.sc/CIOWaL3q56Eh) |
 
 ### <ins>ISP Mobile Seluler</ins>
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server |  Catatan |
