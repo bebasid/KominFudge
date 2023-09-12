@@ -84,7 +84,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | [Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://prnt.sc/oBFA9eKMaBfP) | | |
 | [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | [Ya](https://prnt.sc/IC_APp6LdLCe) |  | |
-| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://media.discordapp.net/attachments/1125830010834522133/1137485148955365602/image.png?width=1200&height=548) | | |
+| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://media.discordapp.net/attachments/1125830010834522133/1137485148955365602/image.png?width=1200&height=548) | | PT Hyperindo Media Perkasa |
 | [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Ya](https://cdn.discordapp.com/attachments/1117725697646014484/1148317828395569222/image.png) | [Traceroute](https://cdn.discordapp.com/attachments/709379460784455730/1148325168637284474/image.png) | |
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan alat anti DPI untuk melewatinya.</sup><br>
