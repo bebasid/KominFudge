@@ -128,6 +128,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | WINET (PT Wahyu Adidaya Network) | Ya (Out, Local) | Tergantung Routing | ? | Terkena DPI oleh BIX |
 | MyNet | Ya | Tergantung Routing | ? | Terkena DPI oleh BIX |
 | Bnetfit | Ya | Ya | Tidak | Punya PT Jala Lintas Media |
+| Marvatel | Ya | - | - | |
 
 **ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
