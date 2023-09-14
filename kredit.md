@@ -14,6 +14,7 @@
 | <a href="https://github.com/VulcanSphere"><img src="https://github.com/VulcanSphere.png" width="50px" /><a/> | Penerjemah<br />Update tutorial |  <a href="https://github.com/VulcanSphere"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> <a href="https://twitter.com/VulcanSphere"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/> <a href="https://reddit.com/u/Vulphere"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white"/> |
  | Ohry |  Data CircleOne |
  | Felpurr | Data MTM Bali |
+ | <a href="https://github.com/naups">Nauval<a/> | Data Marvatel | <a href="https://github.com/naups"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> |
 
 # Situs yang dipakai/disebutkan
  
