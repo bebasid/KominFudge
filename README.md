@@ -108,7 +108,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 **ISP Rumah:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Indihome | Ya (Out, Local) & IPv6 DNS Injection (Out) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
+| Indihome | Ya (Out, Local) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
 | CBN | Ya | Ya | Tidak |
 | Biznet Home | Ya (Out, Local) | Ya | Ya | DPI Biznet juga mengirim TCP RST ke server |
 | MyRepublic | Ya (Out, Local) | Ya | Tidak | DPI MyRepublic hanya memblokir situs 18+ |
