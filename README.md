@@ -108,24 +108,24 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 **ISP Rumah:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Indihome | Ya (Out, Local) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
+| Indihome | Ya (International, Local) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
 | CBN | Ya | Ya | Tidak |
-| Biznet Home | Ya (Out, Local) | Ya | Ya | DPI Biznet juga mengirim TCP RST ke server |
-| MyRepublic | Ya (Out, Local) | Ya | Tidak | DPI MyRepublic hanya memblokir situs 18+ |
-| FirstMedia | Ya (Out, Local) | Ya | Tidak |
-| Megavision | Ya (Out, Local) | Tidak | ? | Nama lain: StarNET |
+| Biznet Home | Ya (International, Local) | Ya | Ya | DPI Biznet juga mengirim TCP RST ke server |
+| MyRepublic | Ya (International, Local) | Ya | Tidak | DPI MyRepublic hanya memblokir situs 18+ |
+| FirstMedia | Ya (International, Local) | Ya | Tidak |
+| Megavision | Ya (International, Local) | Tidak | ? | Nama lain: StarNET |
 | MNC | Ya | Ya/Tidak (Tergantung routing) | ? | Terkena DPI dari Upstream iForte |
 | Iconnet PLN | Ya | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah |
 | PT Netciti Persada | Ya | Ya/Tidak (Tergantung Routing) | ? | Kena DNS Nasional dan DPI oleh upstream Lintasarta |
-| Oxygen | Ya (Out) | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br>Memblokir alt-port DNS 5353 |
+| Oxygen | Ya (International) | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br>Memblokir alt-port DNS 5353 |
 | Citranet | Ya | Ya/Tidak (Tergantung routing) | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
-| Padi Net | Ya (Out, Local) | Tidak | ? |
-| Fiberstream | Ya (Out, Local) | Tidak | ? | ISP Rumahan punya G-MEDIA |
+| Padi Net | Ya (International, Local) | Tidak | ? |
+| Fiberstream | Ya (International, Local) | Tidak | ? | ISP Rumahan punya G-MEDIA |
 | Balifiber | Ya | Tidak | ? |
-| PT Media Cepat Indonesia | Ya (Out, Local) | Tidak | ? |
-| Melsa | Ya (Out, Local) | Tidak | ? | DNS Google aman |
+| PT Media Cepat Indonesia | Ya (International, Local) | Tidak | ? |
+| Melsa | Ya (International, Local) | Tidak | ? | DNS Google aman |
 | Circle One | Ya | Tidak | ? |  |
-| WINET (PT Wahyu Adidaya Network) | Ya (Out, Local) | Tergantung Routing | ? | Terkena DPI oleh BIX |
+| WINET (PT Wahyu Adidaya Network) | Ya (International, Local) | Tergantung Routing | ? | Terkena DPI oleh BIX |
 | MyNet | Ya | Tergantung Routing | ? | Terkena DPI oleh BIX |
 | Bnetfit | Ya | Ya | Tidak | Punya PT Jala Lintas Media |
 | Marvatel | Ya | Tidak | Tidak | |
@@ -135,19 +135,19 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | :---: | :---: | :---: | :---: | :---: |
 | Astinet | Ya (DNS Injection for outside DNS via Transparent Proxy) | Ya | ? | ISP dari Telkom untuk kantor. DNS luar negeri dibelokan dulu request nya ke proxy Telkom yang berada di TELIN sehingga whitelist ACL untuk DNS luar negeri tidak akan berfungsi karena pas kita kueri server ke luar, yang terbaca di server DNS luar adalah IP dari proxy Telkom karena kita kueri sebagai proxy Telkom bukan kita sendiri. Ini sangat menggangu bagi pengguna korporat yang mempunyai server di luar atau menggunakan server custom filtering seperti NextDNS, ControlD, OpenDNS, dan sebagainya dikarenakan yang terbaca adalah IP dari server proxy Telkom daripada IP usernya |
 | Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor |
-| Lintasarta | Ya (Out, Local) | Ya | Ya | DPI Lintasarta juga mengirim TCP RST ke server. Pemblokiran dua arah |
-| Biznet Metronet | Ya (Out) | Ya | Ya | aka Biznet Dedicated |
+| Lintasarta | Ya (International, Local) | Ya | Ya | DPI Lintasarta juga mengirim TCP RST ke server. Pemblokiran dua arah |
+| Biznet Metronet | Ya (International) | Ya | Ya | aka Biznet Dedicated |
 | PT Metrasat | Ya | Ya | ? |
 | PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
 | PT Artha Telekomindo | Ya | Tidak | ? |
 | PT Hawk Teknologi Solusi | Ya | Tidak | ? |
-| PT Jaringanku Sarana Nusantara | Ya (Out, Local) | Tidak | ? | Nama lain: JSN |
-| PT. Infotama Lintas Global | Ya (Out, Local) | Tidak | ? |
+| PT Jaringanku Sarana Nusantara | Ya (International, Local) | Tidak | ? | Nama lain: JSN |
+| PT. Infotama Lintas Global | Ya (International, Local) | Tidak | ? |
 | PT Remala Abadi | Ya | Tidak | Tidak | Nama lain: Tachyon |
 | PT iForte Global internet | Ya | Ya | Tidak | DPI tidak memblokir Vimeo |
 | PT Cipta Informatika Cemeriang | Ya | Tidak | ? |
 | PT Lexa Net | Ya | Tidak | ? | Nama lain: PT Lexa Global Akses |
-| PT Media Sarana Data  | Ya (Out, Local) | Tidak | ? | Nama lain: G-MEDIA |
+| PT Media Sarana Data  | Ya (International, Local) | Tidak | ? | Nama lain: G-MEDIA |
 | PT Artorius Telemetri Sentosa | Ya | Tidak | ? |
 | D-NET | Ya | Tidak | ? | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
 | PT Sumber Koneksi Indotelematika | Ya | Tidak | ? |
@@ -156,9 +156,9 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Sekawan Global Komunika | Ya | Tidak | ? |
 | PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak | ? |
 | Orion Cyber Internet | Ya | Tidak | ? | DNS populer seperti Cloudflare, Google, Quad9, Level3, dll dibelokan ke server ISP |
-| PT AGTI | Ya (Out, Local) | Tidak | ? | Nama lain: PT. Arjuna Global Teknologi Indonesia |
+| PT AGTI | Ya (International, Local) | Tidak | ? | Nama lain: PT. Arjuna Global Teknologi Indonesia |
 | PT Parsaoran Global Datatrans | Ya | Tidak | - | Nama lain: HSP NET |
-| PT Fiber Networks Indonesia | Ya (Out, Local) | Tidak | ? | Nama lain: FIBERNET |
+| PT Fiber Networks Indonesia | Ya (International, Local) | Tidak | ? | Nama lain: FIBERNET |
 | PT Power Telecom Indonesia | Ya | Ya | ? | DPI tidak memblokir Vimeo |
 | PT Solnet Indonesia | Ya | Ya | Ya | DPI Solnet juga mengirim TCP RST ke server |
 | PT Data Utama Dinamika | Ya | Ya | Ya | Terkena dari Lintasarta |
@@ -168,11 +168,11 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 ### <ins>ISP Mobile Seluler</ins>
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server |  Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Telkomsel / By.U / KartuHalo | Ya (Out, Local) | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
-| XL / Axis / Live On | Ya (Out, Local) | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
+| Telkomsel / By.U / KartuHalo | Ya (International, Local) | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
+| XL / Axis / Live On | Ya (International, Local) | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
 | 3 | Ya | Ya | Tidak | Three menghijack DNS Server Google dan OpenDNS ke punya dia |
 | Indosat | Ya | Ya | Tidak, tetapi menthottle koneksi ke domain yg diblok jika Host/SNI header masih kedetek |
-| Smartfren | Ya (Out, Local) | Ya | Tidak | Memblokir DoH/DoT punya Google |
+| Smartfren | Ya (International, Local) | Ya | Tidak | Memblokir DoH/DoT punya Google |
 
 ### <ins>Level kepayahan unblok memakai DPI</ins>
 Seberapa payah dengan cara unblok memakai DPI per ISP:
@@ -186,9 +186,9 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | Iconnet | Tinggi |
 | Indihome | Sedang |
 | Indosat | Sedang |
-| 3 | Lemah |
 | CBN | Sedang |
-| Smartfren | Rendah |
+| Smartfren | Sedang |
+| 3 | Rendah |
 | PT Solnet Indonesia | Rendah |
 | Firstmedia | Rendah |
 | MyRepublic | Rendah |
