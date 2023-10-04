@@ -76,10 +76,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 <b>Sedangkan ISP yang menggunakan upstream dibawah ini, wajib menggunakan WARP/VPN, GoodbyeDPI, atau GreenTunnel/PowerTunnel.</b>
 | ASN | Nama | Pemblokiran menggunakan DPI | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [Ya](https://media.discordapp.net/attachments/1125830010834522133/1126011627859357716/image.png) | | Netciti, Varion |
-| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | [Ya](assets/image.png?raw=1) | | MNC, Transvision, MTM Bali |
 | [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
-| [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | [Ya](https://cdn.discordapp.com/attachments/1125830010834522133/1133762376156594186/image.png) | | |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Ya](https://prnt.sc/kklpKa_RmRBC) | | |
 | [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | [Ya](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Bukti dari traceroute](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://prnt.sc/oBFA9eKMaBfP) | | |
@@ -110,7 +107,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | :---: | :---: | :---: | :---: | :---: |
 | Indihome | Ya (International, Local) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
 | CBN | Ya | Ya | Tidak |
-| Biznet Home | Ya (International, Local) | Ya | Ya | DPI Biznet juga mengirim TCP RST ke server |
+| Biznet Home | Ya (International, Local) | Tidak | Tidak | DPI Biznet juga mengirim TCP RST ke server |
 | MyRepublic | Ya (International, Local) | Ya | Tidak | DPI MyRepublic hanya memblokir situs 18+ |
 | FirstMedia | Ya (International, Local) | Ya | Tidak |
 | Megavision | Ya (International, Local) | Tidak | ? | Nama lain: StarNET |
@@ -135,8 +132,8 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | :---: | :---: | :---: | :---: | :---: |
 | Astinet | Ya (DNS Injection for outside DNS via Transparent Proxy) | Ya | ? | ISP dari Telkom untuk kantor. DNS luar negeri dibelokan dulu request nya ke proxy Telkom yang berada di TELIN sehingga whitelist ACL untuk DNS luar negeri tidak akan berfungsi karena pas kita kueri server ke luar, yang terbaca di server DNS luar adalah IP dari proxy Telkom karena kita kueri sebagai proxy Telkom bukan kita sendiri. Ini sangat menggangu bagi pengguna korporat yang mempunyai server di luar atau menggunakan server custom filtering seperti NextDNS, ControlD, OpenDNS, dan sebagainya dikarenakan yang terbaca adalah IP dari server proxy Telkom daripada IP usernya |
 | Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor |
-| Lintasarta | Ya (International, Local) | Ya | Ya | DPI Lintasarta juga mengirim TCP RST ke server. Pemblokiran dua arah |
-| Biznet Metronet | Ya (International) | Ya | Ya | aka Biznet Dedicated |
+| Lintasarta | Ya (International, Local) | Tidak | Tidak | Ikut DNS Nasional |
+| Biznet Metronet | Ya (International) | Tidak | Tidak | aka Biznet Dedicated |
 | PT Metrasat | Ya | Ya | ? |
 | PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
 | PT Artha Telekomindo | Ya | Tidak | ? |
@@ -144,7 +141,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Jaringanku Sarana Nusantara | Ya (International, Local) | Tidak | ? | Nama lain: JSN |
 | PT. Infotama Lintas Global | Ya (International, Local) | Tidak | ? |
 | PT Remala Abadi | Ya | Tidak | Tidak | Nama lain: Tachyon |
-| PT iForte Global internet | Ya | Ya | Tidak | DPI tidak memblokir Vimeo |
+| PT iForte Global internet | Ya | Tidak | Tidak |  |
 | PT Cipta Informatika Cemeriang | Ya | Tidak | ? |
 | PT Lexa Net | Ya | Tidak | ? | Nama lain: PT Lexa Global Akses |
 | PT Media Sarana Data  | Ya (International, Local) | Tidak | ? | Nama lain: G-MEDIA |
@@ -182,7 +179,6 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | Telkomsel / By.U / KartuHalo | Tinggi |
 | XL / Axis / Live On | Tinggi |
 | Biznet | Tinggi |
-| Lintasarta | Tinggi |
 | Iconnet | Tinggi |
 | Indihome | Sedang |
 | Indosat | Sedang |
