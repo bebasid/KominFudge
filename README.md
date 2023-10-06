@@ -89,7 +89,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 <b>Internet Exchange yang memakai middlebox DPI:</b>
 | Nama | Menggunakan DPI | CDN yang terkena dampak | Catatan |
 | :---: | :---: | :---: | :---: |
-| BIX - Biznet Internet Exchange | Ya | [Cloudflare, dan semua CDN yang terhubung dengan BIX](assets/proofs/png/BIX.png?raw=1) | Walaupun pake GoodbyeDPI, Powertunnel, dll tidak akan bisa karena dari sisi Server sudah diblokir oleh Biznet sendiri
+| - | - | - | - | - |
 
 ### <ins>VPS Provider (Virtual Private Server) / Cloud Provider</ins> 
 <sup><b>Berikut merupakan VPS yang menerapkan DPI pada koneksinya sehingga tidak friendly untuk dipakai untuk tunneling jika anda ingin kebebasan dalam internet</b>.</sup><br>
@@ -107,7 +107,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | :---: | :---: | :---: | :---: | :---: |
 | Indihome | Ya (International, Local) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
 | CBN | Ya | Ya | Tidak |
-| Biznet Home | Ya (International, Local) | Tidak | Tidak | DPI Biznet juga mengirim TCP RST ke server |
+| Biznet Home | Ya (International, Local) | Tidak | Tidak |  |
 | MyRepublic | Ya (International, Local) | Ya | Tidak | DPI MyRepublic hanya memblokir situs 18+ |
 | FirstMedia | Ya (International, Local) | Ya | Tidak |
 | Megavision | Ya (International, Local) | Tidak | ? | Nama lain: StarNET |
@@ -130,7 +130,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 **ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Astinet | Ya (DNS Injection for International DNS via Transparent Proxy) | Ya | ? | ISP dari Telkom untuk kantor. DNS luar negeri dibelokan dulu request nya ke proxy Telkom yang berada di TELIN sehingga whitelist ACL untuk DNS luar negeri tidak akan berfungsi karena pas kita kueri server ke luar, yang terbaca di server DNS luar adalah IP dari proxy Telkom karena kita kueri sebagai proxy Telkom bukan kita sendiri. Ini sangat menggangu bagi pengguna korporat yang mempunyai server di luar atau menggunakan server custom filtering seperti NextDNS, ControlD, OpenDNS, dan sebagainya dikarenakan yang terbaca adalah IP dari server proxy Telkom daripada IP usernya |
+| Telkom Astinet | Ya (DNS Injection for International DNS via Transparent Proxy) | Ya | ? | ISP dari Telkom untuk kantor. DNS luar negeri dibelokan dulu request nya ke proxy Telkom yang berada di TELIN sehingga whitelist ACL untuk DNS luar negeri tidak akan berfungsi karena pas kita kueri server ke luar, yang terbaca di server DNS luar adalah IP dari proxy Telkom karena kita kueri sebagai proxy Telkom bukan kita sendiri. Ini sangat menggangu bagi pengguna korporat yang mempunyai server di luar atau menggunakan server custom filtering seperti NextDNS, ControlD, OpenDNS, dan sebagainya dikarenakan yang terbaca adalah IP dari server proxy Telkom daripada IP usernya |
 | Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor |
 | Lintasarta | Ya (International, Local) | Tidak | Tidak | Ikut DNS Nasional |
 | Biznet Metronet | Ya (International) | Tidak | Tidak | aka Biznet Dedicated |
