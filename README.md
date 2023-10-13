@@ -73,6 +73,12 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 
 <sup style="text-align:center;">Jika di sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama terkena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dijalurkan melalui IP Transit diatas <em>jika ada.</em></sup><br>
 
+<b>IP Transit ini membelokan beberapa DNS populer sehingga wajib menggunakan DoH atau DNS yang kurang populer</b>
+
+| ASN | Nama | Pemblokiran menggunakan DNS | DNS yang diblokir | Catatan | Contoh ISP yang kena |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://cdn.bebasid.com/KominFudge/jlm-dnsn.png) | Cloudflare 1.1.1.1, Google, OpenDNS | [Bukti Pembelokan](https://cdn.bebasid.com/KominFudge/jlm-dnsn-bukti.png) | PT Hyperindo Media Perkasa |
+
 <b>Sedangkan ISP yang menggunakan upstream dibawah ini, wajib menggunakan WARP/VPN, GoodbyeDPI, atau GreenTunnel/PowerTunnel.</b>
 | ASN | Nama | Pemblokiran menggunakan DPI | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
@@ -180,6 +186,7 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | XL / Axis / Live On | Tinggi |
 | Biznet | Tinggi |
 | Iconnet | Tinggi |
+| PT Jala Lintas Media, Bnetfit, dkk | Sedang |
 | Indihome | Sedang |
 | Indosat | Sedang |
 | CBN | Sedang |
@@ -188,7 +195,6 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | PT Solnet Indonesia | Rendah |
 | Firstmedia | Rendah |
 | MyRepublic | Rendah |
-| PT Jala Lintas Media | Rendah |
 | PT UNINET MEDIA SAKTI | Rendah |
 
 **DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
