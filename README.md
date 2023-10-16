@@ -116,9 +116,9 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Indihome | Ya (International, Local) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
 | CBN | Ya | Ya | Tidak |
 | Biznet Home | Ya (International, Local) | Tidak | Tidak |  |
-| MyRepublic | Ya (International, Local) | Ya | Tidak | DPI MyRepublic hanya memblokir situs 18+ |
+| MyRepublic | Ya (International, Local, TCP) | Tidak | Tidak |  |
 | FirstMedia | Ya (International, Local) | Ya | Tidak |
-| Megavision | Ya (International, Local) | Tidak | ? | Nama lain: StarNET |
+| Megavision | Ya (International, Local, TCP) | Tidak | ? | Nama lain: StarNET |
 | MNC | Ya | Ya/Tidak (Tergantung routing) | ? | Terkena DPI dari Upstream iForte |
 | Iconnet PLN | Ya | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah |
 | PT Netciti Persada | Ya | Ya/Tidak (Tergantung Routing) | ? | Kena DNS Nasional dan DPI oleh upstream Lintasarta |
@@ -154,7 +154,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Lexa Net | Ya | Tidak | ? | Nama lain: PT Lexa Global Akses |
 | PT Media Sarana Data  | Ya (International, Local) | Tidak | ? | Nama lain: G-MEDIA |
 | PT Artorius Telemetri Sentosa | Ya | Tidak | ? |
-| D-NET | Ya (Google, OpenDNS, Cloudflare, Quad9) | Tidak | ? | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
+| D-NET | Ya (Google, OpenDNS, Cloudflare, Quad9) (Including TCP for those servers) | Tidak | ? | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
 | PT Sumber Koneksi Indotelematika | Ya | Tidak | ? |
 | ProNET | Ya | Ya/Tidak (Tergantung Routing) | Ya | Nama lain: PT Trisari Data Indonesia<br />Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir. Terkena TCP RST dari upstream Solnet  |
 | PT Media Jaringan Telekomunikasi | Ya | Tidak | ? |
@@ -173,11 +173,11 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 ### <ins>ISP Mobile Seluler</ins>
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server |  Catatan |
 | :---: | :---: | :---: | :---: | :---: |
-| Telkomsel / By.U / KartuHalo | Ya (International, Local) | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
+| Telkomsel / By.U / KartuHalo | Ya (International, Local, TCP) | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
 | XL / Axis / Live On | Ya (International, Local) | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
 | 3 | Ya (Google, OpenDNS) | Ya | Tidak | Three menghijack DNS Server Google dan OpenDNS ke punya dia |
 | Indosat | Ya (Google, OpenDNS) | Ya | Tidak, tetapi menthottle koneksi ke domain yg diblok jika Host/SNI header masih kedetek | Sama seperti anaknya, Pada 4/5 Oktober 2023, Indosat mulai menghijack DNS Server Google dan OpenDNS ke punya dia |
-| Smartfren | Ya (International, Local) | Ya | Tidak | Memblokir DoH/DoT punya Google |
+| Smartfren | Ya (International, Local, TCP) | Ya | Tidak | Memblokir DoH/DoT punya Google |
 
 ### <ins>Level kepayahan unblok memakai DPI</ins>
 Seberapa payah dengan cara unblok memakai DPI per ISP:
@@ -196,7 +196,6 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | 3 | Rendah |
 | PT Solnet Indonesia | Rendah |
 | Firstmedia | Rendah |
-| MyRepublic | Rendah |
 | PT UNINET MEDIA SAKTI | Rendah |
 
 **DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
