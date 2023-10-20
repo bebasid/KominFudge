@@ -73,59 +73,75 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 
 <sup style="text-align:center;">If your ISP does not comply with National DNS regulation but uses Transit IP as shown above, you will experience the same blocking and must use encrypted DNS.<br>Or you can use DNS that is not routed towards those Transit IPs if available.</sup><br>
 
-<b>If you are using ISP with these upstream, you must use VPN/GoodbyeDPI/Powertunnel.</b>
+<b>This IP transit redirects several popular DNS resolvers so you must use less popular DNS resolvers.</b>
+
+| ASN | Name | Blocking using DNS | Blocked DNS | Note | Example of affected ISP |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://cdn.bebasid.com/KominFudge/jlm-dnsn.png) | Cloudflare 1.1.1.1, Google, OpenDNS | [Proof of Redirection](https://cdn.bebasid.com/KominFudge/jlm-dnsn-bukti.png) | PT Hyperindo Media Perkasa |
+
+<sup style="text-align:center;">If your ISP does not comply with National DNS regulation but uses Transit IP as shown above, you will experience the same blocking and must use encrypted DNS.<br>Or you can use DNS that is not routed towards those Transit IPs if available.</sup><br>
+
+<b>For ISPs that using these upstream providers, you must use WARP/VPN, GoodbyeDPI, or GreenTunnel/PowerTunnel.</b>
 | ASN | Name | Blocking using DPI | Note | Example of affected ISP |
 | :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [Yes](https://media.discordapp.net/attachments/1125830010834522133/1126011627859357716/image.png) | | Netciti, Varion |
-| [AS137366](https://bgp.tools/as/137366) | PT iForte Solusi Infotek | [Yes](assets/image.png?raw=1) || MNC, Transvision, MTM Bali |
 | [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Yes](assets/proofs/png/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
-| [AS17451](https://bgp.tools/as/17451) | BIZNET NETWORKS | [Yes](https://cdn.discordapp.com/attachments/1125830010834522133/1133762376156594186/image.png) | | |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Yes](https://prnt.sc/kklpKa_RmRBC) | | |
 | [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | [Yes](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Traceroute proof](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Yes](https://prnt.sc/oBFA9eKMaBfP) | | |
 | [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | [Yes](https://prnt.sc/IC_APp6LdLCe) |  | |
-| [AS140443](https://bgp.tools/as/140443) | PT Herza Digital Indonesia | [Ya](https://prnt.sc/oqv9GvyLv-CH) | | |
-| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Yes](https://media.discordapp.net/attachments/1125830010834522133/1137485148955365602/image.png?width=1200&height=548) | | |
+| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Yes](https://media.discordapp.net/attachments/1125830010834522133/1137485148955365602/image.png?width=1200&height=548) | | PT Hyperindo Media Perkasa |
+| [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Yes](https://cdn.bebasid.com/KominFudge/uninet.png) | [Traceroute proof](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
 
 <sup style="text-align:center;">If your ISP does not use DPI but using those upstreams, you can use an anti DPI tool to bypass</sup><br>
 
 <b>Internet Exchange using DPI middlebox:</b>
 | Name | Using DPI | Example of affected CDN | Note |
 | :---: | :---: | :---: | :---: |
-| BIX - Biznet Internet Exchange | Yes | [Cloudflare, and all CDNs that peered with BIX](assets/proofs/png/BIX.png?raw=1) | Even with GoodbyeDPI, Powertunnel, etc will not work because it is already blocked by Biznet from the Server side. 
+| - | - | - | - | - |
+
+### <ins>VPS Provider (Virtual Private Server) / Cloud Provider</ins> 
+<sup><b>Berikut merupakan VPS yang menerapkan DPI pada koneksinya sehingga tidak friendly untuk dipakai untuk tunneling jika anda ingin kebebasan dalam internet</b>.</sup><br>
+
+| ASN | Official Website | Provider | Blocking Using DPI | Sending TCP RST to Server |
+| :---: | :---: | :---: | :---: | :---: |
+| - | - | - | - | - |
+
+<sup style="text-align:center;"><b>NOTE: </b>VPS providers listed above are providers that proven to use DPI in their network which compromised privacy so it is not recommended if you want to use VPN to open Reddit, Vimeo, etc.</sup><br>
 
 ### <ins>Fiber ISP</ins> 
 
 **Residential ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| Indihome | Yes (Out, Local) & IPv6 DNS Injection (Out) | Yes | Yes | Telkom's residential offering . Indihome DPI also sending TCP RST to server |
+| Indihome | Yes (International, Local) & IPv6 DNS Injection (Out) | Yes | Yes | Telkom's residential offering. Indihome DPI also sending TCP RST to server |
 | CBN | Yes | Yes | No |
-| Biznet Home | Yes (Out, Local) | Yes | Yes | Biznet DPI also sending TCP RST to server |
-| MyRepublic | Yes (Out, Local) | Yes | No | MyRepublic DPI only blocking 18+ sites  |
-| FirstMedia | Yes (Out, Local) | Yes | No |
-| Megavision | Yes (Out, Local) | No | ? | Other name: StarNET  |
+| Biznet Home | Yes (International, Local) | Yes | Yes | Biznet DPI also sending TCP RST to server |
+| MyRepublic | Yes (International, Local) | Yes | No | MyRepublic DPI only blocking 18+ sites  |
+| FirstMedia | Yes (International, Local) | Yes | No |
+| Megavision | Yes (International, Local) | No | ? | Other name: StarNET  |
 | MNC | Yes | Yes/No (Depends on routing) | ? | Affected with DPI from iForte upstream  |
 | Iconnet PLN | Yes | Yes | Yes | Iconnet DPI also sending TCP RST to server. Two-way DPI blocking |
 | PT Netciti Persada | Yes | Yes/No (Depends on routing) | ? | Affected with National DNS and DPI from Lintasarta upstream |
-| Oxygen | Yes (Out) | Yes | No | Other name: Moratelindo <br /> Blocking Google DoH andn DoT <br>Blocking alt-port DNS 5353 |
+| Oxygen | Yes (International) | Yes | No | Other name: Moratelindo <br /> Blocking Google DoH andn DoT <br>Blocking alt-port DNS 5353 |
 | Citranet | Yes | Yes/No (Depends on routing) | ? | DPI from Citranet upstream. If routed towards Indosat and some of their upstreams, it will be affected |
-| Padi Net | Yes (Out, Local) | No | ? |
-| Fiberstream | Yes (Out, Local) | No | ? | Residential ISP of G-MEDIA |
+| Padi Net | Yes (International, Local) | No | ? |
+| Fiberstream | Yes (International, Local) | No | ? | Residential ISP of G-MEDIA |
 | Balifiber | Yes | No | ? |
-| PT Media Cepat Indonesia | Yes (Out, Local) | No | ? |
-| Melsa | Yes (Out, Local) | No | ? | Google DNS should be safe |
+| PT Media Cepat Indonesia | Yes (International, Local) | No | ? |
+| Melsa | Yes (International, Local) | No | ? | Google DNS should be safe |
 | Circle One | Yes | No | ? |  |
-| WINET (PT Wahyu Aditama Network) | Yes (Out, Local) | Depends on routing | ? | Affected with DPI from BIX |
+| WINET (PT Wahyu Aditama Network) | Yes (International, Local) | Depends on routing | ? | Affected with DPI from BIX |
 | MyNet | Yes | Depends on routing | ? | Affected with DPI from BIX |
+| Bnetfit | Yes | Yes | No | Owned by PT Jala Lintas Media |
+| Marvatel | Yes | No | No | |
 
 **Corporate ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| Astinet | Yes (DNS Injection) | Yes | ? | Telkom's corporate offering |
-| Linknet | Yes | No | No | FirstMedia's corporate offering |
-| Lintasarta | Yes (Out, Local) | Yes | Yes | Lintasarta DPI also sending TCP RST to server. Two-way DPI blocking |
-| Biznet Metronet | Yes (Out) | Yes | Yes | aka Biznet Dedicated |
+| Astinet | Yes (DNS Injection for International DNS via Transparent Proxy) | Yes | ? | Telkom's corporate offering. Overseas DNS is redirected first to Telkom proxy within TELIN so ACL whitelist for overseas DNS will not work because during query, the query will be read as IP address of Telkom proxy not own IP address. This is very disruptive for corporate users that have overseas server or using custom filtering server such as NextDNS, ControlD, OpenDNS, etc |
+| Linknet | Yes | No | No | FirstMedia's corporate offering | 
+| Lintasarta | Yes (International, Local) | No | No | Implementing National DNS |
+| Biznet Metronet | Yes (International) | Yes | Yes | aka Biznet Dedicated |
 | PT Metrasat | Yes | Yes | ? |
 | PT Pasifik Satelit Nusantara | Yes | No | ? |
 | PT Artha Telekomindo | Yes | No | ? |
@@ -133,12 +149,12 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | PT Jaringanku Sarana Nusantara | Yes (Out, Local) | No | ? | Other name: JSN |
 | PT. Infotama Lintas Global | Yes (Out, Local) | No | ? |
 | PT Remala Abadi | Yes | No | No | Other name: Tachyon |
-| PT iForte Global internet | Yes | Yes | No | DPI does not blocking Vimeo |
+| PT iForte Global internet | Yes | Yes | No |  |
 | PT Cipta Informatika Cemeriang | Yes | No | ? |
 | PT Lexa Net | Yes | No | ? | Other name: PT Lexa Global Akses |
 | PT Media Sarana Data  | Yes (Out, Local) | No | ? | Other name: G-MEDIA |
 | PT Artorius Telemetri Sentosa | Yes | No | ? |
-| D-NET | Yes | No | ? | Other name: PT Core Mediatech <br />Only redirecting Google, Cloudflare, and Quad9 DNS |
+| D-NET | Yes (Google, OpenDNS, Cloudflare, Quad9) (Including TCP for those servers) | No | ? | Other name: PT Core Mediatech <br />Only redirecting Google, Cloudflare, and Quad9 DNS |
 | PT Sumber Koneksi Indotelematika | Yes | No | ? |
 | ProNET | Yes | Yes/No (Depends on routing) | Yes | Other name: PT Trisari Data Indonesia<br />Several Public DNS resolvers like Cloudflare, Alibaba DNS, and several Indonesian DNS resolvers are blocked. Affected with TCP RST from Solnet upstream  |
 | PT Media Jaringan Telekomunikasi | Yes | No | ? |
@@ -149,18 +165,19 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | PT Parsaoran Global Datatrans | Yes | No | - | Other name: HSP NET |
 | PT Fiber Networks Indonesia | Yes (Out, Local) | No | ? | Other name: FIBERNET |
 | PT Power Telecom Indonesia | Yes | Yes | ? | DPI does not blocking Vimeo |
-| PT Solnet Indonesia | Yes | Yes | Yes | Solnet DPI also sending TCP RST to server |
-| PT Data Utama Dinamika | Yes | Yes | Yes | Affected with Lintasarta |
-| PT BIT TEKNOLOGI NUSANTARA | Yes | Yes | ? | [Affected with iForte](https://media.discordapp.net/attachments/709386084894900236/1112694319992807454/image.png) |
+| PT Solnet Indonesia | Yes | Yes | Yes | Solnet DPI also sending TCP RST to server | 
+| PT Data Utama Dinamika | Yes | Yes | Yes | Affected by Lintasarta |
+| PT BIT TEKNOLOGI NUSANTARA | Yes | Yes | ? | [Affected by iForte](https://media.discordapp.net/attachments/709386084894900236/1112694319992807454/image.png) |
+| PT Hyperindo Media Perkasa | Yes | Yes | ? | [Affected by PT Jala Lintas Media](https://prnt.sc/CIOWaL3q56Eh) |
 
 ### <ins>Mobile ISP</ins>
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server |  Note |
 | :---: | :---: | :---: | :---: | :---: |
-| Telkomsel / By.U / KartuHalo | Yes (Out, Local) | Yes | Yes | Telkomsel DPI also sending TCP RST to server |
-| XL / Axis / Live On | Yes (Out, Local) | Yes | Yes | XL DPI also sending TCP RST to server | 
-| 3 | Yes (Out, In) | Yes | Yes | Tri DPI also sending TCP RST to server Three hijacks Google and OpenDNS servers and redirect them to its resolver, other DNS resolvers are blocked |
-| Indosat | Yes | Yes | No | 
-| Smartfren | Yes (Out, Local) | Yes | No | Blocking Google DoH/DoT |
+| Telkomsel / By.U / KartuHalo | Yes (International, Local, TCP) | Yes | Yes | Telkomsel DPI also sending TCP RST to server |
+| XL / Axis / Live On | Yes (International, Local, TCP) | Yes | Yes | XL DPI also sending TCP RST to server | 
+| 3 | Yes (Google, OpenDNS) | Yes | Yes | Three hijacks Google and OpenDNS servers and redirect them to its resolver |
+| Indosat | Yes (Google, OpenDNS) | Yes | No, but throttling connection to blocked sites if Host/SNI header is detected | Starting on 4-5 October 2023, Indosat hijacks Google and OpenDNS servers and redirect them to its resolver 
+| Smartfren | Yes (International, Local, TCP) | Yes | No | Blocking Google DoH/DoT |
 
 ### <ins>Effort level to unblock with DPI</ins>
 How much effort needed to unblock with DPI per-ISP
@@ -179,9 +196,7 @@ How much effort needed to unblock with DPI per-ISP
 | Smartfren | Low |
 | PT Solnet Indonesia | Low |
 | FirstMedia | Low |
-| MyRepublic | Low |
-| PT Herza Digital Indonesia | Low |
-| PT Jala Lintas Media | Low |
+| PT UNINET MEDIA SAKTI | Low |
 
 **THIS DATA IS NOT COMPLETE, IF YOU WANT TO ADD MORE, PLEASE GIVE FURTHER INFORMATION**
 
@@ -204,7 +219,7 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 | Quad9 Secured with ECS | Blocking malware, supporting ECS | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `tls://dns11.quad9.net` |
 | Quad9 Unsecured | Alternative DNS resolvers from Quad9 that does not block malware | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` |
 | Quad9 Unsecured ECS | Alternative DNS resolvers from Quad9 that does not block malware, supporting ECS | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `tls://dns12.quad9.net` |
-| BebasDNS | Bebasid's own DNS resolver, blocking ad and malware | `47.254.192.66` | - | `1753` | `2001:470:36:b90:beba:5::1d` | - | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
+| BebasDNS | Bebasid's own DNS resolver, blocking ad, malware, and also there is family variant | `103.87.68.194` | `103.87.68.195` | `1753` | `2a05:dfc7:bca0:beba:51d::53` | `2a05:dfc7:bca0:beba:51d::5353` | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
 | [AhaDNS](https://blitz-setup.ahadns.com) | - | ? | ? | ? | ? | ? | `blitz.ahadns.com` | ? |
 | BlahDNS | - | `45.91.92.121`  | X | - | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` |
 | [RethinkDNS](https://rethinkdns.com/configure) | - | ? | ? | - | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` |
@@ -222,37 +237,37 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 > ⚠ **ATTENTION** ⚠  
 > If your ISP is also blocking using DPI also use [applications to eliminate DPI](#applications-to-eliminate-dpi).
 
-1.[Nebulo](https://nebulo.app) [Android]  
+1. [Nebulo](https://nebulo.app) [Android]  
 <em>Application to easily change DNS on Android.</em>
 
-2.[DNSCloak](https://apps.apple.com/app/id1452162351) [iOS]  
+2. [DNSCloak](https://apps.apple.com/app/id1452162351) [iOS]  
 <em>Application to change DNS and configure dnscrypt on iOS.</em>
 
-3.[DNSCrypt](https://dnscrypt.info) [Windows,macOS,Linux]  
+3. [DNSCrypt](https://dnscrypt.info) [Windows,macOS,Linux]  
 <em>Selfhost DNS that can do forwarding to DNSCrypt & DNS over HTTPS servers.</em>
 
-4.[SimpleDNSCrypt](https://simplednscrypt.org) [Windows]  
+4. [SimpleDNSCrypt](https://simplednscrypt.org) [Windows]  
 <em>An easy to use graphical DNSCrypt client.</em>
 
-5.[DNS Profile Creator](https://dns.notjakob.com/tool.html) [Browser]  
+5. [DNS Profile Creator](https://dns.notjakob.com/tool.html) [Browser]  
 <em>Easily create Apple mobileconfig.</em>
 
-6.[YogaDNS](https://yogadns.com) [Windows]  
+6. [YogaDNS](https://yogadns.com) [Windows]  
 <em>DNS changer for Windows.</em>
 
-7.[RethinkDNS](https://rethinkdns.com) [Android]  
+7. [RethinkDNS](https://rethinkdns.com) [Android]  
 <em>Application to change DNS and ad blocker.</em>
 
-8.[Intra](https://getintra.org) [Android]  
+8. [Intra](https://getintra.org) [Android]  
 <em>Application to change DNS on Android.</em>
 
-9.[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) [Windows, macOS, Linux]  
+9. [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) [Windows, macOS, Linux]  
 <em>Selfhost DNS with integrated adblock, encrypted upstream and downstream.</em>
 
-10.[Stubby](https://github.com/getdnsapi/stubby) [Windows, macOS, Linux]  
+10. [Stubby](https://github.com/getdnsapi/stubby) [Windows, macOS, Linux]  
 <em>Selfhost DNS that can do forwarding to DNS over TLS server.</em>
 
-11.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
+11. [InviZible](https://github.com/Gedsh/InviZible) [Android]  
 <em>An Android application for DNS and Tor.</em>
 
 ## How to change DNS[🔝](#navigation)
@@ -269,6 +284,7 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 3.Change the IP Address into Static and type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
 
 ### <em>Windows</em>
+
 #### Windows 7 to Windows 10:  
 1. Control Panel>Network and Internet>Network and Sharing Center>Connections>Properties.  
 2. Click Internet Protocol Version 4 (TCP/IPv4) twice.  
@@ -285,7 +301,8 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 
 ### <em>macOS</em>
 1. System Preferences>Network>Wi-Fi>Advanced>DNS.  
-2. Click “+” button and type the [DNS hostname](#choosing-the-right-dns) on the DNS column, click OK and Apply.
+2. Click “+” button and type the [DNS hostname](#choosing-the-right-dns) on the DNS column,
+3. Then click OK and Apply.
 
 ### <em>Linux</em>
 1. Open Terminal  
@@ -312,7 +329,9 @@ Go to [DNSLeakTest](https://dnsleaktest.com) or [BrowserLeaks](https://browserle
 If the ISP DNS being shown instead of one you have already set, you can download [DNSCrypt](https://dnscrypt.info) or [SimpleDNSCrypt](https://simplednscrypt.org).
 
 ## Applications to eliminate DPI[🔝](#navigation)
-Now, many [ISPs](#choosing-less-strict-isp) are using Deep Packet Inspection as blocking method, but you can eliminate the DPI with these applications:
+Now, many [ISPs](#choosing-less-strict-isp) are using Deep Packet Inspection as blocking method.
+
+You can eliminate the DPI with these applications:
 
 > ⚠ **ATTENTION** ⚠  
 > Do not forget to change [DNS](#dns-applications) first or using [Hosts file](#list-of-hosts-file) if your [ISP](#choosing-less-strict-isp) is also using DNS for blocking.
@@ -321,37 +340,37 @@ Now, many [ISPs](#choosing-less-strict-isp) are using Deep Packet Inspection as 
 > We also providing config for application and ISP in [this folder](/dpi-circumvention-config).
 
 
-1.[GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
+1. [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
 <em>CLI application to eliminate DPI.</em>
 
-2.[GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [Windows,macOS,Linux]  
+2. [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [Windows,macOS,Linux]  
 <em>GUI application to eliminate DPI.</em>
 
-3.[PowerTunnel](https://github.com/krlvm/PowerTunnel) [Windows,macOS,Linux,[Android](https://github.com/krlvm/PowerTunnel-Android)]  
+3. [PowerTunnel](https://github.com/krlvm/PowerTunnel) [Windows,macOS,Linux,[Android](https://github.com/krlvm/PowerTunnel-Android)]  
 <em>GUI application to eliminate DPI (2).</em>
 
-4.[SNI-Mask](https://github.com/macronut/SNI-Mask) [Windows]  
+4. [SNI-Mask](https://github.com/macronut/SNI-Mask) [Windows]  
 <em>Proxy to eliminate DPI.</em>
 
-5.[Accesser](https://github.com/URenko/Accesser) [Windows,macOS,Linux]  
+5. [Accesser](https://github.com/URenko/Accesser) [Windows,macOS,Linux]  
 <em>Application to solve TCP RST, used primarily in Mainland China.</em>
 
-6.[GhosTCP](https://github.com/macronut/ghostcp) [Windows]  
+6. [GhosTCP](https://github.com/macronut/ghostcp) [Windows]  
 <em>Securing TCP connection.</em>
 
-7.[sniffjoke](https://github.com/vecna/sniffjoke) [Linux]  
+7. [sniffjoke](https://github.com/vecna/sniffjoke) [Linux]  
 <em>Securing wiretap/sniff/IDS.</em>
 
-8.[SpoofDPI](https://github.com/xvzc/SpoofDPI) [macOS,Linux]  
+8. [SpoofDPI](https://github.com/xvzc/SpoofDPI) [macOS,Linux]  
 <em>Spoofing your DPI.</em>
 
-9.[Zapret](https://github.com/bol-van/zapret/blob/master/docs/readme.eng.md) [Linux, FreeBSD]  
+9. [Zapret](https://github.com/bol-van/zapret/blob/master/docs/readme.eng.md) [Linux, FreeBSD]  
 <em>DPI Circumvention Tool.</em>
 
-10.[DPITunnel](https://github.com/zhenyolka/DPITunnel-cli) [Linux,[Android](https://github.com/zhenyolka/DPITunnel-android)]  
+10. [DPITunnel](https://github.com/zhenyolka/DPITunnel-cli) [Linux,[Android](https://github.com/zhenyolka/DPITunnel-android)]  
 <em>CLI application for Linux.</em>
 
-11.[Geneva](https://github.com/kkevsterrr/geneva) [Linux]  
+11. [Geneva](https://github.com/kkevsterrr/geneva) [Linux]  
 <em>AI-powered DPI Circumvention Tool.</em> 
 
 ### Trick to bypass DPI without application[🔝](#navigation)
@@ -363,6 +382,7 @@ sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP
 sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.aduankonten.id/" --algo bm -j DROP 
 sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP
 ``` 
+
 *Use the firewall-cmd one for Linux distribution that using firewalld, like Fedora and OpenSUSE in terminal.
 But those commands will not work if ISP is also sending TCP RST to server (List of ISP can be seen in Sending TCP RST to server column on above table).*
 
@@ -374,8 +394,9 @@ Follow this tutorial https://github.com/bebasid/bebasit/blob/master/docs/openwrt
 ### <ins>MikroTik</ins>
 Follow this tutorial https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.en.md
 
-## List of hosts file[🔝](#navigation)
-If you have a big brain and prefer to use hosts file, here the list:
+## List of hosts file[🔝](#navigation) 
+For some users, they will prefer this way
+If you prefer to use hosts file, here the list:
 
 | List | Alternative |
 | :---: | :---: |
@@ -434,20 +455,20 @@ VPN in this section needs configuration, if you just want a Out of the box VPN, 
 ## Tor Applications[🔝](#navigation)
 And, this is the most extreme part, using Tor.
 
-1.[Tor Browser](https://www.torproject.org) [Windows,macOS,Linux,Android]  
+1. [Tor Browser](https://www.torproject.org) [Windows,macOS,Linux,Android]  
 <em>Official browser of Tor Project.</em>
 
-2.[Orbot](https://guardianproject.info/apps/org.torproject.android) [Android]  
+2. [Orbot](https://guardianproject.info/apps/org.torproject.android) [Android]  
 <em>Proxy with Tor.</em>
 
-3.[Onion Browser](https://onionbrowser.com) [iOS]  
+3. [Onion Browser](https://onionbrowser.com) [iOS]  
 <em>Tor browser for iOS.</em>
 
-4.[InviZible](https://github.com/Gedsh/InviZible) [Android]  
+4. [InviZible](https://github.com/Gedsh/InviZible) [Android]  
 <em>Android application for DNS and Tor.</em>
 
 ---
-<p align="center">Share this project</p>
+<p align="center">Share this project!</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
@@ -460,5 +481,6 @@ And, this is the most extreme part, using Tor.
 <a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
     </br>
     </p>
-  <p align="center"><a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> from <a href="https://github.com/bebasid">bebasid</a> is licensed under <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a>.</p>
+  <p align="center"><a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> from <a href="https://github.com/bebasid">bebasid</a> is licensed under <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a>.
+</p>
 </div>
