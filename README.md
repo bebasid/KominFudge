@@ -121,7 +121,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Megavision | Ya (International, Local, TCP) | Tidak | ? | Nama lain: StarNET |
 | MNC | Ya | Ya/Tidak (Tergantung routing) | ? | Terkena DPI dari Upstream iForte |
 | Iconnet PLN | Ya | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah |
-| PT Netciti Persada | Ya | Ya/Tidak (Tergantung Routing) | ? | Kena DNS Nasional dan DPI oleh upstream Lintasarta |
+| PT Netciti Persada | Ya (Tergantung Routing) | Tidak | ? | Kena DNS Nasional  oleh upstream Lintasarta |
 | Oxygen | Ya (International) | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br>Memblokir alt-port DNS 5353 |
 | Citranet | Ya | Ya/Tidak (Tergantung routing) | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
 | Padi Net | Ya (International, Local) | Tidak | ? |
@@ -134,6 +134,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | MyNet | Ya | Tergantung Routing | ? | Terkena DPI oleh BIX |
 | Bnetfit | Ya | Ya | Tidak | Punya PT Jala Lintas Media |
 | Marvatel | Ya | Tidak | Tidak | |
+| NusaNet | Ya (Google. Quad9, OpenDNS, Cloudflare) | Ya/Tidak (Tergantung Routing) | | Terkena DPI dari upstream Indosat | 
 
 **ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
@@ -186,7 +187,6 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Tinggi |
 | XL / Axis / Live On | Tinggi |
-| Biznet | Tinggi |
 | Iconnet | Tinggi |
 | PT Jala Lintas Media, Bnetfit, dkk | Sedang |
 | Indihome | Sedang |
