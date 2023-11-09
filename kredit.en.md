@@ -12,6 +12,9 @@
 | <a href="https://github.com/nxzlem"><img src="https://github.com/nxzlem.png" width="50px" /><a/> | ISP and DNS data provider<br />ISP layout change | <a href="https://github.com/nxzlem"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> <a href="https://twitter.com/nxzlem"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/><a/> <a href="https://t.me/nxzlem"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/><a/> |
 | <a href="https://github.com/SlashyID"><img src="https://github.com/SlashyID.png" width="50px" /><a/> | ISP data provider<br />DNS tutorial update<br />ISP DPI data provider | <a href="https://github.com/SlashyID"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> |
 | <a href="https://github.com/VulcanSphere"><img src="https://github.com/VulcanSphere.png" width="50px" /><a/> | Translator<br />Tutorial update |  <a href="https://github.com/VulcanSphere"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> <a href="https://twitter.com/VulcanSphere"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/> <a href="https://reddit.com/u/Vulphere"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white"/> |
+| Ohry |  Data CircleOne |
+| Felpurr | Data MTM Bali |
+| <a href="https://github.com/naups">Nauval<a/> | Data Marvatel | <a href="https://github.com/naups"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> |
 
 # Mentioned/used sites
  
