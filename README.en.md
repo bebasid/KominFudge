@@ -4,8 +4,7 @@
           <br><p>"Refuse to be blocked, Agree to blocking.</i></br>
     Because Kominfo blocking, let's unblock!"</em></p>
     <a href="README.md">Indonesia</a> | <b>English</b></br>
-    <b>KominFudge Beginner Guide</b></br>
-
+   
 </div>
 <p align="center">
 <a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join Discord BEBASID"></a>
@@ -119,9 +118,9 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | MyRepublic | Yes (International, Local) | Yes | No | MyRepublic DPI only blocking 18+ sites  |
 | FirstMedia | Yes (International, Local) | Yes | No |
 | Megavision | Yes (International, Local) | No | ? | Other name: StarNET  |
-| MNC | Yes | Yes/No (Depends on routing) | ? | Affected with DPI from iForte upstream  |
+| MNC | Yes | Yes/No (Depends on routing) | ? | Affected by DPI from iForte upstream  |
 | Iconnet PLN | Yes | Yes | Yes | Iconnet DPI also sending TCP RST to server. Two-way DPI blocking |
-| PT Netciti Persada | Yes | Yes/No (Depends on routing) | ? | Affected with National DNS and DPI from Lintasarta upstream |
+| PT Netciti Persada | Yes | No | ? | Affected by National DNS from Lintasarta upstream |
 | Oxygen | Yes (International) | Yes | No | Other name: Moratelindo <br /> Blocking Google DoH andn DoT <br>Blocking alt-port DNS 5353 |
 | Citranet | Yes | Yes/No (Depends on routing) | ? | DPI from Citranet upstream. If routed towards Indosat and some of their upstreams, it will be affected |
 | Padi Net | Yes (International, Local) | No | ? |
@@ -130,10 +129,11 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | PT Media Cepat Indonesia | Yes (International, Local) | No | ? |
 | Melsa | Yes (International, Local) | No | ? | Google DNS should be safe |
 | Circle One | Yes | No | ? |  |
-| WINET (PT Wahyu Aditama Network) | Yes (International, Local) | Depends on routing | ? | Affected with DPI from BIX |
-| MyNet | Yes | Depends on routing | ? | Affected with DPI from BIX |
+| WINET (PT Wahyu Aditama Network) | Yes (International, Local) | Depends on routing | ? | Affected by DPI from BIX |
+| MyNet | Yes | Depends on routing | ? | Affected by DPI from BIX |
 | Bnetfit | Yes | Yes | No | Owned by PT Jala Lintas Media |
 | Marvatel | Yes | No | No | |
+| NusaNet | Yes (Google. Quad9, OpenDNS, Cloudflare) | Yes/No (Depends on routing) | | Affected by DPI from Indosat upstream | 
 
 **Corporate ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
@@ -156,7 +156,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | PT Artorius Telemetri Sentosa | Yes | No | ? |
 | D-NET | Yes (Google, OpenDNS, Cloudflare, Quad9) (Including TCP for those servers) | No | ? | Other name: PT Core Mediatech <br />Only redirecting Google, Cloudflare, and Quad9 DNS |
 | PT Sumber Koneksi Indotelematika | Yes | No | ? |
-| ProNET | Yes | Yes/No (Depends on routing) | Yes | Other name: PT Trisari Data Indonesia<br />Several Public DNS resolvers like Cloudflare, Alibaba DNS, and several Indonesian DNS resolvers are blocked. Affected with TCP RST from Solnet upstream  |
+| ProNET | Yes | Yes/No (Depends on routing) | Yes | Other name: PT Trisari Data Indonesia<br />Several Public DNS resolvers like Cloudflare, Alibaba DNS, and several Indonesian DNS resolvers are blocked. Affected by TCP RST from Solnet upstream  |
 | PT Media Jaringan Telekomunikasi | Yes | No | ? |
 | PT Sekawan Global Komunika | Yes | No | ? |
 | PT INFORMASI NUSANTARA TEKNOLOGI | Yes | No | ? |
@@ -186,14 +186,12 @@ How much effort needed to unblock with DPI per-ISP
 | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | High |
 | XL / Axis / Live On | High |
-| Biznet | High |
-| Lintasarta | High |
 | Iconnet | High |
 | Indihome | Medium |
 | Indosat | Medium |
-| 3 | Medium |
 | CBN | Medium |
-| Smartfren | Low |
+| Smartfren | Medium |
+| 3 | Low |
 | PT Solnet Indonesia | Low |
 | FirstMedia | Low |
 | PT UNINET MEDIA SAKTI | Low |
