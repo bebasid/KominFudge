@@ -114,7 +114,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
 | Indihome | Ya (International, Local) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
-| CBN | Ya | Ya | Tidak |
+| CBN | Ya (Google, OpenDNS, Cloudflare, Quad9, including the TCP 53 one) | Ya | Tidak |
 | Biznet Home | Ya (International, Local) | Tidak | Tidak |  |
 | MyRepublic | Ya (International, Local, TCP) | Tidak | Tidak |  |
 | FirstMedia | Ya (International, Local) | Ya | Tidak |
