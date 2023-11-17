@@ -113,7 +113,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
 | :---: | :---: | :---: | :---: | :---: |
 | Indihome | Yes (International, Local) & IPv6 DNS Injection (Out) | Yes | Yes | Telkom's residential offering. Indihome DPI also sending TCP RST to server |
-| CBN | Yes | Yes | No |
+| CBN | Yes (Google, OpenDNS, Cloudflare, Quad9, including the TCP 53 one) | Yes | No |
 | Biznet Home | Yes (International, Local) | Yes | Yes | Biznet DPI also sending TCP RST to server |
 | MyRepublic | Yes (International, Local) | Yes | No | MyRepublic DPI only blocking 18+ sites  |
 | FirstMedia | Yes (International, Local) | Yes | No |
