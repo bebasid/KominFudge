@@ -181,19 +181,19 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 ### <ins>Level kepayahan unblok memakai DPI</ins>
 Seberapa payah dengan cara unblok memakai DPI per ISP:
 
-| Nama | Kepayahan |
-| :---: | :---: |
-| Telkomsel / By.U / Kartu Halo | Tinggi |
-| XL / Axis / Live On | Tinggi |
-| Iconnet | Tinggi |
-| CBN | Sedang |
-| PT Jala Lintas Media, Bnetfit, dkk | Sedang |
-| Indihome | Sedang |
-| Indosat | Sedang |
-| Smartfren | Sedang |
-| 3 | Rendah |
-| Firstmedia | Rendah |
-| PT UNINET MEDIA SAKTI | Rendah |
+| Nama | Kepayahan | Bypass MikroTik & IPTables |
+| :---: | :---: | :---: |
+| Telkomsel / By.U / Kartu Halo | Tinggi | Tidak Bisa |
+| XL / Axis / Live On | Tinggi | Tidak Bisa |
+| Iconnet | Tinggi | Tidak Bisa |
+| CBN | Sedang | Bisa |
+| PT Jala Lintas Media, Bnetfit, dkk | Sedang | Bisa |
+| Indihome | Sedang | ? |
+| Indosat | Sedang | Tidak Bisa |
+| Smartfren | Sedang | Bisa |
+| 3 | Rendah | Bisa |
+| Firstmedia | Rendah | Bisa |
+| PT UNINET MEDIA SAKTI | Rendah | Bisa |
 
 **DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
 
@@ -374,10 +374,13 @@ Maka itu, DPI bisa dihilangkan dengan mudah dengan aplikasi dibawah ini:
 
 #### <ins>Linux</ins>
 
-*Untuk Drop **TCP RST** dan **lamanlabuh**, jalankan perintah*:
+*Untuk Drop **TCP RST** dan **lamanlabuh** di IPTables, jalankan perintah*:
 ```
 sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP 
 sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.aduankonten.id/" --algo bm -j DROP 
+```
+*Untuk **firewall-cmd**, jalankan perintah*:
+```
 sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP
 ```
 
