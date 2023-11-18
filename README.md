@@ -186,8 +186,8 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | Telkomsel / By.U / Kartu Halo | Tinggi | Tidak Bisa |
 | XL / Axis / Live On | Tinggi | Tidak Bisa |
 | Iconnet | Tinggi | Tidak Bisa |
-| Indosat | Sedang | Tidak Bisa |
 | Indihome | Sedang | ? |
+| Indosat | Sedang | Tidak Bisa (IM3) & Bisa (Hi-Fi, IP Transit) |
 | CBN | Sedang | Bisa |
 | PT Jala Lintas Media, Bnetfit, dkk | Sedang | Bisa |
 | Smartfren | Sedang | Bisa |
