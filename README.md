@@ -112,7 +112,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
 | :---: | :---: | :---: | :---: | :---: |
 | Indihome | Ya (International, Local) | Ya | Ya | ISP dari Telkom untuk rumah. DPI Indihome juga mengirim TCP RST ke server |
-| CBN | Ya (Google, OpenDNS, Cloudflare, Quad9, including the TCP 53 one) | Ya | Tidak |
+| CBN | Ya (Google, OpenDNS, Cloudflare, Quad9) (Including TCP for those servers)  | Ya | Tidak |
 | Biznet Home | Ya (International, Local) | Tidak | Tidak |  |
 | MyRepublic | Ya (International, Local, TCP) | Tidak | Tidak |  |
 | FirstMedia | Ya (International, Local) | Ya | Tidak |
@@ -155,7 +155,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Artorius Telemetri Sentosa | Ya | Tidak | ? |
 | D-NET | Ya (Google, OpenDNS, Cloudflare, Quad9) (Including TCP for those servers) | Tidak | ? | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
 | PT Sumber Koneksi Indotelematika | Ya | Tidak | ? |
-| ProNET | Ya | Ya/Tidak (Tergantung Routing) | Ya | Nama lain: PT Trisari Data Indonesia<br />Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir. Terkena TCP RST dari upstream Solnet  |
+| ProNET | Ya | Ya/Tidak (Tergantung Routing) | Ya | Nama lain: PT Trisari Data Indonesia<br />Beberapa DNS Publik seperti Cloudflare, Alibaba DNS, dan beberapa DNS Indonesia lokal diblokir.  |
 | PT Media Jaringan Telekomunikasi | Ya | Tidak | ? |
 | PT Sekawan Global Komunika | Ya | Tidak | ? |
 | PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak | ? |
@@ -164,7 +164,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Parsaoran Global Datatrans | Ya | Tidak | - | Nama lain: HSP NET |
 | PT Fiber Networks Indonesia | Ya (International, Local) | Tidak | ? | Nama lain: FIBERNET |
 | PT Power Telecom Indonesia | Ya | Ya | ? | DPI tidak memblokir Vimeo |
-| PT Solnet Indonesia | Ya | Ya | Ya | DPI Solnet juga mengirim TCP RST ke server |
+| PT Solnet Indonesia | Ya | Tidak | ? |  |
 | PT Data Utama Dinamika | Ya | Ya | Ya | Terkena dari Lintasarta |
 | PT BIT TEKNOLOGI NUSANTARA | Ya | Ya | ? | [Terkena dari iForte](https://media.discordapp.net/attachments/709386084894900236/1112694319992807454/image.png) |
 | PT Hyperindo Media Perkasa | Ya | Ya | ? | [Terkena dari PT Jala Lintas Media](https://prnt.sc/CIOWaL3q56Eh) |
@@ -183,16 +183,15 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 
 | Nama | Kepayahan |
 | :---: | :---: |
-| Telkomsel / By.U / KartuHalo | Tinggi |
+| Telkomsel / By.U / Kartu Halo | Tinggi |
 | XL / Axis / Live On | Tinggi |
 | Iconnet | Tinggi |
+| CBN | Sedang |
 | PT Jala Lintas Media, Bnetfit, dkk | Sedang |
 | Indihome | Sedang |
 | Indosat | Sedang |
-| CBN | Sedang |
 | Smartfren | Sedang |
 | 3 | Rendah |
-| PT Solnet Indonesia | Rendah |
 | Firstmedia | Rendah |
 | PT UNINET MEDIA SAKTI | Rendah |
 
