@@ -1,11 +1,13 @@
-<div align="center">
+<p align="center">
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo-black.svg#gh-light-mode-only" alt="BEBASID LOGO" width="500">
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="500">
-          <br><p>"Refuse to be blocked, Agree to blocking.</i></br>
-    Because Kominfo blocking, let's unblock!"</em></p>
-    <a href="README.md">Indonesia</a> | <b>English</b></br>
-   
+          <br><p align="center">"Refuse to be blocked, Agree to blocking.</i></br>
+    <p align="center">Because Kominfo blocking, let's unblock!"</em></p>
+    <p align="center"><a href="README.md">Indonesia</a> | <b>English</b></br>
+</p>
+
 </div>
+</p>
 <p align="center">
 <a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join Discord BEBASID"></a>
  </p>
@@ -18,7 +20,6 @@
 <a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
 <a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
  </p>
-</p>
 <p align="center"><sup><b>DISCLAIMER</b>: </br><em>Kominfudge is not responsible for any damages caused to your device, do with your own risk.</em></sup></p>
 
 ---
@@ -85,9 +86,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | :---: | :---: | :---: | :---: | :---: |
 | [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Yes](assets/proofs/png/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Yes](https://prnt.sc/kklpKa_RmRBC) | | |
-| [AS138128](https://bgp.tools/as/138128) | PT Solnet Indonesia | [Yes](assets/proofs/png/AS138128-DPI-Proof.png?raw=1) | [Traceroute proof](assets/proofs/png/AS138128-DPI-Traceroute.png?raw=1) | | ProNET |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Yes](https://prnt.sc/oBFA9eKMaBfP) | | |
-| [AS18351](https://bgp.tools/as/18351) | PT Media Akses Global Indo | [Yes](https://prnt.sc/IC_APp6LdLCe) |  | |
 | [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Yes](https://media.discordapp.net/attachments/1125830010834522133/1137485148955365602/image.png?width=1200&height=548) | | PT Hyperindo Media Perkasa |
 | [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Yes](https://cdn.bebasid.com/KominFudge/uninet.png) | [Traceroute proof](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
 
@@ -113,7 +112,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
 | :---: | :---: | :---: | :---: | :---: |
 | Indihome | Yes (International, Local) & IPv6 DNS Injection (Out) | Yes | Yes | Telkom's residential offering. Indihome DPI also sending TCP RST to server |
-| CBN | Yes (Google, OpenDNS, Cloudflare, Quad9, including the TCP 53 one) | Yes | No |
+| CBN | Yes (Google, OpenDNS, Cloudflare, Quad9) (Including TCP for those servers) | Yes | No |
 | Biznet Home | Yes (International, Local) | Yes | Yes | Biznet DPI also sending TCP RST to server |
 | MyRepublic | Yes (International, Local) | Yes | No | MyRepublic DPI only blocking 18+ sites  |
 | FirstMedia | Yes (International, Local) | Yes | No |
@@ -156,7 +155,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | PT Artorius Telemetri Sentosa | Yes | No | ? |
 | D-NET | Yes (Google, OpenDNS, Cloudflare, Quad9) (Including TCP for those servers) | No | ? | Other name: PT Core Mediatech <br />Only redirecting Google, Cloudflare, and Quad9 DNS |
 | PT Sumber Koneksi Indotelematika | Yes | No | ? |
-| ProNET | Yes | Yes/No (Depends on routing) | Yes | Other name: PT Trisari Data Indonesia<br />Several Public DNS resolvers like Cloudflare, Alibaba DNS, and several Indonesian DNS resolvers are blocked. Affected by TCP RST from Solnet upstream  |
+| ProNET | Yes | Yes/No (Depends on routing) | Yes | Other name: PT Trisari Data Indonesia<br />Several Public DNS resolvers like Cloudflare, Alibaba DNS, and several Indonesian DNS resolvers are blocked. |
 | PT Media Jaringan Telekomunikasi | Yes | No | ? |
 | PT Sekawan Global Komunika | Yes | No | ? |
 | PT INFORMASI NUSANTARA TEKNOLOGI | Yes | No | ? |
@@ -165,7 +164,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | PT Parsaoran Global Datatrans | Yes | No | - | Other name: HSP NET |
 | PT Fiber Networks Indonesia | Yes (Out, Local) | No | ? | Other name: FIBERNET |
 | PT Power Telecom Indonesia | Yes | Yes | ? | DPI does not blocking Vimeo |
-| PT Solnet Indonesia | Yes | Yes | Yes | Solnet DPI also sending TCP RST to server | 
+| PT Solnet Indonesia | Yes | No | ? | | 
 | PT Data Utama Dinamika | Yes | Yes | Yes | Affected by Lintasarta |
 | PT BIT TEKNOLOGI NUSANTARA | Yes | Yes | ? | [Affected by iForte](https://media.discordapp.net/attachments/709386084894900236/1112694319992807454/image.png) |
 | PT Hyperindo Media Perkasa | Yes | Yes | ? | [Affected by PT Jala Lintas Media](https://prnt.sc/CIOWaL3q56Eh) |
@@ -182,19 +181,19 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 ### <ins>Effort level to unblock with DPI</ins>
 How much effort needed to unblock with DPI per-ISP
 
-| Name | Effort
-| :---: | :---: |
-| Telkomsel / By.U / KartuHalo | High |
-| XL / Axis / Live On | High |
-| Iconnet | High |
-| Indihome | Medium |
-| Indosat | Medium |
-| CBN | Medium |
-| Smartfren | Medium |
-| 3 | Low |
-| PT Solnet Indonesia | Low |
-| FirstMedia | Low |
-| PT UNINET MEDIA SAKTI | Low |
+| Name | Effort | Bypass MikroTik & IPTables |
+| :---: | :---: | :---: |
+| Telkomsel / By.U / Kartu Halo | High | Not Possible |
+| XL / Axis / Live On | High | Not Possible |
+| Iconnet | High | Not Possible |
+| Indosat | Medium | Not Possible (IM3) & Possible (Hi-Fi, Transit IP) |
+| Indihome | Medium | ? |
+| CBN | Medium | Possible |
+| PT Jala Lintas Media, Bnetfit, dkk | Medium | Possible |
+| Smartfren | Medium | Possible |
+| 3 | Low | Possible |
+| FirstMedia | Low | Possible |
+| PT UNINET MEDIA SAKTI | Low | Possible |
 
 **THIS DATA IS NOT COMPLETE, IF YOU WANT TO ADD MORE, PLEASE GIVE FURTHER INFORMATION**
 
@@ -374,12 +373,16 @@ You can eliminate the DPI with these applications:
 ### Trick to bypass DPI without application[🔝](#navigation)
 
 #### <ins>On Linux</ins>
-*Drop TCP RST and lamanlabuh*
+
+*Drop **TCP RST** and **lamanlabuh** with IPTables, run these commands*:
 ```
 sudo iptables -I INPUT -p tcp --tcp-flags ALL RST,ACK -j DROP 
-sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.aduankonten.id/" --algo bm -j DROP 
+sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.aduankonten.id/" --algo bm -j DROP
+```
+*For **firewall-cmd**, run this command*:
+```
 sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP
-``` 
+```
 
 *Use the firewall-cmd one for Linux distribution that using firewalld, like Fedora and OpenSUSE in terminal.
 But those commands will not work if ISP is also sending TCP RST to server (List of ISP can be seen in Sending TCP RST to server column on above table).*
