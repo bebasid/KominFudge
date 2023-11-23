@@ -84,6 +84,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 <b>Sedangkan ISP yang menggunakan upstream dibawah ini, wajib menggunakan WARP/VPN, GoodbyeDPI, atau GreenTunnel/PowerTunnel.</b>
 | ASN | Nama | Pemblokiran menggunakan DPI | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
+| [AS137366](https://bgp.tools/as/137366) / [AS17995](https://bgp.tools/as/17995) | PT iForte Global internet | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/1375435e-1c63-4ea5-98a7-8aba21e2ae39) | Hati-hati bagi yang memakai WIFI dari TransJakarta, Upstream mereka iForte | MNC Play, Wi-Fi Publik TransJakarta |
 | [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Ya](assets/proofs/png/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Ya](https://prnt.sc/kklpKa_RmRBC) | | |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://prnt.sc/oBFA9eKMaBfP) | | |
@@ -148,7 +149,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Jaringanku Sarana Nusantara | Ya (International, Local) | Tidak | ? | Nama lain: JSN |
 | PT. Infotama Lintas Global | Ya (International, Local) | Tidak | ? |
 | PT Remala Abadi | Ya | Tidak | Tidak | Nama lain: Tachyon |
-| PT iForte Global internet | Ya | Tidak | Tidak |  |
+| PT iForte Global internet | Ya | Ya | Tidak | Implementasi DPI lagi, provider sedeng  |
 | PT Cipta Informatika Cemeriang | Ya | Tidak | ? |
 | PT Lexa Net | Ya | Tidak | ? | Nama lain: PT Lexa Global Akses |
 | PT Media Sarana Data  | Ya (International, Local) | Tidak | ? | Nama lain: G-MEDIA |
@@ -188,6 +189,7 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | Iconnet | Tinggi | Tidak Bisa |
 | Indihome | Sedang | ? |
 | Indosat | Sedang | Tidak Bisa (IM3) & Bisa (Hi-Fi, IP Transit) |
+| PT iForte Global internet | Sedang | Bisa |
 | CBN | Sedang | Bisa |
 | PT Jala Lintas Media, Bnetfit, dkk | Sedang | Bisa |
 | Smartfren | Sedang | Bisa |
