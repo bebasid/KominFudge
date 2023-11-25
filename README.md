@@ -127,7 +127,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Fiberstream | Ya (International, Local) | Tidak | ? | ISP Rumahan punya G-MEDIA |
 | Balifiber | Ya | Tidak | ? |
 | PT Media Cepat Indonesia | Ya (International, Local) | Tidak | ? |
-| Melsa | Ya (International, Local) | Tidak | ? | DNS Google aman |
+| Melsa | Ya (International, Local) | Tidak | ? | Port 53 diblokir selain punya Google yang sudah dihijack oleh Melsanet |
 | Circle One | Ya | Tidak | ? |  |
 | WINET (PT Wahyu Adidaya Network) | Ya (International, Local) | Tergantung Routing | ? | Terkena DPI oleh BIX |
 | MyNet | Ya | Tergantung Routing | ? | Terkena DPI oleh BIX |
