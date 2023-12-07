@@ -116,7 +116,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | CBN | Ya (Google, OpenDNS, Cloudflare, Quad9) (Including TCP for those servers)  | Ya | Tidak |
 | Biznet Home | Ya (International, Local) | Tidak | Tidak |  |
 | MyRepublic | Ya (International, Local, TCP) | Tidak | Tidak |  |
-| FirstMedia | Ya (International, Local) | Ya | Tidak |
+| FirstMedia | Ya (International, Local) | Ya | Ya |
 | Megavision | Ya (International, Local, TCP) | Tidak | ? | Nama lain: StarNET |
 | MNC | Ya | Ya/Tidak (Tergantung routing) | ? | Terkena DPI dari Upstream iForte |
 | Iconnet PLN | Ya | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah |
@@ -189,12 +189,12 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | Iconnet | Tinggi | Tidak Bisa |
 | Indihome | Sedang | ? |
 | Indosat | Sedang | Tidak Bisa (IM3) & Bisa (Hi-Fi, IP Transit) |
+| Firstmedia | Sedang | Tidak Bisa (http), Bisa (https) |
 | PT iForte Global internet | Sedang | Bisa |
 | CBN | Sedang | Bisa |
 | PT Jala Lintas Media, Bnetfit, dkk | Sedang | Bisa |
 | Smartfren | Sedang | Bisa |
 | 3 | Rendah | Bisa |
-| Firstmedia | Rendah | Bisa |
 | PT UNINET MEDIA SAKTI | Rendah | Bisa |
 
 **DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
