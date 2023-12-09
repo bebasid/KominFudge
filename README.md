@@ -134,6 +134,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Bnetfit | Ya | Ya | Tidak | Punya PT Jala Lintas Media |
 | Marvatel | Ya | Tidak | Tidak | |
 | NusaNet | Ya (Google. Quad9, OpenDNS, Cloudflare) | Ya/Tidak (Tergantung Routing) | | Terkena DPI dari upstream Indosat | 
+| XL Home | Ya (International, Local) | Ya/Tidak (Tergantung IP Address) | | ? | 
 
 **ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
