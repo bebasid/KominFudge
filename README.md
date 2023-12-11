@@ -166,7 +166,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Parsaoran Global Datatrans | Ya | Tidak | - | Nama lain: HSP NET |
 | PT Fiber Networks Indonesia | Ya (International, Local) | Tidak | ? | Nama lain: FIBERNET |
 | PT Power Telecom Indonesia | Ya | Ya | ? | DPI tidak memblokir Vimeo |
-| PT Solnet Indonesia | Ya | Tidak | ? |  |
+| PT Solnet Indonesia | Ya (International, Local) | Tidak | | Bisa minta whitelist transparent DNS |
 | PT Data Utama Dinamika | Ya | Ya | Ya | Terkena dari Lintasarta |
 | PT BIT TEKNOLOGI NUSANTARA | Ya | Ya | ? | [Terkena dari iForte](https://media.discordapp.net/attachments/709386084894900236/1112694319992807454/image.png) |
 | PT Hyperindo Media Perkasa | Ya | Ya | ? | [Terkena dari PT Jala Lintas Media](https://prnt.sc/CIOWaL3q56Eh) |
