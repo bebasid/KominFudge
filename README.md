@@ -119,7 +119,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | FirstMedia | Ya (International, Local) | Ya | Ya |
 | Megavision | Ya (International, Local, TCP) | Tidak | ? | Nama lain: StarNET |
 | MNC | Ya | Ya/Tidak (Tergantung routing) | ? | Terkena DPI dari Upstream iForte |
-| Iconnet PLN | Ya | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah |
+| Iconnet PLN | Ya (International, Local) | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah. Ikut DNS Nasional, Google, Cisco, Cloudflare, dkk belok ke DNS ICON dan selain itu diblokir |
 | PT Netciti Persada | Ya (Tergantung Routing) | Tidak | ? | Kena DNS Nasional  oleh upstream Lintasarta |
 | Oxygen | Ya (International) | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br>Memblokir alt-port DNS 5353 |
 | Citranet | Ya | Ya/Tidak (Tergantung routing) | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
