@@ -69,6 +69,7 @@ ISP adalah provider Internet, daftar isi ini akan membuat lebih tau bagaimana je
 ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara biasa, karena port 53 telah ditutupkan ke provider DNS IP Transit masing-masing sebagaimana <a href="https://youtu.be/q1706yrzzws?t=18927">DNS Nasional yang diusulkan di IDNOG 2022</a>.<br>
 | ASN | Nama | Pemblokiran menggunakan DNS | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
+| - | - | - | - | - |
 
 <sup style="text-align:center;">Jika di sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama terkena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dijalurkan melalui IP Transit diatas <em>jika ada.</em></sup><br>
 
