@@ -89,6 +89,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://prnt.sc/oBFA9eKMaBfP) | | |
 | [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://cdn.bebasid.com/KominFudge/jala_lintas_media.png) | | PT Hyperindo Media Perkasa |
 | [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Ya](https://cdn.bebasid.com/KominFudge/uninet.png) | [Bukti dari Traceroute](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
+| [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
 | [AS58495](https://bgp.tools/as/58495) |  PT Parsaroan Global Datatrans (HSP-NET) | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/ab32a09c-9345-436b-9660-d600fa77ccd3) | DPInya baik, blokir nya bener |
 
 
@@ -198,6 +199,8 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | Smartfren | Sedang | Bisa |
 | 3 | Rendah | Bisa |
 | PT UNINET MEDIA SAKTI | Rendah | Bisa |
+| PT Parsaroan Global Datatrans (HSP-NET) | Rendah | Bisa |
+| PT SaranaInsan Mudaselaras (SIMS) | Rendah | Bisa |
 
 **DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
 
