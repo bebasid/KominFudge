@@ -78,6 +78,8 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | ASN | Nama | Pemblokiran menggunakan DNS | DNS yang diblokir | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://cdn.bebasid.com/KominFudge/jlm-dnsn.png) | Cloudflare 1.1.1.1, Google, OpenDNS | [Bukti Pembelokan](https://cdn.bebasid.com/KominFudge/jlm-dnsn-bukti.png) | PT Hyperindo Media Perkasa |
+| [AS23947](https://bgp.tools/as/23947) | PT Mora Telematika Indonesia | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/d435da85-2582-46a5-8ade-61eb143554af) | Quad9 | Quad9 dibelokin di level IP Transit seperti yang bisa dilihat di [hasil traceroute.](https://github.com/bebasid/KominFudge/assets/115700386/cd5fce78-20fd-4e0b-ba79-cc50adab4ad3) | PT Queen Network Indonesia |
+
 
 <sup style="text-align:center;">Jika di sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama terkena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dijalurkan melalui IP Transit diatas <em>jika ada.</em></sup><br>
 
