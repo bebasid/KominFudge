@@ -233,6 +233,7 @@ Daftar isi server DNS untuk menggantikan server blokir punya *Kominfo*.
 | LibreDNS | - | `116.202.176.26` | X | - | X | X | `doh.libredns.gr/dns-query` | `dot.libredns.gr` |
 | [ControlD](https://controld.com/free-dns) | - | `76.76.2.2` | `76.76.10.2` | - | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com`|
 | AdGuard DNS | Memblokir iklan & malware | `94.140.14.14` | `94.140.15.15` | `5353` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
+| DNS.SB | - | `185.222.222.222` | `45.11.45.11` | - | `2a09::` | `2a11::` | `https://45.11.45.11/dns-query` | `tls://dot.sb:853` |
 | [DNSWarden](https://dnswarden.com/customfilter.html) | - | ? | ? | ? | ? | ? | ? | ? |
 
 <sup>Daftar isi ini lebih lengkap dan bisa dilihat dari [KB AdGuard](https://adguard-dns.io/kb/general/dns-providers/) dan [Curl Wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). Dan bisa juga membuat sendiri dengan menggunakan [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) atau [server sendiri dengan memakai PHP](https://github.com/NotMikeDEV/DoH).</sup>
