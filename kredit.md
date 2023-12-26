@@ -16,7 +16,7 @@
  | Felpurr | Data MTM Bali |
  | <a href="https://github.com/naups">Nauval<a/> | Data Marvatel | <a href="https://github.com/naups"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> |
  | Ohry |  Data CircleOne |
- | AronEquip | Data QNN, Moratel, dan Bypass DPI Kominfo | <a href="https://github.com/RacBallonMC"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> |
+ | <a href="https://github.com/RacBallonMC"><img src="https://avatars.githubusercontent.com/u/108195508?v=4" width="50px" /><a/> | Data QNN, Moratel, dan Bypass DPI Kominfo di nfqtables | <a href="https://github.com/RacBallonMC"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> |
 
 # Situs yang dipakai/disebutkan
  
