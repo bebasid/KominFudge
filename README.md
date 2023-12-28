@@ -190,9 +190,9 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | Nama | Kepayahan | Bypass MikroTik & IPTables |
 | :---: | :---: | :---: |
 | Telkomsel / By.U / Kartu Halo | Tinggi | Tidak Bisa |
+| Indihome | Tinggi | Tidak Bisa |
 | XL / Axis / Live On | Tinggi | Tidak Bisa |
 | Iconnet | Tinggi | Tidak Bisa |
-| Indihome | Sedang | ? |
 | Indosat | Sedang | Tidak Bisa (IM3) & Bisa (Hi-Fi, IP Transit) |
 | Firstmedia | Sedang | Tidak Bisa (http), Bisa (https) |
 | PT iForte Global internet | Sedang | Bisa |
