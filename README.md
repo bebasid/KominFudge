@@ -151,7 +151,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
 | PT Artha Telekomindo | Ya | Tidak | ? |
 | PT Hawk Teknologi Solusi | Ya | Tidak | ? |
-| PT Jaringanku Sarana Nusantara | Ya (International, Local) | Tidak | ? | Nama lain: JSN |
+| PT Jaringanku Sarana Nusantara | Ya (International, Local) | Tidak | ? | Nama lain: JSN. Provider gila blokir DoH/DoT |
 | PT. Infotama Lintas Global | Ya (International, Local) | Tidak | ? |
 | PT Remala Abadi | Ya | Tidak | Tidak | Nama lain: Tachyon |
 | PT iForte Global internet | Ya | Ya | Tidak | Implementasi DPI lagi, provider sedeng  |
