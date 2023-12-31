@@ -215,7 +215,7 @@ Daftar isi server DNS untuk menggantikan server blokir punya *Kominfo*.
 
 | Nama | Catatan | IPv4 | IPv4 2 | Port | IPv6 | IPv6 2 | DoH | DoT |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: |  :---: |
-| [BebasDNS](https://github.com/bebasid/bebasdns) | DNS memilik bebasid, menghadirkan blokir iklan dan malware serta family | `103.87.68.194` | ~~`35.219.67.150`~~ | `53` & `1753` | `2a06:9f44:f3e0:beba:51d::53` | ~~`2600:1901:8170:268::`~~ | `https://dns.bebasid.com/dns-query` | `tls://dns.bebasid.com` |
+| [BebasDNS](https://github.com/bebasid/bebasdns) | DNS milik bebasid/KINI, menghadirkan blokir iklan dan malware serta family | `103.87.68.194` | ~~`35.219.67.150`~~ | `53` & `1753` | `2a06:9f44:f3e0:beba:51d::53` | ~~`2600:1901:8170:268::`~~ | `https://dns.bebasid.com/dns-query` | `tls://dns.bebasid.com` |
 | Cloudflare DNS | - | `1.1.1.1` | `1.0.0.1` | `53` | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query`  | `1dot1dot1dot1.cloudflare-dns.com` |
 | Cloudflare Secure DNS | Memblokir malware | `1.1.1.2` | `1.0.0.2` | `53` | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query`  | `security.cloudflare-dns.com` |
 | Cloudflare Family DNS | Memblokir malware & situs dewasa | `1.1.1.3` | `1.0.0.3` | `53` | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query`  | `family.cloudflare-dns.com` |
