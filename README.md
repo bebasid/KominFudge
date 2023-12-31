@@ -213,28 +213,28 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 Paling simpel untuk *Kominfo* ngeblokir. Tapi, DNS bisa [digantikan](#cara-mengganti-lewat-dns).  
 Daftar isi server DNS untuk menggantikan server blokir punya *Kominfo*.
 
-| Nama | Catatan | IPv4 | IPv4 2 | Port Alternatif | IPv6 | IPv6 2 | DoH | DoT |
+| Nama | Catatan | IPv4 | IPv4 2 | Port | IPv6 | IPv6 2 | DoH | DoT |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: |  :---: |
-| Cloudflare DNS | - | `1.1.1.1` | `1.0.0.1` | - | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query`  | `1dot1dot1dot1.cloudflare-dns.com` |
-| Cloudflare Secure DNS | Memblokir malware | `1.1.1.2` | `1.0.0.2` | - | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query`  | `security.cloudflare-dns.com` |
-| Cloudflare Family DNS | Memblokir malware & situs dewasa | `1.1.1.3` | `1.0.0.3` | - | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query`  | `family.cloudflare-dns.com` |
-| Google DNS | - | `8.8.8.8` | `8.8.4.4` | - | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |
-| OpenDNS | - | `208.67.222.222` | `208.67.220.220` | `5353, 443` | ` 2620:119:35::35` | `2620:119:53::53` | `doh.opendns.com/dns-query` | - |
-| OpenDNS Familyshield | Memblokir situs dewasa | `208.67.222.123` | `208.67.220.123` | `5353, 443` | - | - | `doh.familyshield.opendns.com/dns-query` | - |
-| Quad9 Secured | Memblokir malware | `9.9.9.9` | `149.112.112.112` | `9953` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` | Memblokir malware |
-| Quad9 Secured with ECS | Memblokir malware, mendukung ECS | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `tls://dns11.quad9.net` |
-| Quad9 Unsecured | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` |
-| Quad9 Unsecured ECS | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware, mendukung ECS | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `tls://dns12.quad9.net` |
-| [BebasDNS](https://github.com/bebasid/bebasdns) | DNS punya bebasid, menghadirkan blokir iklan, malware, dan juga family | `103.87.68.194` | `103.87.68.195` | `1753` | `2a05:dfc7:bca0:beba:51d::53` | `2a05:dfc7:bca0:beba:51d::5353` | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
-| [AhaDNS](https://blitz-setup.ahadns.com) | - | ? | ? | ? | ? | ? | `blitz.ahadns.com` | ? |
-| BlahDNS | - | `45.91.92.121`  | X | - | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` |
+| [BebasDNS](https://github.com/bebasid/bebasdns) | DNS memilik bebasid, menghadirkan blokir iklan dan malware serta family | `103.87.68.194` | ~~`35.219.67.150`~~ | `53` & `1753` | `2a06:9f44:f3e0:beba:51d::53` | ~~`2600:1901:8170:268::`~~ | `https://dns.bebasid.com/dns-query` | `tls://dns.bebasid.com` |
+| Cloudflare DNS | - | `1.1.1.1` | `1.0.0.1` | `53` | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query`  | `1dot1dot1dot1.cloudflare-dns.com` |
+| Cloudflare Secure DNS | Memblokir malware | `1.1.1.2` | `1.0.0.2` | `53` | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query`  | `security.cloudflare-dns.com` |
+| Cloudflare Family DNS | Memblokir malware & situs dewasa | `1.1.1.3` | `1.0.0.3` | `53` | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query`  | `family.cloudflare-dns.com` |
+| Google DNS | - | `8.8.8.8` | `8.8.4.4` | `53` | `2001:4860:4860::8888` | `2001:4860:4860::8844` | `dns.google/dns-query` | `dns.google` |
+| OpenDNS | - | `208.67.222.222` | `208.67.220.220` | `53`, `5353` & `443` | ` 2620:119:35::35` | `2620:119:53::53` | `doh.opendns.com/dns-query` | - |
+| OpenDNS Familyshield | Memblokir situs dewasa | `208.67.222.123` | `208.67.220.123` | `53`, `5353` & `443` | - | - | `doh.familyshield.opendns.com/dns-query` | - |
+| Quad9 Secured | Memblokir malware | `9.9.9.9` | `149.112.112.112` | `53` & `9953` | `2620:fe::fe` | `2620:fe::9` | `dns.quad9.net/dns-query` | `tls://dns.quad9.net` | Memblokir malware |
+| Quad9 Secured with ECS | Memblokir malware, mendukung ECS | `9.9.9.11` | `149.112.112.11` | `53` & `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `tls://dns11.quad9.net` |
+| Quad9 Unsecured | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware | `9.9.9.10` | `149.112.112.10` | `53` & `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` |
+| Quad9 Unsecured ECS | DNS alternatif Quad9 yang tidak melakukan pemblokiran malware, mendukung ECS | `9.9.9.12` | `149.112.112.12` | `53` & `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `tls://dns12.quad9.net` |
+| [AhaDNS](https://blitz-setup.ahadns.com) | - | ? | ? | `53` | ? | ? | `blitz.ahadns.com` | ? |
+| BlahDNS | - | `45.91.92.121`  | - | `53` | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` |
 | [RethinkDNS](https://rethinkdns.com/configure) | - | ? | ? | - | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` |
 | NextDNS | - | `45.90.28.233` | `45.90.30.233` | `5353` | `2a07:a8c0::` | `2a07:a8c0::` | `dns.nextdns.io` | `dns.nextdns.io` |
-| LibreDNS | - | `116.202.176.26` | X | - | X | X | `doh.libredns.gr/dns-query` | `dot.libredns.gr` |
-| [ControlD](https://controld.com/free-dns) | - | `76.76.2.2` | `76.76.10.2` | - | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com`|
-| AdGuard DNS | Memblokir iklan & malware | `94.140.14.14` | `94.140.15.15` | `5353` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
-| DNS.SB | - | `185.222.222.222` | `45.11.45.11` | - | `2a09::` | `2a11::` | `https://45.11.45.11/dns-query` | `tls://dot.sb:853` |
-| [DNSWarden](https://dnswarden.com/customfilter.html) | - | ? | ? | ? | ? | ? | ? | ? |
+| LibreDNS | - | `116.202.176.26` | X | `53` | X | X | `doh.libredns.gr/dns-query` | `dot.libredns.gr` |
+| [ControlD](https://controld.com/free-dns) | - | `76.76.2.2` | `76.76.10.2` | `53` | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com`|
+| AdGuard DNS | Memblokir iklan & malware | `94.140.14.14` | `94.140.15.15` | `53` & `5353` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
+| DNS.SB | - | `185.222.222.222` | `45.11.45.11` | `53` | `2a09::` | `2a11::` | `https://45.11.45.11/dns-query` | `tls://dot.sb:853` |
+| [DNSWarden](https://dnswarden.com/customfilter.html) | - | ? | ? | `53` | ? | ? | ? | ? |
 
 <sup>Daftar isi ini lebih lengkap dan bisa dilihat dari [KB AdGuard](https://adguard-dns.io/kb/general/dns-providers/) dan [Curl Wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). Dan bisa juga membuat sendiri dengan menggunakan [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) atau [server sendiri dengan memakai PHP](https://github.com/NotMikeDEV/DoH).</sup>
 
