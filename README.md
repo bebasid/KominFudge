@@ -3,24 +3,73 @@
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="500">
           <br><p align="center">"Tolak diblokir, Terima <i>ngeblokir.</i></br>
     <p align="center">Karena Kominfo ngeblokir, mari kita <em>unblokir!"</em></p>
-    <p align="center"><b>Indonesia</b> | <a href="README.en.md">English</a></p></br>
 </p>
    
 </div>
 </p>
 <p align="center">
-<a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join Discord BEBASID"></a>
- </p>
-<p align="center">
     <a href="#"><img src="https://img.shields.io/static/v1?label=tahun%20diluncurkan:&message=2022&color=yellowgreen&style=plastic%22"></a>
     <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2FKominFudge_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=penonton%3A+%28hari%20ini%2Ftotal%29&edge_flat=false"/></a>
     <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE"><img src="https://img.shields.io/badge/lisensi-CC--BY--SA--4.0-blue"></a>
 </p>
-<p align="center">Donasi kami:</br>
-<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
-<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
- </p>
 <p align="center"><sup><b>DISCLAIMER</b>: </br><em>KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.</em></sup></p>
+<div align="center">
+    <code>Bahasa / Languages:</code></br></br>
+<table>
+  <tr>
+    <td valign="center"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> <b><ins>Indonesia</ins></b></td>
+    <td valign="center"><a href="README.en.md"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> English</td>
+</table>
+</div><br>
+
+<p align="center">
+<code>Server Komunitas:</code></br>
+<table align="center">
+<thead>
+<tr>
+<th><a href="https://discord.gg/bebasid-630415907021389825"><img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=flat&logo=discord&label=Join%20Discord&color=%234248f5"/></a></th>
+<th><a href="https://t.me/bebasidbykini"><img alt=""Join Telegram src="https://img.shields.io/badge/build-bebasidbykini-blue?logo=telegram&label=Join%20Telegram&link=https%3A%2F%2Ft.me%2Fbebasidbykini"/></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner4" alt="Join Discord BEBASID"></a></td>
+<td><a href="https://t.me/bebasidbykini"><img src="https://raw.githubusercontent.com/bebasid/bebasid/150f487f9b9978e98e93dc1552908a71f31d4e38/dev/resources/bebasidbykini-join-telegram-group.png" height="340" alt="Join Grup Telegram BEBASID"></a></td>
+</tr>
+</tbody>
+</table>
+<table align="center">
+<thead>
+<tr>
+<th><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img alt="Join WhatsApp" src="https://img.shields.io/badge/build-bebasid-brightgreen?style=flat&logo=whatsapp&logoColor=%231bcc2f&label=Join%20WhatsApp&link=https%3A%2F%2Fchat.whatsapp.com%2FJmn5Uv4UYj0GdQooI1Jwbi"></th>
+</tr>
+</thead>
+<tbody>
+<td><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/bebasid-join-whatsapp-group.png?raw=true" height="340" alt="Join Grup Telegram BEBASID"></a></td>
+</tr>
+</tbody>
+</table>
+</p><br>
+
+<p align="center"><code>Donasi Kami:</code></br>
+<table align="center">
+<thead>
+<tr>
+<th><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433" alt="Donasi BebasID Trakteer"></a></th>
+<th><a href="https://saweria.co/bebasid" target="_blank"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B" alt="Donasi BebasID Saweria"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://trakteer.id/images/mix/navbar-logo-lite.png" alt="Donasi BebasID Trakteer" height="76" width="291"></a></td>
+<td><a href="https://saweria.co/bebasid" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="Donasi BebasID Saweria" height="72" width="313"></a></td>
+</tr>
+</tbody>
+</table>
+</p>
+
+
 
 ---
 
@@ -477,7 +526,7 @@ Ini adalah bagian yang ekstrim dengan memakai Tor ada di bawah ini.
 4. [InviZible](https://github.com/Gedsh/InviZible) [Android]  
 <em>Aplikasi Android untuk DNS dan Tor.</em>
 ---
-<p align="center">Share proyek ini!</p>
+<p align="center">Bagikan proyek ini:</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
@@ -485,11 +534,23 @@ Ini adalah bagian yang ekstrim dengan memakai Tor ada di bawah ini.
   <p align="center">
 :coffee: Traktir kami kopi!
     </br>
-<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
-<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
+<table align="center">
+<thead>
+<tr>
+<th><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433" alt="Donasi BebasID Trakteer"></a></th>
+<th><a href="https://saweria.co/bebasid" target="_blank"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B" alt="Donasi BebasID Saweria"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://trakteer.id/images/mix/navbar-logo-lite.png" alt="Donasi BebasID Trakteer" height="76" width="291"></a></td>
+<td><a href="https://saweria.co/bebasid" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="Donasi BebasID Saweria" height="72" width="313"></a></td>
+</tr>
+</tbody>
+</table>
     </br>
     </p>
   <p align="center">
-    <a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> dari <a href="https://github.com/bebasid">bebasid</a> dilisensikan sebagai <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a>.
+    <a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> dari <a href="https://github.com/bebasid">BebasID/KINI</a> telah lisensikan dibawah <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a> tersebut.
 </p>
 </div>
