@@ -135,7 +135,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 <b>Sedangkan ISP yang menggunakan upstream dibawah ini, wajib menggunakan WARP/VPN, GoodbyeDPI, atau GreenTunnel/PowerTunnel.</b>
 | ASN | Nama | Pemblokiran menggunakan DPI | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
-| [AS7713](https://bgp.tools/as/7713) | PT Telkom Indonesia | [Ya]([https://cdn.bebasid.com/KominFudge/uninet.png](https://media.discordapp.net/attachments/1117169822954958938/1198094960323481620/image.png?ex=65bda7e2&is=65ab32e2&hm=db116aa2438867ab776af9d4e38f568478ab826a88914d1963257abaf49776fb&=&format=webp&quality=lossless)) | BUMN, gak kaget manut | Beberapa Universitas dan ISP lokal yang pake upstream AS7713 |
+| [AS7713](https://bgp.tools/as/7713) | PT Telkom Indonesia | [Ya](https://prnt.sc/t-YtO1J4CHbM) | BUMN, gak kaget manut | Beberapa Universitas dan ISP lokal yang pake upstream AS7713 |
 | [AS137366](https://bgp.tools/as/137366) / [AS17995](https://bgp.tools/as/17995) | PT iForte Global internet | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/1375435e-1c63-4ea5-98a7-8aba21e2ae39) | Hati-hati bagi yang memakai WIFI dari TransJakarta, Upstream mereka iForte | MNC Play, Wi-Fi Publik TransJakarta |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Ya](https://prnt.sc/kklpKa_RmRBC) | | |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://prnt.sc/oBFA9eKMaBfP) | | |
