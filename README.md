@@ -206,7 +206,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Remala Abadi | Ya | Tidak | Tidak | Nama lain: Tachyon |
 | PT iForte Global internet | Ya | Ya | Tidak | Implementasi DPI lagi, provider sedeng  |
 | PT Cipta Informatika Cemeriang | Ya | Tidak | ? |
-| PT Lexa Net | Ya | Tidak | ? | Nama lain: PT Lexa Global Akses |
+| PT Lexxa Data Indonusa | Ya | Tidak | ? | Nama lain: PT Lexa Net, PT Laxo Global Akses |
 | PT Media Sarana Data  | Ya (International, Local) | Tidak | ? | Nama lain: G-MEDIA |
 | PT Artorius Telemetri Sentosa | Ya | Tidak | ? |
 | D-NET | Ya (Google, OpenDNS, Cloudflare, Quad9) (Including TCP for those servers) | Tidak | ? | Nama lain: PT Core Mediatech <br />Hanya membelokan DNS Google, Cloudflare, dan Quad9 |
