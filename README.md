@@ -139,7 +139,6 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | [AS137366](https://bgp.tools/as/137366) / [AS17995](https://bgp.tools/as/17995) | PT iForte Global internet | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/1375435e-1c63-4ea5-98a7-8aba21e2ae39) | Hati-hati bagi yang memakai WIFI dari TransJakarta, Upstream mereka iForte | MNC Play, Wi-Fi Publik TransJakarta |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Ya](https://img001.prntscr.com/file/img001/dP4otLNfSjSFWPU1neVaRg.png) | | |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://img001.prntscr.com/file/img001/gP7q6CGxRnaDd-Qb54ZLbA.png) | | |
-| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://cdn.bebasid.com/KominFudge/jala_lintas_media.png) | | PT Hyperindo Media Perkasa |
 | [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Ya](https://cdn.bebasid.com/KominFudge/uninet.png) | [Bukti dari Traceroute](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
 | [AS58495](https://bgp.tools/as/58495) |  PT Parsaroan Global Datatrans (HSP-NET) | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/ab32a09c-9345-436b-9660-d600fa77ccd3) | DPInya baik, blokir nya bener |
@@ -185,7 +184,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Circle One | Ya | Tidak | ? |  |
 | WINET (PT Wahyu Adidaya Network) | Ya (International, Local) | Tergantung Routing | ? | Terkena DPI oleh BIX |
 | MyNet | Ya | Tergantung Routing | ? | Terkena DPI oleh BIX |
-| Bnetfit | Ya | Ya | Tidak | Punya PT Jala Lintas Media |
+| Bnetfit | Ya (International, Local, TCP) | Tidak | Tidak | Punya PT Jala Lintas Media |
 | Marvatel | Ya | Tidak | Tidak | |
 | NusaNet | Ya (Google. Quad9, OpenDNS, Cloudflare) | Ya/Tidak (Tergantung Routing) | | Terkena DPI dari upstream Indosat | 
 | XL Home | Ya (International) | Ya | Kemungkinan Tidak (?) | XL Home blokir DNS Luar Negeri, DNS lokal Aman | 
@@ -247,7 +246,6 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | Firstmedia | Sedang | Tidak Bisa (http), Bisa (https) |
 | PT iForte Global internet | Sedang | Bisa |
 | CBN | Sedang | Bisa |
-| PT Jala Lintas Media, Bnetfit, dkk | Sedang | Bisa |
 | Smartfren | Sedang | Bisa |
 | 3 | Rendah | Bisa |
 | PT UNINET MEDIA SAKTI | Rendah | Bisa |
