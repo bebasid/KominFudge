@@ -225,6 +225,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Data Utama Dinamika | Ya | Ya | Ya | Terkena dari Lintasarta |
 | PT BIT TEKNOLOGI NUSANTARA | Ya | Ya | ? | [Terkena dari iForte](https://media.discordapp.net/attachments/709386084894900236/1112694319992807454/image.png) |
 | PT Hyperindo Media Perkasa | Ya | Ya | ? | [Terkena dari PT Jala Lintas Media](https://img001.prntscr.com/file/img001/KuXjy8a2SUmRv8whEhogHg.png) |
+| PT Hipernet Indodata | Ya (Cloudflare, Google, Quad9, OpenDNS, Level3, along with the TCP 53) | Tidak | | |
 
 ### <ins>ISP Mobile Seluler</ins>
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server |  Catatan |
