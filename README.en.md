@@ -1,26 +1,77 @@
+<div align="center">
+    <code>Bahasa / Languages:</code></br></br>
+<table>
+  <tr>
+    <td valign="center"><a href="README.md"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> Indonesia</td>
+    <td valign="center"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/><b><ins>English</ins></b></td>
+</table>
+</div><br>
+
 <p align="center">
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo-black.svg#gh-light-mode-only" alt="BEBASID LOGO" width="500">
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="500">
           <br><p align="center">"Refuse to be blocked, Agree to blocking.</i></br>
     <p align="center">Because Kominfo blocking, let's unblock!"</em></p>
-    <p align="center"><a href="README.md">Indonesia</a> | <b>English</b></br>
 </p>
 
 </div>
 </p>
 <p align="center">
-<a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join Discord BEBASID"></a>
- </p>
-<p align="center">
     <a href="#"><img src="https://img.shields.io/static/v1?label=year%20launched:&message=2022&color=yellowgreen&style=plastic%22"></a>
     <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2FKominFudge_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=watchers%3A+%28today%2Ftotal%29&edge_flat=false"/></a>
     <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-CC--BY--SA--4.0-blue"></a>
 </p>
-<p align="center">Donate us:</br>
-<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
-<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
- </p>
 <p align="center"><sup><b>DISCLAIMER</b>: </br><em>Kominfudge is not responsible for any damages caused to your device, do with your own risk.</em></sup></p>
+<br>
+
+<p align="center">
+<code>Community Server:</code></br>
+<table align="center">
+<thead>
+<tr>
+<th><a href="https://discord.gg/bebasid-630415907021389825"><img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=flat&logo=discord&label=Join%20Discord&color=%234248f5"/></a></th>
+<th><a href="https://t.me/bebasidbykini"><img alt=""Join Telegram src="https://img.shields.io/badge/build-bebasidbykini-blue?logo=telegram&label=Join%20Telegram&link=https%3A%2F%2Ft.me%2Fbebasidbykini"/></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner4" alt="Join BEBASID Discord"></a></td>
+<td><a href="https://t.me/bebasidbykini"><img src="https://raw.githubusercontent.com/bebasid/bebasid/150f487f9b9978e98e93dc1552908a71f31d4e38/dev/resources/bebasidbykini-join-telegram-group.png" height="340" alt="Join BEBASID Telegram Group"></a></td>
+</tr>
+</tbody>
+</table>
+<table align="center">
+<thead>
+<tr>
+<th><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img alt="Join WhatsApp" src="https://img.shields.io/badge/build-bebasid-brightgreen?style=flat&logo=whatsapp&logoColor=%231bcc2f&label=Join%20WhatsApp&link=https%3A%2F%2Fchat.whatsapp.com%2FJmn5Uv4UYj0GdQooI1Jwbi"></th>
+</tr>
+</thead>
+<tbody>
+<td><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/bebasid-join-whatsapp-group.png?raw=true" height="340" alt="Join BEBASID WhatsApp Group"></a></td>
+</tr>
+</tbody>
+</table>
+</p><br>
+
+<p align="center"><code>Donate Us:</code></br>
+<table align="center">
+<thead>
+<tr>
+<th><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433" alt="BebasID Trakteer Donation"></a></th>
+<th><a href="https://saweria.co/bebasid" target="_blank"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B" alt="BebasID Saweria Donation"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://trakteer.id/images/mix/navbar-logo-lite.png" alt="BebasID Trakteer Donation" height="76" width="291"></a></td>
+<td><a href="https://saweria.co/bebasid" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="BebasID Saweria Donation" height="72" width="313"></a></td>
+</tr>
+</tbody>
+</table>
+</p>
+
+
 
 ---
 
@@ -69,7 +120,7 @@ ISP is your Internet provider, this list will helps you understand more about ho
 ISP that using these upstreams will not be able to change DNS in usual way due to port 53 redirection to each Transit IP provider DNS resolvers following the <a href="https://youtu.be/q1706yrzzws?t=18927">National DNS that unveiled during IDNOG 2022.</a><br>
 | ASN | Name | Blocking using DNS | Note | Example of affected ISP |
 | :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta | [Transparent DNS (Port 53 redirected to server](assets/proofs/png/AS4800-1.png?raw=1) | [Lintasarta redirecting port 53 to their own server so other DNS server and individual ISP will not work if the ISP routing their server towards Lintasarta even if the DNS server is located in Indonesia](assets/proofs/png/AS4800-2.png?raw=1) | Netciti, CYB Media |
+| - | - | - | - | - |
 
 <sup style="text-align:center;">If your ISP does not comply with National DNS regulation but uses Transit IP as shown above, you will experience the same blocking and must use encrypted DNS.<br>Or you can use DNS that is not routed towards those Transit IPs if available.</sup><br>
 
@@ -77,18 +128,23 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 
 | ASN | Name | Blocking using DNS | Blocked DNS | Note | Example of affected ISP |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://cdn.bebasid.com/KominFudge/jlm-dnsn.png) | Cloudflare 1.1.1.1, Google, OpenDNS | [Proof of Redirection](https://cdn.bebasid.com/KominFudge/jlm-dnsn-bukti.png) | PT Hyperindo Media Perkasa |
+| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Yes](https://cdn.bebasid.com/KominFudge/jlm-dnsn.png) | Cloudflare 1.1.1.1, Google, OpenDNS | [Bukti Pembelokan](https://cdn.bebasid.com/KominFudge/jlm-dnsn-bukti.png) | PT Hyperindo Media Perkasa |
+| [AS23947](https://bgp.tools/as/23947) | PT Mora Telematika Indonesia | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/d435da85-2582-46a5-8ade-61eb143554af) | Quad9 | Redirecting Quad9 at Transit IP level as can be seen at [traceroute result.](https://github.com/bebasid/KominFudge/assets/115700386/cd5fce78-20fd-4e0b-ba79-cc50adab4ad3) | PT Queen Network Indonesia |
+
 
 <sup style="text-align:center;">If your ISP does not comply with National DNS regulation but uses Transit IP as shown above, you will experience the same blocking and must use encrypted DNS.<br>Or you can use DNS that is not routed towards those Transit IPs if available.</sup><br>
 
 <b>For ISPs that using these upstream providers, you must use WARP/VPN, GoodbyeDPI, or GreenTunnel/PowerTunnel.</b>
 | ASN | Name | Blocking using DPI | Note | Example of affected ISP |
 | :---: | :---: | :---: | :---: | :---: |
-| [AS4761](https://bgp.tools/as/4761) | INDOSAT Internet Network Provider | [Yes](assets/proofs/png/AS23951-AS4761.png?raw=1) |  | Citranet, Nusanet |
-| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Yes](https://prnt.sc/kklpKa_RmRBC) | | |
-| [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Yes](https://prnt.sc/oBFA9eKMaBfP) | | |
-| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Yes](https://media.discordapp.net/attachments/1125830010834522133/1137485148955365602/image.png?width=1200&height=548) | | PT Hyperindo Media Perkasa |
-| [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Yes](https://cdn.bebasid.com/KominFudge/uninet.png) | [Traceroute proof](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
+| [AS7713](https://bgp.tools/as/7713) | PT Telkom Indonesia | [Yes](https://img001.prntscr.com/file/img001/tszSvllaRfe6S6K5TRLrmg.png) | State-owned, so auto-comply | Several Universities and local ISP that use upstream AS7713 |
+| [AS137366](https://bgp.tools/as/137366) / [AS17995](https://bgp.tools/as/17995) | PT iForte Global internet | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/1375435e-1c63-4ea5-98a7-8aba21e2ae39) | For TransJakarta commuters, beware that their Upstream is iForte | MNC Play, TransJakarta Public Wi-Fi |
+| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Yes](https://img001.prntscr.com/file/img001/dP4otLNfSjSFWPU1neVaRg.png) | | |
+| [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Yes](https://img001.prntscr.com/file/img001/gP7q6CGxRnaDd-Qb54ZLbA.png) | | |
+| [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Yes](https://cdn.bebasid.com/KominFudge/uninet.png) | [Traceroute Proof](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
+| [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
+| [AS58495](https://bgp.tools/as/58495) |  PT Parsaroan Global Datatrans (HSP-NET) | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/ab32a09c-9345-436b-9660-d600fa77ccd3) | Good DPI usage, proper blocking |
+
 
 <sup style="text-align:center;">If your ISP does not use DPI but using those upstreams, you can use an anti DPI tool to bypass</sup><br>
 
@@ -98,7 +154,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | - | - | - | - | - |
 
 ### <ins>VPS Provider (Virtual Private Server) / Cloud Provider</ins> 
-<sup><b>Berikut merupakan VPS yang menerapkan DPI pada koneksinya sehingga tidak friendly untuk dipakai untuk tunneling jika anda ingin kebebasan dalam internet</b>.</sup><br>
+<sup><b>VPS providers that implementing DPI within their connection so it is not friendly for tunnelling if you want freedom of internet access</b>.</sup><br>
 
 | ASN | Official Website | Provider | Blocking Using DPI | Sending TCP RST to Server |
 | :---: | :---: | :---: | :---: | :---: |
@@ -118,8 +174,8 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | FirstMedia | Yes (International, Local) | Yes | No |
 | Megavision | Yes (International, Local) | No | ? | Other name: StarNET  |
 | MNC | Yes | Yes/No (Depends on routing) | ? | Affected by DPI from iForte upstream  |
-| Iconnet PLN | Yes | Yes | Yes | Iconnet DPI also sending TCP RST to server. Two-way DPI blocking |
-| PT Netciti Persada | Yes | No | ? | Affected by National DNS from Lintasarta upstream |
+| Iconnet PLN | Yes | Yes | Yes | Iconnet DPI also sending TCP RST to server. Two-way DPI blocking. Several DNS such as Google, Cisco, Cloudflare are redirected to ICON DNS and others are blocked |
+| PT Netciti Persada | Yes | No | ? | Blocking DoH, just wow... |
 | Oxygen | Yes (International) | Yes | No | Other name: Moratelindo <br /> Blocking Google DoH andn DoT <br>Blocking alt-port DNS 5353 |
 | Citranet | Yes | Yes/No (Depends on routing) | ? | DPI from Citranet upstream. If routed towards Indosat and some of their upstreams, it will be affected |
 | Padi Net | Yes (International, Local) | No | ? |
@@ -133,6 +189,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | Bnetfit | Yes | Yes | No | Owned by PT Jala Lintas Media |
 | Marvatel | Yes | No | No | |
 | NusaNet | Yes (Google. Quad9, OpenDNS, Cloudflare) | Yes/No (Depends on routing) | | Affected by DPI from Indosat upstream | 
+| XL Home | Yes (International) | Yes | Probably No (?) | XL Home blocking overseas DNS, local DNS should be safe | 
 
 **Corporate ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
@@ -168,6 +225,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | PT Data Utama Dinamika | Yes | Yes | Yes | Affected by Lintasarta |
 | PT BIT TEKNOLOGI NUSANTARA | Yes | Yes | ? | [Affected by iForte](https://media.discordapp.net/attachments/709386084894900236/1112694319992807454/image.png) |
 | PT Hyperindo Media Perkasa | Yes | Yes | ? | [Affected by PT Jala Lintas Media](https://prnt.sc/CIOWaL3q56Eh) |
+| PT Hipernet Indodata | Yes (Cloudflare, Google, Quad9, OpenDNS, Level3, along with the TCP 53) | No | | |
 
 ### <ins>Mobile ISP</ins>
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server |  Note |
@@ -184,16 +242,18 @@ How much effort needed to unblock with DPI per-ISP
 | Name | Effort | Bypass MikroTik & IPTables |
 | :---: | :---: | :---: |
 | Telkomsel / By.U / Kartu Halo | High | Not Possible |
+| Indihome | High | Not Possible |
 | XL / Axis / Live On | High | Not Possible |
 | Iconnet | High | Not Possible |
 | Indosat | Medium | Not Possible (IM3) & Possible (Hi-Fi, Transit IP) |
-| Indihome | Medium | ? |
+| FirstMedia | Medium | Not Possible (HTTP) & Possible (HTTPS) |
+| PT iForte Global internet | Medium | Possible |
 | CBN | Medium | Possible |
-| PT Jala Lintas Media, Bnetfit, dkk | Medium | Possible |
 | Smartfren | Medium | Possible |
 | 3 | Low | Possible |
-| FirstMedia | Low | Possible |
 | PT UNINET MEDIA SAKTI | Low | Possible |
+| PT Parsaroan Global Datatrans (HSP-NET) | Low | Possible |
+| PT SaranaInsan Mudaselaras (SIMS) | Low | Possible |
 
 **THIS DATA IS NOT COMPLETE, IF YOU WANT TO ADD MORE, PLEASE GIVE FURTHER INFORMATION**
 
@@ -206,6 +266,7 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 
 | Name | Note | IPv4 | IPv4 2 | Alternative Port | IPv6 | IPv6 2 | DoH | DoT |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: |  :---: |
+| BebasDNS | Bebasid's own DNS resolver, blocking ad, malware, and also there is family variant | `103.87.68.194` | ~~`35.219.67.150`~~ | `53` & `1753` | `2a06:9f44:f3e0:beba:51d::53` | ~~`2600:1901:8170:268::`~~ | `https://dns.bebasid.com/dns-query` | `tls://dns.bebasid.com` |
 | Cloudflare DNS | - | `1.1.1.1` | `1.0.0.1` | - | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query`  | `1dot1dot1dot1.cloudflare-dns.com` |
 | Cloudflare Secure DNS | Blocking malware | `1.1.1.2` | `1.0.0.2` | - | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query`  | `security.cloudflare-dns.com` |
 | Cloudflare Family DNS | Blocking malware & adult sites | `1.1.1.3` | `1.0.0.3` | - | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query`  | `family.cloudflare-dns.com` |
@@ -216,7 +277,6 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 | Quad9 Secured with ECS | Blocking malware, supporting ECS | `9.9.9.11` | `149.112.112.11` | `9953` | `2620:fe::11` | `2620:fe::fe::11` | `dns11.quad9.net/dns-query` | `tls://dns11.quad9.net` |
 | Quad9 Unsecured | Alternative DNS resolvers from Quad9 that does not block malware | `9.9.9.10` | `149.112.112.10` | `9953` | `2620:fe::10` | `2620:fe::fe:10` | `dns10.quad9.net/dns-query` | `tls://dns10.quad9.net` |
 | Quad9 Unsecured ECS | Alternative DNS resolvers from Quad9 that does not block malware, supporting ECS | `9.9.9.12` | `149.112.112.12` | `9953` | `2620:fe::12` | `2620:fe::fe:12` | `dns12.quad9.net/dns-query` | `tls://dns12.quad9.net` |
-| BebasDNS | Bebasid's own DNS resolver, blocking ad, malware, and also there is family variant | `103.87.68.194` | `103.87.68.195` | `1753` | `2a05:dfc7:bca0:beba:51d::53` | `2a05:dfc7:bca0:beba:51d::5353` | `dns.bebasid.com/dns-query` | `dns.bebasid.com` |
 | [AhaDNS](https://blitz-setup.ahadns.com) | - | ? | ? | ? | ? | ? | `blitz.ahadns.com` | ? |
 | BlahDNS | - | `45.91.92.121`  | X | - | `2a0e:dc0:6:23::2` | X | `doh-ch.blahdns.com/dns-query` | `dot-ch.blahdns.com` |
 | [RethinkDNS](https://rethinkdns.com/configure) | - | ? | ? | - | ? | ? | `basic.rethinkdns.com` | `max.rethinkdns.com` |
@@ -224,6 +284,7 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 | LibreDNS | - | `116.202.176.26` | X | - | X | X | `doh.libredns.gr/dns-query` | `dot.libredns.gr` |
 | [ControlD](https://controld.com/free-dns) | - | `76.76.2.2` | `76.76.10.2` | - | `2606:1a40::2` | `2606:1a40:1::2` | `freedns.controld.com/p1` | `p1.freedns.controld.com`|
 | AdGuard DNS | Blocking ad and malware | `94.140.14.14` | `94.140.15.15` | `5353` | `2a10:50c0::ad1:ff` | `2a10:50c0::ad2:ff` | `https://dns.adguard-dns.com/dns-query` | `dns.adguard-dns.com` |
+| DNS.SB | - | `185.222.222.222` | `45.11.45.11` | `53` | `2a09::` | `2a11::` | `https://45.11.45.11/dns-query` | `tls://dot.sb:853` |
 | [DNSWarden](https://dnswarden.com/customfilter.html) | - | ? | ? | ? | ? | ? | ? | ? |
 
 <sup>More comprehensive list can be seen at [Adguard KB](https://adguard-dns.io/kb/general/dns-providers/) and [Curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS). You can create your own DNS over HTTPS with [Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers) or [with PHP](https://github.com/NotMikeDEV/DoH).</sup>
@@ -384,8 +445,7 @@ sudo iptables -A INPUT -p tcp -m string --string "Location: http://lamanlabuh.ad
 sudo firewall-cmd --direct --add-rule ipv4 filter INPUT 0 -p tcp --tcp-flags ALL RST,ACK -j DROP
 ```
 
-*Use the firewall-cmd one for Linux distribution that using firewalld, like Fedora and OpenSUSE in terminal.
-But those commands will not work if ISP is also sending TCP RST to server (List of ISP can be seen in Sending TCP RST to server column on above table).*
+*Use the firewall-cmd one for Linux distribution that using firewalld, like Fedora and OpenSUSE in terminal. Note that those commands will not work if ISP is also sending TCP RST to server (List of ISP can be seen in Sending TCP RST to server column on above table).*
 
 ### Trick to bypass DPI using router[🔝](#navigation)
 
@@ -467,21 +527,32 @@ And, this is the most extreme part, using Tor.
 
 4. [InviZible](https://github.com/Gedsh/InviZible) [Android]  
 <em>Android application for DNS and Tor.</em>
-
 ---
 <p align="center">Share this project!</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/KominFudge"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white"/></a>
-  </p>
   <p align="center">
 :coffee: Buy us coffee!
     </br>
-<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
-<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
+<table align="center">
+<thead>
+<tr>
+<th><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433" alt="BebasID Trakteer Donation"></a></th>
+<th><a href="https://saweria.co/bebasid" target="_blank"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B" alt="BebasID Saweria Donation"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://trakteer.id/images/mix/navbar-logo-lite.png" alt="BebasID Trakteer Donation" height="76" width="291"></a></td>
+<td><a href="https://saweria.co/bebasid" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="BebasID Saweria Donation" height="72" width="313"></a></td>
+</tr>
+</tbody>
+</table>
     </br>
     </p>
-  <p align="center"><a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> from <a href="https://github.com/bebasid">bebasid</a> is licensed under <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a>.
+  <p align="center">
+      <a href="https://github.com/bebasid/KominFudge#readme">KominFudge</a> from <a href="https://github.com/bebasid">bebasid</a> is licensed under <a href="https://github.com/bebasid/KominFudge/blob/main/LICENSE">CC-BY-SA-4.0</a>.
 </p>
 </div>
