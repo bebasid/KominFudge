@@ -25,6 +25,16 @@ Server Komunitas
 <a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi">
     <img alt="Static Badge" src="https://img.shields.io/badge/bebasid-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=Join%20WhatsApp&labelColor=222">
 </a>
+
+Donasi kami
+
+<a href="https://trakteer.id/bebasidbykini">
+    <img alt="Static Badge" src="https://img.shields.io/badge/bebasidbykini-white?style=for-the-badge&label=Trakteer&labelColor=222">
+</a>
+
+<a href="https://saweria.co/bebasid">
+    <img alt="Static Badge" src="https://img.shields.io/badge/bebasid-white?style=for-the-badge&label=Saweria&labelColor=222">
+</a>
 </div>
 
 ## Tentang KominFudge
@@ -365,7 +375,7 @@ Siapapun dapat menambahkan informasi baru dan berkontribusi kepada repositori in
 <p align="center">Share projek ini</p>
 <div id="sosial">
  <p align="center">
-  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/KominFudge"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white"/></a>
+  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-white?style=for-the-badge&logo=twitter&logoColor=black"/></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/KominFudge"><img src="https://img.shields.io/badge/Facebook-white?style=for-the-badge&logo=facebook&logoColor=black"/></a>
  </p>
 </div>
