@@ -2,18 +2,20 @@
  <img src="/assets/icon/logo.svg#gh-dark-mode-only" width="500">
  <img src="/assets/icon/logo-black.svg#gh-light-mode-only" width="500"><br><br>
  <p>"Tolak diblokir, Ayo <i>unblokir!</i>"</p>
- <p><b>KominFudge Panduan Mahir</b></p>
+ <p><b>KominFudge: Sumber daya (Mahir)</b></p>
 </div>
 
 ## Tentang KominFudge
 
-KominFudge adalah sebuah panduan tentang penyensoran Internet di Indonesia dan cara untuk menembusnya agar dapat mengakses Internet secara bebas.
+KominFudge adalah sebuah dokumentasi tentang penyensoran Internet di Indonesia dan cara untuk menembusnya agar dapat mengakses Internet secara bebas.
 
-Panduan ini terdiri atas dua dokumen yaitu:
+Dokumentasi ini terdiri atas tiga dokumen yaitu:
 
-- **Panduan mahir**, yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
+- **Sumber daya (mahir)**, yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
 
-- [**Panduan pemula**](README.md), yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya diurut mulai dari cara termudah hingga tersulit serta rekomendasi dari KominFudge.
+- [**Panduan (pemula)**](README.md), yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya diurut mulai dari cara termudah hingga tersulit serta rekomendasi dari KominFudge.
+
+- [**Penemuan**](FINDINGS.md), yang mendokumentasikan penemuan yang kita temui
 
 Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
 
@@ -24,6 +26,7 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 ## Navigasi
 
 - [Tentang KominFudge](#tentang-kominfudge)
+- [Navigasi](#navigasi)
 - [Penjelasan metode pemblokiran](#penjelasan-metode-pemblokiran)
   - [Pemblokiran berbasis DNS](#pemblokiran-berbasis-dns)
   - [Pemblokiran berbasis DPI](#pemblokiran-berbasis-dpi)
@@ -31,6 +34,7 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 - [Jaringan *upstream* (IP *transit*) dan *internet exchange*](#jaringan-upstream-ip-transit-dan-internet-exchange)
   - [Jaringan *upstream* (IP *transit*)](#jaringan-upstream-ip-transit)
   - [*Internet exchange*](#internet-exchange)
+  - [*Virtual Private Server (VPS)*](#virtual-private-server-vps)
 - [ISP dan metode pemblokiran yang digunakan](#isp-dan-metode-pemblokiran-yang-digunakan)
   - [ISP serat optik (*fiber optic*)](#isp-serat-optik-fiber-optic)
   - [ISP selular / *mobile*](#isp-selular--mobile)
@@ -76,11 +80,11 @@ Berikut adalah langkah-langkah umum dalam cara kerja Deep Packet Inspection:
 4. Penganalisisan Konten: Setelah payload direkonstruksi, perangkat DPI menganalisis konten paket data. Analisis ini dapat mencakup pencocokan pola atau tanda tangan tertentu untuk mengidentifikasi jenis data yang dikirim, seperti protokol jaringan, aplikasi, atau jenis file tertentu.
 5. Pengambilan Keputusan: Setelah analisis konten dilakukan, perangkat DPI dapat mengambil keputusan berdasarkan kebijakan atau aturan yang telah ditentukan sebelumnya. Misalnya, perangkat DPI dapat memutuskan untuk memblokir paket yang mengandung ancaman keamanan atau melanggar kebijakan jaringan.
 
-Cara Great Firewall of Indonesia bekerja adalah dengan mengirimkan paket RST ke client (dan terkadang servernya juga) jika mendeteksi user mengunjungi situs yang diblokir dengan melihat headernya. Ini mengapa mengganti DNS atau sebagainya tidak akan bekerja jika ISP anda memakai DPI untuk memblokir situs.
+Cara *Great Firewall of Indonesia* bekerja adalah dengan mengirimkan paket RST ke client (dan terkadang servernya juga) jika mendeteksi user mengunjungi situs yang diblokir dengan melihat headernya. Ini mengapa mengganti DNS atau sebagainya tidak akan bekerja jika ISP anda memakai DPI untuk memblokir situs.
 
 Header yang ditargetkan untuk memblokir website ialah
 - Host header<br>
-  Host header merupakan identifikasi pada header http yang mengandung informasi situs yang akan kita kunjungi dan dikirimkan tanpa enkripsi sehingga Great Firewall of Indonesia bisa membacanya, menyamar menjadi server tujuan, dan membelokan request ke `http://lamanlabuh.aduankonten.id` dikarenakan situs http tidak mempunyai pengecekan seperti https dengan certificate<br>
+  Host header merupakan identifikasi pada header http yang mengandung informasi situs yang akan kita kunjungi dan dikirimkan tanpa enkripsi sehingga *Great Firewall of Indonesia* bisa membacanya, menyamar menjadi server tujuan, dan membelokan request ke `http://lamanlabuh.aduankonten.id` dikarenakan situs http tidak mempunyai pengecekan seperti https dengan certificate<br>
   
   ![image](https://github.com/bebasid/KominFudge/assets/115700386/848147a7-a296-4686-a83e-52a844aeaeaf)<br>
  
@@ -243,7 +247,7 @@ Siapapun dapat menambahkan informasi baru dan berkontribusi kepada repositori in
 
 [Kembali ke "Navigasi"](#navigasi)
 
-<p align="center">Share projek ini</p>
+<p align="center">Share proyek ini</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-white?style=for-the-badge&logo=twitter&logoColor=black"/></a>

@@ -2,7 +2,7 @@
  <img src="/assets/icon/logo.svg#gh-dark-mode-only" width="500">
  <img src="/assets/icon/logo-black.svg#gh-light-mode-only" width="500">
   <p>"Tolak diblokir, Ayo <i>unblokir!</i>"</p>
-   <p><b>KominFudge Panduan Pemula</b></p>
+   <p><b>KominFudge: Panduan (Pemula)</b></p>
 </div>
 
 <div align="center">
@@ -39,13 +39,15 @@ Donasi kami
 
 ## Tentang KominFudge
 
-KominFudge adalah sebuah panduan dan sumber daya tentang penyensoran Internet di Indonesia dan cara untuk menembusnya agar dapat mengakses Internet secara bebas.
+KominFudge adalah sebuah dokumentasi tentang penyensoran Internet di Indonesia dan cara untuk menembusnya agar dapat mengakses Internet secara bebas.
 
-Panduan ini terdiri atas dua dokumen yaitu:
+Dokumentasi ini terdiri atas tiga dokumen yaitu:
 
-- **Panduan pemula**, yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya, diurut dari cara termudah hingga tersulit, serta rekomendasi dari KominFudge.
+- **Panduan (pemula)**, yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya, diurut dari cara termudah hingga tersulit, serta rekomendasi dari KominFudge.
 
-- [**Panduan mahir**](Advanced-README.md), yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
+- [**Sumber daya (mahir)**](Advanced-README.md), yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
+
+- [**Penemuan**](FINDINGS.md), yang mendokumentasikan penemuan yang kita temui
 
 Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
 
@@ -56,14 +58,31 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 ## Navigasi
 
 - [Tentang KominFudge](#tentang-kominfudge)
+- [Navigasi](#navigasi)
 - [Memilih layanan VPN yang aman](#memilih-layanan-vpn-yang-aman)
 - [Memilih layanan DNS yang tepat](#memilih-layanan-dns-yang-tepat)
-  - [Aplikasi pengatur DNS](#aplikasi-pengatur-dns)
-  - [Mengganti layanan DNS secara manual](#mengganti-layanan-dns-secara-manual)
+- [Aplikasi pengatur DNS](#aplikasi-pengatur-dns)
+- [Mengganti layanan DNS secara manual](#mengganti-layanan-dns-secara-manual)
+  - [Di Android](#di-android)
+  - [Di iOS](#di-ios)
+  - [Di Windows](#di-windows)
+    - [Windows 10 kebawah](#windows-10-kebawah)
+    - [Windows 11](#windows-11)
+  - [Di macOS](#di-macos)
+  - [Di Linux](#di-linux)
+  - [Di browser berbasis Chromium](#di-browser-berbasis-chromium)
+  - [Di Firefox](#di-firefox)
 - [Aplikasi penembus DPI](#aplikasi-penembus-dpi)
-  - [Menembus DPI tanpa aplikasi](#menembus-dpi-tanpa-aplikasi)
+- [Menembus DPI tanpa aplikasi](#menembus-dpi-tanpa-aplikasi)
+  - [Di Linux](#di-linux-1)
+  - [Di Router](#di-router)
 - [Daftar *hosts file*](#daftar-hosts-file)
-  - [Menggunakan *hosts file*](#menggunakan-hosts-file)
+- [Menggunakan *hosts file*](#menggunakan-hosts-file)
+  - [Di Android](#di-android-1)
+  - [Di iOS](#di-ios-1)
+  - [Di Windows](#di-windows-1)
+  - [Di macOS](#di-macos-1)
+  - [Di Linux](#di-linux-2)
 - [Menggunakan Tor](#menggunakan-tor)
 - [Berkontribusi kepada KominFudge](#berkontribusi-kepada-kominfudge)
 
@@ -73,9 +92,8 @@ Menggunakan layanan VPN, gratis maupun berbayar, adalah pilihan yang populer dan
 
 Berikut ini adalah rekomendasi KominFudge untuk layanan VPN yang memiliki reputasi yang baik:
 
-***Freemium*** - Gratis tetapi memiliki opsi untuk _upgrade_ untuk fitur tambahan
-
-**Berbayar** - Harus dibayar untuk digunakan
+**Berbayar** - Servis ini harus dibayar untuk dipakai.  
+**Freemium** - Servis ini punya subskripsi gratis dan berbayar.  
 
 | Nama                                 | Catatan                                                                                       | Harga      |
 |:------------------------------------:|:---------------------------------------------------------------------------------------------:| ---------- |
@@ -372,7 +390,7 @@ Siapapun dapat menambahkan informasi baru dan berkontribusi kepada repositori in
 
 [Kembali ke "Navigasi"](#navigasi)
 
-<p align="center">Share projek ini</p>
+<p align="center">Share proyek ini</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-white?style=for-the-badge&logo=twitter&logoColor=black"/></a>
