@@ -29,7 +29,7 @@ Untuk menambahkan aplikasi VPN baru, silahkan gunakan format berikut:
 | [Nama VPN](situs vpn) | catatan (opsional, jika tidak ada, taruh (-)) | Harga |
 ```
 
-Anda bisa memakai situs seperti [Table Magic](https://stevecat.net/table-magic/) untuk meformat
+Anda bisa memakai situs seperti [Table Magic](https://stevecat.net/table-magic) untuk meformat
 
 Anda bisa memakai ini di tabel Harga:  
 **Berbayar** - Servis ini harus dibayar untuk dipakai.  
@@ -48,7 +48,7 @@ Jika DNS bisa di konfigurasi (contoh: NextDNS), silahkan gunakan format ini:
 ```
 | [Nama DNS](situs dns) | Bisa Diatur | Kustom | Kustom | Kustom | Kustom | Kustom | Kustom | Kustom |
 ```
-Anda bisa memakai situs seperti [Table Magic](https://stevecat.net/table-magic/) untuk meformat
+Anda bisa memakai situs seperti [Table Magic](https://stevecat.net/table-magic) untuk meformat
 
 Jika DNS yang Anda tambah tidak memiliki salah satu benda di tabel, Anda bisa menaruh (-) di tabel itu seperti contoh ini:
 ```
@@ -104,7 +104,7 @@ Jika Servis lebih dari atau pas 10, anda harus buat seperti contoh ini:
 ```
 | Nama pemilik hostfile | [10+](situs hostfile) | - |
 ```
-Anda bisa memakai situs seperti [Table Magic](https://stevecat.net/table-magic/) untuk meformat
+Anda bisa memakai situs seperti [Table Magic](https://stevecat.net/table-magic) untuk meformat
 
 ## Tutorial
 Bagian ini berlaku untuk **Mengganti layanan DNS secara manual**, **Menembus DPI tanpa aplikasi**, dan **Menggunakan hosts file**

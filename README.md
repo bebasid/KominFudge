@@ -5,37 +5,37 @@
    <p><b>KominFudge: Panduan (Pemula)</b></p>
 </div>
 
-<div align="center">
+<div align="center"><p>
 <a href="https://creativecommons.org/licenses/by-sa/4.0">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Attribution%20ShareAlike%204.0-white?style=for-the-badge&logo=creativecommons&logoColor=white&label=Creative%20Commons&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/CC%20BY%20SA%204.0-white?style=for-the-badge&logo=creativecommons&logoColor=white&label=Lisensi&labelColor=222">
 </a>
 
-<img alt="Static Badge" src="https://img.shields.io/badge/2022-white?style=for-the-badge&label=Tahun%20Diluncurkan&labelColor=222">
+<img alt="Static Badge" src="https://img.shields.io/badge/2022-white?style=for-the-badge&logo=fireship&logoColor=white&label=Diluncurkan&labelColor=222">
 
-Server Komunitas
+### Sosial
 
 <a href="https://discord.gg/bebasid-630415907021389825">
-    <img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=for-the-badge&logo=discord&logoColor=white&label=Join%20Discord&labelColor=222&color=white">
+    <img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=for-the-badge&logo=discord&logoColor=white&label=Discord&labelColor=222&color=white">
 </a>
 
 <a href="https://t.me/bebasidbykini">
-    <img alt="Static Badge" src="https://img.shields.io/badge/bebasidbykini-white?style=for-the-badge&logo=telegram&logoColor=white&label=Join%20Telegram&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram&labelColor=222">
 </a>
 
 <a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi">
-    <img alt="Static Badge" src="https://img.shields.io/badge/bebasid-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=Join%20WhatsApp&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
 </a>
 
-Donasi kami
+### Sumbang
 
 <a href="https://trakteer.id/bebasidbykini">
-    <img alt="Static Badge" src="https://img.shields.io/badge/bebasidbykini-white?style=for-the-badge&label=Trakteer&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
 </a>
 
 <a href="https://saweria.co/bebasid">
-    <img alt="Static Badge" src="https://img.shields.io/badge/bebasid-white?style=for-the-badge&label=Saweria&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
 </a>
-</div>
+</p></div>
 
 ## Tentang KominFudge
 
@@ -51,9 +51,11 @@ Dokumentasi ini terdiri atas tiga dokumen yaitu:
 
 Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
 
-> DISCLAIMER: KominFudge tidak bertanggung jawab atas kerusakan perangkat Anda, gunakan informasi yang diberikan dengan risiko Anda sendiri.
+> [!CAUTION]  Perhatian
+> KominFudge tidak bertanggung jawab atas kerusakan perangkat Anda, gunakan informasi yang diberikan dengan risiko Anda sendiri.
 
-> CATATAN: Versi panduan ini masih dalam pengembangan awal karena sedang melalui tahap reorganisasi.
+> [!NOTE] Catatan
+> Versi panduan ini masih dalam pengembangan awal karena sedang melalui tahap reorganisasi.
 
 ## Navigasi
 
@@ -138,7 +140,7 @@ Layanan DNS yang menyensor dapat diganti dengan layanan DNS alternatif berikut i
 
 Aplikasi berikut ini dapat mempermudah Anda mengatur layanan DNS yang digunakan, dengan beberapa juga dibekali fitur tambahan:
 
-> ⚠ **PERHATIAN** ⚠  
+> [!WARNING] Perhatian
 > Apabila [ISP](Advanced-README.md#isp-dan-metode-pemblokiran-yang-digunakan) juga melakukan pemblokiran menggunakan DPI gunakan juga [Aplikasi ini](#aplikasi-penembus-dpi)
 
 1. [SimpleDNSCrypt](https://simplednscrypt.org) [Windows]
@@ -239,10 +241,10 @@ Jika DNS yang kamu terapkan tidak muncul, silahkan coba [SimpleDNSCrypt](https:/
 
 Ini adalah list aplikasi untuk memudahkan menghilangkan DPI pada perangkat Anda.
 
-> ⚠ **PERHATIAN** ⚠  
+> [!WARNING] Perhatian
 > Jangan lupa untuk mengganti [DNS](#memilih-layanan-dns-yang-tepat) terlebih dahulu atau menggunakan [Hosts file](#daftar-hosts-file) apabila [ISP](Advanced-README.md#isp-dan-metode-pemblokiran-yang-digunakan) juga menggunakan DNS untuk pemblokiran
 
-> (ℹ️) **Info**  
+> [!TIP] Info
 > Kami juga menyediakan config untuk aplikasi & ISP di [folder ini](/Config/DPI)
 
 1. [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
@@ -306,15 +308,17 @@ Silahkan ikut tutorial [ini](https://github.com/bebasid/bebasit/blob/master/docs
 Hostfile atau Filehost dapat membantu pengguna unblokir akses ke situs web yang diblokir dengan menempatkan alamat IP situs tersebut di dalam file lokal pada perangkat. Berikut ini adalah daftar hostfile yang dapat membantu pengguna unblokir akses ke situs-situs tertentu secara efektif.
 
 | Pemilik              | Layanan yang di unblokir                                                                                               | Mirror                                                                                                   |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+|----------------------|------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | bebasid              | [10+](https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts)                                         | -                                                                                                        |
 | mul14                | [10](https://gist.githubusercontent.com/mul14/eb05e88fcec5bb195cbb/raw/611c0693c460fc5bd7037c6d9d43fa6c0ce4fd7c/hosts) | -                                                                                                        |
+| lepasid              | [Neocities](https://github.com/lepasid/extra-neocities-org/raw/main/hosts)                                             | -                                                                                                        |
 | Kuntaraaaa           | [tumblr](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=2556197#gistcomment-2556197)          | -                                                                                                        |
 | rakaaaaaa, Nuginity  | [Netflix](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3235083#gistcomment-3235083)         | [2](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3324456#gistcomment-3324456) |
 | Nuginity             | [nhentai](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3324461#gistcomment-3324461)         | -                                                                                                        |
 | Geofany              | [Binance](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3727848#gistcomment-3727848)         | -                                                                                                        |
 | PanjiNamjaElf        | [Reddit](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=3878656#gistcomment-3878656)          | -                                                                                                        |
 | pratamatama, SI_CLAY | [Steam](https://gist.github.com/mul14/eb05e88fcec5bb195cbb?permalink_comment_id=4250815#gistcomment-4250815)           | [2](https://pastebin.com/auhuXvAD)                                                                       |
+
 
 [Kembali ke "Navigasi"](#navigasi)
 
@@ -339,8 +343,8 @@ Berikut ini adalah langkah-langkah cara unblock akses ke situs dengan menggunaka
 
 ### Di iOS
 
-> ⚠ **PERHATIAN** ⚠  
-> Kami perlu bantuan wkwkwkwwkwkwkk
+> [!WARNING] Perhatian
+> Kami perlu bantuan
 
 ### Di Windows
 
@@ -381,7 +385,7 @@ Tor adalah jaringan internet anonim yang dapat membantu pengguna untuk menjaga p
 
 ## Berkontribusi kepada KominFudge
 
-KominFudge adalah sebuah proyek terbuka yang tidak akan mungkin tanpa kontribusi [seperti ini.](CREDITS.md)
+KominFudge adalah sebuah proyek terbuka yang tidak akan mungkin tanpa kontribusi [seperti ini](CREDITS.md).
 
 Siapapun dapat menambahkan informasi baru dan berkontribusi kepada repositori ini setelah dicek oleh pengelola repositori melalui proses *pull request* atau disingkat sebagai PR.
 
@@ -390,7 +394,7 @@ Siapapun dapat menambahkan informasi baru dan berkontribusi kepada repositori in
 
 [Kembali ke "Navigasi"](#navigasi)
 
-<p align="center">Share proyek ini</p>
+<p align="center">Bagikan proyek ini</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/KominFudge%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-white?style=for-the-badge&logo=twitter&logoColor=black"/></a>

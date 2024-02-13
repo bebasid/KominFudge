@@ -33,10 +33,11 @@
 
 1. https://github.com/bebasid/bebasid
 2. https://github.com/bebasid/bebasit
-3. https://privacyguides.org
-4. https://privacytools.io
-5. https://adguard-dns.io/kb/general/dns-providers
-6. https://github.com/curl/curl/wiki/DNS-over-HTTPS
-7. https://bgp.tools
-8. https://explorer.ooni.org/networks/ (Untuk data ISP)
-9. https://vpngate.net (Untuk pengetesan ISP Indonesia)
+3. https://github.com/lepasid/blocklist
+4. https://privacyguides.org
+5. https://privacytools.io
+6. https://adguard-dns.io/kb/general/dns-providers
+7. https://github.com/curl/curl/wiki/DNS-over-HTTPS
+8. https://bgp.tools
+9. https://explorer.ooni.org/networks/ (Untuk data ISP)
+10. https://vpngate.net (Untuk pengetesan ISP Indonesia)
