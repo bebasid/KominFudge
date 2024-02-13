@@ -19,10 +19,10 @@ Dokumentasi ini terdiri atas tiga dokumen yaitu:
 
 Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
 
-> [!CAUTION]  Perhatian
+> [!CAUTION]  Perhatian  
 > KominFudge tidak bertanggung jawab atas kerusakan perangkat Anda, gunakan informasi yang diberikan dengan risiko Anda sendiri.
 
-> [!NOTE] Catatan
+> [!NOTE] Catatan  
 > Versi panduan ini masih dalam pengembangan awal karena sedang melalui tahap reorganisasi.
 
 ## Navigasi
@@ -106,7 +106,7 @@ Sedang dikerjakan, intinya langkah-langkah yang bisa dilakukan untuk mengecek me
 
 ## Jaringan *upstream* (IP *transit*) dan *internet exchange*
 
-> [!NOTE] Catatan
+> [!NOTE] Catatan  
 > Hanya disediakan untuk informasi semata. Tidak diperuntukkan sebagai informasi ketika mempertimbangkan ISP yang ingin digunakan. Metode dan keketatan pemblokiran dapat berubah sewaktu-waktu. Berpindah ISP adalah proses yang mungkin rumit, mahal, atau bahkan tidak memungkinkan dikarenakan berbagai macam faktor yang diluar kendali KominFudge.
 
 Untuk mengecek IP Transit apa yang ISP Anda gunakan, silahkan cek di [bgp.tools](https://bgp.tools) atau [bgp.he.net](https://bgp.he.net).

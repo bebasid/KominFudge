@@ -51,10 +51,10 @@ Dokumentasi ini terdiri atas tiga dokumen yaitu:
 
 Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
 
-> [!CAUTION]  Perhatian
+> [!CAUTION]  Perhatian  
 > KominFudge tidak bertanggung jawab atas kerusakan perangkat Anda, gunakan informasi yang diberikan dengan risiko Anda sendiri.
 
-> [!NOTE] Catatan
+> [!NOTE] Catatan  
 > Versi panduan ini masih dalam pengembangan awal karena sedang melalui tahap reorganisasi.
 
 ## Navigasi
@@ -140,7 +140,7 @@ Layanan DNS yang menyensor dapat diganti dengan layanan DNS alternatif berikut i
 
 Aplikasi berikut ini dapat mempermudah Anda mengatur layanan DNS yang digunakan, dengan beberapa juga dibekali fitur tambahan:
 
-> [!WARNING] Perhatian
+> [!WARNING] Perhatian  
 > Apabila [ISP](Advanced-README.md#isp-dan-metode-pemblokiran-yang-digunakan) juga melakukan pemblokiran menggunakan DPI gunakan juga [Aplikasi ini](#aplikasi-penembus-dpi)
 
 1. [SimpleDNSCrypt](https://simplednscrypt.org) [Windows]
@@ -241,10 +241,10 @@ Jika DNS yang kamu terapkan tidak muncul, silahkan coba [SimpleDNSCrypt](https:/
 
 Ini adalah list aplikasi untuk memudahkan menghilangkan DPI pada perangkat Anda.
 
-> [!WARNING] Perhatian
+> [!WARNING] Perhatian  
 > Jangan lupa untuk mengganti [DNS](#memilih-layanan-dns-yang-tepat) terlebih dahulu atau menggunakan [Hosts file](#daftar-hosts-file) apabila [ISP](Advanced-README.md#isp-dan-metode-pemblokiran-yang-digunakan) juga menggunakan DNS untuk pemblokiran
 
-> [!TIP] Info
+> [!TIP] Info  
 > Kami juga menyediakan config untuk aplikasi & ISP di [folder ini](/Config/DPI)
 
 1. [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) [Windows]  
@@ -343,7 +343,7 @@ Berikut ini adalah langkah-langkah cara unblock akses ke situs dengan menggunaka
 
 ### Di iOS
 
-> [!WARNING] Perhatian
+> [!WARNING] Perhatian  
 > Kami perlu bantuan
 
 ### Di Windows
