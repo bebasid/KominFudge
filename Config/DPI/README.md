@@ -1,10 +1,10 @@
 ## Program & config untuk menembus DPI
 
-> [!WARNING] Perhatian  
+> [!WARNING]  
 > Config ini belum tentu bekerja di wilayah anda.  \
 > [Ganti DNS](../README.md#aplikasi-aplikasi-dns) terlebih dahulu sebelum menggunakan program untuk menembus DPI.
 
-> [!TIP] Info  
+> [!TIP]  
 > Untuk ISP yang belum tercantum mungkin config untuk ISP lain dapat bekerja.
 
 | Nama | Program (dan config) untuk menembus |
