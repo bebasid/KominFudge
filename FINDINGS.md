@@ -23,6 +23,7 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 - [Tentang KominFudge](#tentang-kominfudge)
 - [Navigasi](#navigasi)
 - [Pemblokiran](#pemblokiran)
+  - [Papua](#papua)
 
 ## Pemblokiran
 
@@ -204,6 +205,24 @@ uppleva69.neocities.org
 
 *8mb.video*
 > Memblokir servisnya untuk IP Address yang datang dari Indonesia.[^3][^4]  
+
+### Papua
+Kami ketemu beberapa situs yang diblokir tentang pelanggaran hak asasi manusia di Papua dan Papua Nugini dari pemerintah Indonesia
+
+1. [InfoPapua.org](https://infopapua.org) - berita tentang pelanggaran hak asasi manusia di Papua Nugini
+2. [FreeWestPapua.org](https://freewestpapua.org) -  berita dan sumber tentang pelanggaran hak asasi manusia di Papua Nugini
+3. [FreePapua.com](https://freepapua.com) - berita dan sumber tentang pelanggaran hak asasi manusia di Papua Nugini di tahun 2015 - 2016
+4. [PAPUApost.com](https://papuapost.com) - berita tentang pelanggaran hak asasi manusia di Papua dan Papua Nugini
+
+<details><summary>Situs mati</summary>
+
+```
+rememberwestpapua.org
+federalstateofwestpapua.org
+wartapapuabarat.org
+papuapost.wordpress.com
+```
+</details>
 
 [^1]: Kami pikir servis ini memblokir IP Address Indonesia karena orang indonesia menggunakan servis ini untuk melihat konten [*NSFW*](https://wikipedia.org/wiki/Not_safe_for_work) atau Pornografi, Konten seperti ini tidak disukai [*Advertiser*](https://wikipedia.org/wiki/Advertising); membuat servis ini kehilangan uang karena iklan tidak dapat dimunculkan.  
 
