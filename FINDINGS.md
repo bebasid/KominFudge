@@ -26,14 +26,93 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 
 ## Pemblokiran
 
+*Reddit.com*
+> Diblokir dengan alasan situs pornografi  
+> *Saat ini juga waktu Vimeo diblokir dengan alasan yang sama, tetapi sudah diputar balik*  
+> kami juga ketemu satu subreddit yang ada didalam blocklist
+
+<details><summary>Subredditnya adalah sebagai berikut</summary>
+
+```
+reddit.comrcumsluts
+```
+</details>
+
+*Newgrounds.com*
+> Diblokir dengan alasan situs pornografi, kami juga ketemu beberapa akun yang ada didalam blocklist  
+
+<details><summary>Akunnya adalah sebagai berikut</summary>
+
+```
+eropharaoh.newgrounds.com
+octopussyco.newgrounds.com
+aehentai.newgrounds.com
+latenightsexycomics.newgrounds.com
+christie262.newgrounds.com
+freakorama1.newgrounds.com
+hayleypetharley.newgrounds.com
+mz87.newgrounds.com
+pinktea.newgrounds.com
+cuccoking.newgrounds.com
+karuotsuka.newgrounds.com
+magisterofficial.newgrounds.com
+kabscorner.newgrounds.com
+squishier.newgrounds.com
+diabolussex.newgrounds.com
+glass-ivy.newgrounds.com
+missxrawrrr.newgrounds.com
+a-d-r.newgrounds.com
+jigglytoons.newgrounds.com
+redradrebel.newgrounds.com
+biggy-deez.newgrounds.com
+kuroki-hollow.newgrounds.com
+ber00.newgrounds.com
+snowbox9.newgrounds.com
+superbusty.newgrounds.com
+leapeon.newgrounds.com
+totodraw.newgrounds.com
+```
+</details>
+
 *Startmail.com*
 > Diblokir dengan alasan....????  
+
+Beberapa subdomain *Startpage.com*
+> Kami tidak tahu kenapa subdomain-subdomain ini diblokir, karena subdomain-subdomain ini tidak *valid*
+
+<details><summary>Subdomainnya adalah sebagai berikut</summary>
+
+```
+adultmovie.startpage.com
+adultstartpage.com
+britneyspears.startpage.com
+celebrities.startpage.com
+celebritieslist.startpage.com
+claudiaschiffer.startpage.com
+erotic.startpage.com
+eroticstories.startpage.com
+fetish.startpage.com
+gay.startpage.com
+hentai.startpage.com
+jenniferlopez.startpage.com
+kinky.startpage.com
+lingerie.startpage.com
+love.startpage.com
+pamela.startpage.com
+penis.startpage.com
+pinup.startpage.com
+sextoon.startpage.com
+underwear.startpage.com
+warez.startpage.com
+webcams.startpage.com
+```
+</details>
 
 *Hypixel.net*
 > Diblokir dengan alasan *Situs Judi*  
 
 *Yandex.com*
-> Memblokir servis *Images* dan *Video*nya untuk IP Address yang datang dari Indonesia  
+> Memblokir servis *Images* dan *Video*nya untuk IP Address yang datang dari Indonesia.[^1]  
 
 Beberapa subdomain *Neocities.org*
 > Diblokir dengan alasan *Situs Judi*, untuk pengguna Indihome; pemblokiran ini bisa memblokir SEMUA situs neocities.org  
@@ -121,4 +200,15 @@ uppleva69.neocities.org
 </details>
 
 *catbox.moe*
-> Memblokir servisnya untuk IP Address yang datang dari Indonesia
+> Memblokir servisnya untuk IP Address yang datang dari Indonesia.[^2][^3]  
+
+*8mb.video*
+> Memblokir servisnya untuk IP Address yang datang dari Indonesia.[^3][^4]  
+
+[^1]: Kami pikir servis ini memblokir IP Address Indonesia karena orang indonesia menggunakan servis ini untuk melihat konten [*NSFW*](https://wikipedia.org/wiki/Not_safe_for_work) atau Pornografi, Konten seperti ini tidak disukai [*Advertiser*](https://wikipedia.org/wiki/Advertising); membuat servis ini kehilangan uang karena iklan tidak dapat dimunculkan.  
+
+[^2]: Kami pikir servis ini memblokir IP Address Indonesia karena mereka tidak ingin berkontribusi ke PSE.
+
+[^3]: Kami pikir servis ini memblokir IP Address Indonesia karena orang indonesia menggunakan servis ini untuk *upload* konten [*NSFW*](https://wikipedia.org/wiki/Not_safe_for_work) atau Pornografi berfrekuensi sering.
+
+[^4]: Kami pikir servis ini memblokir IP Address Indonesia karena orang indonesia menggunakan servis ini untuk *upload* konten [*CSAM*](https://wikipedia.org/wiki/Child_pornography) atau Pornografi Anak Kecil; yaitu ilegal.
