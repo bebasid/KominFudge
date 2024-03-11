@@ -190,7 +190,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Marvatel | Ya | Tidak | Tidak | |
 | NusaNet | Ya (Google. Quad9, OpenDNS, Cloudflare) | Ya/Tidak (Tergantung Routing) | | Terkena DPI dari upstream Indosat | 
 | XL Home | Ya (International) | Ya | Kemungkinan Tidak (?) | XL Home blokir DNS Luar Negeri, DNS lokal Aman | 
-| PT Wifiku Indonesia | Ya | Ya (Affected by its upstream) | - | Data under construction, need data for the culprit upstream that wifiku use | 
+| PT Wifiku Indonesia | Ya | Ya (Terkena dari PT Saranainsan Mudaselaras) | - | [Terkena DPI dari SIMS](https://explorer.ooni.org/m/20240216083434.045341_ID_webconnectivity_bb1e9b43c363469e) | 
 
 **ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
