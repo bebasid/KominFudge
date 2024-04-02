@@ -138,7 +138,6 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | ASN | Nama | Pemblokiran menggunakan DPI | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
 | [AS7713](https://bgp.tools/as/7713) | PT Telkom Indonesia | [Ya](https://img001.prntscr.com/file/img001/tszSvllaRfe6S6K5TRLrmg.png) | BUMN, gak kaget manut | Beberapa Universitas dan ISP lokal yang pake upstream AS7713 |
-| [AS137366](https://bgp.tools/as/137366) / [AS17995](https://bgp.tools/as/17995) | PT iForte Global internet | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/1375435e-1c63-4ea5-98a7-8aba21e2ae39) | Hati-hati bagi yang memakai WIFI dari TransJakarta, Upstream mereka iForte | MNC Play, Wi-Fi Publik TransJakarta |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Ya](https://img001.prntscr.com/file/img001/dP4otLNfSjSFWPU1neVaRg.png) | | |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://img001.prntscr.com/file/img001/gP7q6CGxRnaDd-Qb54ZLbA.png) | | |
 | [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Ya](https://cdn.bebasid.com/KominFudge/uninet.png) | [Bukti dari Traceroute](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
