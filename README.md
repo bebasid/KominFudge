@@ -142,6 +142,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://img001.prntscr.com/file/img001/gP7q6CGxRnaDd-Qb54ZLbA.png) | | |
 | [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Ya](https://cdn.bebasid.com/KominFudge/uninet.png) | [Bukti dari Traceroute](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
+| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/fae16197-0d9b-47e7-8d53-22ae800f35a8) | | PC24, Hyperindo Media Perkasa |
 
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan alat anti DPI untuk melewatinya.</sup><br>
@@ -171,7 +172,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | MyRepublic | Ya (International, Local, TCP) | Tidak | Tidak |  |
 | FirstMedia | Ya (International, Local) | Ya | Ya |
 | Megavision | Ya (International, Local, TCP) | Tidak | ? | Nama lain: StarNET |
-| MNC | Ya | Ya/Tidak (Tergantung routing) | ? | Terkena DPI dari Upstream iForte |
+| MNC | Ya | Tidak |  |  |
 | Iconnet PLN | Ya (International, Local) | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah. Ikut DNS Nasional, Google, Cisco, Cloudflare, dkk belok ke DNS ICON dan selain itu diblokir |
 | PT Netciti Persada | Ya (Cloudflare, Google, OpenDNS, Adguard, Quad9). Blokir DoH/DoT | Tidak | ? | Provider gila blokir DoH, buka cabang di Tiongkok aja noh wkwk |
 | Oxygen | Ya (International) | Tidak | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br>Memblokir alt-port DNS 5353 |
@@ -225,7 +226,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT BIT TEKNOLOGI NUSANTARA | Ya | Ya | ? | [Terkena dari iForte](https://media.discordapp.net/attachments/709386084894900236/1112694319992807454/image.png) |
 | PT Hyperindo Media Perkasa | Ya | Ya | ? | [Terkena dari PT Jala Lintas Media](https://img001.prntscr.com/file/img001/KuXjy8a2SUmRv8whEhogHg.png) |
 | PT Hipernet Indodata | Ya (Cloudflare, Google, Quad9, OpenDNS, Level3, along with the TCP 53) | Tidak | | |
-| PT PC24 Telekomunikasi Indonesia | Ya | Ya | [Ya, DPI Telkom kuat](https://github.com/bebasid/KominFudge/assets/115700386/7582353b-7254-4c23-ba5a-267ac77a73d3) | [Kemungkinan terkena dari Telkom? Blokir traceroute](https://github.com/bebasid/KominFudge/assets/115700386/34096f0c-4a94-45fd-93cf-f22ddfb4ec6d) | |
+| PT PC24 Telekomunikasi Indonesia | Ya | Ya | [Ya, DPI Telkom kuat](https://github.com/bebasid/KominFudge/assets/115700386/7582353b-7254-4c23-ba5a-267ac77a73d3) | [Kemungkinan terkena dari Telkom dan JLM. Blokir traceroute](https://github.com/bebasid/KominFudge/assets/115700386/34096f0c-4a94-45fd-93cf-f22ddfb4ec6d) | |
 
 ### <ins>ISP Mobile Seluler</ins>
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server |  Catatan |
@@ -247,12 +248,11 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | Iconnet | Tinggi | Tidak Bisa |
 | Indosat | Sedang | Tidak Bisa (IM3) & Bisa (Hi-Fi, IP Transit) |
 | Firstmedia | Sedang | Tidak Bisa (http), Bisa (https) |
-| PT iForte Global internet | Sedang | Bisa |
+| PT Jala Lintas Media | Sedang | Bisa |
 | CBN | Sedang | Bisa |
 | Smartfren | Sedang | Bisa |
 | 3 | Rendah | Bisa |
 | PT UNINET MEDIA SAKTI | Rendah | Bisa |
-| PT Parsaroan Global Datatrans (HSP-NET) | Rendah | Bisa |
 | PT SaranaInsan Mudaselaras (SIMS) | Rendah | Bisa |
 
 **DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
