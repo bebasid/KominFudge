@@ -190,6 +190,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | NusaNet | Ya (Google. Quad9, OpenDNS, Cloudflare) | Ya/Tidak (Tergantung Routing) | | Terkena DPI dari upstream Indosat | 
 | XL Home | Ya  | Tidak | | | 
 | PT Wifiku Indonesia | Ya | Ya (Terkena dari PT Saranainsan Mudaselaras) | - | [Terkena DPI dari SIMS](https://explorer.ooni.org/m/20240216083434.045341_ID_webconnectivity_bb1e9b43c363469e) | 
+| VIBERLINK | Ya | Tidak | | |
 
 **ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
@@ -202,7 +203,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
 | PT Artha Telekomindo | Ya | Tidak | ? |
 | PT Hawk Teknologi Solusi | Ya | Tidak | ? |
-| PT Jaringanku Sarana Nusantara | Ya (International, Local) | Tidak | ? | Nama lain: JSN. Provider gila blokir DoH/DoT |
+| PT Jaringanku Sarana Nusantara | Ya (International, Local, DoH, DoT) Provider ini memblokir DoH/DoT | Tidak | ? | Nama lain: JSN. Provider gila blokir DoH/DoT |
 | PT. Infotama Lintas Global | Ya (International, Local) | Tidak | ? |
 | PT Remala Abadi | Ya | Tidak | Tidak | Nama lain: Tachyon |
 | PT iForte Global internet | Ya | Ya | Tidak | Implementasi DPI lagi, provider sedeng  |
