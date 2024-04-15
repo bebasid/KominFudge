@@ -192,6 +192,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | XL Home | Ya  | Tidak | | | 
 | PT Wifiku Indonesia | Ya | Ya (Terkena dari PT Saranainsan Mudaselaras) | - | [Terkena DPI dari SIMS](https://explorer.ooni.org/m/20240216083434.045341_ID_webconnectivity_bb1e9b43c363469e) | 
 | VIBERLINK | Ya | Tidak | | |
+| Tri Data Raya Internet | Ya | Tidak | | |
 
 **ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
