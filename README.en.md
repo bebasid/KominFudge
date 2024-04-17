@@ -128,7 +128,8 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 
 | ASN | Name | Blocking using DNS | Blocked DNS | Note | Example of affected ISP |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Yes](https://cdn.bebasid.com/KominFudge/jlm-dnsn.png) | Cloudflare 1.1.1.1, Google, OpenDNS | [Bukti Pembelokan](https://cdn.bebasid.com/KominFudge/jlm-dnsn-bukti.png) | PT Hyperindo Media Perkasa |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta| [Yes](https://github.com/bebasid/KominFudge/assets/115700386/91cf9077-fb59-4116-81fa-97ff4feda561) | All DNS that routed towards Lintasarta Transit IP AS4800 | [Proof of Redirection](https://github.com/bebasid/KominFudge/assets/115700386/91cf9077-fb59-4116-81fa-97ff4feda561) | Trisula, Netciti |
+| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Yes](https://cdn.bebasid.com/KominFudge/jlm-dnsn.png) | Cloudflare 1.1.1.1, Google, OpenDNS | [Proof of Redirection](https://cdn.bebasid.com/KominFudge/jlm-dnsn-bukti.png) | PT Hyperindo Media Perkasa |
 | [AS23947](https://bgp.tools/as/23947) | PT Mora Telematika Indonesia | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/d435da85-2582-46a5-8ade-61eb143554af) | Quad9 | Redirecting Quad9 at Transit IP level as can be seen at [traceroute result.](https://github.com/bebasid/KominFudge/assets/115700386/cd5fce78-20fd-4e0b-ba79-cc50adab4ad3) | PT Queen Network Indonesia |
 
 
@@ -138,12 +139,11 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | ASN | Name | Blocking using DPI | Note | Example of affected ISP |
 | :---: | :---: | :---: | :---: | :---: |
 | [AS7713](https://bgp.tools/as/7713) | PT Telkom Indonesia | [Yes](https://img001.prntscr.com/file/img001/tszSvllaRfe6S6K5TRLrmg.png) | State-owned, so auto-comply | Several Universities and local ISP that use upstream AS7713 |
-| [AS137366](https://bgp.tools/as/137366) / [AS17995](https://bgp.tools/as/17995) | PT iForte Global internet | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/1375435e-1c63-4ea5-98a7-8aba21e2ae39) | For TransJakarta commuters, beware that their Upstream is iForte | MNC Play, TransJakarta Public Wi-Fi |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Yes](https://img001.prntscr.com/file/img001/dP4otLNfSjSFWPU1neVaRg.png) | | |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Yes](https://img001.prntscr.com/file/img001/gP7q6CGxRnaDd-Qb54ZLbA.png) | | |
 | [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Yes](https://cdn.bebasid.com/KominFudge/uninet.png) | [Traceroute Proof](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
-| [AS58495](https://bgp.tools/as/58495) |  PT Parsaroan Global Datatrans (HSP-NET) | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/ab32a09c-9345-436b-9660-d600fa77ccd3) | Good DPI usage, proper blocking |
+| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/fae16197-0d9b-47e7-8d53-22ae800f35a8) | | PC24, Hyperindo Media Perkasa |
 
 
 <sup style="text-align:center;">If your ISP does not use DPI but using those upstreams, you can use an anti DPI tool to bypass</sup><br>
@@ -190,6 +190,9 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | Marvatel | Yes | No | No | |
 | NusaNet | Yes (Google. Quad9, OpenDNS, Cloudflare) | Yes/No (Depends on routing) | | Affected by DPI from Indosat upstream | 
 | XL Home | Yes (International) | Yes | Probably No (?) | XL Home blocking overseas DNS, local DNS should be safe | 
+| PT Wifiku Indonesia | Yes | Yes (Affected by PT Saranainsan Mudaselaras) | - | [Affected by DPI from SIMS](https://explorer.ooni.org/m/20240216083434.045341_ID_webconnectivity_bb1e9b43c363469e) | 
+| VIBERLINK | Yes | No | | |
+| Tri Data Raya Internet | Yes | No | | |
 
 **Corporate ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
@@ -226,6 +229,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | PT BIT TEKNOLOGI NUSANTARA | Yes | Yes | ? | [Affected by iForte](https://media.discordapp.net/attachments/709386084894900236/1112694319992807454/image.png) |
 | PT Hyperindo Media Perkasa | Yes | Yes | ? | [Affected by PT Jala Lintas Media](https://prnt.sc/CIOWaL3q56Eh) |
 | PT Hipernet Indodata | Yes (Cloudflare, Google, Quad9, OpenDNS, Level3, along with the TCP 53) | No | | |
+| PT PC24 Telekomunikasi Indonesia | Yes | Yes | [Yes, Telkom DPI is strong](https://github.com/bebasid/KominFudge/assets/115700386/7582353b-7254-4c23-ba5a-267ac77a73d3) | [Probably affected by Telkom and JLM. Blocking traceroute](https://github.com/bebasid/KominFudge/assets/115700386/34096f0c-4a94-45fd-93cf-f22ddfb4ec6d) | |
 
 ### <ins>Mobile ISP</ins>
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server |  Note |
@@ -252,7 +256,6 @@ How much effort needed to unblock with DPI per-ISP
 | Smartfren | Medium | Possible |
 | 3 | Low | Possible |
 | PT UNINET MEDIA SAKTI | Low | Possible |
-| PT Parsaroan Global Datatrans (HSP-NET) | Low | Possible |
 | PT SaranaInsan Mudaselaras (SIMS) | Low | Possible |
 
 **THIS DATA IS NOT COMPLETE, IF YOU WANT TO ADD MORE, PLEASE GIVE FURTHER INFORMATION**
@@ -331,17 +334,17 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 ## How to change DNS[🔝](#navigation)
 <em>Now, you have got the List, so how to use it?</em>
 
-### <em>Android</em>
+### <ins>Android</ins>
 1.Settings>Other Wireless Connections>Private DNS . 
 2.Type the [DNS hostname](#choosing-the-right-dns) and tap Save.
 
-### <em>iOS</em>
+### <ins>iOS</ins>
 
 1.Settings>Wi-Fi>*wifi*  
 2.Tap (i) icon.  
 3.Change the IP Address into Static and type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
 
-### <em>Windows</em>
+### <ins>Windows</ins>
 
 #### Windows 7 to Windows 10:  
 1. Control Panel>Network and Internet>Network and Sharing Center>Connections>Properties.  
@@ -357,12 +360,12 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 5. On Preferred and Alternate DNS Encryption, choose Encrypted only (DNS-over-HTTPS) option. 
 6. Click Save.
 
-### <em>macOS</em>
+### <ins>macOS</ins>
 1. System Preferences>Network>Wi-Fi>Advanced>DNS.  
 2. Click “+” button and type the [DNS hostname](#choosing-the-right-dns) on the DNS column,
 3. Then click OK and Apply.
 
-### <em>Linux</em>
+### <ins>Linux</ins>
 1. Open Terminal  
 2. Type the command `nano /etc/resolv.conf` to edit `/etc/resolv.conf`.  
 3. Change the file content into something like this (replace `<dns hostname>` into one of the DNS hostname [listed here](#choosing-the-right-dns)).
@@ -378,7 +381,7 @@ Note: Some components that installed on Linux distribution (like NetworkManager)
 1.Settings>Privacy and Security.  
 2.Type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
 
-#### Firefox
+#### Firefox-based browser
 1.Settings>Network Settings.  
 2.Type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
 
