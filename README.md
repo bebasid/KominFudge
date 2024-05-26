@@ -153,15 +153,6 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | :---: | :---: | :---: | :---: |
 | - | - | - | - | - |
 
-### <ins>VPS Provider (Virtual Private Server) / Cloud Provider</ins> 
-<sup><b>Berikut merupakan VPS yang menerapkan DPI pada koneksinya sehingga tidak friendly untuk dipakai untuk tunneling jika anda ingin kebebasan dalam internet</b>.</sup><br>
-
-| ASN | Situs Resmi | Provider | Pemblokiran Menggunakan DPI | Mengirim TCP RST ke Server |
-| :---: | :---: | :---: | :---: | :---: |
-| - | - | - | - | - |
-
-<sup style="text-align:center;"><b>CATATAN: </b>Provider VPS diatas merupakan provider yang telah terbukti melakukan pemblokiran menggunakan DPI di jaringan mereka yang membuat privasi terganggu sehingga tidak cocok untuk anda yang ingin VPN untuk membuka Reddit, Vimeo, dan semacamnya.</sup><br>
-
 ### <ins>ISP Fiber</ins>
 
 **ISP Rumah:**
