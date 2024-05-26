@@ -139,7 +139,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | ASN | Nama | Pemblokiran menggunakan DPI | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
 | [AS7713](https://bgp.tools/as/7713) | PT Telkom Indonesia | [Ya](https://img001.prntscr.com/file/img001/tszSvllaRfe6S6K5TRLrmg.png) | BUMN, gak kaget manut | Beberapa Universitas dan ISP lokal yang pake upstream AS7713 |
-| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Ya](https://img001.prntscr.com/file/img001/dP4otLNfSjSFWPU1neVaRg.png) | | |
+| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Ya](https://img001.prntscr.com/file/img001/dP4otLNfSjSFWPU1neVaRg.png) | [Bukti DPI](https://github.com/bebasid/KominFudge/assets/115700386/c914196e-1d5f-4aaf-ab86-b9ea174959e9), [Bukti Traceroute](https://github.com/bebasid/KominFudge/assets/115700386/bc518070-1d81-4ce0-b768-7de95bdf82a0). DPI CBN lemah. | [VPS Exabytes](https://github.com/bebasid/KominFudge/assets/115700386/c914196e-1d5f-4aaf-ab86-b9ea174959e9) |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://img001.prntscr.com/file/img001/gP7q6CGxRnaDd-Qb54ZLbA.png) | | |
 | [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Ya](https://cdn.bebasid.com/KominFudge/uninet.png) | [Bukti dari Traceroute](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
