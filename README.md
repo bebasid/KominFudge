@@ -159,9 +159,9 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 ##
 > [!NOTE]  
 > Hampir semua ISP melanggar kebebasan dengan mengikuti DNS Nasional sehingga pengguna tidak dapat mengganti DNS atau mengecek DNS server selain punya ISP. Hal ini merugikan bagi pengguna yang ingin memakai layanan pemblokiran DNS lain misalkan OpenDNS dan NextDNS sehingga sangat tidak cocok digunakan untuk pengguna atau orang tua yang ingin menggunakan filter selain TrustPositif yang sering memblokir asal-asalan.<br>Namun, implementasi DNS Nasional tersebut berbeda beda di tiap ISP. Ada yang hanya membelokan atau memblokir udp 53 <i>(Contohnya FirstMedia)</i>, ada yang hanya ke arah internasional, adapun yang juga ikut memblokir TCP 53 <i>(Contoh: MyRepublic dan Smartfren)</i>.<br><br>
-> <b>Untuk ISP yang telah diperiksa mengikuti DNS Nasional, kami telah menambah legenda apa saja DNS yang diblok:</b><br><br>
+> <b>Untuk ISP yang telah diperiksa dan dikonfirmasi mengikuti DNS Nasional, kami telah menambah legenda bagaimana ISP mengikuti DNS Nasional:</b><br><br>
 >     <b>International</b> = Memblokir port 53 menuju internasional<br>
->     <b>Local</b> = Memblokir port 53 menuju lokal (Sesama Indonesia) di OpenIXP, IIX, CXC, dan sebagainya<br>
+>     <b>Local</b> = Memblokir port 53 menuju lokal (Sesama Indonesia) di OpenIXP, IIX, CXC, JKT-IX, dan sebagainya<br>
 >     <b>TCP</b> = Memblokir TCP port 53, Sehingga tidak bisa melakukan <i>Zone Transfer</i> bagi yang menggunakan provider yang memiliki tanda ini
 
 **ISP Rumah:**
