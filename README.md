@@ -237,7 +237,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | :---: | :---: | :---: | :---: | :---: |
 | Telkomsel / By.U / KartuHalo | Ya (International, Local, TCP) | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
 | XL / Axis / Live On | Ya (International, Local) | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
-| 3 | Ya (Google, OpenDNS) | Ya | Tidak | Three menghijack DNS Server Google dan OpenDNS ke punya dia |
+| 3 | Ya (International, Local, TCP). Google and OpenDNS are safe from TCP 53 blocking | Ya | Tidak |  |
 | Indosat | Ya (Google, OpenDNS) | Ya | Tidak, tetapi menthottle koneksi ke domain yg diblok jika Host/SNI header masih kedetek | Sama seperti anaknya, Pada 4/5 Oktober 2023, Indosat mulai menghijack DNS Server Google dan OpenDNS ke punya dia |
 | Smartfren | Ya (International, Local, TCP) | Ya | Tidak | Memblokir DoH/DoT punya Google |
 
