@@ -135,6 +135,8 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 
 <sup style="text-align:center;">Jika di sisi ISP anda tidak mematuhi peraturan DNS Nasional tetapi menggunakan IP Transit di atas, maka akan sama terkena blokir dan harus menggunakan DNS terenkripsi.<br>Atau memakai DNS yang tidak dijalurkan melalui IP Transit diatas <em>jika ada.</em></sup><br>
 
+
+
 <b>Sedangkan ISP yang menggunakan upstream dibawah ini, wajib menggunakan WARP/VPN, GoodbyeDPI, atau GreenTunnel/PowerTunnel.</b>
 | ASN | Nama | Pemblokiran menggunakan DPI | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: |
@@ -145,7 +147,6 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
 | [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/fae16197-0d9b-47e7-8d53-22ae800f35a8) | | PC24, Hyperindo Media Perkasa |
 
-
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan alat anti DPI untuk melewatinya.</sup><br>
 
 <b>Internet Exchange yang memakai middlebox DPI:</b>
@@ -154,6 +155,14 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | - | - | - | - | - |
 
 ### <ins>ISP Fiber</ins>
+
+##
+> [!NOTE]  
+> Hampir semua ISP melanggar kebebasan dengan mengikuti DNS Nasional sehingga pengguna tidak dapat mengganti DNS atau mengecek DNS server selain punya ISP. Hal ini merugikan bagi pengguna yang ingin memakai layanan pemblokiran DNS lain misalkan OpenDNS dan NextDNS sehingga sangat tidak cocok digunakan untuk pengguna atau orang tua yang ingin menggunakan filter selain TrustPositif yang sering memblokir asal-asalan.<br>Namun, implementasi DNS Nasional tersebut berbeda beda di tiap ISP. Ada yang hanya membelokan atau memblokir udp 53 <i>(Contohnya FirstMedia)</i>, ada yang hanya ke arah internasional, adapun yang juga ikut memblokir TCP 53 <i>(Contoh: MyRepublic dan Smartfren)</i>.<br><br>
+> <b>Untuk ISP yang telah diperiksa mengikuti DNS Nasional, kami telah menambah legenda apa saja DNS yang diblok:</b><br><br>
+> <b>International</b> = Memblokir port 53 menuju internasional<br>
+> <b>Local</b> = Memblokir port 53 menuju lokal (Sesama Indonesia) di OpenIXP, IIX, CXC, dan sebagainya
+> <b>TCP</b> = Memblokir TCP port 53
 
 **ISP Rumah:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
@@ -184,6 +193,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Wifiku Indonesia | Ya | Ya (Terkena dari PT Saranainsan Mudaselaras) | - | [Terkena DPI dari SIMS](https://explorer.ooni.org/m/20240216083434.045341_ID_webconnectivity_bb1e9b43c363469e) | 
 | VIBERLINK | Ya | Tidak | | |
 | Tri Data Raya Internet | Ya | Tidak | | |
+| Rama Wima Nusantara | Ya (International, Local) | Tidak | Tidak | |
 
 **ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
