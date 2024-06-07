@@ -194,6 +194,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | VIBERLINK | Ya | Tidak | | |
 | Tri Data Raya Internet | Ya | Tidak | | |
 | Rama Wima Nusantara | Ya (International, Local) | Tidak | Tidak | |
+| PT Starlink Indonesia (Starlink) | Ya | Tidak | Tidak | Starlink Indonesia |
 
 **ISP Kantor:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
