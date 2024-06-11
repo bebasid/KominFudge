@@ -232,6 +232,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Hyperindo Media Perkasa | Ya | Ya | ? | [Terkena dari PT Jala Lintas Media](https://img001.prntscr.com/file/img001/KuXjy8a2SUmRv8whEhogHg.png) |
 | PT Hipernet Indodata | Ya (Cloudflare, Google, Quad9, OpenDNS, Level3, along with the TCP 53) | Tidak | | |
 | PT PC24 Telekomunikasi Indonesia | Ya | Ya | [Ya, DPI Telkom kuat](https://github.com/bebasid/KominFudge/assets/115700386/7582353b-7254-4c23-ba5a-267ac77a73d3) | [Kemungkinan terkena dari Telkom dan JLM. Blokir traceroute](https://github.com/bebasid/KominFudge/assets/115700386/34096f0c-4a94-45fd-93cf-f22ddfb4ec6d) | |
+| PT Widya Intersat Nusantara (IP One) | Ya (International, Local) | Tidak | | |
 
 ### <ins>ISP Mobile Seluler</ins>
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server |  Catatan |
