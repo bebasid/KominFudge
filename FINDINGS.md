@@ -40,7 +40,7 @@ reddit.comrcumsluts
 </details>
 
 *Newgrounds.com*
-> Diblokir dengan alasan situs pornografi, kami juga ketemu beberapa akun yang ada didalam blocklist  
+> Diblokir dengan alasan *Pornografi*, kami juga ketemu beberapa akun yang ada didalam blocklist  
 
 <details><summary>Akunnya adalah sebagai berikut</summary>
 
@@ -533,6 +533,84 @@ Beberapa subdomain *vercel.app*
 > Diblokir dengan alasan *Situs Judi*  
 
 Subdomainnya adalah sebagai berikut: [Link](https://gist.github.com/mefinity/a51bd472db3b8cdb5ee8fd628205e123)
+
+Beberapa subdomain *Itch.io*
+> Diblokir dengan alasan *Pornografi*
+
+<details><summary>Subdomainnya adalah sebagai berikut</summary>
+
+```
+smutlit.itch.io
+darktoz.itch.io
+baldhamster.itch.io
+hot-bunny.itch.io
+aephrosi.itch.io
+ch4mp4gne.itch.io
+barreytor.itch.io
+dpmaker.itch.io
+mindfucklingskelly.itch.io
+drybonex.itch.io
+fuccubus.itch.io
+antizerogames.itch.io
+cleeshhaze.itch.io
+sho-shonojo.itch.io
+spodvohom-games.itch.io
+animefanka.itch.io
+azurezero.itch.io
+caribdis.itch.io
+bygesagirls.itch.io
+friskybishop.itch.io
+despiteful.itch.io
+jaezx.itch.io
+pervychoco.itch.io
+rnot-2000.itch.io
+extralife-nsfw.itch.io
+enlit3d.itch.io
+hardcorepink.itch.io
+hotpink.itch.io
+luxobscura.itch.io
+outbreakgames.itch.io
+sad-crab.itch.io
+shanbahak.itch.io
+sirensdomain.itch.io
+strive4power.itch.io
+yaluar.itch.io
+yoplatz.itch.io
+young-and-naughty.itch.io
+roguefalta.itch.io
+ddomeiswatching.itch.io
+hatjump.itch.io
+jav-it.itch.io
+noxdev.itch.io
+17moonkeys.itch.io
+bunloveless.itch.io
+strange-girl-studios.itch.io
+thedarck67.itch.io
+trash-inu.itch.io
+berryguild.itch.io
+znelartsvr.itch.io
+dpr800900.itch.io
+hornyck-games.itch.io
+polygonheart.itch.io
+sukebanchor18.itch.io
+trash-gods.itch.io
+xcentric.itch.io
+kamuo.itch.io
+envieflou.itch.io
+heartcoredev.itch.io
+valeryjoi.itch.io
+pinktea-games.itch.io
+squidsaround.itch.io
+oppaiman.itch.io
+mrnsfw.itch.io
+supersatanson.itch.io
+kitwran.itch.io
+74games.itch.io
+evelai.itch.io
+titdang.itch.io
+beardedragon.itch.io
+```
+</details>
 
 ### Papua
 Kami ketemu beberapa situs yang diblokir tentang pelanggaran hak asasi manusia di Papua dan Papua Nugini dari pemerintah Indonesia
