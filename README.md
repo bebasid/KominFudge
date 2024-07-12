@@ -145,7 +145,10 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Ya](https://img001.prntscr.com/file/img001/gP7q6CGxRnaDd-Qb54ZLbA.png) | | |
 | [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Ya](https://cdn.bebasid.com/KominFudge/uninet.png) | [Bukti dari Traceroute](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
-| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/fae16197-0d9b-47e7-8d53-22ae800f35a8) | | PC24, Hyperindo Media Perkasa |
+| [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/fae16197-0d9b-47e7-8d53-22ae800f35a8) | | PC24, Hyperindo Media Perkasa |  
+| [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia | [Ya](https://github.com/user-attachments/assets/445dda3d-0ab4-4510-acf2-7ec8dda470bd) | [Traceroute ke Moratel](https://github.com/user-attachments/assets/b1fbb770-3767-4026-8dfa-a7828942d491) | PT Queen Network Indonesia |
+
+
 
 <sup style="text-align:center;">Jika ISP anda tidak menggunakan DPI tetapi menggunakan upstream diatas, silahkan gunakan alat anti DPI untuk melewatinya.</sup><br>
 
