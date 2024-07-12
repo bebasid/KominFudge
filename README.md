@@ -263,6 +263,7 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | 3 | Rendah | Bisa |
 | PT UNINET MEDIA SAKTI | Rendah | Bisa |
 | PT SaranaInsan Mudaselaras (SIMS) | Rendah | Bisa |
+| PT Mora Telematika Indonesia | Rendah | Bisa |
 
 **DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
 
