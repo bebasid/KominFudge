@@ -147,6 +147,9 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
 | [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/fae16197-0d9b-47e7-8d53-22ae800f35a8) | | PC24, Hyperindo Media Perkasa |  
 | [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia | [Ya](https://github.com/user-attachments/assets/445dda3d-0ab4-4510-acf2-7ec8dda470bd) | [Traceroute ke Moratel](https://github.com/user-attachments/assets/b1fbb770-3767-4026-8dfa-a7828942d491) | PT Queen Network Indonesia |
+| [AS17995](https://bgp.tools/as/17995) | PT iForte Solusi Infotek | [Ya](https://github.com/user-attachments/assets/1a0258fd-790c-4194-bf88-522720219339) | [Hasil Traceroute](https://github.com/user-attachments/assets/8fc57c52-fef6-43c7-9a16-f7f2d3e31352) | Wi-Fi Transjakarta Kena, hati-hati. |
+
+
 
 
 
@@ -258,12 +261,13 @@ Seberapa payah dengan cara unblok memakai DPI per ISP:
 | Indosat | Sedang | Tidak Bisa (IM3) & Bisa (Hi-Fi, IP Transit) |
 | Firstmedia | Sedang | Tidak Bisa (http), Bisa (https) |
 | PT Jala Lintas Media | Sedang | Bisa |
-| CBN | Sedang | Bisa |
+| PT Mora Telematika Indonesia | Sedang | Bisa |
 | Smartfren | Sedang | Bisa |
 | 3 | Rendah | Bisa |
+| CBN | Rendah | Bisa |
 | PT UNINET MEDIA SAKTI | Rendah | Bisa |
 | PT SaranaInsan Mudaselaras (SIMS) | Rendah | Bisa |
-| PT Mora Telematika Indonesia | Rendah | Bisa |
+| iForte | Rendah | Bisa |
 
 **DATA INI BELUM DILENGKAPI. JIKA BERHARAP UNTUK DILENGKAPKAN, SILAKAN BERI INFORMASI TERLEBIH LANJUT.**
 
