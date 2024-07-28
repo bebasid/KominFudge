@@ -135,6 +135,8 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 
 <sup style="text-align:center;">If your ISP does not comply with National DNS regulation but uses Transit IP as shown above, you will experience the same blocking and must use encrypted DNS.<br>Or you can use DNS that is not routed towards those Transit IPs if available.</sup><br>
 
+
+
 <b>For ISPs that using these upstream providers, you must use WARP/VPN, GoodbyeDPI, or GreenTunnel/PowerTunnel.</b>
 | ASN | Name | Blocking using DPI | Note | Example of affected ISP |
 | :---: | :---: | :---: | :---: | :---: |
@@ -144,6 +146,11 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Yes](https://cdn.bebasid.com/KominFudge/uninet.png) | [Traceroute Proof](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
 | [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/fae16197-0d9b-47e7-8d53-22ae800f35a8) | | PC24, Hyperindo Media Perkasa |
+| [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia | [Yes](https://github.com/user-attachments/assets/445dda3d-0ab4-4510-acf2-7ec8dda470bd) | [Traceroute to Moratel](https://github.com/user-attachments/assets/b1fbb770-3767-4026-8dfa-a7828942d491) | PT Queen Network Indonesia |
+| [AS17995](https://bgp.tools/as/17995) | PT iForte Solusi Infotek | [Ya](https://github.com/user-attachments/assets/1a0258fd-790c-4194-bf88-522720219339) | [Traceroute Proof](https://github.com/user-attachments/assets/8fc57c52-fef6-43c7-9a16-f7f2d3e31352) | Transjakarta Wi-Fi is affected, beware. |
+
+
+
 
 
 <sup style="text-align:center;">If your ISP does not use DPI but using those upstreams, you can use an anti DPI tool to bypass</sup><br>
@@ -153,16 +160,15 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | :---: | :---: | :---: | :---: |
 | - | - | - | - | - |
 
-### <ins>VPS Provider (Virtual Private Server) / Cloud Provider</ins> 
-<sup><b>VPS providers that implementing DPI within their connection so it is not friendly for tunnelling if you want freedom of internet access</b>.</sup><br>
-
-| ASN | Official Website | Provider | Blocking Using DPI | Sending TCP RST to Server |
-| :---: | :---: | :---: | :---: | :---: |
-| - | - | - | - | - |
-
-<sup style="text-align:center;"><b>NOTE: </b>VPS providers listed above are providers that proven to use DPI in their network which compromised privacy so it is not recommended if you want to use VPN to open Reddit, Vimeo, etc.</sup><br>
-
 ### <ins>Fiber ISP</ins> 
+
+##
+> [!NOTE]  
+> Almost all ISPs violate freedom of internet access by implementing the National DNS programme and because of it, users cannot change to other resolvers other than ISP ones. Especially for users who want to use other DNS blocking services such as OpenDNS and NextDNS and because of it, making it not suitable for users who want to implement filter other than TrustPositif which is well-known for its strange blocking policy. <br>But, National DNS implementation varied across ISPs. Some are only redirecting or blocking UDP 53  <i>(Such as FirstMedia)</i>, some are into international connection, and there are some redirecting or blocking TCP 53 <i>(Examples: MyRepublic dan Smartfren)</i>.<br><br>
+> <b>For ISPs that already checked and confirmed as implementing the National DNS, we have added legend on how ISPs implementing National DNS:</b><br><br>
+>     <b>International</b> = Blocking port 53 towards international connection<br>
+>     <b>Local</b> = Blocking port 53 towards local connection (across Indonesia) within OpenIXP, IIX, CXC, JKT-IX, etc<br>
+>     <b>TCP</b> = Blocking TCP port 53, making Zone Transfer impossible for those using providers with this designation 
 
 **Residential ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
@@ -193,6 +199,8 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | PT Wifiku Indonesia | Yes | Yes (Affected by PT Saranainsan Mudaselaras) | - | [Affected by DPI from SIMS](https://explorer.ooni.org/m/20240216083434.045341_ID_webconnectivity_bb1e9b43c363469e) | 
 | VIBERLINK | Yes | No | | |
 | Tri Data Raya Internet | Yes | No | | |
+| Rama Wima Nusantara | Yes (International, Local) | No | No | |
+| PT Starlink Indonesia (Starlink) | Yes | No | No | Starlink Indonesia |
 
 **Corporate ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
@@ -230,6 +238,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | PT Hyperindo Media Perkasa | Yes | Yes | ? | [Affected by PT Jala Lintas Media](https://prnt.sc/CIOWaL3q56Eh) |
 | PT Hipernet Indodata | Yes (Cloudflare, Google, Quad9, OpenDNS, Level3, along with the TCP 53) | No | | |
 | PT PC24 Telekomunikasi Indonesia | Yes | Yes | [Yes, Telkom DPI is strong](https://github.com/bebasid/KominFudge/assets/115700386/7582353b-7254-4c23-ba5a-267ac77a73d3) | [Probably affected by Telkom and JLM. Blocking traceroute](https://github.com/bebasid/KominFudge/assets/115700386/34096f0c-4a94-45fd-93cf-f22ddfb4ec6d) | |
+| PT Widya Intersat Nusantara (IP One) | Yes (International, Local) | No | | |
 
 ### <ins>Mobile ISP</ins>
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server |  Note |
@@ -251,12 +260,14 @@ How much effort needed to unblock with DPI per-ISP
 | Iconnet | High | Not Possible |
 | Indosat | Medium | Not Possible (IM3) & Possible (Hi-Fi, Transit IP) |
 | FirstMedia | Medium | Not Possible (HTTP) & Possible (HTTPS) |
-| PT iForte Global internet | Medium | Possible |
+| PT Jala Lintas Media | Medium | Possible |
+| PT Mora Telematika Indonesia | Medium | Possible |
 | CBN | Medium | Possible |
 | Smartfren | Medium | Possible |
 | 3 | Low | Possible |
 | PT UNINET MEDIA SAKTI | Low | Possible |
 | PT SaranaInsan Mudaselaras (SIMS) | Low | Possible |
+| iForte | Low | Possible |
 
 **THIS DATA IS NOT COMPLETE, IF YOU WANT TO ADD MORE, PLEASE GIVE FURTHER INFORMATION**
 
