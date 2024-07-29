@@ -76,7 +76,7 @@ totodraw.newgrounds.com
 </details>
 
 *Startmail.com*
-> Diblokir dengan alasan....????  
+> Diblokir dengan alasan....???  
 
 Beberapa subdomain *Startpage.com*
 > Kami tidak tahu kenapa subdomain-subdomain ini diblokir, karena subdomain-subdomain ini tidak *valid*
@@ -611,6 +611,10 @@ titdang.itch.io
 beardedragon.itch.io
 ```
 </details>
+
+*DuckDuckGo.com*
+> Diblokir dengan alasan....???  
+> *Kami pikir servis ini diblokir karena memiliki konten pornografi dan politik kontroversial yang lebih senang diakses*  
 
 ### Papua
 Kami ketemu beberapa situs yang diblokir tentang pelanggaran hak asasi manusia di Papua dan Papua Nugini dari pemerintah Indonesia
