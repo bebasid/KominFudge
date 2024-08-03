@@ -30,7 +30,7 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 *Reddit.com*
 > Kami memikir situs ini diblokir dengan alasan *Pornografi*  
 > *Saat ini juga waktu Vimeo diblokir dengan alasan yang sama, tetapi sudah diputar balik*  
-> Kami juga ketemu satu subreddit yang ada didalam blocklist
+> Kami juga menemukan satu subreddit yang ada didalam blocklist
 
 <details><summary>Subredditnya adalah sebagai berikut</summary>
 
@@ -41,7 +41,7 @@ reddit.comrcumsluts
 
 *Newgrounds.com*
 > Kami memikir situs ini diblokir dengan alasan *Pornografi*  
-> kami juga ketemu beberapa akun yang ada didalam blocklist  
+> kami juga menemukan beberapa akun yang ada didalam blocklist  
 
 <details><summary>Akunnya adalah sebagai berikut</summary>
 
@@ -116,9 +116,9 @@ webcams.startpage.com
 *Yandex.com*
 > Memblokir servis *Images* dan *Video*nya untuk IP Address yang datang dari Indonesia.[^1]  
 
-Beberapa subdomain *Neocities.org*
+*Neocities.org*
 > Kami memikir situs ini diblokir dengan alasan *Situs Judi*  
-> untuk pengguna Indihome; pemblokiran ini bisa memblokir SEMUA situs dibawah neocities.org  
+> Kami juga menemukan beberapa subdomain yang ada didalam blocklist
 
 <details><summary>Subdomainnya adalah sebagai berikut</summary>
 
@@ -619,18 +619,18 @@ beardedragon.itch.io
 > *Kami pikir servis ini diblokir karena memiliki konten pornografi dan politik kontroversial yang lebih senang diakses*  
 
 Beberapa subdomain *Blogspot.com*
-> Kami memikir situs ini diblokir dengan alasan *Pornografi* dan *Judi*  
+> Kami memikir situs ini diblokir dengan alasan *Pornografi* dan *Situs Judi*  
 
 Subdomainnya adalah sebagai berikut: [Link](https://gist.github.com/mefinity/ba1d88fc36461689c7b2da484f4dcb63)
 
 *Wordpress.com*
-> Kami memikir situs ini diblokir dengan alasan *Pornografi* dan *Judi*  
-> Kami juga ketemu beberapa subdomain yang ada didalam blocklist  
+> Kami memikir situs ini diblokir dengan alasan *Pornografi* dan *Situs Judi*  
+> Kami juga menemukan beberapa subdomain yang ada didalam blocklist  
 
 Subdomainnya adalah sebagai berikut: [Link](https://gist.github.com/mefinity/5bda6ad3e1ed8b43fe791fe0a557d527)
 
 ### Papua
-Kami ketemu beberapa situs yang diblokir tentang pelanggaran hak asasi manusia di Papua dan Papua Nugini dari pemerintah Indonesia
+Kami menemukan beberapa situs yang diblokir tentang pelanggaran hak asasi manusia di Papua dan Papua Nugini dari pemerintah Indonesia
 
 1. [InfoPapua.org](https://infopapua.org) - berita tentang pelanggaran hak asasi manusia di Papua Nugini
 2. [FreeWestPapua.org](https://freewestpapua.org) -  berita dan sumber tentang pelanggaran hak asasi manusia di Papua Nugini
