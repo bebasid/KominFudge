@@ -28,9 +28,9 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 ## Pemblokiran
 
 *Reddit.com*
-> Diblokir dengan alasan situs pornografi  
+> Kami memikir situs ini diblokir dengan alasan *Pornografi*  
 > *Saat ini juga waktu Vimeo diblokir dengan alasan yang sama, tetapi sudah diputar balik*  
-> kami juga ketemu satu subreddit yang ada didalam blocklist
+> Kami juga ketemu satu subreddit yang ada didalam blocklist
 
 <details><summary>Subredditnya adalah sebagai berikut</summary>
 
@@ -40,7 +40,8 @@ reddit.comrcumsluts
 </details>
 
 *Newgrounds.com*
-> Diblokir dengan alasan *Pornografi*, kami juga ketemu beberapa akun yang ada didalam blocklist  
+> Kami memikir situs ini diblokir dengan alasan *Pornografi*  
+> kami juga ketemu beberapa akun yang ada didalam blocklist  
 
 <details><summary>Akunnya adalah sebagai berikut</summary>
 
@@ -110,13 +111,14 @@ webcams.startpage.com
 </details>
 
 *Hypixel.net*
-> Diblokir dengan alasan *Situs Judi*  
+> Kami memikir situs ini diblokir dengan alasan *Situs Judi*  
 
 *Yandex.com*
 > Memblokir servis *Images* dan *Video*nya untuk IP Address yang datang dari Indonesia.[^1]  
 
 Beberapa subdomain *Neocities.org*
-> Diblokir dengan alasan *Situs Judi*, untuk pengguna Indihome; pemblokiran ini bisa memblokir SEMUA situs neocities.org  
+> Kami memikir situs ini diblokir dengan alasan *Situs Judi*  
+> untuk pengguna Indihome; pemblokiran ini bisa memblokir SEMUA situs dibawah neocities.org  
 
 <details><summary>Subdomainnya adalah sebagai berikut</summary>
 
@@ -207,7 +209,7 @@ uppleva69.neocities.org
 > Memblokir servisnya untuk IP Address yang datang dari Indonesia.[^3][^4]  
 
 Beberapa subdomain *github.io*
-> Diblokir dengan alasan *Situs Judi*
+> Kami memikir situs ini diblokir dengan alasan *Situs Judi*
 
 <details><summary>Subdomainnya adalah sebagai berikut</summary>
 
@@ -525,17 +527,17 @@ livesydneyyy.github.io
 </details>
 
 Beberapa subdomain *pages.dev*
-> Diblokir dengan alasan *Situs Judi*  
+> Kami memikir situs ini diblokir dengan alasan *Situs Judi*  
 
 Subdomainnya adalah sebagai berikut: [Link](https://gist.github.com/mefinity/258f5d4066d902b21b5a721f82b83fa9)
 
 Beberapa subdomain *vercel.app*
-> Diblokir dengan alasan *Situs Judi*  
+> Kami memikir situs ini diblokir dengan alasan *Situs Judi*  
 
 Subdomainnya adalah sebagai berikut: [Link](https://gist.github.com/mefinity/a51bd472db3b8cdb5ee8fd628205e123)
 
 Beberapa subdomain *Itch.io*
-> Diblokir dengan alasan *Pornografi*
+> Kami memikir situs ini diblokir dengan alasan *Pornografi*
 
 <details><summary>Subdomainnya adalah sebagai berikut</summary>
 
@@ -615,6 +617,17 @@ beardedragon.itch.io
 *DuckDuckGo.com*
 > Diblokir dengan alasan....???  
 > *Kami pikir servis ini diblokir karena memiliki konten pornografi dan politik kontroversial yang lebih senang diakses*  
+
+Beberapa subdomain *Blogspot.com*
+> Kami memikir situs ini diblokir dengan alasan *Pornografi* dan *Judi*  
+
+Subdomainnya adalah sebagai berikut: [Link](https://gist.github.com/mefinity/ba1d88fc36461689c7b2da484f4dcb63)
+
+*Wordpress.com*
+> Kami memikir situs ini diblokir dengan alasan *Pornografi* dan *Judi*  
+> Kami juga ketemu beberapa subdomain yang ada didalam blocklist  
+
+Subdomainnya adalah sebagai berikut: [Link](https://gist.github.com/mefinity/5bda6ad3e1ed8b43fe791fe0a557d527)
 
 ### Papua
 Kami ketemu beberapa situs yang diblokir tentang pelanggaran hak asasi manusia di Papua dan Papua Nugini dari pemerintah Indonesia
