@@ -658,11 +658,22 @@ Beberapa subdomain *Blogspot.com*
 
 Subdomainnya adalah sebagai berikut: [Link](https://gist.github.com/mefinity/ba1d88fc36461689c7b2da484f4dcb63)
 
-*Wordpress.com*
+Beberapa subdomain *Wordpress.com*
 > Kami memikir situs ini diblokir dengan alasan *Pornografi* dan *Situs Judi*  
-> Kami juga menemukan beberapa subdomain yang ada didalam blocklist  
 
 Subdomainnya adalah sebagai berikut: [Link](https://gist.github.com/mefinity/5bda6ad3e1ed8b43fe791fe0a557d527)
+
+Beberapa subdomain *MSI.com*
+> Kami gak tau lagi kak
+
+<details><summary>Subdomainnya adalah sebagai berikut</summary>
+
+```
+oauth.cloud.msi.com
+forum-th.msi.com
+storage-asset.msi.com
+```
+</details>
 
 ### Papua
 Kami menemukan beberapa situs yang diblokir tentang pelanggaran hak asasi manusia di Papua dan Papua Nugini dari pemerintah Indonesia
