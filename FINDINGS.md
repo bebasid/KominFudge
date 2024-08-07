@@ -28,7 +28,8 @@ Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih
 ## Pemblokiran
 
 *Reddit.com*
-> Kami memikir situs ini diblokir dengan alasan *Pornografi*  
+> Kami memikir situs ini diblokir dengan alasan *Pornografi*
+> Kami diberitahu bahwa kenapa situs ini tidak akan di unblokir adalah karena Reddit Inc. tidak membalas *takedown request* dari pemerintah Indonesia
 > *Saat ini juga waktu Vimeo diblokir dengan alasan yang sama, tetapi sudah diputar balik*  
 > Kami juga menemukan satu subreddit yang ada didalam blocklist
 
@@ -76,9 +77,6 @@ totodraw.newgrounds.com
 ```
 </details>
 
-*Startmail.com*
-> Diblokir dengan alasan....???  
-
 Beberapa subdomain *Startpage.com*
 > Kami tidak tahu kenapa subdomain-subdomain ini diblokir, karena subdomain-subdomain ini tidak *valid*
 
@@ -116,7 +114,7 @@ virtualstartpage.com
 </details>
 
 *Hypixel.net*
-> Kami memikir situs ini diblokir dengan alasan *Situs Judi*  
+> Situs ini diblokir dengan alasan *Situs Judi*  
 
 *Yandex.com*
 > Memblokir servis *Images* dan *Video*nya untuk IP Address yang datang dari Indonesia.[^1]  
