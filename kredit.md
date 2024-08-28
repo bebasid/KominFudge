@@ -19,7 +19,7 @@ Terimakasih yang sudah ikuti kontributor kami dan akan dimasukkin ke kredit di b
 | Ohry |  Data CircleOne | - |
 | Felpurr | Data MTM Bali | - |
 | <a href="https://github.com/Xiliam"><img src="https://avatars.githubusercontent.com/u/123241058?v=4" width="50px" /><a/> | Penambah data PT Wifiku Indonesia |  <a href="https://github.com/Xiliam"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> |
-| <a href="https://github.com/FandyFr"><img src="https://avatars.githubusercontent.com/u/135007919?v=4" width="50px" /><a/> | Penambah data Tridata Raya Internet |  <a href="https://github.com/FandyFr"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> |
+| <a href="https://github.com/FandyFr"><img src="https://avatars.githubusercontent.com/u/135007919?v=4" width="50px" /><a/> | Penambah data Tridata Raya Internet |  <a href="https://github.com/FandyFr"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/><a/> <a href="https://x.com/FandyFrOfficial"><img src="https://img.shields.io/badge/x-202020?style=for-the-badge&logo=x&logoColor=white"/><a/> <a href="https://reddit.com/u/FandyFafa"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white"/> |
 
 ----
 
