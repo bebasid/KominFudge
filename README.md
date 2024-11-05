@@ -169,6 +169,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 >     <b>International</b> = Memblokir port 53 menuju internasional<br>
 >     <b>Local</b> = Memblokir port 53 menuju lokal (Sesama Indonesia) di OpenIXP, IIX, CXC, JKT-IX, dan sebagainya<br>
 >     <b>TCP</b> = Memblokir TCP port 53, Sehingga tidak bisa melakukan <i>Zone Transfer</i> bagi yang menggunakan provider yang memiliki tanda ini
+>     <b>DoH/DoT</b> = Melakukan pemblokiran DNS terenkripsi bagi yang menggunakan provider yang memiliki tanda ini sehingga tidak cocok untuk digunakan bagi yang mau privasi
 
 **ISP Rumah:**
 | Nama | Pemblokiran menggunakan DNS | Pemblokiran menggunakan DPI | Mengirim TCP RST ke server | Catatan |
@@ -213,7 +214,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
 | PT Artha Telekomindo | Ya | Tidak | ? |
 | PT Hawk Teknologi Solusi | Ya | Tidak | ? |
-| PT Jaringanku Sarana Nusantara | Ya (International, Local, DoH, DoT) Provider ini memblokir DoH/DoT | Tidak | ? | Nama lain: JSN. Provider gila blokir DoH/DoT |
+| PT Jaringanku Sarana Nusantara | Ya (International, Local, DoH/DoT) Provider ini memblokir DoH/DoT | Tidak | ? | Nama lain: JSN. Provider ini memblokir DoH/DoT dengan memblackhole domain di DNS nya yang dipaksakan ke usernya. Domain DoH/DoT di DNS JSN dijadikan `127.0.0.1` dan `::1` sehingga tidak bisa terkoneksi. Solusinya ialah selfhost server DoH/DoT sendiri  atau memakai metode host file. |
 | PT. Infotama Lintas Global | Ya (International, Local) | Tidak | ? |
 | PT Remala Abadi | Ya | Tidak | Tidak | Nama lain: Tachyon |
 | PT iForte Global internet | Ya | Ya | Tidak | Implementasi DPI lagi, provider sedeng  |
@@ -233,7 +234,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Fiber Networks Indonesia | Ya (International, Local) | Tidak | ? | Nama lain: FIBERNET |
 | PT Power Telecom Indonesia | Ya | Ya | ? | DPI tidak memblokir Vimeo |
 | PT Solnet Indonesia | Ya (International, Local) | Tidak | | |
-| PT Data Utama Dinamika | Ya | Ya | Ya | Terkena dari Lintasarta |
+| PT Data Utama Dinamika | Ya | Ya | Ya |  |
 | PT BIT TEKNOLOGI NUSANTARA | Ya | Ya | ? | [Terkena dari iForte](https://media.discordapp.net/attachments/709386084894900236/1112694319992807454/image.png) |
 | PT Hyperindo Media Perkasa | Ya | Ya | ? | [Terkena dari PT Jala Lintas Media](https://img001.prntscr.com/file/img001/KuXjy8a2SUmRv8whEhogHg.png) |
 | PT Hipernet Indodata | Ya (Cloudflare, Google, Quad9, OpenDNS, Level3, along with the TCP 53) | Tidak | | |
@@ -247,7 +248,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | XL / Axis / Live On | Ya (International, Local) | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
 | 3 | Ya (International, Local, TCP). Google and OpenDNS are safe from TCP 53 blocking | Ya | Tidak |  |
 | Indosat | Ya (Google, OpenDNS) | Ya | Tidak, tetapi menthottle koneksi ke domain yg diblok jika Host/SNI header masih kedetek | Sama seperti anaknya, Pada 4/5 Oktober 2023, Indosat mulai menghijack DNS Server Google dan OpenDNS ke punya dia |
-| Smartfren | Ya (International, Local, TCP) | Ya | Tidak | Memblokir DoH/DoT punya Google |
+| Smartfren | Ya (International, Local, TCP, DoH/DoT) | Ya | Tidak | Memblokir DoH/DoT punya Google |
 
 ### <ins>Level kepayahan unblok memakai DPI</ins>
 Seberapa payah dengan cara unblok memakai DPI per ISP:
