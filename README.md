@@ -183,7 +183,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | MNC | Ya | Tidak |  |  |
 | Iconnet PLN | Ya (International, Local) | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah. Ikut DNS Nasional, Google, Cisco, Cloudflare, dkk belok ke DNS ICON dan selain itu diblokir |
 | PT Netciti Persada | Ya (Cloudflare, Google, OpenDNS, Adguard, Quad9). Blokir DoH/DoT | Tidak | ? | Provider gila blokir DoH, buka cabang di Tiongkok aja noh wkwk |
-| Oxygen | Ya (International) | Tidak | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir <br>Memblokir alt-port DNS 5353 |
+| Oxygen | Ya (DoH/DoT, Google, Quad9) | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir menggunakan teknik BGP Blackholling. IP DNS Google dan Quad9 dibelokin menggunakan metode route hijacking ke server Moratel sehingga tidak dapat digunakan. Provider ini juga menerapkan DPI |
 | Citranet | Ya | Ya/Tidak (Tergantung routing) | ? | DPI sesuai dengan upstream Citranet. Jika lewat Indosat dan beberapa upstream mereka, maka dijamin kena |
 | Padi Net | Ya (International, Local) | Tidak | ? |
 | Fiberstream | Ya (International, Local) | Tidak | ? | ISP Rumahan punya G-MEDIA |
