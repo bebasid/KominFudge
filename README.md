@@ -11,7 +11,7 @@
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo-black.svg#gh-light-mode-only" alt="BEBASID LOGO" width="500">
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="500">
           <br><p align="center">"Tolak diblokir, Terima <i>ngeblokir.</i></br>
-    <p align="center">Karena Kominfo ngeblokir, mari kita <em>unblokir!"</em></p>
+    <p align="center">Karena Kominfo ngeblokir asal-asalan yang merugikan masyarakat luas, mari kita <em>unblokir!"</em></p>
 </p>
    
 </div>
