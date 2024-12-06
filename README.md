@@ -128,7 +128,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 
 | ASN | Nama | Pemblokiran menggunakan DNS | DNS yang diblokir | Catatan | Contoh ISP yang kena |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta| [Ya](https://github.com/bebasid/KominFudge/assets/115700386/91cf9077-fb59-4116-81fa-97ff4feda561) | Semua DNS yang lewat IP Transit Lintasarta AS4800. Blokir DoH/DoT popular | [Bukti Pembelokan](https://github.com/bebasid/KominFudge/assets/115700386/91cf9077-fb59-4116-81fa-97ff4feda561) | Trisula, Netciti |
+| [AS4800](https://bgp.tools/as/4800) | PT Aplikanusa Lintasarta| [Ya](https://github.com/bebasid/KominFudge/assets/115700386/91cf9077-fb59-4116-81fa-97ff4feda561) | Semua DNS yang lewat IP Transit Lintasarta AS4800. [Provider ini juga memblokir DoH/DoT untuk client IP Transit nya](https://github.com/user-attachments/assets/917cbce0-46a5-4ce5-bbe1-03e3ee60b3c6) | [Bukti Pembelokan](https://github.com/bebasid/KominFudge/assets/115700386/91cf9077-fb59-4116-81fa-97ff4feda561) | Trisula, Netciti |
 | [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Ya](https://cdn.bebasid.com/KominFudge/jlm-dnsn.png) | Cloudflare 1.1.1.1, Google, OpenDNS | [Bukti Pembelokan](https://cdn.bebasid.com/KominFudge/jlm-dnsn-bukti.png) | PT Hyperindo Media Perkasa |
 | [AS23947](https://bgp.tools/as/23947) | PT Mora Telematika Indonesia | [Ya](https://github.com/bebasid/KominFudge/assets/115700386/d435da85-2582-46a5-8ade-61eb143554af) | Quad9 | Quad9 dibelokin di level IP Transit seperti yang bisa dilihat di [hasil traceroute.](https://github.com/bebasid/KominFudge/assets/115700386/cd5fce78-20fd-4e0b-ba79-cc50adab4ad3) | PT Queen Network Indonesia |
 
@@ -168,7 +168,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 > <b>Untuk ISP yang telah diperiksa dan dikonfirmasi mengikuti DNS Nasional, kami telah menambah legenda bagaimana ISP mengikuti DNS Nasional:</b><br><br>
 >     <b>International</b> = Memblokir port 53 menuju internasional<br>
 >     <b>Local</b> = Memblokir port 53 menuju lokal (Sesama Indonesia) di OpenIXP, IIX, CXC, JKT-IX, dan sebagainya<br>
->     <b>TCP</b> = Memblokir TCP port 53, Sehingga tidak bisa melakukan <i>Zone Transfer</i> bagi yang menggunakan provider yang memiliki tanda ini
+>     <b>TCP</b> = Memblokir TCP port 53, Sehingga tidak bisa melakukan <i>Zone Transfer</i> bagi yang menggunakan provider yang memiliki tanda ini<br>
 >     <b>DoH/DoT</b> = Melakukan pemblokiran DNS terenkripsi bagi yang menggunakan provider yang memiliki tanda ini sehingga tidak cocok untuk digunakan bagi yang mau privasi
 
 **ISP Rumah:**
@@ -208,7 +208,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | :---: | :---: | :---: | :---: | :---: |
 | Telkom Astinet | Ya (DNS Injection for International DNS via Transparent Proxy) | Ya | ? | ISP dari Telkom untuk kantor. DNS luar negeri dibelokan dulu request nya ke proxy Telkom yang berada di TELIN sehingga whitelist ACL untuk DNS luar negeri tidak akan berfungsi karena pas kita kueri server ke luar, yang terbaca di server DNS luar adalah IP dari proxy Telkom karena kita kueri sebagai proxy Telkom bukan kita sendiri. Ini sangat menggangu bagi pengguna korporat yang mempunyai server di luar atau menggunakan server custom filtering seperti NextDNS, ControlD, OpenDNS, dan sebagainya dikarenakan yang terbaca adalah IP dari server proxy Telkom daripada IP usernya |
 | Linknet | Ya | Tidak | Tidak | ISP dari Firstmedia untuk kantor |
-| Lintasarta | Ya (International, Local) | Tidak | Tidak | Ikut DNS Nasional |
+| Lintasarta | Ya (International, Local, DoH/DoT) | Tidak | Tidak | Ikut DNS Nasional, Provider ini memblokir DoH/DoT populer dengan teknik blackhole |
 | Biznet Metronet | Ya (International) | Tidak | Tidak | aka Biznet Dedicated |
 | PT Metrasat | Ya | Ya | ? |
 | PT Pasifik Satelit Nusantara | Ya | Tidak | ? |
