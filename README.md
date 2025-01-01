@@ -228,7 +228,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | PT Media Jaringan Telekomunikasi | Ya | Tidak | ? |
 | PT Sekawan Global Komunika | Ya | Tidak | ? |
 | PT INFORMASI NUSANTARA TEKNOLOGI | Ya | Tidak | ? |
-| Orion Cyber Internet | Ya | Tidak | ? | DNS populer seperti Cloudflare, Google, Quad9, Level3, dll dibelokan ke server ISP |
+| Orion Cyber Internet | Ya | Tidak | ? | DNS populer seperti Cloudflare, Google, Quad9, Level3, dll dibelokan ke server ISP, ISP juga memblokir DOH/DOT  |
 | PT AGTI | Ya (International, Local) | Tidak | ? | Nama lain: PT. Arjuna Global Teknologi Indonesia |
 | PT Parsaoran Global Datatrans | Ya | Tidak | - | Nama lain: HSP NET |
 | PT Fiber Networks Indonesia | Ya (International, Local) | Tidak | ? | Nama lain: FIBERNET |
