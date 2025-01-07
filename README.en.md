@@ -183,7 +183,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | MNC | Yes | No |  |   |
 | Iconnet PLN | Yes | Yes | Yes | Iconnet DPI also sending TCP RST to server. Two-way DPI blocking. Several DNS such as Google, Cisco, Cloudflare are redirected to ICON DNS and others are blocked |
 | PT Netciti Persada | Yes (Cloudflare, Google, OpenDNS, Adguard, Quad9) | No | ? | Blocking DoH/DoT, just wow... |
-| Oxygen | Yes (DoH/DoT, Google, Quad9) | Yes | No | Other name: Moratelindo <br /> Blocking Google DoH and DoT with BGP blackholling. Google DNS and Quad 9 IPs are redirected to Moratel servers. Also implemented DPI |
+| Oxygen | Yes (DoH/DoT, Google, Quad9) | Yes | No | Other name: Moratelindo <br /> Blocking Google DoH and DoT with BGP blackholling. Google DNS and Quad 9 IPs are redirected to Moratel servers. Also implementing DPI |
 | Citranet | Yes | Yes/No (Depends on routing) | ? | DPI from Citranet upstream. If routed towards Indosat and some of their upstreams, it will be affected |
 | Padi Net | Yes (International, Local) | No | ? |
 | Fiberstream | Yes (International, Local) | No | ? | Residential ISP of G-MEDIA |
