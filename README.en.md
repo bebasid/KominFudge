@@ -140,8 +140,8 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 <b>For ISPs that using these upstream providers, you must use WARP/VPN, GoodbyeDPI, or GreenTunnel/PowerTunnel.</b>
 | ASN | Name | Blocking using DPI | Note | Example of affected ISP |
 | :---: | :---: | :---: | :---: | :---: |
-| [AS7713](https://bgp.tools/as/7713) | PT Telkom Indonesia | [Yes](https://img001.prntscr.com/file/img001/tszSvllaRfe6S6K5TRLrmg.png) | State-owned, so auto-comply | Several Universities and local ISP that use upstream AS7713 |
-| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Yes](https://img001.prntscr.com/file/img001/dP4otLNfSjSFWPU1neVaRg.png) | | |
+| [AS7713](https://bgp.tools/as/7713) | PT Telkom Indonesia | [Yes](https://img001.prntscr.com/file/img001/tszSvllaRfe6S6K5TRLrmg.png) | First ISP that implemented DPI in 2016 (for blocking Netflix) | Several Universities and local ISP that use upstream AS7713 |
+| [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Yes](https://img001.prntscr.com/file/img001/dP4otLNfSjSFWPU1neVaRg.png) | [DPI Proof](https://github.com/bebasid/KominFudge/assets/115700386/c914196e-1d5f-4aaf-ab86-b9ea174959e9), [Traceroute Proof](https://github.com/bebasid/KominFudge/assets/115700386/bc518070-1d81-4ce0-b768-7de95bdf82a0). CBN DPI is weak. | [Exabytes VPS](https://github.com/bebasid/KominFudge/assets/115700386/c914196e-1d5f-4aaf-ab86-b9ea174959e9) |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Yes](https://img001.prntscr.com/file/img001/gP7q6CGxRnaDd-Qb54ZLbA.png) | | |
 | [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Yes](https://cdn.bebasid.com/KominFudge/uninet.png) | [Traceroute Proof](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
@@ -168,21 +168,22 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 > <b>For ISPs that already checked and confirmed as implementing the National DNS, we have added legend on how ISPs implementing National DNS:</b><br><br>
 >     <b>International</b> = Blocking port 53 towards international connection<br>
 >     <b>Local</b> = Blocking port 53 towards local connection (across Indonesia) within OpenIXP, IIX, CXC, JKT-IX, etc<br>
->     <b>TCP</b> = Blocking TCP port 53, making Zone Transfer impossible for those using providers with this designation 
+>     <b>TCP</b> = Blocking TCP port 53, making Zone Transfer impossible for those using providers with this designation
+>     <b>DoH/DoT</b> = Blocking encrypted DNS, not suitable for those who want privacy
 
 **Residential ISP**
 | Name | Blocking using DNS | Blocking using DPI | Sending TCP RST to server | Note |
 | :---: | :---: | :---: | :---: | :---: |
 | Indihome | Yes (International, Local) & IPv6 DNS Injection (Out) | Yes | Yes | Telkom's residential offering. Indihome DPI also sending TCP RST to server |
 | CBN | Yes (Google, OpenDNS, Cloudflare, Quad9) (Including TCP for those servers) | Yes | No |
-| Biznet Home | Yes (International, Local) | Yes | Yes | Biznet DPI also sending TCP RST to server |
-| MyRepublic | Yes (International, Local) | Yes | No | MyRepublic DPI only blocking 18+ sites  |
-| FirstMedia | Yes (International, Local) | Yes | No |
+| Biznet Home | Yes (International, Local) | No | No | |
+| MyRepublic | Yes (International, Local) | Yes | No | |
+| FirstMedia | Yes (International, Local) | Yes | Yes |
 | Megavision | Yes (International, Local) | No | ? | Other name: StarNET  |
-| MNC | Yes | Yes/No (Depends on routing) | ? | Affected by DPI from iForte upstream  |
+| MNC | Yes | No |  |   |
 | Iconnet PLN | Yes | Yes | Yes | Iconnet DPI also sending TCP RST to server. Two-way DPI blocking. Several DNS such as Google, Cisco, Cloudflare are redirected to ICON DNS and others are blocked |
-| PT Netciti Persada | Yes | No | ? | Blocking DoH, just wow... |
-| Oxygen | Yes (International) | Yes | No | Other name: Moratelindo <br /> Blocking Google DoH andn DoT <br>Blocking alt-port DNS 5353 |
+| PT Netciti Persada | Yes (Cloudflare, Google, OpenDNS, Adguard, Quad9) | No | ? | Blocking DoH/DoT, just wow... |
+| Oxygen | Yes (DoH/DoT, Google, Quad9) | Yes | No | Other name: Moratelindo <br /> Blocking Google DoH and DoT with BGP blackholling. Google DNS and Quad 9 IPs are redirected to Moratel servers. Also implementing DPI |
 | Citranet | Yes | Yes/No (Depends on routing) | ? | DPI from Citranet upstream. If routed towards Indosat and some of their upstreams, it will be affected |
 | Padi Net | Yes (International, Local) | No | ? |
 | Fiberstream | Yes (International, Local) | No | ? | Residential ISP of G-MEDIA |
@@ -192,10 +193,10 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | Circle One | Yes | No | ? |  |
 | WINET (PT Wahyu Aditama Network) | Yes (International, Local) | Depends on routing | ? | Affected by DPI from BIX |
 | MyNet | Yes | Depends on routing | ? | Affected by DPI from BIX |
-| Bnetfit | Yes | Yes | No | Owned by PT Jala Lintas Media |
+| Bnetfit | Yes | Yes (International, Local, TCP) | No | Owned by PT Jala Lintas Media |
 | Marvatel | Yes | No | No | |
 | NusaNet | Yes (Google. Quad9, OpenDNS, Cloudflare) | Yes/No (Depends on routing) | | Affected by DPI from Indosat upstream | 
-| XL Home | Yes (International) | Yes | Probably No (?) | XL Home blocking overseas DNS, local DNS should be safe | 
+| XL Home | Yes (International) | No | |  | 
 | PT Wifiku Indonesia | Yes | Yes (Affected by PT Saranainsan Mudaselaras) | - | [Affected by DPI from SIMS](https://explorer.ooni.org/m/20240216083434.045341_ID_webconnectivity_bb1e9b43c363469e) | 
 | VIBERLINK | Yes | No | | |
 | Tri Data Raya Internet | Yes | No | | |
@@ -207,13 +208,13 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | :---: | :---: | :---: | :---: | :---: |
 | Astinet | Yes (DNS Injection for International DNS via Transparent Proxy) | Yes | ? | Telkom's corporate offering. Overseas DNS is redirected first to Telkom proxy within TELIN so ACL whitelist for overseas DNS will not work because during query, the query will be read as IP address of Telkom proxy not own IP address. This is very disruptive for corporate users that have overseas server or using custom filtering server such as NextDNS, ControlD, OpenDNS, etc |
 | Linknet | Yes | No | No | FirstMedia's corporate offering | 
-| Lintasarta | Yes (International, Local) | No | No | Implementing National DNS |
+| Lintasarta | Yes (International, Local, DoH/DoT) | No | No | Implementing National DNS, this provider blocking popular DoH/DoT resolvers by blackhole |
 | Biznet Metronet | Yes (International) | Yes | Yes | aka Biznet Dedicated |
 | PT Metrasat | Yes | Yes | ? |
 | PT Pasifik Satelit Nusantara | Yes | No | ? |
 | PT Artha Telekomindo | Yes | No | ? |
 | PT Hawk Teknologi Solusi | Yes | No | ? |
-| PT Jaringanku Sarana Nusantara | Yes (Out, Local) | No | ? | Other name: JSN |
+| PT Jaringanku Sarana Nusantara | Yes (International, Local, DoH/DoT) | No | ? | Other name: JSN. This provider blocking DoH/DoT by blackholing domain in its DNS and forcing it to its users. DoH/DoT domain in JSN DNS is redirected to `127.0.0.1` and `::1` making it unusable. Solutions are self-hosting own DoH/DoT server or using host file |
 | PT. Infotama Lintas Global | Yes (Out, Local) | No | ? |
 | PT Remala Abadi | Yes | No | No | Other name: Tachyon |
 | PT iForte Global internet | Yes | Yes | No |  |
@@ -262,8 +263,8 @@ How much effort needed to unblock with DPI per-ISP
 | FirstMedia | Medium | Not Possible (HTTP) & Possible (HTTPS) |
 | PT Jala Lintas Media | Medium | Possible |
 | PT Mora Telematika Indonesia | Medium | Possible |
-| CBN | Medium | Possible |
 | Smartfren | Medium | Possible |
+| CBN | Medium | Possible |
 | 3 | Low | Possible |
 | PT UNINET MEDIA SAKTI | Low | Possible |
 | PT SaranaInsan Mudaselaras (SIMS) | Low | Possible |
