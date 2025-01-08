@@ -56,8 +56,6 @@
 </p>
 <p align="center"><sup><b>DISCLAIMER</b>: </br><em>KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.</em></sup></p>
 
----
-
 ## Daftar Isi
 
 - [Pilihan Tertinggi](#pilihan-tertinggi)
@@ -74,8 +72,6 @@
 - [Memilih VPN yang aman](#memilih-vpn-yang-aman)
   - [VPN untuk para Pengguna Tingkat Lanjut](#vpn-untuk-para-pengguna-tingkat-lanjut)
 - [Jenis Aplikasi Tor](#jenis-aplikasi-tor)
-
----
 
 Proyek ini tiada tanpa kontribusi [yang tidak termasuk disini](/kredit.md).  
 *Jika mau bergabung kontribusi, lihat dari [sini](/CONTRIBUTING.md).*
