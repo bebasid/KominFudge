@@ -47,11 +47,11 @@
 <br>
 
 <a href="https://trakteer.id/bebasidbykini">
-    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donate-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
 </a>
 
 <a href="https://saweria.co/bebasid">
-    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donate-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
 </a>
 </p>
 <p align="center"><sup><b>DISCLAIMER</b>: </br><em>Kominfudge is not responsible for any damages caused to your device, do with your own risk.</em></sup></p>
