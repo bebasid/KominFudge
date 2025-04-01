@@ -525,7 +525,7 @@ Ini adalah bagian yang ekstrim dengan memakai Tor ada di bawah ini.
 <em>Aplikasi Android untuk DNS dan Tor.</em>
 ---
 
-<p align="center">Bagikan proyek ini</p>
+<p align="center">Bagikan proyek ini!</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/KominFudge"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-white?style=for-the-badge&logo=x&logoColor=black"/></a>
