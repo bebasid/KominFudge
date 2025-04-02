@@ -69,9 +69,9 @@ Dokumentasi ini terdiri atas tiga dokumen yaitu:
 
 - **Panduan (pemula)**, yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya, diurut dari cara termudah hingga tersulit, serta rekomendasi dari KominFudge.
 
-- [**Sumber daya (mahir)**](Advanced-README.md), yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
+- [**Sumber daya (mahir)**](https://github.com/bebasid/KominFudge/blob/reorganize/Advanced-README.md), yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
 
-- [**Penemuan**](FINDINGS.md), yang mendokumentasikan penemuan yang kita temui
+- [**Penemuan**](https://github.com/bebasid/KominFudge/blob/reorganize/FINDINGS.md), yang mendokumentasikan penemuan yang kita temui
 
 Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
 
