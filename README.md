@@ -8,15 +8,18 @@
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo-black.svg#gh-light-mode-only" alt="BEBASID LOGO" width="500">
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="500">
     <br>
-    <p align="center"><i>Tolak diblokir, Terima ngeblokir.</i>
+    "Tolak diblokir, Terima ngeblokir.
     <br>
-    <p align="center"><i>Karena Kominfo ngeblokir asal-asalan yang merugikan masyarakat luas, mari kita unblokir!</i>
-    </p>
+    Karena Kominfo ngeblokir asal-asalan yang merugikan masyarakat luas, mari kita <i>unblokir!</i>"
+    <br></br>
+    <b>
+        KominFudge: Panduan (Pemula)
+    </b>
 </p>
 
 </div>
 
-<p align="center">
+<div align="center"><p>
 
 <a href="#">
 <!--
@@ -32,7 +35,7 @@
 
 <img alt="Static Badge" src="https://img.shields.io/badge/2022-white?style=for-the-badge&logo=fireship&logoColor=white&label=Diluncurkan&labelColor=222">
 
-<br>
+### Sosial <br>
 
 <a href="https://discord.gg/bebasid-630415907021389825">
     <img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=for-the-badge&logo=discord&logoColor=white&label=Discord&labelColor=222&color=white">
@@ -46,7 +49,7 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
 </a>
 
-<br>
+### Sumbang <br>
 
 <a href="https://trakteer.id/bebasidbykini">
     <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
@@ -55,8 +58,25 @@
 <a href="https://saweria.co/bebasid">
     <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
 </a>
-</p>
+</p></div>
 <p align="center"><sup><b>DISCLAIMER</b>: </br><em>KominFudge tidak bertanggung jawab atas kerusakan perangkat anda, ambil dengan risiko anda sendiri.</em></sup></p>
+
+## Tentang KominFudge
+
+KominFudge adalah sebuah dokumentasi tentang penyensoran Internet di Indonesia dan cara untuk menembusnya agar dapat mengakses Internet secara bebas.
+
+Dokumentasi ini terdiri atas tiga dokumen yaitu:
+
+- **Panduan (pemula)**, yang menjelaskan cara dan aplikasi untuk menembus penyensoran Internet pada umumnya, diurut dari cara termudah hingga tersulit, serta rekomendasi dari KominFudge.
+
+- [**Sumber daya (mahir)**](Advanced-README.md), yang menjelaskan bagaimana cara penyensoran Internet di Indonesia bekerja secara rinci dan metode menembus penyensoran yang lebih rumit.
+
+- [**Penemuan**](FINDINGS.md), yang mendokumentasikan penemuan yang kita temui
+
+Silahkan baca dari awal sampai akhir, atau lihat bagian "Navigasi" untuk memilih bagian tertentu yang ingin dibaca.
+
+> [!CAUTION]  
+> KominFudge tidak bertanggung jawab atas kerusakan perangkat Anda, gunakan informasi yang diberikan dengan risiko Anda sendiri.
 
 ## Daftar Isi
 
