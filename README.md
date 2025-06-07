@@ -180,7 +180,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | MyRepublic | Ya (International, Local, TCP) | Tidak | Tidak |  |
 | FirstMedia | Ya (International, Local) | Ya | Ya |
 | Megavision | Ya (International, Local, TCP) | Tidak | ? | Nama lain: StarNET |
-| MNC | Ya | Tidak |  |  |
+| Indosat HiFi/MNC Play | Ya (International, Local, TCP) | Ya | Tidak |  |
 | Iconnet PLN | Ya (International, Local) | Ya | Ya | DPI Iconnet juga mengirim TCP RST ke server. Pemblokiran DPI 2 arah. Ikut DNS Nasional, Google, Cisco, Cloudflare, dkk belok ke DNS ICON dan selain itu diblokir |
 | PT Netciti Persada | Ya (Cloudflare, Google, OpenDNS, Adguard, Quad9). Blokir DoH/DoT | Tidak | ? | Provider gila blokir DoH, buka cabang di Tiongkok aja noh wkwk |
 | Oxygen | Ya (DoH/DoT, Google, Quad9) | Ya | Tidak | Nama lain: Moratelindo <br /> DoH dan DoT punya Google diblokir menggunakan teknik BGP Blackholling. IP DNS Google dan Quad9 dibelokin menggunakan metode route hijacking ke server Moratel sehingga tidak dapat digunakan. Provider ini juga menerapkan DPI |
@@ -196,7 +196,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Bnetfit | Ya (International, Local, TCP) | Tidak | Tidak | Punya PT Jala Lintas Media |
 | Marvatel | Ya | Tidak | Tidak | |
 | NusaNet | Ya (Google. Quad9, OpenDNS, Cloudflare) | Ya/Tidak (Tergantung Routing) | | Terkena DPI dari upstream Indosat | 
-| XL Home | Ya  | Tidak | | | 
+| XL Home | Ya  | Ya | | | 
 | PT Wifiku Indonesia | Ya | Ya (Terkena dari PT Saranainsan Mudaselaras) | - | [Terkena DPI dari SIMS](https://explorer.ooni.org/m/20240216083434.045341_ID_webconnectivity_bb1e9b43c363469e) | 
 | VIBERLINK | Ya | Tidak | | |
 | Tri Data Raya Internet | Ya | Tidak | | |
@@ -247,7 +247,7 @@ ISP yang menggunakan upstream di bawah ini tidak bisa mengganti DNS dengan cara 
 | Telkomsel / By.U / KartuHalo | Ya (International, Local, TCP) | Ya | Ya | DPI Telkomsel juga mengirim TCP RST ke server |
 | XL / Axis / Live On | Ya (International, Local) | Ya | Ya | DPI XL juga mengirim TCP RST ke server | 
 | 3 | Ya (International, Local, TCP). Google and OpenDNS are safe from TCP 53 blocking | Ya | Tidak |  |
-| Indosat | Ya (Google, OpenDNS) | Ya | Tidak, tetapi menthottle koneksi ke domain yg diblok jika Host/SNI header masih kedetek | Sama seperti anaknya, Pada 4/5 Oktober 2023, Indosat mulai menghijack DNS Server Google dan OpenDNS ke punya dia |
+| Indosat | Ya (Google, OpenDNS) | Ya | Tidak, tetapi melambat koneksi ke domain yg diblok jika Host/SNI header masih kedetek | Sama seperti anaknya, Pada 4/5 Oktober 2023, Indosat mulai menghijack DNS Server Google dan OpenDNS ke punya dia |
 | Smartfren | Ya (International, Local, TCP, DoH/DoT) | Ya | Tidak | Memblokir DoH/DoT punya Google |
 
 ### <ins>Level kepayahan unblok memakai DPI</ins>
