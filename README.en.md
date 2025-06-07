@@ -8,10 +8,13 @@
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo-black.svg#gh-light-mode-only" alt="BEBASID LOGO" width="500">
     <img src="https://github.com/bebasid/KominFudge/blob/reorganize/assets/icon/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="500">
     <br>
-    <p align="center">"Refuse to be blocked, Agree to blocking.</i>
+    "Refuse to be blocked, Agree to blocking.
     <br>
-    <p align="center">Because Kominfo blocking, let's unblock!"</i>
-    </p>
+    Because Kominfo blocking recklessly, let's <i>unblock!</i>"
+    <br></br>
+    <b>
+        KominFudge: Panduan (Pemula)
+    </b>
 </p>
 
 </div>
@@ -19,10 +22,12 @@
 <p align="center">
 
 <a href="#">
+<!--
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2FKominFudge&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=WATCHERS+%5BTODAY+%2F+TOTAL%5D&edge_flat=true"/>
 </a>
 
 <br>
+//-->
 
 <a href="LICENSE">
     <img alt="Static Badge" src="https://img.shields.io/badge/CC--BY--SA--4.0-white?style=for-the-badge&logo=andela&logoColor=white&label=License&labelColor=222">
@@ -30,7 +35,7 @@
 
 <img alt="Static Badge" src="https://img.shields.io/badge/2022-white?style=for-the-badge&logo=fireship&logoColor=white&label=Released&labelColor=222">
 
-<br>
+### Social <br>
 
 <a href="https://discord.gg/bebasid-630415907021389825">
     <img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=for-the-badge&logo=discord&logoColor=white&label=Discord&labelColor=222&color=white">
@@ -44,7 +49,7 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
 </a>
 
-<br>
+### Donate <br>
 
 <a href="https://trakteer.id/bebasidbykini">
     <img alt="Static Badge" src="https://img.shields.io/badge/donate-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
@@ -55,6 +60,23 @@
 </a>
 </p>
 <p align="center"><sup><b>DISCLAIMER</b>: </br><em>Kominfudge is not responsible for any damages caused to your device, do with your own risk.</em></sup></p>
+
+## About KominFudge
+
+KominFudge is a documentation about internet censorship in Indonesia and how to bypass it, to be able to access Internet freely.
+
+This documentation is comprised of three documents:
+
+- **Guide (beginner)**, which describe how to and software to bypass internet censorship in general, sorted from the easiest up to the hardest, along with KominFudge recommendations.
+
+- [**Power User (advanced)**](https://github.com/bebasid/KominFudge/blob/reorganize/Advanced-README.en.md), which describe how internet censorship is implemented in Indonesia in detail and more sophisticated censorship bypass method.
+
+- [**Findings**](https://github.com/bebasid/KominFudge/blob/reorganize/FINDINGS.md), which documented findings that discovered by us.
+
+Please read from start to finish, or see the "Navigation" section to select desired section to read.
+
+> [!CAUTION]  
+> Kominfudge is not responsible for any damages caused to your device, use this information with your own risk.
 
 ### Navigation
 
@@ -122,7 +144,6 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | [AS7713](https://bgp.tools/as/7713) | PT Telkom Indonesia | [Yes](https://img001.prntscr.com/file/img001/tszSvllaRfe6S6K5TRLrmg.png) | First ISP that implemented DPI in 2016 (for blocking Netflix) | Several Universities and local ISP that use upstream AS7713 |
 | [AS4787](https://bgp.tools/as/4787) | PT Cyberindo Aditama (CBN) | [Yes](https://img001.prntscr.com/file/img001/dP4otLNfSjSFWPU1neVaRg.png) | [DPI Proof](https://github.com/bebasid/KominFudge/assets/115700386/c914196e-1d5f-4aaf-ab86-b9ea174959e9), [Traceroute Proof](https://github.com/bebasid/KominFudge/assets/115700386/bc518070-1d81-4ce0-b768-7de95bdf82a0). CBN DPI is weak. | [Exabytes VPS](https://github.com/bebasid/KominFudge/assets/115700386/c914196e-1d5f-4aaf-ab86-b9ea174959e9) |
 | [AS9341](https://bgp.tools/as/9341) / [AS38757](https://bgp.tools/as/38757)  | PT. Indonesia Comnet Plus (ICONNET) | [Yes](https://img001.prntscr.com/file/img001/gP7q6CGxRnaDd-Qb54ZLbA.png) | | |
-| [AS45735](https://bgp.tools/as/45735) | PT. UNINET MEDIA SAKTI | [Yes](https://cdn.bebasid.com/KominFudge/uninet.png) | [Traceroute Proof](https://cdn.bebasid.com/KominFudge/uninet-traceroute.png) | |
 | [AS55655](https://bgp.tools/as/55655) | PT Saranainsan Mudaselaras (SIMS/MVNET) | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/ec33b986-84d3-4506-8d1d-83170cf5cba1) | | |
 | [AS55685](https://bgp.tools/as/55685) | PT Jala Lintas Media | [Yes](https://github.com/bebasid/KominFudge/assets/115700386/fae16197-0d9b-47e7-8d53-22ae800f35a8) | | PC24, Hyperindo Media Perkasa |
 | [AS23947](https://bgp.tools/as/23947) / [AS131111](https://bgp.tools/as/131111) | PT Mora Telematika Indonesia | [Yes](https://github.com/user-attachments/assets/445dda3d-0ab4-4510-acf2-7ec8dda470bd) | [Traceroute to Moratel](https://github.com/user-attachments/assets/b1fbb770-3767-4026-8dfa-a7828942d491) | PT Queen Network Indonesia |
@@ -160,7 +181,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | FirstMedia | Yes (International, Local) | Yes | Yes |
 | Megavision | Yes (International, Local) | No | ? | Other name: StarNET  |
 | MNC | Yes | No |  |   |
-| Iconnet PLN | Yes | Yes | Yes | Iconnet DPI also sending TCP RST to server. Two-way DPI blocking. Several DNS such as Google, Cisco, Cloudflare are redirected to ICON DNS and others are blocked |
+| Iconnet PLN | Yes (International, Local) | Yes | Yes | Iconnet DPI also sending TCP RST to server. Two-way DPI blocking. Several DNS such as Google, Cisco, Cloudflare are redirected to ICON DNS and others are blocked |
 | PT Netciti Persada | Yes (Cloudflare, Google, OpenDNS, Adguard, Quad9) | No | ? | Blocking DoH/DoT, just wow... |
 | Oxygen | Yes (DoH/DoT, Google, Quad9) | Yes | No | Other name: Moratelindo <br /> Blocking Google DoH and DoT with BGP blackholling. Google DNS and Quad 9 IPs are redirected to Moratel servers. Also implementing DPI |
 | Citranet | Yes | Yes/No (Depends on routing) | ? | DPI from Citranet upstream. If routed towards Indosat and some of their upstreams, it will be affected |
@@ -168,7 +189,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | Fiberstream | Yes (International, Local) | No | ? | Residential ISP of G-MEDIA |
 | Balifiber | Yes | No | ? |
 | PT Media Cepat Indonesia | Yes (International, Local) | No | ? |
-| Melsa | Yes (International, Local) | No | ? | Google DNS should be safe |
+| Melsa | Yes (International, Local) | No | ? | Blocking port 53 other than hijacked Google DNS |
 | Circle One | Yes | No | ? |  |
 | WINET (PT Wahyu Aditama Network) | Yes (International, Local) | Depends on routing | ? | Affected by DPI from BIX |
 | MyNet | Yes | Depends on routing | ? | Affected by DPI from BIX |
@@ -227,7 +248,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | XL / Axis / Live On | Yes (International, Local, TCP) | Yes | Yes | XL DPI also sending TCP RST to server | 
 | 3 | Yes (Google, OpenDNS) | Yes | Yes | Three hijacks Google and OpenDNS servers and redirect them to its resolver |
 | Indosat | Yes (Google, OpenDNS) | Yes | No, but throttling connection to blocked sites if Host/SNI header is detected | Starting on 4-5 October 2023, Indosat hijacks Google and OpenDNS servers and redirect them to its resolver 
-| Smartfren | Yes (International, Local, TCP) | Yes | No | Blocking Google DoH/DoT |
+| Smartfren | Yes (International, Local, TCP, DoH/DoT) | Yes | No | Blocking Google DoH/DoT |
 
 ### <ins>Effort level to unblock with DPI</ins>
 How much effort needed to unblock with DPI per-ISP
@@ -243,9 +264,8 @@ How much effort needed to unblock with DPI per-ISP
 | PT Jala Lintas Media | Medium | Possible |
 | PT Mora Telematika Indonesia | Medium | Possible |
 | Smartfren | Medium | Possible |
-| CBN | Medium | Possible |
 | 3 | Low | Possible |
-| PT UNINET MEDIA SAKTI | Low | Possible |
+| CBN | Low | Possible |
 | PT SaranaInsan Mudaselaras (SIMS) | Low | Possible |
 | iForte | Low | Possible |
 
@@ -260,7 +280,10 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 
 | Name | Note | IPv4 | IPv4 2 | Alternative Port | IPv6 | IPv6 2 | DoH | DoT |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: |  :---: |
-| BebasDNS | Bebasid's own DNS resolver, blocking ad, malware, and also there is family variant | `103.87.68.194` | ~~`35.219.67.150`~~ | `53` & `1753` | `2a06:9f44:f3e0:beba:51d::53` | ~~`2600:1901:8170:268::`~~ | `https://dns.bebasid.com/dns-query` | `tls://dns.bebasid.com` |
+| ⭐ [BebasDNS Default](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#dns-bawaan-default) | DNS service by bebasid/KINI, [blocking ad and malware](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#daftar-blokir-dns:~:text=Blocklists%20%2D%20Untuk%20DNS%20Default) | - | - | - | - | - | [`https://dns.bebasid.com/dns-query`](https://dns.bebasid.com/dns-query) | `dns.bebasid.com` |
+| [BebasDNS Malware](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#dns-antivirus-malware) | [blocking malware](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#daftar-blokir-dns:~:text=Blocklists%20%2D%20Untuk%20DNS%20Antivirus%20(Malware)) | - | - | - | - | - | [`https://antivirus.bebasid.com/dns-query`](https://antivirus.bebasid.com/dns-query) | `antivirus.bebasid.com` |
+| [BebasDNS Unfiltered](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#dns-tanpa-disaring-unfiltered) | [without any blocking](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#dns-tanpa-disaring-unfiltered:~:text=Khusus%20tanpa%20pemblokiran%20perangkat%20lunak%20jahat%20(malware)%2C%20tanpa%20blokir%20pelacakan%20(tracking)%20dan%20tidak%20memblokir%20iklan%20(ads).) | - | - | - | - | - | [`https://dns.bebasid.com/unfiltered`](https://dns.bebasid.com/unfiltered) | `unfiltered.dns.bebasid.com` |
+| [BebasDNS Family](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#family-default) | [blocking malware & adult website](https://github.com/bebasid/bebasdns/tree/main?tab=readme-ov-file#daftar-blokir-dns:~:text=Blocklists%20%2D%20Untuk%20DNS%20Internet%20Sehat%20(Family)) | - | - | - | - | - | [`https://internetsehat.bebasid.com/dns-query`](https://internetsehat.bebasid.com/dns-query) | `internetsehat.dns.bebasid.com` |
 | Cloudflare DNS | - | `1.1.1.1` | `1.0.0.1` | - | `2606:4700:4700::1111` | `2606:4700:4700::1001` | `cloudflare-dns.com/dns-query`  | `1dot1dot1dot1.cloudflare-dns.com` |
 | Cloudflare Secure DNS | Blocking malware | `1.1.1.2` | `1.0.0.2` | - | `2606:4700:4700::1112` | `2606:4700:4700::1002` | `security.cloudflare-dns.com/dns-query`  | `security.cloudflare-dns.com` |
 | Cloudflare Family DNS | Blocking malware & adult sites | `1.1.1.3` | `1.0.0.3` | - | `2606:4700:4700::1113` | `2606:4700:4700::1003` | `family.cloudflare-dns.com/dns-query`  | `family.cloudflare-dns.com` |
@@ -326,38 +349,38 @@ This is a list of DNS resolvers that can be used instead of blocking resolvers o
 <em>Now, you have got the List, so how to use it?</em>
 
 ### <ins>Android</ins>
-1.Settings>Other Wireless Connections>Private DNS . 
-2.Type the [DNS hostname](#choosing-the-right-dns) and tap Save.
+1. **Settings** > **Other Wireless Connections** > **Private DNS**  
+2. Type the [DNS hostname](#choosing-the-right-dns) and tap **Save**.
 
 ### <ins>iOS</ins>
 
-1.Settings>Wi-Fi>*wifi*  
-2.Tap (i) icon.  
-3.Change the IP Address into Static and type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
+1. **Settings** > **Wi-Fi** > ***wifi*** 
+2. Tap `(i)` icon.  
+3. Change the IP Address into **Static** and type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
 
 ### <ins>Windows</ins>
 
 #### Windows 7 to Windows 10:  
-1. Control Panel>Network and Internet>Network and Sharing Center>Connections>Properties.  
-2. Click Internet Protocol Version 4 (TCP/IPv4) twice.  
-3. Change from "Obtain DNS server address automatically" to "Use the following DNS server addresses".  
-4. Type the [DNS hostname](#choosing-the-right-dns) on the DNS column and click OK.
+1. **Control Panel** > **Network and Internet** > **Network and Sharing Center** > **Connections** > **Properties**   
+2. Click **Internet Protocol Version 4 (TCP/IPv4)** twice.  
+3. Change from **Obtain DNS server address automatically** to **Use the following DNS server addresses**.  
+4. Type the [DNS hostname](#choosing-the-right-dns) on the DNS column and click **OK**.
 
 #### Windows 11:
-1. Open Settings on Windows 11, Go to Network & Internet and click Properties.    
-2. On the DNS server assignment section, click Edit button.  
-3. Change from Automatic to Manual.  
-4. On Preferred DNS, type 1.1.1.1/8.8.8.8/9.9.9.9 and on Alternate type 1.0.0.1/8.8.4.4/149.112.112.112.
-5. On Preferred and Alternate DNS Encryption, choose Encrypted only (DNS-over-HTTPS) option. 
-6. Click Save.
+1. Open **Settings** on Windows 11, Go to **Network & Internet** and click **Properties**.    
+2. On the **DNS server assignment** section, click **Edit** button.  
+3. Change from **Automatic** to **Manual**.  
+4. On *Preferred DNS*, type `1.1.1.1`/`8.8.8.8`/`9.9.9.9` and on Alternate type `1.0.0.1`/`8.8.4.4`/`149.112.112.112`.
+5. On *Preferred* and *Alternate DNS* Encryption, choose **Encrypted only (DNS-over-HTTPS)** option. 
+6. Click **Save**.
 
 ### <ins>macOS</ins>
-1. System Preferences>Network>Wi-Fi>Advanced>DNS.  
-2. Click “+” button and type the [DNS hostname](#choosing-the-right-dns) on the DNS column,
-3. Then click OK and Apply.
+1. **System Preferences** > **Network** > **Wi-Fi** > **Advanced** > **DNS**  
+2. Click `+` button and type the [DNS hostname](#choosing-the-right-dns) on the DNS column,
+3. Then click **OK** and **Apply**.
 
 ### <ins>Linux</ins>
-1. Open Terminal  
+1. Open **Terminal**  
 2. Type the command `nano /etc/resolv.conf` to edit `/etc/resolv.conf`.  
 3. Change the file content into something like this (replace `<dns hostname>` into one of the DNS hostname [listed here](#choosing-the-right-dns)).
 ```
@@ -369,12 +392,12 @@ Note: Some components that installed on Linux distribution (like NetworkManager)
 ### <ins>Browser</ins>
 
 #### Chromium-based browser
-1.Settings>Privacy and Security.  
-2.Type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
+1. **Settings** > **Privacy and Security**
+2. Type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
 
 #### Firefox-based browser
-1.Settings>Network Settings.  
-2.Type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
+1. **Settings** > **Network Settings**
+2. Type the [DNS hostname](#choosing-the-right-dns) on the DNS column.
 
 #### <ins><b>How to determine if the DNS is properly configured?</b></ins>  
 Go to [DNSLeakTest](https://dnsleaktest.com) or [BrowserLeaks](https://browserleaks.com/dns) for testing.
@@ -470,20 +493,20 @@ So, you have the file... now what?
 ### On Windows
 1. Copy the text inside the hosts file that you have chosen before.
 2. Open File Explorer and go to `C:\Windows\System32\drivers\etc`.  
-3. Paste text to "hosts" file.
+3. Paste text to **hosts** file.
 
 ### On Android
 
 #### ROOT:
 1. Copy the text inside the hosts file that you have chosen before.  
 2. Open File Explorer and go to `/system/etc`.  
-3. Paste text to "hosts" file.
+3. Paste text to **hosts** file.
 
 #### NON-ROOT:
 1. Copy the text inside the hosts file that you have chosen before.
 2. Create the file and paste the text inside that file.
 3. Install [Virtual Hosts](https://github.com/x-falcon/Virtual-Hosts) or [Host Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change).
-4. Tap "Select Host File"/"Import HOSTS file" and choose the file that you have created before.
+4. Tap **Select Host File** or **Import HOSTS file** and choose the file that you have created before.
 
 ## Choosing secure VPN[🔝](#navigation)
 Ah VPN, the easiest way to bypass the block if any of above methods do not work, *But* do not download insecure and untrustworthy VPN!
