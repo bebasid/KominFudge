@@ -180,7 +180,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | MyRepublic | Yes (International, Local) | Yes | No | |
 | FirstMedia | Yes (International, Local) | Yes | Yes |
 | Megavision | Yes (International, Local) | No | ? | Other name: StarNET  |
-| MNC | Yes | No |  |   |
+| Indosat HiFi/MNC Play | Yes (International, Local, TCP) | Yes | No |  |
 | Iconnet PLN | Yes (International, Local) | Yes | Yes | Iconnet DPI also sending TCP RST to server. Two-way DPI blocking. Several DNS such as Google, Cisco, Cloudflare are redirected to ICON DNS and others are blocked |
 | PT Netciti Persada | Yes (Cloudflare, Google, OpenDNS, Adguard, Quad9) | No | ? | Blocking DoH/DoT, just wow... |
 | Oxygen | Yes (DoH/DoT, Google, Quad9) | Yes | No | Other name: Moratelindo <br /> Blocking Google DoH and DoT with BGP blackholling. Google DNS and Quad 9 IPs are redirected to Moratel servers. Also implementing DPI |
@@ -196,7 +196,7 @@ ISP that using these upstreams will not be able to change DNS in usual way due t
 | Bnetfit | Yes | Yes (International, Local, TCP) | No | Owned by PT Jala Lintas Media |
 | Marvatel | Yes | No | No | |
 | NusaNet | Yes (Google. Quad9, OpenDNS, Cloudflare) | Yes/No (Depends on routing) | | Affected by DPI from Indosat upstream | 
-| XL Home | Yes (International) | No | |  | 
+| XL Home | Yes | Yes | |  | 
 | PT Wifiku Indonesia | Yes | Yes (Affected by PT Saranainsan Mudaselaras) | - | [Affected by DPI from SIMS](https://explorer.ooni.org/m/20240216083434.045341_ID_webconnectivity_bb1e9b43c363469e) | 
 | VIBERLINK | Yes | No | | |
 | Tri Data Raya Internet | Yes | No | | |
