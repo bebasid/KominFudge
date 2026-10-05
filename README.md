@@ -49,10 +49,6 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram&labelColor=222">
 </a>
 
-<a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi">
-    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
-</a>
-
 ### Sumbang <br>
 
 <a href="https://trakteer.id/bebasidbykini">
